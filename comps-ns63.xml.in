@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE comps PUBLIC "-//Red Hat, Inc.//DTD Comps info//EN" "comps.dtd">
+<!-- 
+  Copyright (C) 2012 Nethesis S.r.l.
+  @author Giacomo Sanchietti <giacomo.sanchietti@nethesis.it>
+-->
+<comps>
+  <group>
+    <id>buildsys-build</id>
+    <_name>NethServer Build System</_name>
+    <_description>Required RPMs to build a NethServer RPM packages</_description>
+    <default>false</default>
+    <uservisible>false</uservisible>
+    <packagelist>
+      <packagereq type="default">bash</packagereq>
+      <packagereq type="default">bzip2</packagereq>
+      <packagereq type="default">coreutils</packagereq>
+      <packagereq type="default">cpio</packagereq>
+      <packagereq type="default">diffutils</packagereq>
+      <packagereq type="default">findutils</packagereq>
+      <packagereq type="default">gawk</packagereq>
+      <packagereq type="default">gcc</packagereq>
+      <packagereq type="default">gcc-c++</packagereq>
+      <packagereq type="default">grep</packagereq>
+      <packagereq type="default">gzip</packagereq>
+      <packagereq type="default">info</packagereq>
+      <packagereq type="default">make</packagereq>
+      <packagereq type="default">patch</packagereq>
+      <packagereq type="default">perl</packagereq>
+      <packagereq type="default">python</packagereq>
+      <packagereq type="default">redhat-release</packagereq>
+      <packagereq type="default">redhat-release-server</packagereq>
+      <packagereq type="default">redhat-rpm-config</packagereq>
+      <packagereq type="default">rpm-build</packagereq>
+      <packagereq type="default">sed</packagereq>
+      <packagereq type="default">shadow-utils</packagereq>
+      <packagereq type="default">tar</packagereq>
+      <packagereq type="default">unzip</packagereq>
+      <packagereq type="default">util-linux-ng</packagereq>
+      <packagereq type="default">which</packagereq>
+      <packagereq type="default">xz</packagereq>
+    </packagelist>
+  </group>
+  <group>
+    <id>nethesis-remote-admin</id>
+    <_name>Nethesis remote Administration</_name>
+    <_description>Nethesis tools for monitoring and remote administration</_description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type="mandatory">nethserver-pulp-consumer</packagereq>
+      <packagereq type="mandatory">nethserver-puppet</packagereq>
+      <!-- <packagereq type="mandatory">ardad</packagereq> -->
+      <packagereq type="mandatory">yum-cron</packagereq>
+    </packagelist>
+  </group>
+  <group>
+    <id>nethserver-base</id>
+    <_name>NethServer Base</_name>
+    <_description>NethServer base features</_description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <!-- <packagereq type="mandatory">nethserver-backup</packagereq> -->
+      <packagereq type="mandatory">nethserver-hosts</packagereq>
+      <packagereq type="mandatory">nethserver-httpd</packagereq>
+    </packagelist>
+  </group>
+  <group>
+    <id>nethserver-core</id>
+    <_name>NethServer Core</_name>
+    <_description>NethServer core library and web gui.</_description>
+    <default>true</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type="mandatory">nethserver-httpd-admin</packagereq>
+      <packagereq type="mandatory">nethserver-release</packagereq>
+      <packagereq type="mandatory">screen</packagereq>
+      <packagereq type="mandatory">wget</packagereq>
+    </packagelist>
+  </group>
+  <group>
+    <id>nethserver-dns-dhcp</id>
+    <_name>NethServer DNS and DHCP server</_name>
+    <_description>NethServer deamons and tools for DHCP and DNS server</_description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type="mandatory">nethserver-dnsmasq</packagereq>
+      <packagereq type="mandatory">nethserver-hosts</packagereq>
+    </packagelist>
+  </group>
+  <group>
+    <id>nethserver-fileserver</id>
+    <_name>NethServer File Server</_name>
+    <_description>NethServer deamons and tools for network file sharing</_description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type="mandatory">nethserver-httpd</packagereq>
+      <packagereq type="mandatory">nethserver-ibays</packagereq>
+      <packagereq type="mandatory">nethserver-samba</packagereq>
+      <packagereq type="optional">nethserver-openssh</packagereq>
+    </packagelist>
+  </group>
+  <group>
+    <id>nethserver-mail</id>
+    <_name>NethServer Mail</_name>
+    <_description>NethServer mail server and filter</_description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type="mandatory">nethserver-mail-filter</packagereq>
+      <packagereq type="mandatory">nethserver-mail-server</packagereq>
+    </packagelist>
+  </group>
+  <group>
+    <id>nethserver-web</id>
+    <_name>NethServer Web Server</_name>
+    <_description>NethServer configuration tools for httpd</_description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type="mandatory">nethserver-httpd</packagereq>
+    </packagelist>
+  </group>
+</comps>
