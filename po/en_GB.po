@@ -2555,3 +2555,67 @@ msgstr "End-user applications."
 #: ../comps-el6.xml.in.h:298
 msgid "Development tools and libraries."
 msgstr "Development tools and libraries."
+
+#: ../comps-ns63.xml.in.h:1
+msgid "NethServer Build System"
+msgstr "NethServer Build System"
+
+#: ../comps-ns63.xml.in.h:2
+msgid "Required RPMs to build a NethServer RPM packages"
+msgstr "Required RPMs to build a NethServer RPM packages"
+
+#: ../comps-ns63.xml.in.h:3
+msgid "Nethesis Remote Administration"
+msgstr "Nethesis Remote Administration"
+
+#: ../comps-ns63.xml.in.h:4
+msgid "Nethesis tools for monitoring and remote administration"
+msgstr "Nethesis tools for monitoring and remote administration"
+
+#: ../comps-ns63.xml.in.h:5
+msgid "NethServer Base"
+msgstr "NethServer Base"
+
+#: ../comps-ns63.xml.in.h:6
+msgid "NethServer base features"
+msgstr "NethServer base features"
+
+#: ../comps-ns63.xml.in.h:7
+msgid "NethServer Core"
+msgstr "NethServer Core"
+
+#: ../comps-ns63.xml.in.h:8
+msgid "NethServer core library and web gui"
+msgstr "NethServer core library and web gui"
+
+#: ../comps-ns63.xml.in.h:9
+msgid "NethServer DNS and DHCP server"
+msgstr "NethServer DNS and DHCP server"
+
+#: ../comps-ns63.xml.in.h:10
+msgid "NethServer deamons and tools for DHCP and DNS server"
+msgstr "NethServer deamons and tools for DHCP and DNS server"
+
+#: ../comps-ns63.xml.in.h:11
+msgid "NethServer File Server"
+msgstr "NethServer File Server"
+
+#: ../comps-ns63.xml.in.h:12
+msgid "NethServer deamons and tools for network file sharing"
+msgstr "NethServer deamons and tools for network file sharing"
+
+#: ../comps-ns63.xml.in.h:13
+msgid "NethServer Mail"
+msgstr "NethServer Mail"
+
+#: ../comps-ns63.xml.in.h:14
+msgid "NethServer mail server and filter"
+msgstr "NethServer mail server and filter"
+
+#: ../comps-ns63.xml.in.h:15
+msgid "NethServer Web Server"
+msgstr "NethServer Web Server"
+
+#: ../comps-ns63.xml.in.h:16
+msgid "NethServer configuration tools for httpd"
+msgstr "NethServer configuration tools for httpd"

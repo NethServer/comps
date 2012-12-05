@@ -43,7 +43,7 @@
   </group>
   <group>
     <id>nethesis-remote-admin</id>
-    <_name>Nethesis remote Administration</_name>
+    <_name>Nethesis Remote Administration</_name>
     <_description>Nethesis tools for monitoring and remote administration</_description>
     <default>false</default>
     <uservisible>true</uservisible>
@@ -69,7 +69,7 @@
   <group>
     <id>nethserver-core</id>
     <_name>NethServer Core</_name>
-    <_description>NethServer core library and web gui.</_description>
+    <_description>NethServer core library and web gui</_description>
     <default>true</default>
     <uservisible>true</uservisible>
     <packagelist>
@@ -91,7 +91,7 @@
     </packagelist>
   </group>
   <group>
-    <id>nethserver-fileserver</id>
+    <id>nethserver-file-server</id>
     <_name>NethServer File Server</_name>
     <_description>NethServer deamons and tools for network file sharing</_description>
     <default>false</default>
