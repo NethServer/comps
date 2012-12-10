@@ -73,6 +73,7 @@
     <default>true</default>
     <uservisible>true</uservisible>
     <packagelist>
+      <packagereq type="mandatory">nethserver-grub</packagereq>
       <packagereq type="mandatory">nethserver-httpd-admin</packagereq>
       <packagereq type="mandatory">nethserver-release</packagereq>
       <packagereq type="mandatory">screen</packagereq>
