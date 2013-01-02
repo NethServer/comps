@@ -127,6 +127,16 @@
     </packagelist>
   </group>
   <group>
+    <id>nethserver-printers</id>
+    <_name>NethServer Printer Management</_name>
+    <_description>NethServer Printer Management Server (CUPS)</_description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type="mandatory">nethserver-cups</packagereq>
+    </packagelist>
+  </group>
+  <group>
     <id>nethserver-web</id>
     <_name>NethServer Web Server</_name>
     <_description>NethServer configuration tools for httpd</_description>
