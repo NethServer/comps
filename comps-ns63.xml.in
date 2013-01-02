@@ -116,6 +116,17 @@
     </packagelist>
   </group>
   <group>
+    <id>nethserver-messaging</id>
+    <_name>NethServer Messaging</_name>
+    <_description>NethServer XMPP/Jabber chat server</_description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type="mandatory">nethserver-ejabberd</packagereq>
+      <packagereq type="optional">nethserver-avahi</packagereq>
+    </packagelist>
+  </group>
+  <group>
     <id>nethserver-web</id>
     <_name>NethServer Web Server</_name>
     <_description>NethServer configuration tools for httpd</_description>
