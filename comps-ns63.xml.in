@@ -123,7 +123,6 @@
     <uservisible>true</uservisible>
     <packagelist>
       <packagereq type="mandatory">nethserver-ejabberd</packagereq>
-      <packagereq type="optional">nethserver-avahi</packagereq>
     </packagelist>
   </group>
   <group>
@@ -134,6 +133,7 @@
     <uservisible>true</uservisible>
     <packagelist>
       <packagereq type="mandatory">nethserver-cups</packagereq>
+      <packagereq type="optional">nethserver-avahi</packagereq>
     </packagelist>
   </group>
   <group>
