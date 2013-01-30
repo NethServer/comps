@@ -55,13 +55,23 @@
     </packagelist>
   </group>
   <group>
+    <id>nethserver-backup</id>
+    <_name>NethServer Backup</_name>
+    <_description>NethServer backup of configuration and data</_description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type="mandatory">nethserver-backup-config</packagereq>
+      <packagereq type="mandatory">nethserver-backup-data</packagereq>
+    </packagelist>
+  </group>
+  <group>
     <id>nethserver-base</id>
     <_name>NethServer Base</_name>
     <_description>NethServer base features</_description>
     <default>false</default>
     <uservisible>true</uservisible>
     <packagelist>
-      <!-- <packagereq type="mandatory">nethserver-backup</packagereq> -->
       <packagereq type="mandatory">nethserver-hosts</packagereq>
       <packagereq type="mandatory">nethserver-httpd</packagereq>
     </packagelist>
