@@ -86,6 +86,7 @@
       <packagereq type="mandatory">nethserver-grub</packagereq>
       <packagereq type="mandatory">nethserver-httpd-admin</packagereq>
       <packagereq type="mandatory">nethserver-release</packagereq>
+      <packagereq type="mandatory">nethserver-openssh</packagereq>
       <packagereq type="mandatory">screen</packagereq>
       <packagereq type="mandatory">wget</packagereq>
     </packagelist>
@@ -111,7 +112,6 @@
       <packagereq type="mandatory">nethserver-httpd</packagereq>
       <packagereq type="mandatory">nethserver-ibays</packagereq>
       <packagereq type="mandatory">nethserver-samba</packagereq>
-      <packagereq type="optional">nethserver-openssh</packagereq>
     </packagelist>
   </group>
   <group>
