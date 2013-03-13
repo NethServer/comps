@@ -115,6 +115,17 @@
     </packagelist>
   </group>
   <group>
+    <id>nethserver-groupware</id>
+    <_name>NethServer Groupware</_name>
+    <_description>SOGo server and Thundebird extensions</_description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type="mandatory">nethserver-sogo</packagereq>
+      <packagereq type="optional">nethserver-sogo-thunderbird</packagereq>
+    </packagelist>
+  </group>
+  <group>
     <id>nethserver-mail</id>
     <_name>NethServer Mail</_name>
     <_description>NethServer mail server and filter</_description>
