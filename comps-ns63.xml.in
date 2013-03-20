@@ -135,7 +135,6 @@
       <packagereq type="mandatory">nethserver-mail-filter</packagereq>
       <packagereq type="mandatory">nethserver-mail-server</packagereq>
       <packagereq type="mandatory">nethserver-samba</packagereq>
-      <packagereq type="optional">nethserver-sogo</packagereq>
     </packagelist>
   </group>
   <group>
