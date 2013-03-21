@@ -87,8 +87,17 @@
       <packagereq type="mandatory">nethserver-httpd-admin</packagereq>
       <packagereq type="mandatory">nethserver-release</packagereq>
       <packagereq type="mandatory">nethserver-openssh</packagereq>
+      <packagereq type="mandatory">cpuspeed</packagereq>
+      <packagereq type="mandatory">lsof</packagereq>
+      <packagereq type="mandatory">man</packagereq>
+      <packagereq type="mandatory">patch</packagereq>
+      <packagereq type="mandatory">pciutils</packagereq>
+      <packagereq type="mandatory">pciutils</packagereq>
+      <packagereq type="mandatory">strace</packagereq>
+      <packagereq type="mandatory">tcpdump</packagereq>
+      <packagereq type="mandatory">usbutils</packagereq>
       <packagereq type="mandatory">screen</packagereq>
-      <packagereq type="mandatory">wget</packagereq>
+      <packagereq type="mandatory">wireless-tools</packagereq>
     </packagelist>
   </group>
   <group>
