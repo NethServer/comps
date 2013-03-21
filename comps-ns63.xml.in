@@ -66,17 +66,6 @@
     </packagelist>
   </group>
   <group>
-    <id>nethserver-base</id>
-    <_name>NethServer Base</_name>
-    <_description>NethServer base features</_description>
-    <default>false</default>
-    <uservisible>true</uservisible>
-    <packagelist>
-      <packagereq type="mandatory">nethserver-hosts</packagereq>
-      <packagereq type="mandatory">nethserver-httpd</packagereq>
-    </packagelist>
-  </group>
-  <group>
     <id>nethserver-core</id>
     <_name>NethServer Core</_name>
     <_description>NethServer core library and web gui</_description>
