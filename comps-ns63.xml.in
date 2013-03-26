@@ -74,8 +74,9 @@
     <packagelist>
       <packagereq type="mandatory">nethserver-grub</packagereq>
       <packagereq type="mandatory">nethserver-httpd-admin</packagereq>
-      <packagereq type="mandatory">nethserver-release</packagereq>
+      <packagereq type="mandatory">nethserver-ntp</packagereq>
       <packagereq type="mandatory">nethserver-openssh</packagereq>
+      <packagereq type="mandatory">nethserver-release</packagereq>
       <packagereq type="mandatory">cpuspeed</packagereq>
       <packagereq type="mandatory">lsof</packagereq>
       <packagereq type="mandatory">man</packagereq>
