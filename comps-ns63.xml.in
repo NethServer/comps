@@ -78,15 +78,6 @@
       <packagereq type="mandatory">nethserver-openssh</packagereq>
       <packagereq type="mandatory">nethserver-release</packagereq>
       <packagereq type="mandatory">cpuspeed</packagereq>
-      <packagereq type="mandatory">lsof</packagereq>
-      <packagereq type="mandatory">man</packagereq>
-      <packagereq type="mandatory">patch</packagereq>
-      <packagereq type="mandatory">pciutils</packagereq>
-      <packagereq type="mandatory">pciutils</packagereq>
-      <packagereq type="mandatory">strace</packagereq>
-      <packagereq type="mandatory">tcpdump</packagereq>
-      <packagereq type="mandatory">usbutils</packagereq>
-      <packagereq type="mandatory">screen</packagereq>
       <packagereq type="mandatory">wireless-tools</packagereq>
     </packagelist>
   </group>
@@ -198,6 +189,23 @@
     <packagelist>
       <packagereq type="mandatory">nethserver-collectd</packagereq>
       <packagereq type="optional">nethserver-collectd-web</packagereq>
+    </packagelist>
+  </group>
+  <group>
+    <id>nethserver-utils</id>
+    <_name>NethServer Utilities</_name>
+    <_description>NethServer utilities</_description>
+    <default>true</default>
+    <uservisible>false</uservisible>
+    <packagelist>
+      <packagereq type="mandatory">lsof</packagereq>
+      <packagereq type="mandatory">man</packagereq>
+      <packagereq type="mandatory">patch</packagereq>
+      <packagereq type="mandatory">pciutils</packagereq>
+      <packagereq type="mandatory">strace</packagereq>
+      <packagereq type="mandatory">tcpdump</packagereq>
+      <packagereq type="mandatory">usbutils</packagereq>
+      <packagereq type="mandatory">screen</packagereq>
     </packagelist>
   </group>
 
