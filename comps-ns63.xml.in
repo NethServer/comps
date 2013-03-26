@@ -196,7 +196,7 @@
     <_name>NethServer Utilities</_name>
     <_description>NethServer utilities</_description>
     <default>true</default>
-    <uservisible>false</uservisible>
+    <uservisible>true</uservisible>
     <packagelist>
       <packagereq type="mandatory">lsof</packagereq>
       <packagereq type="mandatory">man</packagereq>
