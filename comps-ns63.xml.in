@@ -101,6 +101,17 @@
     </packagelist>
   </group>
   <group>
+    <id>nethserver-fax-server</id>
+    <_name>NethServer Fax Server</_name>
+    <_description>Configure HylaFax+ and manage IAX modems</_description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type="mandatory">nethserver-hylafax</packagereq>
+      <packagereq type="mandatory">nethserver-iaxmodem</packagereq>
+    </packagelist>
+  </group>
+  <group>
     <id>nethserver-file-server</id>
     <_name>NethServer File Server</_name>
     <_description>NethServer deamons and tools for network file sharing</_description>
