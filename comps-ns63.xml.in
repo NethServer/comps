@@ -78,7 +78,6 @@
       <packagereq type="mandatory">nethserver-openssh</packagereq>
       <packagereq type="mandatory">nethserver-release</packagereq>
       <packagereq type="mandatory">cpuspeed</packagereq>
-      <packagereq type="mandatory">wireless-tools</packagereq>
     </packagelist>
   </group>
   <group>
@@ -202,6 +201,7 @@
       <packagereq type="mandatory">man</packagereq>
       <packagereq type="mandatory">patch</packagereq>
       <packagereq type="mandatory">pciutils</packagereq>
+      <packagereq type="mandatory">rsync</packagereq>
       <packagereq type="mandatory">strace</packagereq>
       <packagereq type="mandatory">tcpdump</packagereq>
       <packagereq type="mandatory">usbutils</packagereq>
@@ -209,6 +209,16 @@
     </packagelist>
   </group>
 
+  <group>
+    <id>nethserver-wireless-tools</id>
+    <_name>NethServer wireless tools</_name>
+    <_description>NethServer wireless tools</_description>
+    <default>true</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type="mandatory">wireless-tools</packagereq>
+    </packagelist>
+  </group>
 
   <group>
     <id>centos-core</id>
