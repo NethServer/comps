@@ -213,7 +213,7 @@
 
   <group>
     <id>nethserver-wireless-tools</id>
-    <_name>NethServer wireless tools</_name>
+    <_name>NethServer Wireless Tools</_name>
     <_description>NethServer wireless tools</_description>
     <default>true</default>
     <uservisible>true</uservisible>
