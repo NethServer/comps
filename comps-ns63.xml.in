@@ -203,9 +203,11 @@
       <packagereq type="mandatory">pciutils</packagereq>
       <packagereq type="mandatory">rsync</packagereq>
       <packagereq type="mandatory">strace</packagereq>
+      <packagereq type="mandatory">smartmontools</packagereq>
       <packagereq type="mandatory">tcpdump</packagereq>
       <packagereq type="mandatory">usbutils</packagereq>
       <packagereq type="mandatory">screen</packagereq>
+      <packagereq type="mandatory">wget</packagereq>
     </packagelist>
   </group>
 
