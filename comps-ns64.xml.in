@@ -50,6 +50,7 @@
     <packagelist>
       <!-- <packagereq type="mandatory">nethserver-pulp-consumer</packagereq> -->
       <!-- <packagereq type="mandatory">nethserver-puppet</packagereq> -->
+      <packagereq type="mandatory">nethserver-register</packagereq>
       <packagereq type="mandatory">ardad</packagereq>
       <packagereq type="mandatory">yum-cron</packagereq>
     </packagelist>
