@@ -76,6 +76,7 @@
       <packagereq type="mandatory">nethserver-grub</packagereq>
       <packagereq type="mandatory">nethserver-httpd-admin</packagereq>
       <packagereq type="mandatory">nethserver-ntp</packagereq>
+      <packagereq type="mandatory">nethserver-hosts</packagereq>
       <packagereq type="mandatory">nethserver-openssh</packagereq>
       <packagereq type="mandatory">nethserver-release</packagereq>
       <packagereq type="mandatory">cpuspeed</packagereq>
@@ -89,7 +90,6 @@
     <uservisible>true</uservisible>
     <packagelist>
       <packagereq type="mandatory">nethserver-dnsmasq</packagereq>
-      <packagereq type="mandatory">nethserver-hosts</packagereq>
     </packagelist>
   </group>
   <group>
