@@ -191,6 +191,18 @@
     </packagelist>
   </group>
   <group>
+    <id>nethserver-nut</id>
+    <_name>NethServer Network UPS Tool configuration</_name>
+    <_description>NethServer configuration for NUT</_description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type="mandatory">nethserver-nut</packagereq>
+      <packagereq type="optional">nethserver-collectd</packagereq>
+      <packagereq type="optional">collectd-nut</packagereq>
+    </packagelist>
+  </group>
+  <group>
     <id>nethserver-statistics</id>
     <_name>NethServer Statistics</_name>
     <_description>NethServer system statistics</_description>
