@@ -5,9 +5,36 @@
   @author Giacomo Sanchietti <giacomo.sanchietti@nethesis.it>
 -->
 <comps>
+  <category>
+    <id>nethserver</id>
+    <_name>NethServer</_name>
+    <_description>Small and Medium Enterprises (SME) oriented Linux distribution</_description>
+    <display_order>1</display_order>
+    <grouplist>
+      <groupid>nethserver</groupid>
+      <groupid>nethserver-backup</groupid>
+      <groupid>nethserver-core</groupid>
+      <groupid>nethserver-dns-dhcp</groupid>
+      <groupid>nethserver-fax-server</groupid>
+      <groupid>nethserver-firewall-base</groupid>
+      <groupid>nethserver-file-server</groupid>
+      <groupid>nethserver-groupware</groupid>
+      <groupid>nethserver-mail</groupid>
+      <groupid>nethserver-messaging</groupid>
+      <groupid>nethserver-printers</groupid>
+      <groupid>nethserver-web</groupid>
+      <groupid>nethserver-mysql</groupid>
+      <groupid>nethserver-nut</groupid>
+      <groupid>nethserver-statistics</groupid>
+      <groupid>nethserver-wireless-tools</groupid>
+      <groupid>nethserver-web-proxy</groupid>
+      <groupid>nethserver-web-filter</groupid>
+    </grouplist>
+  </category>
+
   <group>
     <id>buildsys-build</id>
-    <_name>NethServer Build System</_name>
+    <_name>Build system</_name>
     <_description>Required RPMs to build a NethServer RPM packages</_description>
     <default>false</default>
     <uservisible>false</uservisible>
@@ -41,9 +68,10 @@
       <packagereq type="default">xz</packagereq>
     </packagelist>
   </group>
+
   <group>
     <id>nethesis-remote-admin</id>
-    <_name>Nethesis Remote Administration</_name>
+    <_name>Nethesis remote administration</_name>
     <_description>Nethesis tools for monitoring and remote administration</_description>
     <default>false</default>
     <uservisible>true</uservisible>
@@ -57,8 +85,8 @@
   </group>
   <group>
     <id>nethserver-backup</id>
-    <_name>NethServer Backup</_name>
-    <_description>NethServer backup of configuration and data</_description>
+    <_name>Backup</_name>
+    <_description>Backup of configuration and data</_description>
     <default>false</default>
     <uservisible>true</uservisible>
     <packagelist>
@@ -68,8 +96,8 @@
   </group>
   <group>
     <id>nethserver-core</id>
-    <_name>NethServer Core</_name>
-    <_description>NethServer core library and web gui</_description>
+    <_name>Core</_name>
+    <_description>Core tools, libraries and web UI</_description>
     <default>true</default>
     <uservisible>false</uservisible>
     <packagelist>
@@ -79,13 +107,26 @@
       <packagereq type="mandatory">nethserver-hosts</packagereq>
       <packagereq type="mandatory">nethserver-openssh</packagereq>
       <packagereq type="mandatory">nethserver-release</packagereq>
+      <packagereq type="mandatory">nethserver-smartd</packagereq>
+
+      <packagereq type="mandatory">lsof</packagereq>
+      <packagereq type="mandatory">man</packagereq>
+      <packagereq type="mandatory">patch</packagereq>
+      <packagereq type="mandatory">pciutils</packagereq>
+      <packagereq type="mandatory">rsync</packagereq>
+      <packagereq type="mandatory">strace</packagereq>
+      <packagereq type="mandatory">tcpdump</packagereq>
+      <packagereq type="mandatory">usbutils</packagereq>
+      <packagereq type="mandatory">screen</packagereq>
+      <packagereq type="mandatory">wget</packagereq>
       <packagereq type="mandatory">cpuspeed</packagereq>
+      <packagereq type="mandatory">wireless-tools</packagereq>
     </packagelist>
   </group>
   <group>
     <id>nethserver-dns-dhcp</id>
-    <_name>NethServer DNS and DHCP server</_name>
-    <_description>NethServer deamons and tools for DHCP and DNS server</_description>
+    <_name>DNS and DHCP server</_name>
+    <_description>Daemons and tools for DHCP and DNS server</_description>
     <default>false</default>
     <uservisible>true</uservisible>
     <packagelist>
@@ -94,7 +135,7 @@
   </group>
   <group>
     <id>nethserver-fax-server</id>
-    <_name>NethServer Fax Server</_name>
+    <_name>Fax server</_name>
     <_description>Configure HylaFax+ and manage IAX modems</_description>
     <default>false</default>
     <uservisible>true</uservisible>
@@ -105,8 +146,8 @@
   </group>
   <group>
     <id>nethserver-firewall-base</id>
-    <_name>NethServer Base Firewall</_name>
-    <_description>Configure network adapters and base firewall</_description>
+    <_name>Basic firewall</_name>
+    <_description>Configure network adapters and basic firewall</_description>
     <default>false</default>
     <uservisible>true</uservisible>
     <packagelist>
@@ -115,8 +156,8 @@
   </group>
   <group>
     <id>nethserver-file-server</id>
-    <_name>NethServer File Server</_name>
-    <_description>NethServer deamons and tools for network file sharing</_description>
+    <_name>File server</_name>
+    <_description>Daemons and tools for network file sharing</_description>
     <default>false</default>
     <uservisible>true</uservisible>
     <packagelist>
@@ -127,7 +168,7 @@
   </group>
   <group>
     <id>nethserver-groupware</id>
-    <_name>NethServer Groupware</_name>
+    <_name>Groupware</_name>
     <_description>SOGo server and Thundebird extensions</_description>
     <default>false</default>
     <uservisible>true</uservisible>
@@ -138,8 +179,8 @@
   </group>
   <group>
     <id>nethserver-mail</id>
-    <_name>NethServer Mail</_name>
-    <_description>NethServer mail server and filter</_description>
+    <_name>Email</_name>
+    <_description>Email server and filter</_description>
     <default>false</default>
     <uservisible>true</uservisible>
     <packagelist>
@@ -150,8 +191,8 @@
   </group>
   <group>
     <id>nethserver-messaging</id>
-    <_name>NethServer Messaging</_name>
-    <_description>NethServer XMPP/Jabber chat server</_description>
+    <_name>Instant messaging</_name>
+    <_description>XMPP/Jabber chat server</_description>
     <default>false</default>
     <uservisible>true</uservisible>
     <packagelist>
@@ -161,8 +202,8 @@
   </group>
   <group>
     <id>nethserver-printers</id>
-    <_name>NethServer Printer Management</_name>
-    <_description>NethServer Printer Management Server (CUPS)</_description>
+    <_name>Print server</_name>
+    <_description>Print management server (CUPS)</_description>
     <default>false</default>
     <uservisible>true</uservisible>
     <packagelist>
@@ -172,8 +213,8 @@
   </group>
   <group>
     <id>nethserver-web</id>
-    <_name>NethServer Web Server</_name>
-    <_description>NethServer configuration tools for httpd</_description>
+    <_name>Web server</_name>
+    <_description>Configuration tools for Apache web server</_description>
     <default>false</default>
     <uservisible>true</uservisible>
     <packagelist>
@@ -182,8 +223,8 @@
   </group>
   <group>
     <id>nethserver-mysql</id>
-    <_name>NethServer MySQL Server</_name>
-    <_description>NethServer configuration tools for mysql</_description>
+    <_name>MySQL server</_name>
+    <_description>Configuration tools for MySQL</_description>
     <default>false</default>
     <uservisible>true</uservisible>
     <packagelist>
@@ -192,8 +233,8 @@
   </group>
   <group>
     <id>nethserver-nut</id>
-    <_name>NethServer Network UPS Tool configuration</_name>
-    <_description>NethServer configuration for NUT</_description>
+    <_name>UPS support</_name>
+    <_description>UPS management and monitoring configuration</_description>
     <default>false</default>
     <uservisible>true</uservisible>
     <packagelist>
@@ -204,8 +245,8 @@
   </group>
   <group>
     <id>nethserver-statistics</id>
-    <_name>NethServer Statistics</_name>
-    <_description>NethServer system statistics</_description>
+    <_name>Statistics</_name>
+    <_description>Collect and analyse system statistics</_description>
     <default>false</default>
     <uservisible>true</uservisible>
     <packagelist>
@@ -213,42 +254,11 @@
       <packagereq type="optional">nethserver-collectd-web</packagereq>
     </packagelist>
   </group>
-  <group>
-    <id>nethserver-utils</id>
-    <_name>NethServer Utilities</_name>
-    <_description>NethServer utilities</_description>
-    <default>true</default>
-    <uservisible>true</uservisible>
-    <packagelist>
-      <packagereq type="mandatory">lsof</packagereq>
-      <packagereq type="mandatory">man</packagereq>
-      <packagereq type="mandatory">nethserver-smartd</packagereq>
-      <packagereq type="mandatory">patch</packagereq>
-      <packagereq type="mandatory">pciutils</packagereq>
-      <packagereq type="mandatory">rsync</packagereq>
-      <packagereq type="mandatory">strace</packagereq>
-      <packagereq type="mandatory">tcpdump</packagereq>
-      <packagereq type="mandatory">usbutils</packagereq>
-      <packagereq type="mandatory">screen</packagereq>
-      <packagereq type="mandatory">wget</packagereq>
-    </packagelist>
-  </group>
-
-  <group>
-    <id>nethserver-wireless-tools</id>
-    <_name>NethServer Wireless Tools</_name>
-    <_description>NethServer wireless tools</_description>
-    <default>true</default>
-    <uservisible>true</uservisible>
-    <packagelist>
-      <packagereq type="mandatory">wireless-tools</packagereq>
-    </packagelist>
-  </group>
 
   <group>
     <id>nethserver-web-proxy</id>
-    <_name>NethServer Web Proxy</_name>
-    <_description>NethServer configuration for Squid</_description>
+    <_name>Web proxy</_name>
+    <_description>Squid web caching proxy configuration</_description>
     <default>true</default>
     <uservisible>true</uservisible>
     <packagelist>
@@ -259,8 +269,8 @@
 
   <group>
     <id>nethserver-web-filter</id>
-    <_name>NethServer Web Filter</_name>
-    <_description>NethServer web content and antivirus filter</_description>
+    <_name>Web filter</_name>
+    <_description>Squid web content and virus filter</_description>
     <default>true</default>
     <uservisible>true</uservisible>
     <packagelist>
@@ -271,12 +281,10 @@
     </packagelist>
   </group>
 
-
-
   <group>
     <id>centos-core</id>
     <name>CentOS-Core</name>
-    <description>CentOS 6.3 minimal package set</description>
+    <description>CentOS minimal package set</description>
     <default>true</default>
     <uservisible>false</uservisible>
     <packagelist>
@@ -471,6 +479,5 @@
      <packagereq type='mandatory'>zlib</packagereq>
    </packagelist> 
   </group>
-
 
 </comps>
