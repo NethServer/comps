@@ -263,6 +263,8 @@
     <uservisible>true</uservisible>
     <packagelist>
       <packagereq type="mandatory">nethserver-squid</packagereq>
+      <packagereq type="mandatory">nethserver-dnsmasq</packagereq>
+      <packagereq type="mandatory">nethserver-httpd</packagereq>
       <packagereq type="optional">nethserver-lightsquid</packagereq>
     </packagelist>
   </group>
