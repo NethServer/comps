@@ -18,7 +18,7 @@ msgstr ""
 "Project-Id-Version: comps\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-08-28 10:47+0200\n"
-"PO-Revision-Date: 2013-08-28 10:52+0200\n"
+"PO-Revision-Date: 2013-08-28 17:04+0200\n"
 "Last-Translator: notting <notting@redhat.com>\n"
 "Language-Team: Italian <trans-it@lists.fedoraproject.org>\n"
 "Language: it\n"
@@ -3089,9 +3089,8 @@ msgid "Bandwidth monitor"
 msgstr "Monitoraggio banda"
 
 #: ../comps-ns6.xml.in.h:32
-#, fuzzy
 msgid "Configure and manage Ntopng"
-msgstr "Configura HylaFax+ e gestisce i modem IAX"
+msgstr "Configurazione e gestione di Ntopng"
 
 #: ../comps-ns6.xml.in.h:33
 msgid "UPS support"
