@@ -17,8 +17,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: comps\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-07-15 13:03+0200\n"
-"PO-Revision-Date: 2013-07-15 13:05+0200\n"
+"POT-Creation-Date: 2013-08-28 10:47+0200\n"
+"PO-Revision-Date: 2013-08-28 10:52+0200\n"
 "Last-Translator: notting <notting@redhat.com>\n"
 "Language-Team: Italian <trans-it@lists.fedoraproject.org>\n"
 "Language: it\n"
@@ -1318,8 +1318,8 @@ msgstr "File server Windows"
 #: ../comps-f16.xml.in.h:235 ../comps-f17.xml.in.h:246
 #: ../comps-f18.xml.in.h:224 ../comps-f19.xml.in.h:227
 msgid ""
-"This package group allows you to share files between Linux and MS Windows"
-"(tm) systems."
+"This package group allows you to share files between Linux and MS "
+"Windows(tm) systems."
 msgstr ""
 "Questo gruppo di pacchetti permette di condividere file tra sistemi Linux e "
 "MS Windows(tm)."
@@ -3085,35 +3085,44 @@ msgid "Configuration tools for MySQL"
 msgstr "Strumenti di configurazione per MySQL"
 
 #: ../comps-ns6.xml.in.h:31
+msgid "Bandwidth monitor"
+msgstr "Monitoraggio banda"
+
+#: ../comps-ns6.xml.in.h:32
+#, fuzzy
+msgid "Configure and manage Ntopng"
+msgstr "Configura HylaFax+ e gestisce i modem IAX"
+
+#: ../comps-ns6.xml.in.h:33
 msgid "UPS support"
 msgstr "Supporto UPS"
 
-#: ../comps-ns6.xml.in.h:32
+#: ../comps-ns6.xml.in.h:34
 msgid "UPS management and monitoring configuration"
 msgstr ""
 "Configurazione della gestione e del monitoraggio dei gruppi di continuità"
 
-#: ../comps-ns6.xml.in.h:33
+#: ../comps-ns6.xml.in.h:35
 msgid "Statistics"
 msgstr "Statistiche"
 
-#: ../comps-ns6.xml.in.h:34
+#: ../comps-ns6.xml.in.h:36
 msgid "Collect and analyse system statistics"
 msgstr "Registra e analizza le statistiche del sistema"
 
-#: ../comps-ns6.xml.in.h:35
+#: ../comps-ns6.xml.in.h:37
 msgid "Web proxy"
 msgstr "Proxy web"
 
-#: ../comps-ns6.xml.in.h:36
+#: ../comps-ns6.xml.in.h:38
 msgid "Squid web caching proxy configuration"
 msgstr "Configurazione Squid (web caching proxy)"
 
-#: ../comps-ns6.xml.in.h:37
+#: ../comps-ns6.xml.in.h:39
 msgid "Web filter"
 msgstr "Filtro web"
 
-#: ../comps-ns6.xml.in.h:38
+#: ../comps-ns6.xml.in.h:40
 msgid "Squid web content and virus filter"
 msgstr "Filtro web per contenuti e virus"
 

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-07-15 13:03+0200\n"
+"POT-Creation-Date: 2013-08-28 10:47+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1235,8 +1235,8 @@ msgstr ""
 #: ../comps-f16.xml.in.h:235 ../comps-f17.xml.in.h:246
 #: ../comps-f18.xml.in.h:224 ../comps-f19.xml.in.h:227
 msgid ""
-"This package group allows you to share files between Linux and MS Windows"
-"(tm) systems."
+"This package group allows you to share files between Linux and MS "
+"Windows(tm) systems."
 msgstr ""
 
 #: ../comps-f16.xml.in.h:236 ../comps-f17.xml.in.h:247
@@ -2892,33 +2892,41 @@ msgid "Configuration tools for MySQL"
 msgstr ""
 
 #: ../comps-ns6.xml.in.h:31
-msgid "UPS support"
+msgid "Bandwidth monitor"
 msgstr ""
 
 #: ../comps-ns6.xml.in.h:32
-msgid "UPS management and monitoring configuration"
+msgid "Configure and manage Ntopng"
 msgstr ""
 
 #: ../comps-ns6.xml.in.h:33
-msgid "Statistics"
+msgid "UPS support"
 msgstr ""
 
 #: ../comps-ns6.xml.in.h:34
-msgid "Collect and analyse system statistics"
+msgid "UPS management and monitoring configuration"
 msgstr ""
 
 #: ../comps-ns6.xml.in.h:35
-msgid "Web proxy"
+msgid "Statistics"
 msgstr ""
 
 #: ../comps-ns6.xml.in.h:36
-msgid "Squid web caching proxy configuration"
+msgid "Collect and analyse system statistics"
 msgstr ""
 
 #: ../comps-ns6.xml.in.h:37
-msgid "Web filter"
+msgid "Web proxy"
 msgstr ""
 
 #: ../comps-ns6.xml.in.h:38
+msgid "Squid web caching proxy configuration"
+msgstr ""
+
+#: ../comps-ns6.xml.in.h:39
+msgid "Web filter"
+msgstr ""
+
+#: ../comps-ns6.xml.in.h:40
 msgid "Squid web content and virus filter"
 msgstr ""
