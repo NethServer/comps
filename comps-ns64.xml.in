@@ -187,6 +187,9 @@
       <packagereq type="mandatory">nethserver-mail-filter</packagereq>
       <packagereq type="mandatory">nethserver-mail-server</packagereq>
       <packagereq type="mandatory">nethserver-samba</packagereq>
+      <packagereq type="optional">ripole</packagereq>
+      <packagereq type="optional">lha</packagereq>
+      <packagereq type="optional">unrar</packagereq>
     </packagelist>
   </group>
   <group>
