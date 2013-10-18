@@ -175,6 +175,7 @@
     <packagelist>
       <packagereq type="mandatory">nethserver-sogo</packagereq>
       <packagereq type="optional">nethserver-sogo-thunderbird</packagereq>
+      <packagereq type="optional">sogo-frontends</packagereq>
     </packagelist>
   </group>
   <group>
