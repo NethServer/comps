@@ -4,7 +4,7 @@ POFILES=$(wildcard *.po)
 # intltool hack
 top_srcdir=..
 
-all:
+all: it.po
 
 refresh-po: comps.pot $(POFILES)
 
@@ -20,7 +20,7 @@ refresh-po: comps.pot $(POFILES)
 
 comps.pot: $(XMLFILES)
 	intltool-update --pot --gettext-package=comps
-	
+
 
 report:
 	for cat in *.po; do \
