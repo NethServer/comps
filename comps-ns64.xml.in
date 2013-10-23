@@ -5,33 +5,6 @@
   @author Giacomo Sanchietti <giacomo.sanchietti@nethesis.it>
 -->
 <comps>
-  <category>
-    <id>nethserver</id>
-    <_name>NethServer</_name>
-    <_description>Small and Medium Enterprises (SME) oriented Linux distribution</_description>
-    <display_order>1</display_order>
-    <grouplist>
-      <groupid>nethserver</groupid>
-      <groupid>nethserver-backup</groupid>
-      <groupid>nethserver-core</groupid>
-      <groupid>nethserver-dns-dhcp</groupid>
-      <groupid>nethserver-fax-server</groupid>
-      <groupid>nethserver-firewall-base</groupid>
-      <groupid>nethserver-file-server</groupid>
-      <groupid>nethserver-groupware</groupid>
-      <groupid>nethserver-mail</groupid>
-      <groupid>nethserver-messaging</groupid>
-      <groupid>nethserver-printers</groupid>
-      <groupid>nethserver-web</groupid>
-      <groupid>nethserver-mysql</groupid>
-      <groupid>nethserver-nut</groupid>
-      <groupid>nethserver-statistics</groupid>
-      <groupid>nethserver-wireless-tools</groupid>
-      <groupid>nethserver-web-proxy</groupid>
-      <groupid>nethserver-web-filter</groupid>
-    </grouplist>
-  </category>
-
   <group>
     <id>buildsys-build</id>
     <_name>Build system</_name>
@@ -519,5 +492,33 @@
       <packagereq type='mandatory'>zlib</packagereq>
     </packagelist> 
   </group>
+
+  <category>
+    <id>nethserver</id>
+    <_name>NethServer</_name>
+    <_description>Small and Medium Enterprises (SME) oriented Linux distribution</_description>
+    <display_order>1</display_order>
+    <grouplist>
+      <groupid>nethserver</groupid>
+      <groupid>nethserver-backup</groupid>
+      <groupid>nethserver-core</groupid>
+      <groupid>nethserver-dns-dhcp</groupid>
+      <groupid>nethserver-fax-server</groupid>
+      <groupid>nethserver-firewall-base</groupid>
+      <groupid>nethserver-file-server</groupid>
+      <groupid>nethserver-groupware</groupid>
+      <groupid>nethserver-mail</groupid>
+      <groupid>nethserver-messaging</groupid>
+      <groupid>nethserver-printers</groupid>
+      <groupid>nethserver-web</groupid>
+      <groupid>nethserver-mysql</groupid>
+      <groupid>nethserver-nut</groupid>
+      <groupid>nethserver-statistics</groupid>
+      <groupid>nethserver-wireless-tools</groupid>
+      <groupid>nethserver-web-proxy</groupid>
+      <groupid>nethserver-web-filter</groupid>
+      <groupid>nethserver-vpn</groupid>
+    </grouplist>
+  </category>
 
 </comps>
