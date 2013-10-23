@@ -17,7 +17,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: comps\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-10-23 12:43+0200\n"
+"POT-Creation-Date: 2013-10-23 13:02+0200\n"
 "PO-Revision-Date: 2013-10-23 12:44+0200\n"
 "Last-Translator: notting <notting@redhat.com>\n"
 "Language-Team: Italian <trans-it@lists.fedoraproject.org>\n"
@@ -27,166 +27,165 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
-#: ../comps-ns64.xml.in.h:1
+#: ../nethserver-groups.xml.in.h:1
 msgid "Build system"
 msgstr "Build system"
 
-#: ../comps-ns64.xml.in.h:2
+#: ../nethserver-groups.xml.in.h:2
 msgid "Tools for building RPMs"
 msgstr "Strumenti per fare gli RPM"
 
-#: ../comps-ns64.xml.in.h:3
+#: ../nethserver-groups.xml.in.h:3
 msgid "Nethesis remote administration"
 msgstr "Amministrazione remota Nethesis"
 
-#: ../comps-ns64.xml.in.h:4
+#: ../nethserver-groups.xml.in.h:4
 msgid "Nethesis tools for monitoring and remote administration"
 msgstr "Strumenti Nethesis per il monitoraggio e l'amministrazione remota"
 
-#: ../comps-ns64.xml.in.h:5
+#: ../nethserver-groups.xml.in.h:5
 msgid "Backup"
 msgstr "Backup"
 
-#: ../comps-ns64.xml.in.h:6
+#: ../nethserver-groups.xml.in.h:6
 msgid "Backup of configuration and data"
 msgstr "Backup della configurazione del sistema e dei dati"
 
-#: ../comps-ns64.xml.in.h:7
+#: ../nethserver-groups.xml.in.h:7
 msgid "Additional ISO packages"
 msgstr "Pacchetti aggiuntivi per la ISO"
 
-#: ../comps-ns64.xml.in.h:8
+#: ../nethserver-groups.xml.in.h:8
 msgid "DNS and DHCP server"
 msgstr "Server DNS e DHCP"
 
-#: ../comps-ns64.xml.in.h:9
+#: ../nethserver-groups.xml.in.h:9
 msgid "Daemons and tools for DHCP and DNS server"
 msgstr "Demoni e strumenti per i servizi DNS e DHCP"
 
-#: ../comps-ns64.xml.in.h:10
+#: ../nethserver-groups.xml.in.h:10
 msgid "Fax server"
 msgstr "Fax server"
 
-#: ../comps-ns64.xml.in.h:11
+#: ../nethserver-groups.xml.in.h:11
 msgid "Configure HylaFax+ and manage IAX modems"
 msgstr "Configura HylaFax+ e gestisce i modem IAX"
 
-#: ../comps-ns64.xml.in.h:12
+#: ../nethserver-groups.xml.in.h:12
 msgid "Basic firewall"
 msgstr "Firewall base"
 
-#: ../comps-ns64.xml.in.h:13
+#: ../nethserver-groups.xml.in.h:13
 msgid "Configure network adapters and basic firewall"
 msgstr "Configura le interfacce di rete e il firewall base"
 
-#: ../comps-ns64.xml.in.h:14
+#: ../nethserver-groups.xml.in.h:14
 msgid "File server"
 msgstr "File server"
 
-#: ../comps-ns64.xml.in.h:15
+#: ../nethserver-groups.xml.in.h:15
 msgid "Daemons and tools for network file sharing"
 msgstr "Demoni e strumenti per la condivisione file in rete"
 
-#: ../comps-ns64.xml.in.h:16
+#: ../nethserver-groups.xml.in.h:16
 msgid "Groupware"
 msgstr "Groupware"
 
-#: ../comps-ns64.xml.in.h:17
+#: ../nethserver-groups.xml.in.h:17
 msgid "SOGo server and Thundebird extensions"
 msgstr "Server SOGo ed estensioni per Thunderbird"
 
-#: ../comps-ns64.xml.in.h:18
+#: ../nethserver-groups.xml.in.h:18
 msgid "Email"
 msgstr "Email"
 
-#: ../comps-ns64.xml.in.h:19
+#: ../nethserver-groups.xml.in.h:19
 msgid "Email server and filter"
 msgstr "Server e filtri di posta elettronica"
 
-#: ../comps-ns64.xml.in.h:20
+#: ../nethserver-groups.xml.in.h:20
 msgid "Instant messaging"
 msgstr "Messaggistica istantanea"
 
-#: ../comps-ns64.xml.in.h:21
+#: ../nethserver-groups.xml.in.h:21
 msgid "XMPP/Jabber chat server"
 msgstr "Server di chat XMPP/Jabber"
 
-#: ../comps-ns64.xml.in.h:22
+#: ../nethserver-groups.xml.in.h:22
 msgid "Print server"
 msgstr "Server di stampa"
 
-#: ../comps-ns64.xml.in.h:23
+#: ../nethserver-groups.xml.in.h:23
 msgid "Print management server (CUPS)"
 msgstr "Servizio di gestione stampanti (CUPS)"
 
-#: ../comps-ns64.xml.in.h:24
+#: ../nethserver-groups.xml.in.h:24
 msgid "Web server"
 msgstr "Server Web"
 
-#: ../comps-ns64.xml.in.h:25
+#: ../nethserver-groups.xml.in.h:25
 msgid "Configuration tools for Apache web server"
 msgstr "Strumenti di configurazione per il server web Apache"
 
-#: ../comps-ns64.xml.in.h:26
+#: ../nethserver-groups.xml.in.h:26
 msgid "MySQL server"
 msgstr "Server MySQL"
 
-#: ../comps-ns64.xml.in.h:27
+#: ../nethserver-groups.xml.in.h:27
 msgid "Configuration tools for MySQL"
 msgstr "Strumenti di configurazione per MySQL"
 
-#: ../comps-ns64.xml.in.h:28
+#: ../nethserver-groups.xml.in.h:28
 msgid "Bandwidth monitor"
 msgstr "Monitoraggio banda"
 
-#: ../comps-ns64.xml.in.h:29
+#: ../nethserver-groups.xml.in.h:29
 msgid "Configure and manage Ntopng"
 msgstr "Configurazione e gestione di Ntopng"
 
-#: ../comps-ns64.xml.in.h:30
+#: ../nethserver-groups.xml.in.h:30
 msgid "UPS support"
 msgstr "Supporto UPS"
 
-#: ../comps-ns64.xml.in.h:31
+#: ../nethserver-groups.xml.in.h:31
 msgid "UPS management and monitoring configuration"
 msgstr ""
 "Configurazione della gestione e del monitoraggio dei gruppi di continuità"
 
-#: ../comps-ns64.xml.in.h:32
+#: ../nethserver-groups.xml.in.h:32
 msgid "Statistics"
 msgstr "Statistiche"
 
-#: ../comps-ns64.xml.in.h:33
+#: ../nethserver-groups.xml.in.h:33
 msgid "Collect and analyse system statistics"
 msgstr "Registra e analizza le statistiche del sistema"
 
-#: ../comps-ns64.xml.in.h:34
+#: ../nethserver-groups.xml.in.h:34
 msgid "Web proxy"
 msgstr "Proxy web"
 
-#: ../comps-ns64.xml.in.h:35
+#: ../nethserver-groups.xml.in.h:35
 msgid "Squid web caching proxy configuration"
 msgstr "Configurazione Squid (web caching proxy)"
 
-#: ../comps-ns64.xml.in.h:36
+#: ../nethserver-groups.xml.in.h:36
 msgid "Web filter"
 msgstr "Filtro web"
 
-#: ../comps-ns64.xml.in.h:37
+#: ../nethserver-groups.xml.in.h:37
 msgid "Squid web content and virus filter"
 msgstr "Filtro web per contenuti e virus"
 
-#: ../comps-ns64.xml.in.h:38
+#: ../nethserver-groups.xml.in.h:38
 msgid "Configure remote-access and site-to-site Virtual Private Networks (VPN)"
 msgstr ""
 "Configura le Virtual Private Network (VPN) per l'accesso di host o reti "
 "remote"
 
-#: ../comps-ns64.xml.in.h:39
+#: ../nethserver-groups.xml.in.h:39
 msgid "NethServer"
 msgstr "NethServer"
 
-#: ../comps-ns64.xml.in.h:40
+#: ../nethserver-groups.xml.in.h:40
 msgid "Small and Medium Enterprises (SME) oriented Linux distribution"
 msgstr "Distribuzione Linux per le Piccole e Medie Imprese (PMI)"
-
