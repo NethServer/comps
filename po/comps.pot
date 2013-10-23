@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-10-23 11:07+0200\n"
+"POT-Creation-Date: 2013-10-23 12:43+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,278 +17,162 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../comps-ns63.xml.in.h:1
-msgid "NethServer Build System"
-msgstr ""
-
-#: ../comps-ns63.xml.in.h:2 ../comps-ns64.xml.in.h:4
-msgid "Required RPMs to build a NethServer RPM packages"
-msgstr ""
-
-#: ../comps-ns63.xml.in.h:3
-msgid "Nethesis Remote Administration"
-msgstr ""
-
-#: ../comps-ns63.xml.in.h:4 ../comps-ns64.xml.in.h:6
-msgid "Nethesis tools for monitoring and remote administration"
-msgstr ""
-
-#: ../comps-ns63.xml.in.h:5
-msgid "NethServer Backup"
-msgstr ""
-
-#: ../comps-ns63.xml.in.h:6
-msgid "NethServer backup of configuration and data"
-msgstr ""
-
-#: ../comps-ns63.xml.in.h:7
-msgid "NethServer Core"
-msgstr ""
-
-#: ../comps-ns63.xml.in.h:8
-msgid "NethServer core library and web gui"
-msgstr ""
-
-#: ../comps-ns63.xml.in.h:9
-msgid "NethServer DNS and DHCP server"
-msgstr ""
-
-#: ../comps-ns63.xml.in.h:10
-msgid "NethServer deamons and tools for DHCP and DNS server"
-msgstr ""
-
-#: ../comps-ns63.xml.in.h:11
-msgid "NethServer Fax Server"
-msgstr ""
-
-#: ../comps-ns63.xml.in.h:12 ../comps-ns64.xml.in.h:14
-msgid "Configure HylaFax+ and manage IAX modems"
-msgstr ""
-
-#: ../comps-ns63.xml.in.h:13
-msgid "NethServer File Server"
-msgstr ""
-
-#: ../comps-ns63.xml.in.h:14
-msgid "NethServer deamons and tools for network file sharing"
-msgstr ""
-
-#: ../comps-ns63.xml.in.h:15
-msgid "NethServer Groupware"
-msgstr ""
-
-#: ../comps-ns63.xml.in.h:16 ../comps-ns64.xml.in.h:20
-msgid "SOGo server and Thundebird extensions"
-msgstr ""
-
-#: ../comps-ns63.xml.in.h:17
-msgid "NethServer Mail"
-msgstr ""
-
-#: ../comps-ns63.xml.in.h:18
-msgid "NethServer mail server and filter"
-msgstr ""
-
-#: ../comps-ns63.xml.in.h:19
-msgid "NethServer Messaging"
-msgstr ""
-
-#: ../comps-ns63.xml.in.h:20
-msgid "NethServer XMPP/Jabber chat server"
-msgstr ""
-
-#: ../comps-ns63.xml.in.h:21
-msgid "NethServer Printer Management"
-msgstr ""
-
-#: ../comps-ns63.xml.in.h:22
-msgid "NethServer Printer Management Server (CUPS)"
-msgstr ""
-
-#: ../comps-ns63.xml.in.h:23
-msgid "NethServer Web Server"
-msgstr ""
-
-#: ../comps-ns63.xml.in.h:24
-msgid "NethServer configuration tools for httpd"
-msgstr ""
-
-#: ../comps-ns63.xml.in.h:25
-msgid "NethServer MySQL Server"
-msgstr ""
-
-#: ../comps-ns63.xml.in.h:26
-msgid "NethServer configuration tools for mysql"
-msgstr ""
-
-#: ../comps-ns63.xml.in.h:27
-msgid "NethServer Statistics"
-msgstr ""
-
-#: ../comps-ns63.xml.in.h:28
-msgid "NethServer system statistics"
-msgstr ""
-
-#: ../comps-ns63.xml.in.h:29
-msgid "NethServer Utilities"
-msgstr ""
-
-#: ../comps-ns63.xml.in.h:30
-msgid "NethServer utilities"
-msgstr ""
-
-#: ../comps-ns63.xml.in.h:31
-msgid "NethServer Wireless Tools"
-msgstr ""
-
-#: ../comps-ns63.xml.in.h:32
-msgid "NethServer wireless tools"
-msgstr ""
-
 #: ../comps-ns64.xml.in.h:1
-msgid "NethServer"
-msgstr ""
-
-#: ../comps-ns64.xml.in.h:2
-msgid "Small and Medium Enterprises (SME) oriented Linux distribution"
-msgstr ""
-
-#: ../comps-ns64.xml.in.h:3
 msgid "Build system"
 msgstr ""
 
-#: ../comps-ns64.xml.in.h:5
+#: ../comps-ns64.xml.in.h:2
+msgid "Tools for building RPMs"
+msgstr ""
+
+#: ../comps-ns64.xml.in.h:3
 msgid "Nethesis remote administration"
 msgstr ""
 
-#: ../comps-ns64.xml.in.h:7
+#: ../comps-ns64.xml.in.h:4
+msgid "Nethesis tools for monitoring and remote administration"
+msgstr ""
+
+#: ../comps-ns64.xml.in.h:5
 msgid "Backup"
 msgstr ""
 
-#: ../comps-ns64.xml.in.h:8
+#: ../comps-ns64.xml.in.h:6
 msgid "Backup of configuration and data"
 msgstr ""
 
-#: ../comps-ns64.xml.in.h:9
-msgid "Core"
+#: ../comps-ns64.xml.in.h:7
+msgid "Additional ISO packages"
 msgstr ""
 
-#: ../comps-ns64.xml.in.h:10
-msgid "Core tools, libraries and web UI"
-msgstr ""
-
-#: ../comps-ns64.xml.in.h:11
+#: ../comps-ns64.xml.in.h:8
 msgid "DNS and DHCP server"
 msgstr ""
 
-#: ../comps-ns64.xml.in.h:12
+#: ../comps-ns64.xml.in.h:9
 msgid "Daemons and tools for DHCP and DNS server"
 msgstr ""
 
-#: ../comps-ns64.xml.in.h:13
+#: ../comps-ns64.xml.in.h:10
 msgid "Fax server"
 msgstr ""
 
-#: ../comps-ns64.xml.in.h:15
+#: ../comps-ns64.xml.in.h:11
+msgid "Configure HylaFax+ and manage IAX modems"
+msgstr ""
+
+#: ../comps-ns64.xml.in.h:12
 msgid "Basic firewall"
 msgstr ""
 
-#: ../comps-ns64.xml.in.h:16
+#: ../comps-ns64.xml.in.h:13
 msgid "Configure network adapters and basic firewall"
 msgstr ""
 
-#: ../comps-ns64.xml.in.h:17
+#: ../comps-ns64.xml.in.h:14
 msgid "File server"
 msgstr ""
 
-#: ../comps-ns64.xml.in.h:18
+#: ../comps-ns64.xml.in.h:15
 msgid "Daemons and tools for network file sharing"
 msgstr ""
 
-#: ../comps-ns64.xml.in.h:19
+#: ../comps-ns64.xml.in.h:16
 msgid "Groupware"
 msgstr ""
 
-#: ../comps-ns64.xml.in.h:21
+#: ../comps-ns64.xml.in.h:17
+msgid "SOGo server and Thundebird extensions"
+msgstr ""
+
+#: ../comps-ns64.xml.in.h:18
 msgid "Email"
 msgstr ""
 
-#: ../comps-ns64.xml.in.h:22
+#: ../comps-ns64.xml.in.h:19
 msgid "Email server and filter"
 msgstr ""
 
-#: ../comps-ns64.xml.in.h:23
+#: ../comps-ns64.xml.in.h:20
 msgid "Instant messaging"
 msgstr ""
 
-#: ../comps-ns64.xml.in.h:24
+#: ../comps-ns64.xml.in.h:21
 msgid "XMPP/Jabber chat server"
 msgstr ""
 
-#: ../comps-ns64.xml.in.h:25
+#: ../comps-ns64.xml.in.h:22
 msgid "Print server"
 msgstr ""
 
-#: ../comps-ns64.xml.in.h:26
+#: ../comps-ns64.xml.in.h:23
 msgid "Print management server (CUPS)"
 msgstr ""
 
-#: ../comps-ns64.xml.in.h:27
+#: ../comps-ns64.xml.in.h:24
 msgid "Web server"
 msgstr ""
 
-#: ../comps-ns64.xml.in.h:28
+#: ../comps-ns64.xml.in.h:25
 msgid "Configuration tools for Apache web server"
 msgstr ""
 
-#: ../comps-ns64.xml.in.h:29
+#: ../comps-ns64.xml.in.h:26
 msgid "MySQL server"
 msgstr ""
 
-#: ../comps-ns64.xml.in.h:30
+#: ../comps-ns64.xml.in.h:27
 msgid "Configuration tools for MySQL"
 msgstr ""
 
-#: ../comps-ns64.xml.in.h:31
+#: ../comps-ns64.xml.in.h:28
 msgid "Bandwidth monitor"
 msgstr ""
 
-#: ../comps-ns64.xml.in.h:32
+#: ../comps-ns64.xml.in.h:29
 msgid "Configure and manage Ntopng"
 msgstr ""
 
-#: ../comps-ns64.xml.in.h:33
+#: ../comps-ns64.xml.in.h:30
 msgid "UPS support"
 msgstr ""
 
-#: ../comps-ns64.xml.in.h:34
+#: ../comps-ns64.xml.in.h:31
 msgid "UPS management and monitoring configuration"
 msgstr ""
 
-#: ../comps-ns64.xml.in.h:35
+#: ../comps-ns64.xml.in.h:32
 msgid "Statistics"
 msgstr ""
 
-#: ../comps-ns64.xml.in.h:36
+#: ../comps-ns64.xml.in.h:33
 msgid "Collect and analyse system statistics"
 msgstr ""
 
-#: ../comps-ns64.xml.in.h:37
+#: ../comps-ns64.xml.in.h:34
 msgid "Web proxy"
 msgstr ""
 
-#: ../comps-ns64.xml.in.h:38
+#: ../comps-ns64.xml.in.h:35
 msgid "Squid web caching proxy configuration"
 msgstr ""
 
-#: ../comps-ns64.xml.in.h:39
+#: ../comps-ns64.xml.in.h:36
 msgid "Web filter"
 msgstr ""
 
-#: ../comps-ns64.xml.in.h:40
+#: ../comps-ns64.xml.in.h:37
 msgid "Squid web content and virus filter"
 msgstr ""
 
-#: ../comps-ns64.xml.in.h:41
+#: ../comps-ns64.xml.in.h:38
 msgid "Configure remote-access and site-to-site Virtual Private Networks (VPN)"
+msgstr ""
+
+#: ../comps-ns64.xml.in.h:39
+msgid "NethServer"
+msgstr ""
+
+#: ../comps-ns64.xml.in.h:40
+msgid "Small and Medium Enterprises (SME) oriented Linux distribution"
 msgstr ""

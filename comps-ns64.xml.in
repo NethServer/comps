@@ -8,7 +8,7 @@
   <group>
     <id>buildsys-build</id>
     <_name>Build system</_name>
-    <_description>Required RPMs to build a NethServer RPM packages</_description>
+    <_description>Tools for building RPMs</_description>
     <default>false</default>
     <uservisible>false</uservisible>
     <packagelist>
@@ -68,9 +68,9 @@
     </packagelist>
   </group>
   <group>
-    <id>nethserver-core</id>
-    <_name>Core</_name>
-    <_description>Core tools, libraries and web UI</_description>
+    <id>nethserver-iso</id>
+    <name>ISO</name>
+    <_description>Additional ISO packages</_description>
     <default>true</default>
     <uservisible>false</uservisible>
     <packagelist>
@@ -501,7 +501,7 @@
     <grouplist>
       <groupid>nethserver</groupid>
       <groupid>nethserver-backup</groupid>
-      <groupid>nethserver-core</groupid>
+      <groupid>nethserver-iso</groupid>
       <groupid>nethserver-dns-dhcp</groupid>
       <groupid>nethserver-fax-server</groupid>
       <groupid>nethserver-firewall-base</groupid>
