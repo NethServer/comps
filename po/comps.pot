@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-08-28 10:47+0200\n"
+"POT-Creation-Date: 2013-10-23 10:43+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -2929,4 +2929,8 @@ msgstr ""
 
 #: ../comps-ns6.xml.in.h:40
 msgid "Squid web content and virus filter"
+msgstr ""
+
+#: ../comps-ns6.xml.in.h:41
+msgid "Configure remote-access and site-to-site Virtual Private Networks (VPN)"
 msgstr ""

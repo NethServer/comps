@@ -17,8 +17,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: comps\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-08-28 10:47+0200\n"
-"PO-Revision-Date: 2013-08-28 17:04+0200\n"
+"POT-Creation-Date: 2013-10-23 10:43+0200\n"
+"PO-Revision-Date: 2013-10-23 10:44+0200\n"
 "Last-Translator: notting <notting@redhat.com>\n"
 "Language-Team: Italian <trans-it@lists.fedoraproject.org>\n"
 "Language: it\n"
@@ -3124,6 +3124,10 @@ msgstr "Filtro web"
 #: ../comps-ns6.xml.in.h:40
 msgid "Squid web content and virus filter"
 msgstr "Filtro web per contenuti e virus"
+
+#: ../comps-ns6.xml.in.h:41
+msgid "Configure remote-access and site-to-site Virtual Private Networks (VPN)"
+msgstr "Configura le Virtual Private Network (VPN) per l'accesso di host o reti remote"
 
 #~ msgid "Mail"
 #~ msgstr "Posta"

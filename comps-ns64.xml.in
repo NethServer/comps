@@ -298,6 +298,20 @@
   </group>
 
   <group>
+    <id>nethserver-vpn</id>
+    <name>VPN</name>
+    <_description>Configure remote-access and site-to-site Virtual Private Networks (VPN)</_description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type="mandatory">nethserver-ipsec</packagereq>
+      <packagereq type="mandatory">nethserver-openvpn</packagereq>
+      <packagereq type="optional">nethserver-samba</packagereq>      
+    </packagelist>
+  </group>
+
+
+  <group>
     <id>centos-minimal</id>
     <name>CentOS-minimal</name>
     <description>CentOS minimal package set</description>
