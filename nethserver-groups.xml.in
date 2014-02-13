@@ -43,20 +43,6 @@
   </group>
 
   <group>
-    <id>nethesis-remote-admin</id>
-    <_name>Nethesis remote administration</_name>
-    <_description>Nethesis tools for monitoring and remote administration</_description>
-    <default>false</default>
-    <uservisible>true</uservisible>
-    <packagelist>
-      <!-- <packagereq type="mandatory">nethserver-pulp-consumer</packagereq> -->
-      <!-- <packagereq type="mandatory">nethserver-puppet</packagereq> -->
-      <packagereq type="mandatory">nethserver-register</packagereq>
-      <packagereq type="mandatory">ardad</packagereq>
-      <packagereq type="mandatory">yum-cron</packagereq>
-    </packagelist>
-  </group>
-  <group>
     <id>nethserver-backup</id>
     <_name>Backup</_name>
     <_description>Backup of configuration and data</_description>
