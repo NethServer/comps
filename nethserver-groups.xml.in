@@ -60,7 +60,6 @@
     <default>true</default>
     <uservisible>false</uservisible>
     <packagelist>
-      <packagereq type="mandatory">nethserver-grub</packagereq>
       <packagereq type="mandatory">nethserver-httpd-admin</packagereq>
       <packagereq type="mandatory">nethserver-ntp</packagereq>
       <packagereq type="mandatory">nethserver-hosts</packagereq>
