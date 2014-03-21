@@ -17,7 +17,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: comps\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-11-27 18:48+0100\n"
+"POT-Creation-Date: 2014-03-21 18:06+0100\n"
 "PO-Revision-Date: 2013-11-27 18:50+0100\n"
 "Last-Translator: notting <notting@redhat.com>\n"
 "Language-Team: Italian <trans-it@lists.fedoraproject.org>\n"
@@ -36,40 +36,40 @@ msgid "Tools for building RPMs"
 msgstr "Strumenti per fare gli RPM"
 
 #: ../nethserver-groups.xml.in.h:3
-msgid "Nethesis remote administration"
-msgstr "Amministrazione remota Nethesis"
-
-#: ../nethserver-groups.xml.in.h:4
-msgid "Nethesis tools for monitoring and remote administration"
-msgstr "Strumenti Nethesis per il monitoraggio e l'amministrazione remota"
-
-#: ../nethserver-groups.xml.in.h:5
-msgid "Backup"
-msgstr "Backup"
-
-#: ../nethserver-groups.xml.in.h:6
-msgid "Backup of configuration and data"
-msgstr "Backup della configurazione del sistema e dei dati"
-
-#: ../nethserver-groups.xml.in.h:7
 msgid "Additional ISO packages"
 msgstr "Pacchetti aggiuntivi per la ISO"
 
-#: ../nethserver-groups.xml.in.h:8
+#: ../nethserver-groups.xml.in.h:4
+msgid "Backup"
+msgstr "Backup"
+
+#: ../nethserver-groups.xml.in.h:5
+msgid "Backup of configuration and data"
+msgstr "Backup della configurazione del sistema e dei dati"
+
+#: ../nethserver-groups.xml.in.h:6
 msgid "DNS and DHCP server"
 msgstr "Server DNS e DHCP"
 
-#: ../nethserver-groups.xml.in.h:9
+#: ../nethserver-groups.xml.in.h:7
 msgid "Daemons and tools for DHCP and DNS server"
 msgstr "Demoni e strumenti per i servizi DNS e DHCP"
 
-#: ../nethserver-groups.xml.in.h:10
+#: ../nethserver-groups.xml.in.h:8
 msgid "Fax server"
 msgstr "Fax server"
 
-#: ../nethserver-groups.xml.in.h:11
+#: ../nethserver-groups.xml.in.h:9
 msgid "Configure HylaFax+ and manage IAX modems"
 msgstr "Configura HylaFax+ e gestisce i modem IAX"
+
+#: ../nethserver-groups.xml.in.h:10
+msgid "Web-based fax client"
+msgstr ""
+
+#: ../nethserver-groups.xml.in.h:11
+msgid "Manage faxes from a simple web interface"
+msgstr ""
 
 #: ../nethserver-groups.xml.in.h:12
 msgid "Basic firewall"
@@ -128,74 +128,86 @@ msgid "Configuration tools for Apache web server"
 msgstr "Strumenti di configurazione per il server web Apache"
 
 #: ../nethserver-groups.xml.in.h:26
-msgid "MySQL server"
-msgstr "Server MySQL"
-
-#: ../nethserver-groups.xml.in.h:27
-msgid "Configuration tools for MySQL"
-msgstr "Strumenti di configurazione per MySQL"
-
-#: ../nethserver-groups.xml.in.h:28
 msgid "Bandwidth monitor"
 msgstr "Monitoraggio banda"
 
-#: ../nethserver-groups.xml.in.h:29
+#: ../nethserver-groups.xml.in.h:27
 msgid "Configure and manage Ntopng"
 msgstr "Configurazione e gestione di Ntopng"
 
-#: ../nethserver-groups.xml.in.h:30
+#: ../nethserver-groups.xml.in.h:28
 msgid "UPS support"
 msgstr "Supporto UPS"
 
-#: ../nethserver-groups.xml.in.h:31
+#: ../nethserver-groups.xml.in.h:29
 msgid "UPS management and monitoring configuration"
 msgstr ""
 "Configurazione della gestione e del monitoraggio dei gruppi di continuità"
 
-#: ../nethserver-groups.xml.in.h:32
+#: ../nethserver-groups.xml.in.h:30
 msgid "Statistics"
 msgstr "Statistiche"
 
-#: ../nethserver-groups.xml.in.h:33
+#: ../nethserver-groups.xml.in.h:31
 msgid "Collect and analyse system statistics"
 msgstr "Registra e analizza le statistiche del sistema"
 
-#: ../nethserver-groups.xml.in.h:34
+#: ../nethserver-groups.xml.in.h:32
 msgid "Web proxy"
 msgstr "Proxy web"
 
-#: ../nethserver-groups.xml.in.h:35
+#: ../nethserver-groups.xml.in.h:33
 msgid "Squid web caching proxy configuration"
 msgstr "Configurazione Squid (web caching proxy)"
 
-#: ../nethserver-groups.xml.in.h:36
+#: ../nethserver-groups.xml.in.h:34
 msgid "Web filter"
 msgstr "Filtro web"
 
-#: ../nethserver-groups.xml.in.h:37
+#: ../nethserver-groups.xml.in.h:35
 msgid "Squid web content and virus filter"
 msgstr "Filtro web per contenuti e virus"
 
-#: ../nethserver-groups.xml.in.h:38
+#: ../nethserver-groups.xml.in.h:36
 msgid "Configure remote-access and site-to-site Virtual Private Networks (VPN)"
 msgstr ""
 "Configura le Virtual Private Network (VPN) per l'accesso di host o reti "
 "remote"
 
-#: ../nethserver-groups.xml.in.h:39
+#: ../nethserver-groups.xml.in.h:37
 msgid "ownCloud"
 msgstr "ownCloud"
 
-#: ../nethserver-groups.xml.in.h:40
+#: ../nethserver-groups.xml.in.h:38
 msgid ""
 "Configure ownCloud, universal access to your files via the web, your "
 "computer or your mobile devices - wherever you are"
-msgstr "Configura ownCloud - accesso completo ai propri file via web, computer o dispositivi mobili - da qualsiasi luogo"
+msgstr ""
+"Configura ownCloud - accesso completo ai propri file via web, computer o "
+"dispositivi mobili - da qualsiasi luogo"
+
+#: ../nethserver-groups.xml.in.h:39
+msgid "MySQL server"
+msgstr "Server MySQL"
+
+#: ../nethserver-groups.xml.in.h:40
+msgid "Configuration tools for MySQL"
+msgstr "Strumenti di configurazione per MySQL"
 
 #: ../nethserver-groups.xml.in.h:41
-msgid "NethServer"
-msgstr "NethServer"
+msgid "Base system"
+msgstr "Sistema base"
 
 #: ../nethserver-groups.xml.in.h:42
-msgid "Small and Medium Enterprises (SME) oriented Linux distribution"
-msgstr "Distribuzione Linux per le Piccole e Medie Imprese (PMI)"
+msgid "Infrastructure and groupware services"
+msgstr "Infrastruttura e servizi di base"
+
+#: ../nethserver-groups.xml.in.h:43
+msgid "Firewall"
+msgstr "Firewall"
+
+#: ../nethserver-groups.xml.in.h:44
+#, fuzzy
+msgid "UTM Firewall"
+msgstr "Firewall UTM"
+
