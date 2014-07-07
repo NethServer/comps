@@ -359,6 +359,17 @@
   </group>
 
   <group>
+    <id>nethserver-ftp</id>
+    <_name>FTP server</_name>
+    <_description>Configure the FTP server (vsftpd)</_description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type="mandatory">nethserver-vsftpd</packagereq>
+    </packagelist>
+  </group>
+
+  <group>
     <id>nethserver-groupware</id>
     <_name>Groupware</_name>
     <_description>SOGo server and Thundebird extensions</_description>

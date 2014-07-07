@@ -17,7 +17,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: comps\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-03-21 18:06+0100\n"
+"POT-Creation-Date: 2014-07-07 09:37+0200\n"
 "PO-Revision-Date: 2013-11-27 18:50+0100\n"
 "Last-Translator: notting <notting@redhat.com>\n"
 "Language-Team: Italian <trans-it@lists.fedoraproject.org>\n"
@@ -88,97 +88,105 @@ msgid "Daemons and tools for network file sharing"
 msgstr "Demoni e strumenti per la condivisione file in rete"
 
 #: ../nethserver-groups.xml.in.h:16
+msgid "FTP server"
+msgstr "Server FTP"
+
+#: ../nethserver-groups.xml.in.h:17
+msgid "Configure the FTP server (vsftpd)"
+msgstr "Configure the FTP server (vsftpd)"
+
+#: ../nethserver-groups.xml.in.h:18
 msgid "Groupware"
 msgstr "Groupware"
 
-#: ../nethserver-groups.xml.in.h:17
+#: ../nethserver-groups.xml.in.h:19
 msgid "SOGo server and Thundebird extensions"
 msgstr "Server SOGo ed estensioni per Thunderbird"
 
-#: ../nethserver-groups.xml.in.h:18
+#: ../nethserver-groups.xml.in.h:20
 msgid "Email"
 msgstr "Email"
 
-#: ../nethserver-groups.xml.in.h:19
+#: ../nethserver-groups.xml.in.h:21
 msgid "Email server and filter"
 msgstr "Server e filtri di posta elettronica"
 
-#: ../nethserver-groups.xml.in.h:20
+#: ../nethserver-groups.xml.in.h:22
 msgid "Instant messaging"
 msgstr "Messaggistica istantanea"
 
-#: ../nethserver-groups.xml.in.h:21
+#: ../nethserver-groups.xml.in.h:23
 msgid "XMPP/Jabber chat server"
 msgstr "Server di chat XMPP/Jabber"
 
-#: ../nethserver-groups.xml.in.h:22
+#: ../nethserver-groups.xml.in.h:24
 msgid "Print server"
 msgstr "Server di stampa"
 
-#: ../nethserver-groups.xml.in.h:23
+#: ../nethserver-groups.xml.in.h:25
 msgid "Print management server (CUPS)"
 msgstr "Servizio di gestione stampanti (CUPS)"
 
-#: ../nethserver-groups.xml.in.h:24
+#: ../nethserver-groups.xml.in.h:26
 msgid "Web server"
 msgstr "Server Web"
 
-#: ../nethserver-groups.xml.in.h:25
+#: ../nethserver-groups.xml.in.h:27
 msgid "Configuration tools for Apache web server"
 msgstr "Strumenti di configurazione per il server web Apache"
 
-#: ../nethserver-groups.xml.in.h:26
+#: ../nethserver-groups.xml.in.h:28
 msgid "Bandwidth monitor"
 msgstr "Monitoraggio banda"
 
-#: ../nethserver-groups.xml.in.h:27
+#: ../nethserver-groups.xml.in.h:29
 msgid "Configure and manage Ntopng"
 msgstr "Configurazione e gestione di Ntopng"
 
-#: ../nethserver-groups.xml.in.h:28
+#: ../nethserver-groups.xml.in.h:30
 msgid "UPS support"
 msgstr "Supporto UPS"
 
-#: ../nethserver-groups.xml.in.h:29
+#: ../nethserver-groups.xml.in.h:31
 msgid "UPS management and monitoring configuration"
 msgstr ""
 "Configurazione della gestione e del monitoraggio dei gruppi di continuità"
 
-#: ../nethserver-groups.xml.in.h:30
+#: ../nethserver-groups.xml.in.h:32
 msgid "Statistics"
 msgstr "Statistiche"
 
-#: ../nethserver-groups.xml.in.h:31
+#: ../nethserver-groups.xml.in.h:33
 msgid "Collect and analyse system statistics"
 msgstr "Registra e analizza le statistiche del sistema"
 
-#: ../nethserver-groups.xml.in.h:32
+#: ../nethserver-groups.xml.in.h:34
 msgid "Web proxy"
 msgstr "Proxy web"
 
-#: ../nethserver-groups.xml.in.h:33
+#: ../nethserver-groups.xml.in.h:35
 msgid "Squid web caching proxy configuration"
 msgstr "Configurazione Squid (web caching proxy)"
 
-#: ../nethserver-groups.xml.in.h:34
+#: ../nethserver-groups.xml.in.h:36
 msgid "Web filter"
 msgstr "Filtro web"
 
-#: ../nethserver-groups.xml.in.h:35
+#: ../nethserver-groups.xml.in.h:37
 msgid "Squid web content and virus filter"
 msgstr "Filtro web per contenuti e virus"
 
-#: ../nethserver-groups.xml.in.h:36
+#: ../nethserver-groups.xml.in.h:38
 msgid "Configure remote-access and site-to-site Virtual Private Networks (VPN)"
 msgstr ""
 "Configura le Virtual Private Network (VPN) per l'accesso di host o reti "
 "remote"
 
-#: ../nethserver-groups.xml.in.h:37
+#: ../nethserver-groups.xml.in.h:39
 msgid "ownCloud"
 msgstr "ownCloud"
 
-#: ../nethserver-groups.xml.in.h:38
+#: ../nethserver-groups.xml.in.h:40
 msgid ""
 "Configure ownCloud, universal access to your files via the web, your "
 "computer or your mobile devices - wherever you are"
@@ -186,28 +194,27 @@ msgstr ""
 "Configura ownCloud - accesso completo ai propri file via web, computer o "
 "dispositivi mobili - da qualsiasi luogo"
 
-#: ../nethserver-groups.xml.in.h:39
+#: ../nethserver-groups.xml.in.h:41
 msgid "MySQL server"
 msgstr "Server MySQL"
 
-#: ../nethserver-groups.xml.in.h:40
+#: ../nethserver-groups.xml.in.h:42
 msgid "Configuration tools for MySQL"
 msgstr "Strumenti di configurazione per MySQL"
 
-#: ../nethserver-groups.xml.in.h:41
+#: ../nethserver-groups.xml.in.h:43
 msgid "Base system"
 msgstr "Sistema base"
 
-#: ../nethserver-groups.xml.in.h:42
+#: ../nethserver-groups.xml.in.h:44
 msgid "Infrastructure and groupware services"
 msgstr "Infrastruttura e servizi di base"
 
-#: ../nethserver-groups.xml.in.h:43
+#: ../nethserver-groups.xml.in.h:45
 msgid "Firewall"
 msgstr "Firewall"
 
-#: ../nethserver-groups.xml.in.h:44
+#: ../nethserver-groups.xml.in.h:46
 #, fuzzy
 msgid "UTM Firewall"
 msgstr "Firewall UTM"
-
