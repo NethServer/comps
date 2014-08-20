@@ -17,8 +17,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: comps\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-07-07 09:37+0200\n"
-"PO-Revision-Date: 2013-11-27 18:50+0100\n"
+"POT-Creation-Date: 2014-08-20 18:01+0200\n"
+"PO-Revision-Date: 2014-08-20 18:32+0200\n"
 "Last-Translator: notting <notting@redhat.com>\n"
 "Language-Team: Italian <trans-it@lists.fedoraproject.org>\n"
 "Language: it\n"
@@ -65,11 +65,11 @@ msgstr "Configura HylaFax+ e gestisce i modem IAX"
 
 #: ../nethserver-groups.xml.in.h:10
 msgid "Web-based fax client"
-msgstr ""
+msgstr "Web-based fax client"
 
 #: ../nethserver-groups.xml.in.h:11
 msgid "Manage faxes from a simple web interface"
-msgstr ""
+msgstr "Gestione dei fax da una semplice interfaccia web"
 
 #: ../nethserver-groups.xml.in.h:12
 msgid "Basic firewall"
@@ -203,18 +203,25 @@ msgid "Configuration tools for MySQL"
 msgstr "Strumenti di configurazione per MySQL"
 
 #: ../nethserver-groups.xml.in.h:43
+msgid "Intrusion Prevention System"
+msgstr "Intrusion Prevention System"
+
+#: ../nethserver-groups.xml.in.h:44
+msgid "Monitor and block network traffic for malicious activity"
+msgstr "Controlla e blocca il traffico di rete proveniente da attività malevoli"
+
+#: ../nethserver-groups.xml.in.h:45
 msgid "Base system"
 msgstr "Sistema base"
 
-#: ../nethserver-groups.xml.in.h:44
+#: ../nethserver-groups.xml.in.h:46
 msgid "Infrastructure and groupware services"
 msgstr "Infrastruttura e servizi di base"
 
-#: ../nethserver-groups.xml.in.h:45
+#: ../nethserver-groups.xml.in.h:47
 msgid "Firewall"
 msgstr "Firewall"
 
-#: ../nethserver-groups.xml.in.h:46
-#, fuzzy
+#: ../nethserver-groups.xml.in.h:48
 msgid "UTM Firewall"
 msgstr "Firewall UTM"
