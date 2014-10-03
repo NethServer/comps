@@ -17,7 +17,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: comps\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-08-20 18:01+0200\n"
+"POT-Creation-Date: 2014-10-03 17:08+0200\n"
 "PO-Revision-Date: 2014-08-20 18:32+0200\n"
 "Last-Translator: notting <notting@redhat.com>\n"
 "Language-Team: Italian <trans-it@lists.fedoraproject.org>\n"
@@ -208,20 +208,29 @@ msgstr "Intrusion Prevention System"
 
 #: ../nethserver-groups.xml.in.h:44
 msgid "Monitor and block network traffic for malicious activity"
-msgstr "Controlla e blocca il traffico di rete proveniente da attività malevoli"
+msgstr ""
+"Controlla e blocca il traffico di rete proveniente da attività malevoli"
 
 #: ../nethserver-groups.xml.in.h:45
+msgid "POP3 proxy"
+msgstr "Proxy POP3"
+
+#: ../nethserver-groups.xml.in.h:46
+msgid "Intercept POP3 connections and scan messages for virtus and spam"
+msgstr "Intercetta le connessioni POP3 e scansiona i messaggi alla ricerca di  virus e spam"
+
+#: ../nethserver-groups.xml.in.h:47
 msgid "Base system"
 msgstr "Sistema base"
 
-#: ../nethserver-groups.xml.in.h:46
+#: ../nethserver-groups.xml.in.h:48
 msgid "Infrastructure and groupware services"
 msgstr "Infrastruttura e servizi di base"
 
-#: ../nethserver-groups.xml.in.h:47
+#: ../nethserver-groups.xml.in.h:49
 msgid "Firewall"
 msgstr "Firewall"
 
-#: ../nethserver-groups.xml.in.h:48
+#: ../nethserver-groups.xml.in.h:50
 msgid "UTM Firewall"
 msgstr "Firewall UTM"

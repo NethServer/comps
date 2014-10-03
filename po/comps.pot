@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-08-20 18:01+0200\n"
+"POT-Creation-Date: 2014-10-03 17:08+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -196,17 +196,25 @@ msgid "Monitor and block network traffic for malicious activity"
 msgstr ""
 
 #: ../nethserver-groups.xml.in.h:45
-msgid "Base system"
+msgid "POP3 proxy"
 msgstr ""
 
 #: ../nethserver-groups.xml.in.h:46
-msgid "Infrastructure and groupware services"
+msgid "Intercept POP3 connections and scan messages for virtus and spam"
 msgstr ""
 
 #: ../nethserver-groups.xml.in.h:47
-msgid "Firewall"
+msgid "Base system"
 msgstr ""
 
 #: ../nethserver-groups.xml.in.h:48
+msgid "Infrastructure and groupware services"
+msgstr ""
+
+#: ../nethserver-groups.xml.in.h:49
+msgid "Firewall"
+msgstr ""
+
+#: ../nethserver-groups.xml.in.h:50
 msgid "UTM Firewall"
 msgstr ""
