@@ -284,6 +284,9 @@
       <packagereq type="mandatory">wget</packagereq>
       <packagereq type="mandatory">cpuspeed</packagereq>
       <packagereq type="mandatory">wireless-tools</packagereq>
+      <packagereq type="mandatory">bind-utils</packagereq>
+      <packagereq type="mandatory">tmpwatch</packagereq>
+      <packagereq type="mandatory">traceroute</packagereq>
     </packagelist>
   </group>
   
