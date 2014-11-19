@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-10-03 17:08+0200\n"
+"POT-Creation-Date: 2014-11-19 09:46+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -102,119 +102,127 @@ msgid "Email server and filter"
 msgstr ""
 
 #: ../nethserver-groups.xml.in.h:22
-msgid "Instant messaging"
+msgid "POP3 connector"
 msgstr ""
 
 #: ../nethserver-groups.xml.in.h:23
-msgid "XMPP/Jabber chat server"
+msgid "Fetch messages from external email accounts with POP3 or IMAP access"
 msgstr ""
 
 #: ../nethserver-groups.xml.in.h:24
-msgid "Print server"
+msgid "Instant messaging"
 msgstr ""
 
 #: ../nethserver-groups.xml.in.h:25
-msgid "Print management server (CUPS)"
+msgid "XMPP/Jabber chat server"
 msgstr ""
 
 #: ../nethserver-groups.xml.in.h:26
-msgid "Web server"
+msgid "Print server"
 msgstr ""
 
 #: ../nethserver-groups.xml.in.h:27
-msgid "Configuration tools for Apache web server"
+msgid "Print management server (CUPS)"
 msgstr ""
 
 #: ../nethserver-groups.xml.in.h:28
-msgid "Bandwidth monitor"
+msgid "Web server"
 msgstr ""
 
 #: ../nethserver-groups.xml.in.h:29
-msgid "Configure and manage Ntopng"
+msgid "Configuration tools for Apache web server"
 msgstr ""
 
 #: ../nethserver-groups.xml.in.h:30
-msgid "UPS support"
+msgid "Bandwidth monitor"
 msgstr ""
 
 #: ../nethserver-groups.xml.in.h:31
-msgid "UPS management and monitoring configuration"
+msgid "Configure and manage Ntopng"
 msgstr ""
 
 #: ../nethserver-groups.xml.in.h:32
-msgid "Statistics"
+msgid "UPS support"
 msgstr ""
 
 #: ../nethserver-groups.xml.in.h:33
-msgid "Collect and analyse system statistics"
+msgid "UPS management and monitoring configuration"
 msgstr ""
 
 #: ../nethserver-groups.xml.in.h:34
-msgid "Web proxy"
+msgid "Statistics"
 msgstr ""
 
 #: ../nethserver-groups.xml.in.h:35
-msgid "Squid web caching proxy configuration"
+msgid "Collect and analyse system statistics"
 msgstr ""
 
 #: ../nethserver-groups.xml.in.h:36
-msgid "Web filter"
+msgid "Web proxy"
 msgstr ""
 
 #: ../nethserver-groups.xml.in.h:37
-msgid "Squid web content and virus filter"
+msgid "Squid web caching proxy configuration"
 msgstr ""
 
 #: ../nethserver-groups.xml.in.h:38
-msgid "Configure remote-access and site-to-site Virtual Private Networks (VPN)"
+msgid "Web filter"
 msgstr ""
 
 #: ../nethserver-groups.xml.in.h:39
-msgid "ownCloud"
+msgid "Squid web content and virus filter"
 msgstr ""
 
 #: ../nethserver-groups.xml.in.h:40
+msgid "Configure remote-access and site-to-site Virtual Private Networks (VPN)"
+msgstr ""
+
+#: ../nethserver-groups.xml.in.h:41
+msgid "ownCloud"
+msgstr ""
+
+#: ../nethserver-groups.xml.in.h:42
 msgid ""
 "Configure ownCloud, universal access to your files via the web, your "
 "computer or your mobile devices - wherever you are"
 msgstr ""
 
-#: ../nethserver-groups.xml.in.h:41
+#: ../nethserver-groups.xml.in.h:43
 msgid "MySQL server"
 msgstr ""
 
-#: ../nethserver-groups.xml.in.h:42
+#: ../nethserver-groups.xml.in.h:44
 msgid "Configuration tools for MySQL"
 msgstr ""
 
-#: ../nethserver-groups.xml.in.h:43
+#: ../nethserver-groups.xml.in.h:45
 msgid "Intrusion Prevention System"
 msgstr ""
 
-#: ../nethserver-groups.xml.in.h:44
+#: ../nethserver-groups.xml.in.h:46
 msgid "Monitor and block network traffic for malicious activity"
 msgstr ""
 
-#: ../nethserver-groups.xml.in.h:45
+#: ../nethserver-groups.xml.in.h:47
 msgid "POP3 proxy"
 msgstr ""
 
-#: ../nethserver-groups.xml.in.h:46
+#: ../nethserver-groups.xml.in.h:48
 msgid "Intercept POP3 connections and scan messages for virtus and spam"
 msgstr ""
 
-#: ../nethserver-groups.xml.in.h:47
+#: ../nethserver-groups.xml.in.h:49
 msgid "Base system"
 msgstr ""
 
-#: ../nethserver-groups.xml.in.h:48
+#: ../nethserver-groups.xml.in.h:50
 msgid "Infrastructure and groupware services"
 msgstr ""
 
-#: ../nethserver-groups.xml.in.h:49
+#: ../nethserver-groups.xml.in.h:51
 msgid "Firewall"
 msgstr ""
 
-#: ../nethserver-groups.xml.in.h:50
+#: ../nethserver-groups.xml.in.h:52
 msgid "UTM Firewall"
 msgstr ""

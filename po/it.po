@@ -17,10 +17,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: comps\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-10-03 17:08+0200\n"
-"PO-Revision-Date: 2014-08-20 18:32+0200\n"
-"Last-Translator: notting <notting@redhat.com>\n"
-"Language-Team: Italian <trans-it@lists.fedoraproject.org>\n"
+"POT-Creation-Date: 2014-11-19 09:46+0100\n"
+"PO-Revision-Date: 2014-11-19 09:52+0100\n"
+"Last-Translator: Davide Principi <davide.principi@nethesis.it>\n"
+"Language-Team: NethServer Mailing List <nethserver@googlegroups.com>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -112,81 +112,89 @@ msgid "Email server and filter"
 msgstr "Server e filtri di posta elettronica"
 
 #: ../nethserver-groups.xml.in.h:22
+msgid "POP3 connector"
+msgstr "Connettore POP3"
+
+#: ../nethserver-groups.xml.in.h:23
+msgid "Fetch messages from external email accounts with POP3 or IMAP access"
+msgstr "Scarica i messaggi da un account email esterno con accesso POP3 o IMAP"
+
+#: ../nethserver-groups.xml.in.h:24
 msgid "Instant messaging"
 msgstr "Messaggistica istantanea"
 
-#: ../nethserver-groups.xml.in.h:23
+#: ../nethserver-groups.xml.in.h:25
 msgid "XMPP/Jabber chat server"
 msgstr "Server di chat XMPP/Jabber"
 
-#: ../nethserver-groups.xml.in.h:24
+#: ../nethserver-groups.xml.in.h:26
 msgid "Print server"
 msgstr "Server di stampa"
 
-#: ../nethserver-groups.xml.in.h:25
+#: ../nethserver-groups.xml.in.h:27
 msgid "Print management server (CUPS)"
 msgstr "Servizio di gestione stampanti (CUPS)"
 
-#: ../nethserver-groups.xml.in.h:26
+#: ../nethserver-groups.xml.in.h:28
 msgid "Web server"
 msgstr "Server Web"
 
-#: ../nethserver-groups.xml.in.h:27
+#: ../nethserver-groups.xml.in.h:29
 msgid "Configuration tools for Apache web server"
 msgstr "Strumenti di configurazione per il server web Apache"
 
-#: ../nethserver-groups.xml.in.h:28
+#: ../nethserver-groups.xml.in.h:30
 msgid "Bandwidth monitor"
 msgstr "Monitoraggio banda"
 
-#: ../nethserver-groups.xml.in.h:29
+#: ../nethserver-groups.xml.in.h:31
 msgid "Configure and manage Ntopng"
 msgstr "Configurazione e gestione di Ntopng"
 
-#: ../nethserver-groups.xml.in.h:30
+#: ../nethserver-groups.xml.in.h:32
 msgid "UPS support"
 msgstr "Supporto UPS"
 
-#: ../nethserver-groups.xml.in.h:31
+#: ../nethserver-groups.xml.in.h:33
 msgid "UPS management and monitoring configuration"
 msgstr ""
 "Configurazione della gestione e del monitoraggio dei gruppi di continuità"
 
-#: ../nethserver-groups.xml.in.h:32
+#: ../nethserver-groups.xml.in.h:34
 msgid "Statistics"
 msgstr "Statistiche"
 
-#: ../nethserver-groups.xml.in.h:33
+#: ../nethserver-groups.xml.in.h:35
 msgid "Collect and analyse system statistics"
 msgstr "Registra e analizza le statistiche del sistema"
 
-#: ../nethserver-groups.xml.in.h:34
+#: ../nethserver-groups.xml.in.h:36
 msgid "Web proxy"
 msgstr "Proxy web"
 
-#: ../nethserver-groups.xml.in.h:35
+#: ../nethserver-groups.xml.in.h:37
 msgid "Squid web caching proxy configuration"
 msgstr "Configurazione Squid (web caching proxy)"
 
-#: ../nethserver-groups.xml.in.h:36
+#: ../nethserver-groups.xml.in.h:38
 msgid "Web filter"
 msgstr "Filtro web"
 
-#: ../nethserver-groups.xml.in.h:37
+#: ../nethserver-groups.xml.in.h:39
 msgid "Squid web content and virus filter"
 msgstr "Filtro web per contenuti e virus"
 
-#: ../nethserver-groups.xml.in.h:38
+#: ../nethserver-groups.xml.in.h:40
 msgid "Configure remote-access and site-to-site Virtual Private Networks (VPN)"
 msgstr ""
 "Configura le Virtual Private Network (VPN) per l'accesso di host o reti "
 "remote"
 
-#: ../nethserver-groups.xml.in.h:39
+#: ../nethserver-groups.xml.in.h:41
 msgid "ownCloud"
 msgstr "ownCloud"
 
-#: ../nethserver-groups.xml.in.h:40
+#: ../nethserver-groups.xml.in.h:42
 msgid ""
 "Configure ownCloud, universal access to your files via the web, your "
 "computer or your mobile devices - wherever you are"
@@ -194,43 +202,45 @@ msgstr ""
 "Configura ownCloud - accesso completo ai propri file via web, computer o "
 "dispositivi mobili - da qualsiasi luogo"
 
-#: ../nethserver-groups.xml.in.h:41
+#: ../nethserver-groups.xml.in.h:43
 msgid "MySQL server"
 msgstr "Server MySQL"
 
-#: ../nethserver-groups.xml.in.h:42
+#: ../nethserver-groups.xml.in.h:44
 msgid "Configuration tools for MySQL"
 msgstr "Strumenti di configurazione per MySQL"
 
-#: ../nethserver-groups.xml.in.h:43
+#: ../nethserver-groups.xml.in.h:45
 msgid "Intrusion Prevention System"
 msgstr "Intrusion Prevention System"
 
-#: ../nethserver-groups.xml.in.h:44
+#: ../nethserver-groups.xml.in.h:46
 msgid "Monitor and block network traffic for malicious activity"
 msgstr ""
 "Controlla e blocca il traffico di rete proveniente da attività malevoli"
 
-#: ../nethserver-groups.xml.in.h:45
+#: ../nethserver-groups.xml.in.h:47
 msgid "POP3 proxy"
 msgstr "Proxy POP3"
 
-#: ../nethserver-groups.xml.in.h:46
+#: ../nethserver-groups.xml.in.h:48
 msgid "Intercept POP3 connections and scan messages for virtus and spam"
-msgstr "Intercetta le connessioni POP3 e scansiona i messaggi alla ricerca di  virus e spam"
+msgstr ""
+"Intercetta le connessioni POP3 e scansiona i messaggi alla ricerca di  virus "
+"e spam"
 
-#: ../nethserver-groups.xml.in.h:47
+#: ../nethserver-groups.xml.in.h:49
 msgid "Base system"
 msgstr "Sistema base"
 
-#: ../nethserver-groups.xml.in.h:48
+#: ../nethserver-groups.xml.in.h:50
 msgid "Infrastructure and groupware services"
 msgstr "Infrastruttura e servizi di base"
 
-#: ../nethserver-groups.xml.in.h:49
+#: ../nethserver-groups.xml.in.h:51
 msgid "Firewall"
 msgstr "Firewall"
 
-#: ../nethserver-groups.xml.in.h:50
+#: ../nethserver-groups.xml.in.h:52
 msgid "UTM Firewall"
 msgstr "Firewall UTM"
