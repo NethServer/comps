@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-11-19 09:46+0100\n"
+"POT-Creation-Date: 2015-01-28 17:00+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -212,17 +212,25 @@ msgid "Intercept POP3 connections and scan messages for virtus and spam"
 msgstr ""
 
 #: ../nethserver-groups.xml.in.h:49
-msgid "Base system"
+msgid "Virtual machines manager"
 msgstr ""
 
 #: ../nethserver-groups.xml.in.h:50
-msgid "Infrastructure and groupware services"
+msgid "Web interface for KVM virtual machines"
 msgstr ""
 
 #: ../nethserver-groups.xml.in.h:51
-msgid "Firewall"
+msgid "Base system"
 msgstr ""
 
 #: ../nethserver-groups.xml.in.h:52
+msgid "Infrastructure and groupware services"
+msgstr ""
+
+#: ../nethserver-groups.xml.in.h:53
+msgid "Firewall"
+msgstr ""
+
+#: ../nethserver-groups.xml.in.h:54
 msgid "UTM Firewall"
 msgstr ""

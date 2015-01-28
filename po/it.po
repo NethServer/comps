@@ -17,7 +17,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: comps\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-11-19 09:46+0100\n"
+"POT-Creation-Date: 2015-01-28 17:00+0100\n"
 "PO-Revision-Date: 2014-11-19 09:52+0100\n"
 "Last-Translator: Davide Principi <davide.principi@nethesis.it>\n"
 "Language-Team: NethServer Mailing List <nethserver@googlegroups.com>\n"
@@ -230,17 +230,25 @@ msgstr ""
 "e spam"
 
 #: ../nethserver-groups.xml.in.h:49
+msgid "Virtual machines manager"
+msgstr "Gestore macchine virtuali"
+
+#: ../nethserver-groups.xml.in.h:50
+msgid "Web interface for KVM virtual machines"
+msgstr "Interfaccia web per macchine virtuali KVM"
+
+#: ../nethserver-groups.xml.in.h:51
 msgid "Base system"
 msgstr "Sistema base"
 
-#: ../nethserver-groups.xml.in.h:50
+#: ../nethserver-groups.xml.in.h:52
 msgid "Infrastructure and groupware services"
 msgstr "Infrastruttura e servizi di base"
 
-#: ../nethserver-groups.xml.in.h:51
+#: ../nethserver-groups.xml.in.h:53
 msgid "Firewall"
 msgstr "Firewall"
 
-#: ../nethserver-groups.xml.in.h:52
+#: ../nethserver-groups.xml.in.h:54
 msgid "UTM Firewall"
 msgstr "Firewall UTM"
