@@ -601,6 +601,16 @@
     </packagelist>
   </group>
 
+  <group>
+    <id>nethserver-net-snmp</id>
+    <_name>SNMP server</_name>
+    <_description>Configure the SNMP server</_description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type="mandatory">nethserver-net-snmp</packagereq>
+    </packagelist>
+  </group>
 
 
 <!-- NETHSERVER GROUPS END -->
@@ -634,6 +644,7 @@
       <groupid>nethserver-mysql</groupid>
       <groupid>nethserver-owncloud</groupid>
       <groupid>nethserver-webvirtmgr</groupid>
+      <groupid>nethserver-net-snmp</groupid>
     </grouplist>
   </category>
 
