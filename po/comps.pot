@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-09 10:12+0200\n"
+"POT-Creation-Date: 2015-05-11 10:49+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -232,17 +232,105 @@ msgid "Configure the SNMP server"
 msgstr ""
 
 #: ../nethserver-groups.xml.in.h:54
-msgid "Base system"
+msgid "de support"
 msgstr ""
 
 #: ../nethserver-groups.xml.in.h:55
-msgid "Infrastructure and groupware services"
+msgid "Server Manager de localization"
 msgstr ""
 
 #: ../nethserver-groups.xml.in.h:56
-msgid "Firewall"
+msgid "el support"
 msgstr ""
 
 #: ../nethserver-groups.xml.in.h:57
+msgid "Server Manager el localization"
+msgstr ""
+
+#: ../nethserver-groups.xml.in.h:58
+msgid "es support"
+msgstr ""
+
+#: ../nethserver-groups.xml.in.h:59
+msgid "Server Manager es localization"
+msgstr ""
+
+#: ../nethserver-groups.xml.in.h:60
+msgid "fr support"
+msgstr ""
+
+#: ../nethserver-groups.xml.in.h:61
+msgid "Server Manager fr localization"
+msgstr ""
+
+#: ../nethserver-groups.xml.in.h:62
+msgid "hu support"
+msgstr ""
+
+#: ../nethserver-groups.xml.in.h:63
+msgid "Server Manager hu localization"
+msgstr ""
+
+#: ../nethserver-groups.xml.in.h:64
+msgid "it support"
+msgstr ""
+
+#: ../nethserver-groups.xml.in.h:65
+msgid "Server Manager it localization"
+msgstr ""
+
+#: ../nethserver-groups.xml.in.h:66
+msgid "nl support"
+msgstr ""
+
+#: ../nethserver-groups.xml.in.h:67
+msgid "Server Manager nl localization"
+msgstr ""
+
+#: ../nethserver-groups.xml.in.h:68
+msgid "pt support"
+msgstr ""
+
+#: ../nethserver-groups.xml.in.h:69
+msgid "Server Manager pt localization"
+msgstr ""
+
+#: ../nethserver-groups.xml.in.h:70
+msgid "ru support"
+msgstr ""
+
+#: ../nethserver-groups.xml.in.h:71
+msgid "Server Manager ru localization"
+msgstr ""
+
+#: ../nethserver-groups.xml.in.h:72
+msgid "tr support"
+msgstr ""
+
+#: ../nethserver-groups.xml.in.h:73
+msgid "Server Manager tr localization"
+msgstr ""
+
+#: ../nethserver-groups.xml.in.h:74
+msgid "Base system"
+msgstr ""
+
+#: ../nethserver-groups.xml.in.h:75
+msgid "Infrastructure and groupware services"
+msgstr ""
+
+#: ../nethserver-groups.xml.in.h:76
+msgid "Firewall"
+msgstr ""
+
+#: ../nethserver-groups.xml.in.h:77
 msgid "UTM Firewall"
+msgstr ""
+
+#: ../nethserver-groups.xml.in.h:78
+msgid "Localization"
+msgstr ""
+
+#: ../nethserver-groups.xml.in.h:79
+msgid "Localization of the Server Manager web interface"
 msgstr ""

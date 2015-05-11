@@ -612,6 +612,115 @@
     </packagelist>
   </group>
 
+  <group>
+    <id>nethserver-lang-de</id>
+    <_name>de support</_name>
+    <_description>Server Manager de localization</_description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type='mandatory'>nethserver-lang-de</packagereq>
+    </packagelist>
+  </group>
+
+  <group>
+    <id>nethserver-lang-el</id>
+    <_name>el support</_name>
+    <_description>Server Manager el localization</_description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type='mandatory'>nethserver-lang-el</packagereq>
+    </packagelist>
+  </group>
+
+  <group>
+    <id>nethserver-lang-es</id>
+    <_name>es support</_name>
+    <_description>Server Manager es localization</_description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type='mandatory'>nethserver-lang-es</packagereq>
+    </packagelist>
+  </group>
+
+  <group>
+    <id>nethserver-lang-fr</id>
+    <_name>fr support</_name>
+    <_description>Server Manager fr localization</_description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type='mandatory'>nethserver-lang-fr</packagereq>
+    </packagelist>
+  </group>
+
+  <group>
+    <id>nethserver-lang-hu</id>
+    <_name>hu support</_name>
+    <_description>Server Manager hu localization</_description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type='mandatory'>nethserver-lang-hu</packagereq>
+    </packagelist>
+  </group>
+
+  <group>
+    <id>nethserver-lang-it</id>
+    <_name>it support</_name>
+    <_description>Server Manager it localization</_description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type='mandatory'>nethserver-lang-it</packagereq>
+    </packagelist>
+  </group>
+
+  <group>
+    <id>nethserver-lang-nl</id>
+    <_name>nl support</_name>
+    <_description>Server Manager nl localization</_description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type='mandatory'>nethserver-lang-nl</packagereq>
+    </packagelist>
+  </group>
+
+  <group>
+    <id>nethserver-lang-pt</id>
+    <_name>pt support</_name>
+    <_description>Server Manager pt localization</_description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type='mandatory'>nethserver-lang-pt</packagereq>
+    </packagelist>
+  </group>
+
+  <group>
+    <id>nethserver-lang-ru</id>
+    <_name>ru support</_name>
+    <_description>Server Manager ru localization</_description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type='mandatory'>nethserver-lang-ru</packagereq>
+    </packagelist>
+  </group>
+
+  <group>
+    <id>nethserver-lang-tr</id>
+    <_name>tr support</_name>
+    <_description>Server Manager tr localization</_description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type='mandatory'>nethserver-lang-tr</packagereq>
+    </packagelist>
+  </group>
 
 <!-- NETHSERVER GROUPS END -->
 
@@ -665,6 +774,24 @@
     </grouplist>
   </category>
 
+  <category>
+    <id>server-manager-languages</id>
+    <_name>Languages</_name>
+    <_description>Localization of the Server Manager web interface</_description>
+    <display_order>4</display_order>
+    <grouplist>
+      <groupid>nethserver-l10n-de</groupid>
+      <groupid>nethserver-l10n-el</groupid>
+      <groupid>nethserver-l10n-es</groupid>
+      <groupid>nethserver-l10n-fr</groupid>
+      <groupid>nethserver-l10n-hu</groupid>
+      <groupid>nethserver-l10n-it</groupid>
+      <groupid>nethserver-l10n-nl</groupid>
+      <groupid>nethserver-l10n-pt</groupid>
+      <groupid>nethserver-l10n-ru</groupid>
+      <groupid>nethserver-l10n-tr</groupid>
+    </grouplist>
+  </category>
 <!-- NETHSERVER CATEGORIES END -->
 
 </comps>
