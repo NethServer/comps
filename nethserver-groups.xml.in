@@ -614,8 +614,8 @@
 
   <group>
     <id>nethserver-lang-de</id>
-    <_name>de language</_name>
-    <_description>Server Manager de localization</_description>
+    <_name>German language</_name>
+    <_description>Server Manager German localization</_description>
     <default>false</default>
     <uservisible>true</uservisible>
     <packagelist>
@@ -625,8 +625,8 @@
 
   <group>
     <id>nethserver-lang-el</id>
-    <_name>el language</_name>
-    <_description>Server Manager el localization</_description>
+    <_name>Greek language</_name>
+    <_description>Server Manager Greek localization</_description>
     <default>false</default>
     <uservisible>true</uservisible>
     <packagelist>
@@ -636,8 +636,8 @@
 
   <group>
     <id>nethserver-lang-es</id>
-    <_name>es language</_name>
-    <_description>Server Manager es localization</_description>
+    <_name>Spanish language</_name>
+    <_description>Server Manager Spanish localization</_description>
     <default>false</default>
     <uservisible>true</uservisible>
     <packagelist>
@@ -647,8 +647,8 @@
 
   <group>
     <id>nethserver-lang-fr</id>
-    <_name>fr language</_name>
-    <_description>Server Manager fr localization</_description>
+    <_name>French language</_name>
+    <_description>Server Manager French localization</_description>
     <default>false</default>
     <uservisible>true</uservisible>
     <packagelist>
@@ -658,8 +658,8 @@
 
   <group>
     <id>nethserver-lang-hu</id>
-    <_name>hu language</_name>
-    <_description>Server Manager hu localization</_description>
+    <_name>Hungarian language</_name>
+    <_description>Server Manager Hungarian localization</_description>
     <default>false</default>
     <uservisible>true</uservisible>
     <packagelist>
@@ -669,8 +669,8 @@
 
   <group>
     <id>nethserver-lang-it</id>
-    <_name>it language</_name>
-    <_description>Server Manager it localization</_description>
+    <_name>Italian language</_name>
+    <_description>Server Manager Italian localization</_description>
     <default>false</default>
     <uservisible>true</uservisible>
     <packagelist>
@@ -680,8 +680,8 @@
 
   <group>
     <id>nethserver-lang-nl</id>
-    <_name>nl language</_name>
-    <_description>Server Manager nl localization</_description>
+    <_name>Dutch language</_name>
+    <_description>Server Manager Dutch localization</_description>
     <default>false</default>
     <uservisible>true</uservisible>
     <packagelist>
@@ -691,8 +691,8 @@
 
   <group>
     <id>nethserver-lang-pt</id>
-    <_name>pt language</_name>
-    <_description>Server Manager pt localization</_description>
+    <_name>Portuguese language</_name>
+    <_description>Server Manager Portuguese localization</_description>
     <default>false</default>
     <uservisible>true</uservisible>
     <packagelist>
@@ -702,8 +702,8 @@
 
   <group>
     <id>nethserver-lang-ru</id>
-    <_name>ru language</_name>
-    <_description>Server Manager ru localization</_description>
+    <_name>Russian language</_name>
+    <_description>Server Manager Russian localization</_description>
     <default>false</default>
     <uservisible>true</uservisible>
     <packagelist>
@@ -713,8 +713,8 @@
 
   <group>
     <id>nethserver-lang-tr</id>
-    <_name>tr language</_name>
-    <_description>Server Manager tr localization</_description>
+    <_name>Turkish language</_name>
+    <_description>Server Manager Turkish localization</_description>
     <default>false</default>
     <uservisible>true</uservisible>
     <packagelist>
