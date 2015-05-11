@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-11 10:49+0200\n"
+"POT-Creation-Date: 2015-05-11 11:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -232,7 +232,7 @@ msgid "Configure the SNMP server"
 msgstr ""
 
 #: ../nethserver-groups.xml.in.h:54
-msgid "de support"
+msgid "de language"
 msgstr ""
 
 #: ../nethserver-groups.xml.in.h:55
@@ -240,7 +240,7 @@ msgid "Server Manager de localization"
 msgstr ""
 
 #: ../nethserver-groups.xml.in.h:56
-msgid "el support"
+msgid "el language"
 msgstr ""
 
 #: ../nethserver-groups.xml.in.h:57
@@ -248,7 +248,7 @@ msgid "Server Manager el localization"
 msgstr ""
 
 #: ../nethserver-groups.xml.in.h:58
-msgid "es support"
+msgid "es language"
 msgstr ""
 
 #: ../nethserver-groups.xml.in.h:59
@@ -256,7 +256,7 @@ msgid "Server Manager es localization"
 msgstr ""
 
 #: ../nethserver-groups.xml.in.h:60
-msgid "fr support"
+msgid "fr language"
 msgstr ""
 
 #: ../nethserver-groups.xml.in.h:61
@@ -264,7 +264,7 @@ msgid "Server Manager fr localization"
 msgstr ""
 
 #: ../nethserver-groups.xml.in.h:62
-msgid "hu support"
+msgid "hu language"
 msgstr ""
 
 #: ../nethserver-groups.xml.in.h:63
@@ -272,7 +272,7 @@ msgid "Server Manager hu localization"
 msgstr ""
 
 #: ../nethserver-groups.xml.in.h:64
-msgid "it support"
+msgid "it language"
 msgstr ""
 
 #: ../nethserver-groups.xml.in.h:65
@@ -280,7 +280,7 @@ msgid "Server Manager it localization"
 msgstr ""
 
 #: ../nethserver-groups.xml.in.h:66
-msgid "nl support"
+msgid "nl language"
 msgstr ""
 
 #: ../nethserver-groups.xml.in.h:67
@@ -288,7 +288,7 @@ msgid "Server Manager nl localization"
 msgstr ""
 
 #: ../nethserver-groups.xml.in.h:68
-msgid "pt support"
+msgid "pt language"
 msgstr ""
 
 #: ../nethserver-groups.xml.in.h:69
@@ -296,7 +296,7 @@ msgid "Server Manager pt localization"
 msgstr ""
 
 #: ../nethserver-groups.xml.in.h:70
-msgid "ru support"
+msgid "ru language"
 msgstr ""
 
 #: ../nethserver-groups.xml.in.h:71
@@ -304,7 +304,7 @@ msgid "Server Manager ru localization"
 msgstr ""
 
 #: ../nethserver-groups.xml.in.h:72
-msgid "tr support"
+msgid "tr language"
 msgstr ""
 
 #: ../nethserver-groups.xml.in.h:73
@@ -328,7 +328,7 @@ msgid "UTM Firewall"
 msgstr ""
 
 #: ../nethserver-groups.xml.in.h:78
-msgid "Localization"
+msgid "Languages"
 msgstr ""
 
 #: ../nethserver-groups.xml.in.h:79

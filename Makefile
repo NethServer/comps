@@ -1,10 +1,10 @@
 XMLINFILES=$(wildcard *.xml.in)
 XMLFILES = $(patsubst %.xml.in,%.xml,$(XMLINFILES))
 
-all: po $(XMLFILES)
+all: pot $(XMLFILES)
 
-po: $(XMLINFILES)
-	make -C po -f Makefile || exit 1
+pot: $(XMLINFILES)
+	pushd po; intltool-update --pot --gettext-package=comps ../$<; popd
 
 clean:
 	@rm -fv *~ *.xml
