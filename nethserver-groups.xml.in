@@ -387,6 +387,7 @@
       <packagereq type="mandatory">tmpwatch</packagereq>
       <packagereq type="mandatory">traceroute</packagereq>
       <packagereq type="mandatory">yum-presto</packagereq>
+      <packagereq type="mandatory">epel-release</packagereq>
     </packagelist>
   </group>
   
