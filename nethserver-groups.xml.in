@@ -672,7 +672,7 @@
     <_name>Italian language</_name>
     <_description>Server Manager Italian localization</_description>
     <default>false</default>
-    <uservisible>true</uservisible>
+    <uservisible>false</uservisible>
     <packagelist>
       <packagereq type='mandatory'>nethserver-lang-it</packagereq>
     </packagelist>
