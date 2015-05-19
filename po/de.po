@@ -3,15 +3,15 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Bernhard <bernhard.weber@datenheld.at>, 2015
+# Bernhard Weber <bernhard.weber@datenheld.at>, 2015
 # Gerald Musch, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: nethserver\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-11 11:47+0200\n"
-"PO-Revision-Date: 2015-05-11 09:48+0000\n"
-"Last-Translator: Davide Principi <davide.principi@nethesis.it>\n"
+"POT-Creation-Date: 2015-05-11 11:51+0200\n"
+"PO-Revision-Date: 2015-05-11 09:52+0000\n"
+"Last-Translator: Bernhard Weber <bernhard.weber@datenheld.at>\n"
 "Language-Team: German (http://www.transifex.com/projects/p/nethserver/language/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -235,84 +235,84 @@ msgid "Configure the SNMP server"
 msgstr "Konfiguriere SNMP Server"
 
 #: ../nethserver-groups.xml.in.h:54
-msgid "German"
-msgstr ""
+msgid "German language"
+msgstr "Sprache Deutsch"
 
 #: ../nethserver-groups.xml.in.h:55
 msgid "Server Manager German localization"
-msgstr ""
+msgstr "Server Manager Deutsche Lokalisierung"
 
 #: ../nethserver-groups.xml.in.h:56
 msgid "Greek language"
-msgstr ""
+msgstr "Sprache Griechisch"
 
 #: ../nethserver-groups.xml.in.h:57
 msgid "Server Manager Greek localization"
-msgstr ""
+msgstr "Server Manager Griechische Lokalisierung"
 
 #: ../nethserver-groups.xml.in.h:58
 msgid "Spanish language"
-msgstr ""
+msgstr "Sprache Spanisch"
 
 #: ../nethserver-groups.xml.in.h:59
 msgid "Server Manager Spanish localization"
-msgstr ""
+msgstr "Server Manager Spanische Lokalisierung"
 
 #: ../nethserver-groups.xml.in.h:60
 msgid "French language"
-msgstr ""
+msgstr "Sprache Französisch"
 
 #: ../nethserver-groups.xml.in.h:61
 msgid "Server Manager French localization"
-msgstr ""
+msgstr "Server Manager Französische Lokalisierung"
 
 #: ../nethserver-groups.xml.in.h:62
 msgid "Hungarian language"
-msgstr ""
+msgstr "Sprache Ungarisch"
 
 #: ../nethserver-groups.xml.in.h:63
 msgid "Server Manager Hungarian localization"
-msgstr ""
+msgstr "Server Manager Ungarische Lokalisierung"
 
 #: ../nethserver-groups.xml.in.h:64
 msgid "Italian language"
-msgstr ""
+msgstr "Sprache Italienisch"
 
 #: ../nethserver-groups.xml.in.h:65
 msgid "Server Manager Italian localization"
-msgstr ""
+msgstr "Server Manager Italienische Lokalisierung"
 
 #: ../nethserver-groups.xml.in.h:66
 msgid "Dutch language"
-msgstr ""
+msgstr "Sprache Holländisch"
 
 #: ../nethserver-groups.xml.in.h:67
 msgid "Server Manager Dutch localization"
-msgstr ""
+msgstr "Server Manager Holländische Lokalisierung"
 
 #: ../nethserver-groups.xml.in.h:68
 msgid "Portuguese language"
-msgstr ""
+msgstr "Sprache Portugisisch"
 
 #: ../nethserver-groups.xml.in.h:69
 msgid "Server Manager Portuguese localization"
-msgstr ""
+msgstr "Server Manager Portugisische Lokalisierung"
 
 #: ../nethserver-groups.xml.in.h:70
 msgid "Russian language"
-msgstr ""
+msgstr "Sprache Russisch"
 
 #: ../nethserver-groups.xml.in.h:71
 msgid "Server Manager Russian localization"
-msgstr ""
+msgstr "Server Manager Russische Lokalisierung"
 
 #: ../nethserver-groups.xml.in.h:72
 msgid "Turkish language"
-msgstr ""
+msgstr "Sprache Türkisch"
 
 #: ../nethserver-groups.xml.in.h:73
 msgid "Server Manager Turkish localization"
-msgstr ""
+msgstr "Server Manager Türkische Lokalisierung"
 
 #: ../nethserver-groups.xml.in.h:74
 msgid "Base system"

@@ -9,9 +9,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nethserver\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-11 11:47+0200\n"
-"PO-Revision-Date: 2015-05-11 09:48+0000\n"
-"Last-Translator: Davide Principi <davide.principi@nethesis.it>\n"
+"POT-Creation-Date: 2015-05-11 11:51+0200\n"
+"PO-Revision-Date: 2015-05-13 06:20+0000\n"
+"Last-Translator: Yan Sivitskiy <ysivitskiy@gmail.com>\n"
 "Language-Team: Russian (Russia) (http://www.transifex.com/projects/p/nethserver/language/ru_RU/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -235,8 +235,8 @@ msgid "Configure the SNMP server"
 msgstr "Настройка сервера SNMP"
 
 #: ../nethserver-groups.xml.in.h:54
-msgid "German"
-msgstr ""
+msgid "German language"
+msgstr "Немецкий язык"
 
 #: ../nethserver-groups.xml.in.h:55
 msgid "Server Manager German localization"
@@ -244,7 +244,7 @@ msgstr ""
 
 #: ../nethserver-groups.xml.in.h:56
 msgid "Greek language"
-msgstr ""
+msgstr "Греческий язык"
 
 #: ../nethserver-groups.xml.in.h:57
 msgid "Server Manager Greek localization"
@@ -252,7 +252,7 @@ msgstr ""
 
 #: ../nethserver-groups.xml.in.h:58
 msgid "Spanish language"
-msgstr ""
+msgstr "Испанский язык"
 
 #: ../nethserver-groups.xml.in.h:59
 msgid "Server Manager Spanish localization"
@@ -260,7 +260,7 @@ msgstr ""
 
 #: ../nethserver-groups.xml.in.h:60
 msgid "French language"
-msgstr ""
+msgstr "Французский язык"
 
 #: ../nethserver-groups.xml.in.h:61
 msgid "Server Manager French localization"
@@ -276,7 +276,7 @@ msgstr ""
 
 #: ../nethserver-groups.xml.in.h:64
 msgid "Italian language"
-msgstr ""
+msgstr "Итальянский язык"
 
 #: ../nethserver-groups.xml.in.h:65
 msgid "Server Manager Italian localization"
@@ -292,7 +292,7 @@ msgstr ""
 
 #: ../nethserver-groups.xml.in.h:68
 msgid "Portuguese language"
-msgstr ""
+msgstr "Португальский язык"
 
 #: ../nethserver-groups.xml.in.h:69
 msgid "Server Manager Portuguese localization"
@@ -300,7 +300,7 @@ msgstr ""
 
 #: ../nethserver-groups.xml.in.h:70
 msgid "Russian language"
-msgstr ""
+msgstr "Русский язык"
 
 #: ../nethserver-groups.xml.in.h:71
 msgid "Server Manager Russian localization"
@@ -308,7 +308,7 @@ msgstr ""
 
 #: ../nethserver-groups.xml.in.h:72
 msgid "Turkish language"
-msgstr ""
+msgstr "Турецкий язык"
 
 #: ../nethserver-groups.xml.in.h:73
 msgid "Server Manager Turkish localization"
@@ -332,8 +332,8 @@ msgstr "Межсетевой экран UTM"
 
 #: ../nethserver-groups.xml.in.h:78
 msgid "Languages"
-msgstr ""
+msgstr "Языки"
 
 #: ../nethserver-groups.xml.in.h:79
 msgid "Localization of the Server Manager web interface"
-msgstr ""
+msgstr "Локализация веб-интерфейса"

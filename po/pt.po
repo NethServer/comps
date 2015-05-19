@@ -8,9 +8,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nethserver\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-11 11:47+0200\n"
-"PO-Revision-Date: 2015-05-11 09:48+0000\n"
-"Last-Translator: Davide Principi <davide.principi@nethesis.it>\n"
+"POT-Creation-Date: 2015-05-11 11:51+0200\n"
+"PO-Revision-Date: 2015-05-12 19:54+0000\n"
+"Last-Translator: Vasco\n"
 "Language-Team: Portuguese (http://www.transifex.com/projects/p/nethserver/language/pt/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -88,7 +88,7 @@ msgstr "Configurar o servidor FTP (vsftpd)"
 
 #: ../nethserver-groups.xml.in.h:18
 msgid "Groupware"
-msgstr "Groupware"
+msgstr "Colaboração"
 
 #: ../nethserver-groups.xml.in.h:19
 msgid "SOGo server and Thundebird extensions"
@@ -116,7 +116,7 @@ msgstr "Descarregue mensagens de contas de correio electrónico externas com ace
 
 #: ../nethserver-groups.xml.in.h:25
 msgid "Instant messaging"
-msgstr "mensageiro instantâneo"
+msgstr "Mensageiro instantâneo"
 
 #: ../nethserver-groups.xml.in.h:26
 msgid "XMPP/Jabber chat server"
@@ -234,84 +234,84 @@ msgid "Configure the SNMP server"
 msgstr "Configurar o servidor SNMP"
 
 #: ../nethserver-groups.xml.in.h:54
-msgid "German"
-msgstr ""
+msgid "German language"
+msgstr "Alemão"
 
 #: ../nethserver-groups.xml.in.h:55
 msgid "Server Manager German localization"
-msgstr ""
+msgstr "Localização alemã do gestor do servidor"
 
 #: ../nethserver-groups.xml.in.h:56
 msgid "Greek language"
-msgstr ""
+msgstr "Grego"
 
 #: ../nethserver-groups.xml.in.h:57
 msgid "Server Manager Greek localization"
-msgstr ""
+msgstr "Localização grega do gestor do servidor"
 
 #: ../nethserver-groups.xml.in.h:58
 msgid "Spanish language"
-msgstr ""
+msgstr "Espanhol"
 
 #: ../nethserver-groups.xml.in.h:59
 msgid "Server Manager Spanish localization"
-msgstr ""
+msgstr "Localização espanhola do gestor do servidor"
 
 #: ../nethserver-groups.xml.in.h:60
 msgid "French language"
-msgstr ""
+msgstr "Francês"
 
 #: ../nethserver-groups.xml.in.h:61
 msgid "Server Manager French localization"
-msgstr ""
+msgstr "Localização francesa do gestor do servidor"
 
 #: ../nethserver-groups.xml.in.h:62
 msgid "Hungarian language"
-msgstr ""
+msgstr "Húngaro"
 
 #: ../nethserver-groups.xml.in.h:63
 msgid "Server Manager Hungarian localization"
-msgstr ""
+msgstr "Localização húngara do gestor do servidor"
 
 #: ../nethserver-groups.xml.in.h:64
 msgid "Italian language"
-msgstr ""
+msgstr "Italiano"
 
 #: ../nethserver-groups.xml.in.h:65
 msgid "Server Manager Italian localization"
-msgstr ""
+msgstr "Localização italiana do gestor do servidor"
 
 #: ../nethserver-groups.xml.in.h:66
 msgid "Dutch language"
-msgstr ""
+msgstr "Holandês"
 
 #: ../nethserver-groups.xml.in.h:67
 msgid "Server Manager Dutch localization"
-msgstr ""
+msgstr "Localização holandesa do gestor do servidor"
 
 #: ../nethserver-groups.xml.in.h:68
 msgid "Portuguese language"
-msgstr ""
+msgstr "Português (Europeu)"
 
 #: ../nethserver-groups.xml.in.h:69
 msgid "Server Manager Portuguese localization"
-msgstr ""
+msgstr "Localização portuguesa do gestor do servidor"
 
 #: ../nethserver-groups.xml.in.h:70
 msgid "Russian language"
-msgstr ""
+msgstr "Russo"
 
 #: ../nethserver-groups.xml.in.h:71
 msgid "Server Manager Russian localization"
-msgstr ""
+msgstr "Localização russa do gestor do servidor"
 
 #: ../nethserver-groups.xml.in.h:72
 msgid "Turkish language"
-msgstr ""
+msgstr "Turco"
 
 #: ../nethserver-groups.xml.in.h:73
 msgid "Server Manager Turkish localization"
-msgstr ""
+msgstr "Localização turca do gestor do servidor"
 
 #: ../nethserver-groups.xml.in.h:74
 msgid "Base system"
@@ -331,8 +331,8 @@ msgstr "Firewall UTM"
 
 #: ../nethserver-groups.xml.in.h:78
 msgid "Languages"
-msgstr ""
+msgstr "Linguagem"
 
 #: ../nethserver-groups.xml.in.h:79
 msgid "Localization of the Server Manager web interface"
-msgstr ""
+msgstr "Localização do interface web do Gestor do Servidor"

@@ -9,9 +9,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nethserver\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-11 11:47+0200\n"
-"PO-Revision-Date: 2015-05-11 09:48+0000\n"
-"Last-Translator: Davide Principi <davide.principi@nethesis.it>\n"
+"POT-Creation-Date: 2015-05-11 11:51+0200\n"
+"PO-Revision-Date: 2015-05-17 23:56+0000\n"
+"Last-Translator: Ozancan Karataş <ozancankaratas96@outlook.com>\n"
 "Language-Team: Turkish (http://www.transifex.com/projects/p/nethserver/language/tr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -235,84 +235,84 @@ msgid "Configure the SNMP server"
 msgstr "SNMP sunucusu ayarları"
 
 #: ../nethserver-groups.xml.in.h:54
-msgid "German"
-msgstr ""
+msgid "German language"
+msgstr "Almanca"
 
 #: ../nethserver-groups.xml.in.h:55
 msgid "Server Manager German localization"
-msgstr ""
+msgstr "Sunucu Yöneticisi Almanca yerelleştirmesi"
 
 #: ../nethserver-groups.xml.in.h:56
 msgid "Greek language"
-msgstr ""
+msgstr "Yunanca"
 
 #: ../nethserver-groups.xml.in.h:57
 msgid "Server Manager Greek localization"
-msgstr ""
+msgstr "Sunucu Yöneticisi Yunanca yerelleştirmesi"
 
 #: ../nethserver-groups.xml.in.h:58
 msgid "Spanish language"
-msgstr ""
+msgstr "İspanyolca"
 
 #: ../nethserver-groups.xml.in.h:59
 msgid "Server Manager Spanish localization"
-msgstr ""
+msgstr "Sunucu Yöneticisi İspanyolca yerelleştirmesi"
 
 #: ../nethserver-groups.xml.in.h:60
 msgid "French language"
-msgstr ""
+msgstr "Fransızca"
 
 #: ../nethserver-groups.xml.in.h:61
 msgid "Server Manager French localization"
-msgstr ""
+msgstr "Sunucu Yöneticisi Fransızca yerelleştirmesi"
 
 #: ../nethserver-groups.xml.in.h:62
 msgid "Hungarian language"
-msgstr ""
+msgstr "Macarca"
 
 #: ../nethserver-groups.xml.in.h:63
 msgid "Server Manager Hungarian localization"
-msgstr ""
+msgstr "Sunucu Yöneticisi Macarca yerelleştirmesi"
 
 #: ../nethserver-groups.xml.in.h:64
 msgid "Italian language"
-msgstr ""
+msgstr "İtalyanca"
 
 #: ../nethserver-groups.xml.in.h:65
 msgid "Server Manager Italian localization"
-msgstr ""
+msgstr "Sunucu Yöneticisi İtalyanca yerelleştirmesi"
 
 #: ../nethserver-groups.xml.in.h:66
 msgid "Dutch language"
-msgstr ""
+msgstr "Hollanda dili"
 
 #: ../nethserver-groups.xml.in.h:67
 msgid "Server Manager Dutch localization"
-msgstr ""
+msgstr "Sunucu Yöneticisi Hollanda dili yerelleştirmesi"
 
 #: ../nethserver-groups.xml.in.h:68
 msgid "Portuguese language"
-msgstr ""
+msgstr "Portekizce"
 
 #: ../nethserver-groups.xml.in.h:69
 msgid "Server Manager Portuguese localization"
-msgstr ""
+msgstr "Sunucu Yöneticisi Portekizce yerelleştirmesi"
 
 #: ../nethserver-groups.xml.in.h:70
 msgid "Russian language"
-msgstr ""
+msgstr "Rusça"
 
 #: ../nethserver-groups.xml.in.h:71
 msgid "Server Manager Russian localization"
-msgstr ""
+msgstr "Sunucu Yöneticisi Rusça yerelleştirmesi"
 
 #: ../nethserver-groups.xml.in.h:72
 msgid "Turkish language"
-msgstr ""
+msgstr "Türkçe"
 
 #: ../nethserver-groups.xml.in.h:73
 msgid "Server Manager Turkish localization"
-msgstr ""
+msgstr "Sunucu Yöneticisi Türkçe yerelleştirmesi"
 
 #: ../nethserver-groups.xml.in.h:74
 msgid "Base system"
@@ -332,8 +332,8 @@ msgstr "Birleşik tehdit önleme (UTM) güvenlik duvarı"
 
 #: ../nethserver-groups.xml.in.h:78
 msgid "Languages"
-msgstr ""
+msgstr "Diller"
 
 #: ../nethserver-groups.xml.in.h:79
 msgid "Localization of the Server Manager web interface"
-msgstr ""
+msgstr "Sunucu Yöneticisi web arayüzünün yerelleştirmesi"

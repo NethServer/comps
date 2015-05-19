@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nethserver\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-11 11:47+0200\n"
-"PO-Revision-Date: 2015-05-11 09:48+0000\n"
+"POT-Creation-Date: 2015-05-11 11:51+0200\n"
+"PO-Revision-Date: 2015-05-11 09:51+0000\n"
 "Last-Translator: Davide Principi <davide.principi@nethesis.it>\n"
 "Language-Team: Greek (http://www.transifex.com/projects/p/nethserver/language/el/)\n"
 "MIME-Version: 1.0\n"
@@ -234,7 +234,7 @@ msgid "Configure the SNMP server"
 msgstr "Διαμόρφωση διακομιστή SNMP"
 
 #: ../nethserver-groups.xml.in.h:54
-msgid "German"
+msgid "German language"
 msgstr ""
 
 #: ../nethserver-groups.xml.in.h:55
