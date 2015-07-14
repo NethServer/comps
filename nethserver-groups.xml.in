@@ -303,6 +303,7 @@
     <packagelist>
       <packagereq type="mandatory">nethserver-backup-config</packagereq>
       <packagereq type="mandatory">nethserver-backup-data</packagereq>
+      <packagereq type="mandatory">nethserver-restore-data</packagereq>
     </packagelist>
   </group>
 
