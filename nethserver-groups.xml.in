@@ -767,6 +767,7 @@
       <groupid>nethserver-owncloud</groupid>
       <groupid>nethserver-webvirtmgr</groupid>
       <groupid>nethserver-net-snmp</groupid>
+      <groupid>nethserver-monitoring</groupid>
     </grouplist>
   </category>
 
