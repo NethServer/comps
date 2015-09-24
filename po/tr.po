@@ -4,15 +4,15 @@
 # 
 # Translators:
 # Kaya Zeren <kayazeren@gmail.com>, 2015
-# Ozancan Karataş <ozancankaratas96@outlook.com>, 2015
+# Ozancan Karataş <inactive+OzancanKaratas96@transifex.com>, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: nethserver\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-11 11:51+0200\n"
-"PO-Revision-Date: 2015-05-17 23:56+0000\n"
-"Last-Translator: Ozancan Karataş <ozancankaratas96@outlook.com>\n"
-"Language-Team: Turkish (http://www.transifex.com/projects/p/nethserver/language/tr/)\n"
+"POT-Creation-Date: 2015-09-24 15:59+0200\n"
+"PO-Revision-Date: 2015-09-24 14:03+0000\n"
+"Last-Translator: Davide Principi <davide.principi@nethesis.it>\n"
+"Language-Team: Turkish (http://www.transifex.com/nethserver/nethserver/language/tr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -315,25 +315,35 @@ msgid "Server Manager Turkish localization"
 msgstr "Sunucu Yöneticisi Türkçe yerelleştirmesi"
 
 #: ../nethserver-groups.xml.in.h:74
+msgid "Monitoring and inventorying"
+msgstr ""
+
+#: ../nethserver-groups.xml.in.h:75
+msgid ""
+"Automated monitoring and inventorying of network devices (servers, PCs, "
+"printers, routers...)"
+msgstr ""
+
+#: ../nethserver-groups.xml.in.h:76
 msgid "Base system"
 msgstr "Temel sistem"
 
-#: ../nethserver-groups.xml.in.h:75
+#: ../nethserver-groups.xml.in.h:77
 msgid "Infrastructure and groupware services"
 msgstr "Altyapı ve groupware hizmetleri"
 
-#: ../nethserver-groups.xml.in.h:76
+#: ../nethserver-groups.xml.in.h:78
 msgid "Firewall"
 msgstr "Güvenlik duvarı"
 
-#: ../nethserver-groups.xml.in.h:77
+#: ../nethserver-groups.xml.in.h:79
 msgid "UTM Firewall"
 msgstr "Birleşik tehdit önleme (UTM) güvenlik duvarı"
 
-#: ../nethserver-groups.xml.in.h:78
+#: ../nethserver-groups.xml.in.h:80
 msgid "Languages"
 msgstr "Diller"
 
-#: ../nethserver-groups.xml.in.h:79
+#: ../nethserver-groups.xml.in.h:81
 msgid "Localization of the Server Manager web interface"
 msgstr "Sunucu Yöneticisi web arayüzünün yerelleştirmesi"

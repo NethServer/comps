@@ -4,14 +4,15 @@
 # 
 # Translators:
 # Alecks, 2015
+# cyberfrk <tstng59@gmail.com>, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: nethserver\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-11 11:51+0200\n"
-"PO-Revision-Date: 2015-05-11 09:51+0000\n"
+"POT-Creation-Date: 2015-09-24 15:59+0200\n"
+"PO-Revision-Date: 2015-09-24 14:03+0000\n"
 "Last-Translator: Davide Principi <davide.principi@nethesis.it>\n"
-"Language-Team: French (France) (http://www.transifex.com/projects/p/nethserver/language/fr_FR/)\n"
+"Language-Team: French (France) (http://www.transifex.com/nethserver/nethserver/language/fr_FR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -235,104 +236,114 @@ msgstr "Configurer le serveur SNMP"
 
 #: ../nethserver-groups.xml.in.h:54
 msgid "German language"
-msgstr ""
+msgstr "Langue Allemande"
 
 #: ../nethserver-groups.xml.in.h:55
 msgid "Server Manager German localization"
-msgstr ""
+msgstr "Localisation du gestionnaire de serveur allemand"
 
 #: ../nethserver-groups.xml.in.h:56
 msgid "Greek language"
-msgstr ""
+msgstr "Langue Grecque"
 
 #: ../nethserver-groups.xml.in.h:57
 msgid "Server Manager Greek localization"
-msgstr ""
+msgstr "Localisation du gestionnaire de serveur grecque"
 
 #: ../nethserver-groups.xml.in.h:58
 msgid "Spanish language"
-msgstr ""
+msgstr "Langue Espagnole"
 
 #: ../nethserver-groups.xml.in.h:59
 msgid "Server Manager Spanish localization"
-msgstr ""
+msgstr "Localisation du gestionnaire de serveur espagnole"
 
 #: ../nethserver-groups.xml.in.h:60
 msgid "French language"
-msgstr ""
+msgstr "Langue Française"
 
 #: ../nethserver-groups.xml.in.h:61
 msgid "Server Manager French localization"
-msgstr ""
+msgstr "Localisation du gestionnaire de serveur français"
 
 #: ../nethserver-groups.xml.in.h:62
 msgid "Hungarian language"
-msgstr ""
+msgstr "Langue Hongroise"
 
 #: ../nethserver-groups.xml.in.h:63
 msgid "Server Manager Hungarian localization"
-msgstr ""
+msgstr "Localisation du gestionnaire de serveur hongrois"
 
 #: ../nethserver-groups.xml.in.h:64
 msgid "Italian language"
-msgstr ""
+msgstr "Langue Italienne"
 
 #: ../nethserver-groups.xml.in.h:65
 msgid "Server Manager Italian localization"
-msgstr ""
+msgstr "Localisation du gestionnaire de serveur italien"
 
 #: ../nethserver-groups.xml.in.h:66
 msgid "Dutch language"
-msgstr ""
+msgstr "Langue Néerlandaise"
 
 #: ../nethserver-groups.xml.in.h:67
 msgid "Server Manager Dutch localization"
-msgstr ""
+msgstr "Localisation du gestionnaire de serveur néerlandais"
 
 #: ../nethserver-groups.xml.in.h:68
 msgid "Portuguese language"
-msgstr ""
+msgstr "Langue Portugaise"
 
 #: ../nethserver-groups.xml.in.h:69
 msgid "Server Manager Portuguese localization"
-msgstr ""
+msgstr "Localisation du gestionnaire de serveur portugais"
 
 #: ../nethserver-groups.xml.in.h:70
 msgid "Russian language"
-msgstr ""
+msgstr "Langue Russe"
 
 #: ../nethserver-groups.xml.in.h:71
 msgid "Server Manager Russian localization"
-msgstr ""
+msgstr "Localisation du gestionnaire de serveur russe"
 
 #: ../nethserver-groups.xml.in.h:72
 msgid "Turkish language"
-msgstr ""
+msgstr "Langue Turque"
 
 #: ../nethserver-groups.xml.in.h:73
 msgid "Server Manager Turkish localization"
-msgstr ""
+msgstr "Localisation du gestionnaire de serveur turque"
 
 #: ../nethserver-groups.xml.in.h:74
+msgid "Monitoring and inventorying"
+msgstr ""
+
+#: ../nethserver-groups.xml.in.h:75
+msgid ""
+"Automated monitoring and inventorying of network devices (servers, PCs, "
+"printers, routers...)"
+msgstr ""
+
+#: ../nethserver-groups.xml.in.h:76
 msgid "Base system"
 msgstr "Système de base"
 
-#: ../nethserver-groups.xml.in.h:75
+#: ../nethserver-groups.xml.in.h:77
 msgid "Infrastructure and groupware services"
 msgstr "Services d'infrastructure et de travail collaboratif"
 
-#: ../nethserver-groups.xml.in.h:76
+#: ../nethserver-groups.xml.in.h:78
 msgid "Firewall"
 msgstr "Pare-feu"
 
-#: ../nethserver-groups.xml.in.h:77
+#: ../nethserver-groups.xml.in.h:79
 msgid "UTM Firewall"
 msgstr "Pare-feu UTM"
 
-#: ../nethserver-groups.xml.in.h:78
+#: ../nethserver-groups.xml.in.h:80
 msgid "Languages"
-msgstr ""
+msgstr "Langues"
 
-#: ../nethserver-groups.xml.in.h:79
+#: ../nethserver-groups.xml.in.h:81
 msgid "Localization of the Server Manager web interface"
-msgstr ""
+msgstr "Localisation de l'interface web du gestionnaire de serveur"

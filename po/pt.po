@@ -3,15 +3,16 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Vasco, 2015
+# Vasco Castelo Branco, 2015
+# Vasco Castelo Branco, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: nethserver\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-11 11:51+0200\n"
-"PO-Revision-Date: 2015-05-12 19:54+0000\n"
-"Last-Translator: Vasco\n"
-"Language-Team: Portuguese (http://www.transifex.com/projects/p/nethserver/language/pt/)\n"
+"POT-Creation-Date: 2015-09-24 15:59+0200\n"
+"PO-Revision-Date: 2015-09-24 14:03+0000\n"
+"Last-Translator: Davide Principi <davide.principi@nethesis.it>\n"
+"Language-Team: Portuguese (http://www.transifex.com/nethserver/nethserver/language/pt/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -120,7 +121,7 @@ msgstr "Mensageiro instantâneo"
 
 #: ../nethserver-groups.xml.in.h:26
 msgid "XMPP/Jabber chat server"
-msgstr "Servidor de conversação XMPP/Jabber"
+msgstr "Servidor de mensagens instantâneas XMPP/Jabber"
 
 #: ../nethserver-groups.xml.in.h:27
 msgid "Print server"
@@ -191,7 +192,7 @@ msgstr "ownCloud"
 msgid ""
 "Configure ownCloud, universal access to your files via the web, your "
 "computer or your mobile devices - wherever you are"
-msgstr "Configurar a ownCloud, acesso universal aos seus ficheiros via web, o seu computador ou dispositivo móvel - Esteja onde estiver"
+msgstr "Configurar a ownCloud, acesso universal aos seus ficheiros via web, do seu computador ou dispositivo móvel - Esteja onde estiver"
 
 #: ../nethserver-groups.xml.in.h:44
 msgid "MySQL server"
@@ -267,7 +268,7 @@ msgstr "Localização francesa do gestor do servidor"
 
 #: ../nethserver-groups.xml.in.h:62
 msgid "Hungarian language"
-msgstr "Húngaro"
+msgstr "Hungaro"
 
 #: ../nethserver-groups.xml.in.h:63
 msgid "Server Manager Hungarian localization"
@@ -291,7 +292,7 @@ msgstr "Localização holandesa do gestor do servidor"
 
 #: ../nethserver-groups.xml.in.h:68
 msgid "Portuguese language"
-msgstr "Português (Europeu)"
+msgstr "Linguagem portuguesa (Europeu)"
 
 #: ../nethserver-groups.xml.in.h:69
 msgid "Server Manager Portuguese localization"
@@ -314,25 +315,35 @@ msgid "Server Manager Turkish localization"
 msgstr "Localização turca do gestor do servidor"
 
 #: ../nethserver-groups.xml.in.h:74
+msgid "Monitoring and inventorying"
+msgstr ""
+
+#: ../nethserver-groups.xml.in.h:75
+msgid ""
+"Automated monitoring and inventorying of network devices (servers, PCs, "
+"printers, routers...)"
+msgstr ""
+
+#: ../nethserver-groups.xml.in.h:76
 msgid "Base system"
 msgstr "Sistema base"
 
-#: ../nethserver-groups.xml.in.h:75
+#: ../nethserver-groups.xml.in.h:77
 msgid "Infrastructure and groupware services"
 msgstr "Serviços de infraestrutura e groupware"
 
-#: ../nethserver-groups.xml.in.h:76
+#: ../nethserver-groups.xml.in.h:78
 msgid "Firewall"
 msgstr "Firewall"
 
-#: ../nethserver-groups.xml.in.h:77
+#: ../nethserver-groups.xml.in.h:79
 msgid "UTM Firewall"
 msgstr "Firewall UTM"
 
-#: ../nethserver-groups.xml.in.h:78
+#: ../nethserver-groups.xml.in.h:80
 msgid "Languages"
-msgstr "Linguagem"
+msgstr "Linguagens"
 
-#: ../nethserver-groups.xml.in.h:79
+#: ../nethserver-groups.xml.in.h:81
 msgid "Localization of the Server Manager web interface"
 msgstr "Localização do interface web do Gestor do Servidor"
