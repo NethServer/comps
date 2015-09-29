@@ -541,7 +541,6 @@
     <packagelist>
       <packagereq type="mandatory">nethserver-ipsec</packagereq>
       <packagereq type="mandatory">nethserver-openvpn</packagereq>
-      <packagereq type="optional">nethserver-samba</packagereq>      
     </packagelist>
   </group>
 
