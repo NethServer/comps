@@ -97,8 +97,8 @@ msgid "Configure the FTP server (vsftpd)"
 msgstr "Configure the FTP server (vsftpd)"
 
 #: ../nethserver-groups.xml.in.h:18
-msgid "Groupware"
-msgstr "Groupware"
+msgid "SOGo Groupware"
+msgstr "Groupware SOGo"
 
 #: ../nethserver-groups.xml.in.h:19
 msgid "SOGo server and Thundebird extensions"
@@ -356,3 +356,8 @@ msgstr "Lingue"
 #: ../nethserver-groups.xml.in.h:81
 msgid "Localization of the Server Manager web interface"
 msgstr "Localizzazione dell'interfaccia web Server Manager"
+
+#: ../nethserver-groups.xml.in.h:20
+msgid "WebTop groupware"
+msgstr "Groupware WebTop"
+
