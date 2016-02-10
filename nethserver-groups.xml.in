@@ -512,10 +512,6 @@
       <packagereq type="mandatory">nethserver-samba</packagereq>
       <packagereq type="optional">nethserver-roundcubemail</packagereq>
       <packagereq type="optional">nethserver-fetchmail</packagereq>
-      <packagereq type="optional">mutt</packagereq>
-      <packagereq type="optional">ripole</packagereq>
-      <packagereq type="optional">lha</packagereq>
-      <packagereq type="optional">unrar</packagereq>
     </packagelist>
   </group>
   
@@ -624,7 +620,7 @@
       <packagereq type="mandatory">nethserver-squid</packagereq>
       <packagereq type="mandatory">nethserver-dnsmasq</packagereq>
       <packagereq type="mandatory">nethserver-httpd</packagereq>
-      <packagereq type="optional">nethserver-lightsquid</packagereq>
+      <packagereq type="mandatory">nethserver-lightsquid</packagereq>
     </packagelist>
   </group>
 
@@ -638,7 +634,7 @@
       <packagereq type="mandatory">nethserver-squid</packagereq>
       <packagereq type="mandatory">nethserver-squidguard</packagereq>
       <packagereq type="mandatory">nethserver-squidclamav</packagereq>
-      <packagereq type="optional">nethserver-lightsquid</packagereq>
+      <packagereq type="mandatory">nethserver-lightsquid</packagereq>
     </packagelist>
   </group>
 
