@@ -361,3 +361,11 @@ msgstr "Localizzazione dell'interfaccia web Server Manager"
 msgid "WebTop groupware"
 msgstr "Groupware WebTop"
 
+#: ../nethserver-groups.xml.in.h:77
+msgid "NethForge"
+msgstr "NethForge"
+
+#: ../nethserver-groups.xml.in.h:78
+msgid "Extra modules mantained by NethServer Community"
+msgstr "Moduli aggiuntivi mantenuti dalla Community di NethServer"
+

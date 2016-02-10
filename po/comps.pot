@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-10-14 12:33+0200\n"
+"POT-Creation-Date: 2016-02-10 14:59+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -315,36 +315,44 @@ msgstr ""
 msgid "Server Manager Turkish localization"
 msgstr ""
 
-#: ../nethserver-groups.xml.in.h:74
+#: ../nethserver-groups.xml.in.h:75
 msgid "Monitoring and inventorying"
 msgstr ""
 
-#: ../nethserver-groups.xml.in.h:75
+#: ../nethserver-groups.xml.in.h:76
 msgid ""
 "Automated monitoring and inventorying of network devices (servers, PCs, "
 "printers, routers...)"
 msgstr ""
 
-#: ../nethserver-groups.xml.in.h:76
-msgid "Base system"
-msgstr ""
-
 #: ../nethserver-groups.xml.in.h:77
-msgid "Infrastructure and groupware services"
+msgid "NethForge"
 msgstr ""
 
 #: ../nethserver-groups.xml.in.h:78
-msgid "Firewall"
+msgid "Extra modules mantained by NethServer Community"
 msgstr ""
 
 #: ../nethserver-groups.xml.in.h:79
+msgid "Base system"
+msgstr ""
+
+#: ../nethserver-groups.xml.in.h:80
+msgid "Infrastructure and groupware services"
+msgstr ""
+
+#: ../nethserver-groups.xml.in.h:81
+msgid "Firewall"
+msgstr ""
+
+#: ../nethserver-groups.xml.in.h:82
 msgid "UTM Firewall"
 msgstr ""
 
-#: ../nethserver-groups.xml.in.h:80
+#: ../nethserver-groups.xml.in.h:83
 msgid "Languages"
 msgstr ""
 
-#: ../nethserver-groups.xml.in.h:80
+#: ../nethserver-groups.xml.in.h:84
 msgid "Localization of the Server Manager web interface"
 msgstr ""
