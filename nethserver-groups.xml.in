@@ -386,11 +386,10 @@
       <packagereq type="mandatory">screen</packagereq>
       <packagereq type="mandatory">wget</packagereq>
       <packagereq type="mandatory">cpuspeed</packagereq>
-      <packagereq type="mandatory">wireless-tools</packagereq>
       <packagereq type="mandatory">bind-utils</packagereq>
       <packagereq type="mandatory">tmpwatch</packagereq>
       <packagereq type="mandatory">traceroute</packagereq>
-      <packagereq type="mandatory">yum-presto</packagereq>
+      <packagereq type="mandatory">deltarpm</packagereq>
       <packagereq type="mandatory">epel-release</packagereq>
     </packagelist>
   </group>
