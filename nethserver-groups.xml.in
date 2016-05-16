@@ -374,6 +374,7 @@
       <packagereq type="mandatory">nethserver-firewall-base</packagereq>
       <packagereq type="mandatory">nethserver-dnsmasq</packagereq>
       <packagereq type="mandatory">nethserver-httpd</packagereq>
+      <packagereq type="mandatory">nethserver-sssd</packagereq>
 
       <packagereq type="mandatory">lsof</packagereq>
       <packagereq type="mandatory">man</packagereq>
