@@ -185,6 +185,9 @@ msgstr ""
 msgid "Configure remote-access and site-to-site Virtual Private Networks (VPN)"
 msgstr ""
 
+msgid "Configure remote-access and site-to-site Virtual Private Networks (VPN) using OpenVPN"
+msgstr ""
+
 #: ../nethserver-groups.xml.in.h:43
 msgid "ownCloud"
 msgstr ""
@@ -196,11 +199,14 @@ msgid ""
 msgstr ""
 
 #: ../nethserver-groups.xml.in.h:45
-msgid "MySQL server"
+msgid "MariaDB (MySQL) server"
 msgstr ""
 
 #: ../nethserver-groups.xml.in.h:46
 msgid "Configuration tools for MySQL"
+msgstr ""
+
+msgid "Configuration tools for MariaDB (MySQL)"
 msgstr ""
 
 #: ../nethserver-groups.xml.in.h:47
