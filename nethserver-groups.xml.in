@@ -409,17 +409,6 @@
   </group>
 
   <group>
-    <id>nethserver-dns-dhcp</id>
-    <_name>DNS and DHCP server</_name>
-    <_description>Daemons and tools for DHCP and DNS server</_description>
-    <default>false</default>
-    <uservisible>true</uservisible>
-    <packagelist>
-      <packagereq type="mandatory">nethserver-dnsmasq</packagereq>
-    </packagelist>
-  </group>
-
-  <group>
     <id>nethserver-fax-server</id>
     <_name>Fax server</_name>
     <_description>Configure HylaFax+ and manage IAX modems</_description>
@@ -593,7 +582,6 @@
     <uservisible>false</uservisible>
     <packagelist>
       <packagereq type="mandatory">nethserver-squid</packagereq>
-      <packagereq type="mandatory">nethserver-dnsmasq</packagereq>
       <packagereq type="mandatory">nethserver-httpd</packagereq>
       <packagereq type="mandatory">nethserver-lightsquid</packagereq>
     </packagelist>
