@@ -654,7 +654,7 @@
     <_name>Intrusion Prevention System</_name>
     <_description>Monitor and block network traffic for malicious activity</_description>
     <default>false</default>
-    <uservisible>false</uservisible>
+    <uservisible>true</uservisible>
     <packagelist>
       <packagereq type="mandatory">nethserver-snort</packagereq>
     </packagelist>
