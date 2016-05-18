@@ -520,10 +520,9 @@
     <_name>Instant messaging</_name>
     <_description>XMPP/Jabber chat server</_description>
     <default>false</default>
-    <uservisible>false</uservisible>
+    <uservisible>true</uservisible>
     <packagelist>
       <packagereq type="mandatory">nethserver-ejabberd</packagereq>
-      <packagereq type="mandatory">nethserver-samba</packagereq>
     </packagelist>
   </group>
 
