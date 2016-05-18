@@ -457,6 +457,29 @@
   </group>
 
   <group>
+    <id>nethserver-directory</id>
+    <_name>Account provider: OpenLDAP</_name>
+    <_description>Configure users and groups on OpenLDAP</_description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type="mandatory">nethserver-directory</packagereq>
+    </packagelist>
+  </group>
+
+  <group>
+    <id>nethserver-dc</id>
+    <_name>Account provider: Samba Active Directory</_name>
+    <_description>Configure users and groups on Samba Active Directory</_description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type="mandatory">nethserver-dc</packagereq>
+    </packagelist>
+  </group>
+
+
+  <group>
     <id>nethserver-groupware</id>
     <_name>SOGo groupware</_name>
     <_description>SOGo server and Thundebird extensions</_description>
@@ -847,6 +870,8 @@
       <groupid>nethserver-net-snmp</groupid>
       <groupid>nethserver-monitoring</groupid>
       <groupid>nethserver-nethforge</groupid>
+      <groupid>nethserver-directory</groupid>
+      <groupid>nethserver-dc</groupid>
     </grouplist>
   </category>
 
