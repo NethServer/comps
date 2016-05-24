@@ -811,17 +811,6 @@
     </packagelist>
   </group>
 
-  <group>
-    <id>nethserver-nethforge</id>
-    <_name>NethForge</_name>
-    <_description>Extra modules mantained by NethServer Community</_description>
-    <uservisible>true</uservisible>
-    <packagelist>
-      <packagereq type='mandatory'>nethserver-nethforge-release</packagereq>
-    </packagelist>
-  </group>
-
-
 <!-- NETHSERVER GROUPS END -->
 
 <!-- NETHSERVER CATEGORIES START -->
@@ -854,7 +843,6 @@
       <groupid>nethserver-owncloud</groupid>
       <groupid>nethserver-net-snmp</groupid>
       <groupid>nethserver-monitoring</groupid>
-      <groupid>nethserver-nethforge</groupid>
       <groupid>nethserver-directory</groupid>
       <groupid>nethserver-dc</groupid>
       <groupid>nethserver-roundcubemail</groupid>
