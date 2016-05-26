@@ -273,6 +273,7 @@
       <packagereq type="mandatory">nethserver-phonehome</packagereq>
       <packagereq type="mandatory">nethserver-duc</packagereq>
       <packagereq type="mandatory">nethserver-firewall-base</packagereq>
+      <packagereq type="mandatory">nethserver-nethforge-release</packagereq>
 
       <packagereq type="mandatory">lsof</packagereq>
       <packagereq type="mandatory">man</packagereq>
