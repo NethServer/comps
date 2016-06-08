@@ -377,6 +377,7 @@
       <packagereq type="mandatory">nethserver-sssd</packagereq>
       <packagereq type="mandatory">nethserver-nethforge-release</packagereq>
       <packagereq type="mandatory">nethserver-letsencrypt</packagereq>
+      <packagereq type="mandatory">nethserver-mail-smarthost</packagereq>
 
       <packagereq type="mandatory">lsof</packagereq>
       <packagereq type="mandatory">patch</packagereq>
