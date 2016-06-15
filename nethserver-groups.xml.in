@@ -295,6 +295,17 @@
   </group>
   
   <group>
+      <id>nethserver-nethforge</id>
+      <_name>NethForge repository</_name>
+      <_description>Additional packages from NethForge community repository</_description>
+      <default>true</default>
+      <uservisible>true</uservisible>
+      <packagelist>
+        <packagereq type="mandatory">nethserver-nethforge-release</packagereq>
+      </packagelist>
+  </group>
+
+  <group>
     <id>nethserver-backup</id>
     <_name>Backup</_name>
     <_description>Backup of configuration and data</_description>
