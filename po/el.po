@@ -3,14 +3,14 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# GSIOTAS, 2015
+# gsiotas, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: nethserver\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-09-24 15:59+0200\n"
-"PO-Revision-Date: 2015-09-24 14:03+0000\n"
-"Last-Translator: Davide Principi <davide.principi@nethesis.it>\n"
+"PO-Revision-Date: 2015-12-14 18:14+0000\n"
+"Last-Translator: gsiotas\n"
 "Language-Team: Greek (http://www.transifex.com/nethserver/nethserver/language/el/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -315,13 +315,13 @@ msgstr "Διαχείριση διακομιστή στα Τούρκικα"
 
 #: ../nethserver-groups.xml.in.h:74
 msgid "Monitoring and inventorying"
-msgstr ""
+msgstr "Παρακολούθηση και απογραφή"
 
 #: ../nethserver-groups.xml.in.h:75
 msgid ""
 "Automated monitoring and inventorying of network devices (servers, PCs, "
 "printers, routers...)"
-msgstr ""
+msgstr "Αυτόματη παρακολούθηση και απογραφή των συσκευών δικτύου (servers, PCs, εκτυπωτές, routers...)"
 
 #: ../nethserver-groups.xml.in.h:76
 msgid "Base system"

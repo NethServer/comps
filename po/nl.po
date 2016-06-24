@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: nethserver\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-09-24 15:59+0200\n"
-"PO-Revision-Date: 2015-09-24 14:03+0000\n"
+"PO-Revision-Date: 2015-11-22 17:54+0000\n"
 "Last-Translator: Davide Principi <davide.principi@nethesis.it>\n"
 "Language-Team: Dutch (http://www.transifex.com/nethserver/nethserver/language/nl/)\n"
 "MIME-Version: 1.0\n"
@@ -88,7 +88,7 @@ msgstr ""
 
 #: ../nethserver-groups.xml.in.h:18
 msgid "Groupware"
-msgstr ""
+msgstr "Groupware"
 
 #: ../nethserver-groups.xml.in.h:19
 msgid "SOGo server and Thundebird extensions"
@@ -96,7 +96,7 @@ msgstr ""
 
 #: ../nethserver-groups.xml.in.h:20
 msgid "Email"
-msgstr ""
+msgstr "Email"
 
 #: ../nethserver-groups.xml.in.h:21
 msgid "Email server and filter"
@@ -108,7 +108,7 @@ msgstr ""
 
 #: ../nethserver-groups.xml.in.h:23
 msgid "POP3 connector"
-msgstr ""
+msgstr "POP3 connector"
 
 #: ../nethserver-groups.xml.in.h:24
 msgid "Fetch messages from external email accounts with POP3 or IMAP access"
@@ -124,7 +124,7 @@ msgstr ""
 
 #: ../nethserver-groups.xml.in.h:27
 msgid "Print server"
-msgstr ""
+msgstr "Print server"
 
 #: ../nethserver-groups.xml.in.h:28
 msgid "Print management server (CUPS)"
@@ -164,7 +164,7 @@ msgstr ""
 
 #: ../nethserver-groups.xml.in.h:37
 msgid "Web proxy"
-msgstr ""
+msgstr "Web proxy"
 
 #: ../nethserver-groups.xml.in.h:38
 msgid "Squid web caching proxy configuration"
@@ -333,7 +333,7 @@ msgstr ""
 
 #: ../nethserver-groups.xml.in.h:78
 msgid "Firewall"
-msgstr ""
+msgstr "Firewall"
 
 #: ../nethserver-groups.xml.in.h:79
 msgid "UTM Firewall"
