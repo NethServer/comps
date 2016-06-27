@@ -556,6 +556,7 @@
     <uservisible>true</uservisible>
     <packagelist>
       <packagereq type="mandatory">nethserver-httpd</packagereq>
+      <packagereq type="mandatory">nethserver-virtualhosts</packagereq>
     </packagelist>
   </group>
 
