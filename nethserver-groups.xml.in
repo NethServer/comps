@@ -746,6 +746,18 @@
   </group>
 
   <group>
+    <id>nethserver-l10n-sr</id>
+    <_name>Serbian language</_name>
+    <_description>Server Manager Serbian localization</_description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type='mandatory'>nethserver-lang-sr</packagereq>
+    </packagelist>
+  </group>
+
+
+  <group>
     <id>nethserver-monitoring</id>
     <_name>Monitoring and inventorying</_name>
     <_description>Automated monitoring and inventorying of network devices (servers, PCs, printers, routers...)</_description>
@@ -826,6 +838,7 @@
       <groupid>nethserver-l10n-pt</groupid>
       <groupid>nethserver-l10n-ru</groupid>
       <groupid>nethserver-l10n-tr</groupid>
+      <groupid>nethserver-l10n-sr</groupid>
     </grouplist>
   </category>
 <!-- NETHSERVER CATEGORIES END -->
