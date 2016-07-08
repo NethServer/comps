@@ -557,6 +557,16 @@
     <packagelist>
       <packagereq type="mandatory">nethserver-httpd</packagereq>
       <packagereq type="mandatory">nethserver-virtualhosts</packagereq>
+      <packagereq type="optional">php-gd</packagereq>
+      <packagereq type="optional">php-imap</packagereq>
+      <packagereq type="optional">php-ldap</packagereq>
+      <packagereq type="optional">php-mbstring</packagereq>
+      <packagereq type="optional">php-mcrypt</packagereq>
+      <packagereq type="optional">php-mysql</packagereq>
+      <packagereq type="optional">php-pecl-apcu</packagereq>
+      <packagereq type="optional">php-pecl-memcached</packagereq>
+      <packagereq type="optional">php-pecl-redis</packagereq>
+      <packagereq type="optional">php-smbclient</packagereq>
     </packagelist>
   </group>
 
