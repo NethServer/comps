@@ -645,6 +645,17 @@
   </group>
 
   <group>
+    <id>nethserver-ipsec-tunnels</id>
+    <_name>IPsec tunnels</_name>
+    <_description>Site-to-site Virtual Private Networks (VPN) using IPsec</_description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type="mandatory">nethserver-ipsec-tunnels</packagereq>
+    </packagelist>
+  </group>
+
+  <group>
     <id>nethserver-owncloud</id>
     <_name>ownCloud</_name>
     <_description>Configure ownCloud, universal access to your files
@@ -883,6 +894,7 @@
       <groupid>nethserver-web-filter</groupid>
       <groupid>nethserver-smtp-proxy</groupid>
       <groupid>nethserver-openvpn</groupid>
+      <groupid>nethserver-ipsec-tunnels</groupid>
       <groupid>nethserver-ips</groupid>
       <groupid>nethserver-bandwidth-monitor</groupid>
       <groupid>nethserver-p3scan</groupid>

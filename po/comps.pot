@@ -330,3 +330,11 @@ msgstr ""
 #: ../nethserver-groups.xml.in.h:77
 msgid "Localization of the Server Manager web interface"
 msgstr ""
+
+msgid ""
+"Site-to-site Virtual Private Networks (VPN) using IPsec"
+msgstr ""
+
+msgid "IPsec tunnels"
+msgstr ""
+
