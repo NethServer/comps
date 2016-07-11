@@ -656,19 +656,6 @@
   </group>
 
   <group>
-    <id>nethserver-owncloud</id>
-    <_name>ownCloud</_name>
-    <_description>Configure ownCloud, universal access to your files
-    via the web, your computer or your mobile devices - wherever you
-    are</_description>
-    <default>false</default>
-    <uservisible>false</uservisible>
-    <packagelist>
-      <packagereq type="mandatory">nethserver-owncloud</packagereq>
-    </packagelist>
-  </group>
-
-  <group>
     <id>nethserver-mysql</id>
     <_name>MariaDB (MySQL) server</_name>
     <_description>Configuration tools for MariaDB (MySQL)</_description>
@@ -865,16 +852,13 @@
       <groupid>nethserver-statistics</groupid>
       <groupid>nethserver-dns-dhcp</groupid>
       <groupid>nethserver-mail</groupid>
-      <groupid>nethserver-pop3connector</groupid>
       <groupid>nethserver-webtop-groupware</groupid>
       <groupid>nethserver-messaging</groupid>
       <groupid>nethserver-file-server</groupid>
       <groupid>nethserver-fax-server</groupid>
       <groupid>nethserver-web</groupid>
-      <groupid>nethserver-faxweb2</groupid>
       <groupid>nethserver-printers</groupid>
       <groupid>nethserver-mysql</groupid>
-      <groupid>nethserver-owncloud</groupid>
       <groupid>nethserver-net-snmp</groupid>
       <groupid>nethserver-monitoring</groupid>
       <groupid>nethserver-directory</groupid>
