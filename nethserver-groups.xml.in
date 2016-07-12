@@ -611,7 +611,7 @@
     <_name>Web proxy</_name>
     <_description>Squid web caching proxy configuration</_description>
     <default>true</default>
-    <uservisible>false</uservisible>
+    <uservisible>true</uservisible>
     <packagelist>
       <packagereq type="mandatory">nethserver-squid</packagereq>
       <packagereq type="mandatory">nethserver-httpd</packagereq>
@@ -624,7 +624,7 @@
     <_name>Web filter</_name>
     <_description>Squid web content and virus filter</_description>
     <default>true</default>
-    <uservisible>false</uservisible>
+    <uservisible>true</uservisible>
     <packagelist>
       <packagereq type="mandatory">nethserver-squid</packagereq>
       <packagereq type="mandatory">nethserver-squidguard</packagereq>
@@ -682,9 +682,10 @@
     <_name>POP3 proxy</_name>
     <_description>Intercept POP3 connections and scan messages for virtus and spam</_description>
     <default>false</default>
-    <uservisible>false</uservisible>
+    <uservisible>true</uservisible>
     <packagelist>
       <packagereq type="mandatory">nethserver-p3scan</packagereq>
+      <packagereq type="mandatory">nethserver-mail-filter</packagereq>
     </packagelist>
   </group>
 
@@ -820,17 +821,6 @@
     </packagelist>
   </group>
 
-
-  <group>
-    <id>nethserver-monitoring</id>
-    <_name>Monitoring and inventorying</_name>
-    <_description>Automated monitoring and inventorying of network devices (servers, PCs, printers, routers...)</_description>
-    <uservisible>false</uservisible>
-    <packagelist>
-      <packagereq type='mandatory'>nethserver-adagios</packagereq>
-      <packagereq type='mandatory'>nethserver-ocsinventory</packagereq>
-    </packagelist>
-  </group>
 
 <!-- NETHSERVER GROUPS END -->
 

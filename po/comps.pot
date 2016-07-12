@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-05-24 14:00+0200\n"
+"POT-Creation-Date: 2016-07-12 14:48+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -176,13 +176,11 @@ msgid ""
 msgstr ""
 
 #: ../nethserver-groups.xml.in.h:40
-msgid "ownCloud"
+msgid "IPsec tunnels"
 msgstr ""
 
 #: ../nethserver-groups.xml.in.h:41
-msgid ""
-"Configure ownCloud, universal access to your files via the web, your "
-"computer or your mobile devices - wherever you are"
+msgid "Site-to-site Virtual Private Networks (VPN) using IPsec"
 msgstr ""
 
 #: ../nethserver-groups.xml.in.h:42
@@ -298,13 +296,11 @@ msgid "Server Manager Turkish localization"
 msgstr ""
 
 #: ../nethserver-groups.xml.in.h:70
-msgid "Monitoring and inventorying"
+msgid "Serbian language"
 msgstr ""
 
 #: ../nethserver-groups.xml.in.h:71
-msgid ""
-"Automated monitoring and inventorying of network devices (servers, PCs, "
-"printers, routers...)"
+msgid "Server Manager Serbian localization"
 msgstr ""
 
 #: ../nethserver-groups.xml.in.h:72
@@ -330,11 +326,3 @@ msgstr ""
 #: ../nethserver-groups.xml.in.h:77
 msgid "Localization of the Server Manager web interface"
 msgstr ""
-
-msgid ""
-"Site-to-site Virtual Private Networks (VPN) using IPsec"
-msgstr ""
-
-msgid "IPsec tunnels"
-msgstr ""
-
