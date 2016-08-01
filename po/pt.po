@@ -185,14 +185,14 @@ msgid ""
 msgstr "Configurar acesso remoto e redes privadas virtuais sitio-a-sitio (VPN)"
 
 #: ../nethserver-groups.xml.in.h:42
-msgid "ownCloud"
-msgstr "ownCloud"
+msgid "Nextcloud"
+msgstr "Nextcloud"
 
 #: ../nethserver-groups.xml.in.h:43
 msgid ""
-"Configure ownCloud, universal access to your files via the web, your "
+"Configure Nextcloud, universal access to your files via the web, your "
 "computer or your mobile devices - wherever you are"
-msgstr "Configurar a ownCloud, acesso universal aos seus ficheiros via web, do seu computador ou dispositivo móvel - Esteja onde estiver"
+msgstr "Configurar a Nextcloud, acesso universal aos seus ficheiros via web, do seu computador ou dispositivo móvel - Esteja onde estiver"
 
 #: ../nethserver-groups.xml.in.h:44
 msgid "MySQL server"
