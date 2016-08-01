@@ -701,6 +701,19 @@
   </group>
 
   <group>
+    <id>nethserver-nextcloud</id>
+    <_name>Nextcloud</_name>
+    <_description>Configure Nextcloud, universal access to your files
+    via the web, your computer or your mobile devices - wherever you
+    are</_description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type="mandatory">nethserver-nextcloud</packagereq>
+    </packagelist>
+  </group>
+
+  <group>
     <id>nethserver-l10n-de</id>
     <_name>German language</_name>
     <_description>Server Manager German localization</_description>
@@ -854,6 +867,7 @@
       <groupid>nethserver-directory</groupid>
       <groupid>nethserver-dc</groupid>
       <groupid>nethserver-roundcubemail</groupid>
+      <groupid>nethserver-nextcloud</groupid>
     </grouplist>
   </category>
 
