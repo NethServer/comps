@@ -498,6 +498,7 @@
     <packagelist>
       <packagereq type="mandatory">nethserver-mail-filter</packagereq>
       <packagereq type="mandatory">nethserver-mail-server</packagereq>
+      <packagereq type="optional">nethserver-getmail</packagereq>
       <packagereq type="optional">nethserver-roundcubemail</packagereq>
     </packagelist>
   </group>
@@ -726,6 +727,17 @@
   </group>
 
   <group>
+     <id>nethserver-pop3connector</id>
+     <_name>POP3 connector</_name>
+     <_description>Fetch messages from external email accounts with POP3 or IMAP access</_description>
+     <default>false</default>
+     <uservisible>true</uservisible>
+     <packagelist>
+        <packagereq type="mandatory">nethserver-getmail</packagereq>
+     </packagelist>
+  </group>
+
+  <group>
     <id>nethserver-l10n-de</id>
     <_name>German language</_name>
     <_description>Server Manager German localization</_description>
@@ -880,6 +892,7 @@
       <groupid>nethserver-dc</groupid>
       <groupid>nethserver-roundcubemail</groupid>
       <groupid>nethserver-nextcloud</groupid>
+      <groupid>nethserver-pop3connector</groupid>
     </grouplist>
   </category>
 
