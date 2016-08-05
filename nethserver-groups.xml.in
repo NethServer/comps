@@ -582,6 +582,18 @@
   </group>
 
   <group>
+    <id>nethserver-bandwidthd</id>
+    <_name>Simplified bandwidth monitor</_name>
+    <_description>Configure and manage Bandwidthd</_description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type="mandatory">nethserver-bandwidthd</packagereq>
+    </packagelist>
+  </group>
+
+
+  <group>
     <id>nethserver-nut</id>
     <_name>UPS support</_name>
     <_description>UPS management and monitoring configuration</_description>
@@ -885,6 +897,7 @@
       <groupid>nethserver-ipsec-tunnels</groupid>
       <groupid>nethserver-ips</groupid>
       <groupid>nethserver-bandwidth-monitor</groupid>
+      <groupid>nethserver-bandwidthd</groupid>
       <groupid>nethserver-p3scan</groupid>
     </grouplist>
   </category>
