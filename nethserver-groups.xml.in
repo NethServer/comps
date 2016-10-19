@@ -698,7 +698,7 @@
     <default>false</default>
     <uservisible>true</uservisible>
     <packagelist>
-      <packagereq type="mandatory">nethserver-snort</packagereq>
+      <packagereq type="mandatory">nethserver-suricata</packagereq>
     </packagelist>
   </group>
 
