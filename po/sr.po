@@ -3,7 +3,7 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# gsiotas, 2015
+# Bojan Bogdanović (Бојан Богдановић), 2016
 msgid ""
 msgstr ""
 "Project-Id-Version: nethserver\n"
@@ -11,210 +11,210 @@ msgstr ""
 "POT-Creation-Date: 2016-10-19 14:39+0200\n"
 "PO-Revision-Date: 2016-10-19 12:42+0000\n"
 "Last-Translator: Davide Principi <davide.principi@nethesis.it>\n"
-"Language-Team: Greek (http://www.transifex.com/nethserver/nethserver/language/el/)\n"
+"Language-Team: Serbian (http://www.transifex.com/nethserver/nethserver/language/sr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: el\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: sr\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #: ../nethserver-groups.xml.in.h:1
 msgid "Build system"
-msgstr "Κατασκευή συστήματος"
+msgstr "Изгради систем"
 
 #: ../nethserver-groups.xml.in.h:2
 msgid "Tools for building RPMs"
-msgstr "Εργαλεία για την κατασκευή RPMs"
+msgstr "Алати за прављење РПМова"
 
 #: ../nethserver-groups.xml.in.h:3
 msgid "Additional ISO packages"
-msgstr "Επιπλέον πακέτα ISO"
+msgstr "Додатни ИСО пакети"
 
 #: ../nethserver-groups.xml.in.h:4
 msgid "Backup"
-msgstr "Αντίγραφα Ασφαλείας"
+msgstr "Резервна копија"
 
 #: ../nethserver-groups.xml.in.h:5
 msgid "Backup of configuration and data"
-msgstr "Αντίγραφα ασφαλείας των ρυθμίσεων και των δεδομένων"
+msgstr "Резервна копија подешавања и података"
 
 #: ../nethserver-groups.xml.in.h:6
 msgid "Fax server"
-msgstr "Διακομιστής FAX"
+msgstr "Факс сервер"
 
 #: ../nethserver-groups.xml.in.h:7
 msgid "Configure HylaFax+ and manage IAX modems"
-msgstr "Διαχείρηση μόντεμ HylaFax+ και IAX"
+msgstr "Подеси HylaFax+ и управљај IAX модемима"
 
 #: ../nethserver-groups.xml.in.h:8
 msgid "Basic firewall"
-msgstr "Βασικό τείχος προστασίας"
+msgstr "Основни заштитини зид"
 
 #: ../nethserver-groups.xml.in.h:9
 msgid "Configure network adapters and basic firewall"
-msgstr "Ρύθμιση προσαρμογέων δικτύου και βασικού τοίχους προστασίας"
+msgstr "Подеси мрежне адаптере и основни заштитни зид"
 
 #: ../nethserver-groups.xml.in.h:10
 msgid "File server"
-msgstr "Διακομιστής αρχείων"
+msgstr "Сервер докумената"
 
 #: ../nethserver-groups.xml.in.h:11
 msgid "Daemons and tools for network file sharing"
-msgstr "Daemons και εργαλεία για τον διαμοιρασμό αρχείων μέσω δικτύου"
+msgstr "Димони и алати за мрежно дељење докумената"
 
 #: ../nethserver-groups.xml.in.h:12
 msgid "FTP server"
-msgstr "Διακομιστής FTP"
+msgstr "ФТП сервер"
 
 #: ../nethserver-groups.xml.in.h:13
 msgid "Configure the FTP server (vsftpd)"
-msgstr "Διαμόρφωση διακομιστή FTP (vsftpd)"
+msgstr "Подеси ФТП сервер (всфтпд)"
 
 #: ../nethserver-groups.xml.in.h:14
 msgid "Account provider: OpenLDAP"
-msgstr ""
+msgstr "Пружалац налога: ОпенЛДАП"
 
 #: ../nethserver-groups.xml.in.h:15
 msgid "Configure users and groups on OpenLDAP"
-msgstr ""
+msgstr "Подеси кориснике и групе на ОпенЛДАП"
 
 #: ../nethserver-groups.xml.in.h:16
 msgid "Account provider: Samba Active Directory"
-msgstr ""
+msgstr "Пружалац налога: Самба Активни Директоријум"
 
 #: ../nethserver-groups.xml.in.h:17
 msgid "Configure users and groups on Samba Active Directory"
-msgstr ""
+msgstr "Подеси кориснике и групе на Самба Активном Директоријуму"
 
 #: ../nethserver-groups.xml.in.h:18
 msgid "WebTop groupware"
-msgstr ""
+msgstr "ВебТоп Гроупвер"
 
 #: ../nethserver-groups.xml.in.h:19
 msgid "Email"
-msgstr "Email"
+msgstr "Е-пошта"
 
 #: ../nethserver-groups.xml.in.h:20
 msgid "Email server and filter"
-msgstr "Διακομιστής email και φίλτρο"
+msgstr "Сервер е-поште и филтер"
 
 #: ../nethserver-groups.xml.in.h:21
 msgid "Roundcube web mail"
-msgstr ""
+msgstr "Раундкјуб веб пошта"
 
 #: ../nethserver-groups.xml.in.h:22
 msgid "SMTP proxy"
-msgstr "Διαμεσολαβητής SMTP"
+msgstr "СМТП прокси"
 
 #: ../nethserver-groups.xml.in.h:23
 msgid "Instant messaging"
-msgstr "Υπηρεσία άμεσων μηνυμάτων"
+msgstr "Инстант поруке"
 
 #: ../nethserver-groups.xml.in.h:24
 msgid "XMPP/Jabber chat server"
-msgstr "Διακομιστής chat XMPP/Jabber"
+msgstr "XMPP/Jabber сервер за ћаскање"
 
 #: ../nethserver-groups.xml.in.h:25
 msgid "Print server"
-msgstr "Διακομιστής Εκτυπωτών"
+msgstr "Сервер штампе"
 
 #: ../nethserver-groups.xml.in.h:26
 msgid "Print management server (CUPS)"
-msgstr "Διακομιστής διαχείρισης εκτυπωτών (CUPS)"
+msgstr "Сервер управљања штампом (ЦУПС)"
 
 #: ../nethserver-groups.xml.in.h:27
 msgid "Web server"
-msgstr "Διακομιστής Διαδικτύου"
+msgstr "Веб сервер"
 
 #: ../nethserver-groups.xml.in.h:28
 msgid "Configuration tools for Apache web server"
-msgstr "Εργαλεία διαχείρησης για τον διακομιστή web Apache"
+msgstr "Алати за подешавање и Апач веб сервер"
 
 #: ../nethserver-groups.xml.in.h:29
 msgid "Reverse proxy"
-msgstr ""
+msgstr "Реверзни прокси"
 
 #: ../nethserver-groups.xml.in.h:30
 msgid "Configure Apache ProxyPass functionality"
-msgstr ""
+msgstr "Подеси Апач ПроксиПас функционалност"
 
 #: ../nethserver-groups.xml.in.h:31
 msgid "Bandwidth monitor"
-msgstr "Παρακολούθηση bandwidth"
+msgstr "Монитор протока"
 
 #: ../nethserver-groups.xml.in.h:32
 msgid "Configure and manage Ntopng"
-msgstr "Διαμόρφωση και διαχείρηση Ntopng"
+msgstr "Подеси и управљај са Нтопнг"
 
 #: ../nethserver-groups.xml.in.h:33
 msgid "Simple bandwidth monitor"
-msgstr ""
+msgstr "Једнсотаван монитор протока"
 
 #: ../nethserver-groups.xml.in.h:34
 msgid "Configure and manage Bandwidthd"
-msgstr ""
+msgstr "Подеси и управљај са Бендвидд"
 
 #: ../nethserver-groups.xml.in.h:35
 msgid "UPS support"
-msgstr "Υποστήριξη UPS"
+msgstr "УПС подршка"
 
 #: ../nethserver-groups.xml.in.h:36
 msgid "UPS management and monitoring configuration"
-msgstr "Διαμόρφωση διαχείρισης και παρακολούθησης UPS"
+msgstr "Конфгурација УПС управљања и праћења"
 
 #: ../nethserver-groups.xml.in.h:37
 msgid "Statistics"
-msgstr "Στατιστικά"
+msgstr "Статистике"
 
 #: ../nethserver-groups.xml.in.h:38
 msgid "Collect and analyse system statistics"
-msgstr "Συλλογή και ανάλυση στατιστικών συστήματος"
+msgstr "Прикупи и анализирај статистике система"
 
 #: ../nethserver-groups.xml.in.h:39
 msgid "Web proxy"
-msgstr "Διαμεσολαβητής Web"
+msgstr "Веб прокси"
 
 #: ../nethserver-groups.xml.in.h:40
 msgid "Squid web caching proxy configuration"
-msgstr "Διαμόρφωση προσωρινής μνήμης διακομιστή Squid"
+msgstr "Подешавање Сквид веб проксија за кеширање"
 
 #: ../nethserver-groups.xml.in.h:41
 msgid "Web filter"
-msgstr "Φίλτρο web"
+msgstr "Веб филтер"
 
 #: ../nethserver-groups.xml.in.h:42
 msgid "Squid web content and virus filter"
-msgstr "Φίλτρο περιεχομένου web Squid και φίλτρο ιών"
+msgstr "Сквид филтер веб садржаја и вируса"
 
 #: ../nethserver-groups.xml.in.h:43
 msgid ""
 "Configure remote-access and site-to-site Virtual Private Networks (VPN) "
 "using OpenVPN"
-msgstr ""
+msgstr "Подеси даљински приступ и сајт-ка-сајту Виртуелну Приватну Мрежу (ВПН) користећи ОпенВПН"
 
 #: ../nethserver-groups.xml.in.h:44
 msgid "IPsec tunnels"
-msgstr ""
+msgstr "ИПсец тунели"
 
 #: ../nethserver-groups.xml.in.h:45
 msgid "Site-to-site Virtual Private Networks (VPN) using IPsec"
-msgstr ""
+msgstr "Сајт-ка-сајту Виртуелна Приватна Мрежа (ВПН) коирстећи ИПсец"
 
 #: ../nethserver-groups.xml.in.h:46
 msgid "MariaDB (MySQL) server"
-msgstr ""
+msgstr "МаријаДБ (MySQL) сервер"
 
 #: ../nethserver-groups.xml.in.h:47
 msgid "Configuration tools for MariaDB (MySQL)"
-msgstr ""
+msgstr "Конфигирациони алати за МаријаДБ (MySQL)"
 
 #: ../nethserver-groups.xml.in.h:48
 msgid "Intrusion Prevention System"
-msgstr "Σύστημα αποτροπής εισβολών"
+msgstr "Систем спречавања упада"
 
 #: ../nethserver-groups.xml.in.h:49
 msgid "Monitor and block network traffic for malicious activity"
-msgstr "Παρακολούθηση και φραγή κίνησης δικτύου για κακόβουλη δραστηριότητα"
+msgstr "Прати и блокирај мрежни саобраћај због малиционзних активности"
 
 #: ../nethserver-groups.xml.in.h:50
 msgid "Deep packet inspection (DPI)"
@@ -226,146 +226,146 @@ msgstr ""
 
 #: ../nethserver-groups.xml.in.h:52
 msgid "POP3 proxy"
-msgstr "Διαμεσολαβητής POP3"
+msgstr "ПОП3 прокси"
 
 #: ../nethserver-groups.xml.in.h:53
 msgid "Intercept POP3 connections and scan messages for virtus and spam"
-msgstr "Παρακολούθηση συνδέσεων POP3 και έλεγχος μηνυμάτων για ιούς και ανεπιθύμητη αλληλογραφία"
+msgstr "Пресретни ПОП3 конекције и скенирај поруке на вирусе и спамове"
 
 #: ../nethserver-groups.xml.in.h:54
 msgid "SNMP server"
-msgstr "Διακομιστής SNMP"
+msgstr "СНМП сервер"
 
 #: ../nethserver-groups.xml.in.h:55
 msgid "Configure the SNMP server"
-msgstr "Διαμόρφωση διακομιστή SNMP"
+msgstr "Подеси СНМП сервер"
 
 #: ../nethserver-groups.xml.in.h:56
 msgid "Nextcloud"
-msgstr ""
+msgstr "Некстклауд"
 
 #: ../nethserver-groups.xml.in.h:57
 msgid ""
 "Configure Nextcloud, universal access to your files via the web, your "
 "computer or your mobile devices - wherever you are"
-msgstr ""
+msgstr "Подеси Некстклауд, универзални приступ вашим документима преко веба, вашег рачунара или ваших мобилних уређаја - где год да сте"
 
 #: ../nethserver-groups.xml.in.h:58
 msgid "POP3 connector"
-msgstr "διασύνδεση POP3"
+msgstr "ПОП3 конектор"
 
 #: ../nethserver-groups.xml.in.h:59
 msgid "Fetch messages from external email accounts with POP3 or IMAP access"
-msgstr "Λήψη μηνυμάτων από εξωτερικές διευθύνσεις email δια μέσου POP3 ή IMAP"
+msgstr "Преузми поруке са спољних налога е-поште помоћу ПОП3 или ИМАП приступа"
 
 #: ../nethserver-groups.xml.in.h:60
 msgid "German language"
-msgstr "Γερμανική γλώσσα"
+msgstr "Немачки језик"
 
 #: ../nethserver-groups.xml.in.h:61
 msgid "Server Manager German localization"
-msgstr "Διαχείριση διακομιστή στα Γερμανικά"
+msgstr "Немачка локализација Управљача сервера"
 
 #: ../nethserver-groups.xml.in.h:62
 msgid "Greek language"
-msgstr "Ελληνικά"
+msgstr "Грчки језик"
 
 #: ../nethserver-groups.xml.in.h:63
 msgid "Server Manager Greek localization"
-msgstr "Διαχείριση διακομιστή στα Ελληνικά"
+msgstr "Грчка локализација Управљача сервера"
 
 #: ../nethserver-groups.xml.in.h:64
 msgid "Spanish language"
-msgstr "Ισπανική γλώσσα"
+msgstr "Шпански језик"
 
 #: ../nethserver-groups.xml.in.h:65
 msgid "Server Manager Spanish localization"
-msgstr "Διαχείριση διακομιστή στα Ισπανικά"
+msgstr "Шпанска локализација Управљача сервера"
 
 #: ../nethserver-groups.xml.in.h:66
 msgid "French language"
-msgstr "Γαλλικά"
+msgstr "Француски језик"
 
 #: ../nethserver-groups.xml.in.h:67
 msgid "Server Manager French localization"
-msgstr "Διαχείριση διακομιστή στα Γαλλικά"
+msgstr "Француска локализација Управљача сервера"
 
 #: ../nethserver-groups.xml.in.h:68
 msgid "Hungarian language"
-msgstr "Ουγρικά"
+msgstr "Мађарски језик"
 
 #: ../nethserver-groups.xml.in.h:69
 msgid "Server Manager Hungarian localization"
-msgstr "Διαχείριση διακομιστή στα Ουγγρικά"
+msgstr "Мађарска локализација Управљача сервера"
 
 #: ../nethserver-groups.xml.in.h:70
 msgid "Italian language"
-msgstr "Ιταλικά"
+msgstr "Италијански језик"
 
 #: ../nethserver-groups.xml.in.h:71
 msgid "Server Manager Italian localization"
-msgstr "Διαχείριση διακομιστή στα Ιταλικά"
+msgstr "Италијанска локализација Управљача сервера"
 
 #: ../nethserver-groups.xml.in.h:72
 msgid "Dutch language"
-msgstr "Ολλανδικά"
+msgstr "Холандски језик"
 
 #: ../nethserver-groups.xml.in.h:73
 msgid "Server Manager Dutch localization"
-msgstr "Διαχείριση διακομιστή στα Ολλανδικά"
+msgstr "Холандска локализација Управљача сервера"
 
 #: ../nethserver-groups.xml.in.h:74
 msgid "Portuguese language"
-msgstr "Πορτογαλλικά"
+msgstr "Поругалски језик"
 
 #: ../nethserver-groups.xml.in.h:75
 msgid "Server Manager Portuguese localization"
-msgstr "Διαχείριση διακομιστή στα Πορτογαλικά"
+msgstr "Португалска локализација Управљача сервера"
 
 #: ../nethserver-groups.xml.in.h:76
 msgid "Russian language"
-msgstr "Ρώσικα"
+msgstr "Руски језик"
 
 #: ../nethserver-groups.xml.in.h:77
 msgid "Server Manager Russian localization"
-msgstr "Διαχείριση διακομιστή στα Ρώσικα"
+msgstr "Руска локализација Управљача сервера"
 
 #: ../nethserver-groups.xml.in.h:78
 msgid "Turkish language"
-msgstr "Τούρκικα"
+msgstr "Турски језик"
 
 #: ../nethserver-groups.xml.in.h:79
 msgid "Server Manager Turkish localization"
-msgstr "Διαχείριση διακομιστή στα Τούρκικα"
+msgstr "Турска локализација Управљача сервера"
 
 #: ../nethserver-groups.xml.in.h:80
 msgid "Serbian language"
-msgstr ""
+msgstr "Српски језик"
 
 #: ../nethserver-groups.xml.in.h:81
 msgid "Server Manager Serbian localization"
-msgstr ""
+msgstr "Српска локализација Управљача сервера"
 
 #: ../nethserver-groups.xml.in.h:82
 msgid "Base system"
-msgstr "Βασικό σύστημα"
+msgstr "Основни систем"
 
 #: ../nethserver-groups.xml.in.h:83
 msgid "Infrastructure and groupware services"
-msgstr "Υπηρεσίες δομής και groupware"
+msgstr "Сервиси инфраструктуре и групвера"
 
 #: ../nethserver-groups.xml.in.h:84
 msgid "Firewall"
-msgstr "Τείχος προστασίας"
+msgstr "Заштитни зид"
 
 #: ../nethserver-groups.xml.in.h:85
 msgid "UTM Firewall"
-msgstr "Τείχος προστασίας UTM"
+msgstr "УТМ Заштитни зид"
 
 #: ../nethserver-groups.xml.in.h:86
 msgid "Languages"
-msgstr "Γλώσσες"
+msgstr "Језици"
 
 #: ../nethserver-groups.xml.in.h:87
 msgid "Localization of the Server Manager web interface"
-msgstr "Αλλαγή γλώσσα στην διεπαφή web του διακομιστή"
+msgstr "Локализација веб интерфејса Управљача сервера"
