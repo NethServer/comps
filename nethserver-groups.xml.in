@@ -936,6 +936,7 @@
       <groupid>nethserver-bandwidthd</groupid>
       <groupid>nethserver-p3scan</groupid>
       <groupid>nethserver-reverse-proxy</groupid>
+      <groupid>nethserver-dpi</groupid>
     </grouplist>
   </category>
 
