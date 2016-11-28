@@ -215,7 +215,7 @@ msgid "POP3 proxy"
 msgstr "Proxy POP3"
 
 #: ../nethserver-groups.xml.in.h:49
-msgid "Intercept POP3 connections and scan messages for virtus and spam"
+msgid "Intercept POP3 connections and scan messages for virus and spam"
 msgstr "Intercepta ligações POP3 e procura vírus ou spam nas mensagens"
 
 #: ../nethserver-groups.xml.in.h:50
