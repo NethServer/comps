@@ -10,5 +10,11 @@ Workflow
 
 4. Get the XML: ``make``
 
-5. SFTP the XML file to packages.nethserver.org, to ``nscom/<version>/nethserver-groups.xml``
+5. SFTP the XML file to packages.nethserver.org: ::
+
+     echo -e "cd nscom/7.2.1511/\nput nethserver-groups.xml updates-groups.xml"  | sftp -b - packages.nethserver.org
+
+6. Rebuild repodata on the server: ::
+
+     repobuild 7.2.1511/updates/x86_64
 
