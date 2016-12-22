@@ -229,11 +229,11 @@ msgstr "Controlla e blocca il traffico di rete proveniente da attività malevoli
 
 #: ../nethserver-groups.xml.in.h:50
 msgid "Deep packet inspection (DPI)"
-msgstr ""
+msgstr "Deep packet inspection (DPI)"
 
 #: ../nethserver-groups.xml.in.h:51
 msgid "Filter network traffic by analyzing the packets payload"
-msgstr ""
+msgstr "Filtra il traffico di rete analizzando il contenuto dei pacchetti"
 
 #: ../nethserver-groups.xml.in.h:52
 msgid "POP3 proxy"
