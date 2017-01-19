@@ -558,7 +558,6 @@
     <default>false</default>
     <uservisible>true</uservisible>
     <packagelist>
-      <packagereq type="mandatory">nethserver-httpd</packagereq>
       <packagereq type="mandatory">nethserver-virtualhosts</packagereq>
       <packagereq type="optional">php-gd</packagereq>
       <packagereq type="optional">php-imap</packagereq>
@@ -640,7 +639,6 @@
     <uservisible>true</uservisible>
     <packagelist>
       <packagereq type="mandatory">nethserver-squid</packagereq>
-      <packagereq type="mandatory">nethserver-httpd</packagereq>
       <packagereq type="mandatory">nethserver-lightsquid</packagereq>
     </packagelist>
   </group>
