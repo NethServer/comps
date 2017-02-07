@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-10-19 14:42+0200\n"
+"POT-Creation-Date: 2017-02-07 17:31+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -367,4 +367,28 @@ msgstr ""
 
 #: ../nethserver-groups.xml.in.h:87
 msgid "Localization of the Server Manager web interface"
+msgstr ""
+
+#: ../nethforge-groups.xml.in.h:1
+msgid "SOGo groupware"
+msgstr ""
+
+#: ../nethforge-groups.xml.in.h:2
+msgid "SOGo server and Thundebird extensions"
+msgstr ""
+
+#: ../nethforge-groups.xml.in.h:3
+msgid "Virtual machines manager"
+msgstr ""
+
+#: ../nethforge-groups.xml.in.h:4
+msgid "Web interface for KVM virtual machines"
+msgstr ""
+
+#: ../nethforge-groups.xml.in.h:5
+msgid "NethForge"
+msgstr ""
+
+#: ../nethforge-groups.xml.in.h:6
+msgid "Modules from the NethServer Community"
 msgstr ""

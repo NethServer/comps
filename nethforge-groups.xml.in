@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE comps PUBLIC "-//Red Hat, Inc.//DTD Comps info//EN" "comps.dtd">
+<comps>
+
+  <group>
+    <id>nethserver-sogo</id>
+    <_name>SOGo groupware</_name>
+    <_description>SOGo server and Thundebird extensions</_description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type="mandatory">nethserver-sogo</packagereq>
+    </packagelist>
+  </group>
+
+  <group>
+    <id>nethserver-webvirtmgr</id>
+    <_name>Virtual machines manager</_name>
+    <_description>Web interface for KVM virtual machines</_description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type="mandatory">nethserver-webvirtmgr</packagereq>
+    </packagelist>
+  </group>
+
+
+  <category>
+    <id>nethforge</id>
+    <_name>NethForge</_name>
+    <_description>Modules from the NethServer Community</_description>
+    <display_order>1</display_order>
+    <grouplist>
+      <groupid>nethserver-sogo</groupid>
+      <groupid>nethserver-webvirtmgr</groupid>
+    </grouplist>
+  </category>
+
+</comps>
