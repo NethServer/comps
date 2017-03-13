@@ -3,14 +3,14 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Moo, 2015-2016
+# Moo, 2015-2017
 msgid ""
 msgstr ""
 "Project-Id-Version: nethserver\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-10-19 14:39+0200\n"
-"PO-Revision-Date: 2016-10-19 12:42+0000\n"
-"Last-Translator: Davide Principi <davide.principi@nethesis.it>\n"
+"POT-Creation-Date: 2017-03-08 14:45+0100\n"
+"PO-Revision-Date: 2017-03-08 13:53+0000\n"
+"Last-Translator: Giacomo Sanchietti <giacomo.sanchietti@nethesis.it>\n"
 "Language-Team: Lithuanian (http://www.transifex.com/nethserver/nethserver/language/lt/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -20,23 +20,23 @@ msgstr ""
 
 #: ../nethserver-groups.xml.in.h:1
 msgid "Build system"
-msgstr ""
+msgstr "Kūrimo sistema"
 
 #: ../nethserver-groups.xml.in.h:2
 msgid "Tools for building RPMs"
-msgstr ""
+msgstr "Įrankiai, skirti RPM kūrimui"
 
 #: ../nethserver-groups.xml.in.h:3
 msgid "Additional ISO packages"
-msgstr ""
+msgstr "Papildomi ISO paketai"
 
 #: ../nethserver-groups.xml.in.h:4
 msgid "Backup"
-msgstr ""
+msgstr "Atsarginė kopija"
 
 #: ../nethserver-groups.xml.in.h:5
 msgid "Backup of configuration and data"
-msgstr ""
+msgstr "Konfigūracijos ir duomenų atsarginė kopija"
 
 #: ../nethserver-groups.xml.in.h:6
 msgid "Fax server"
@@ -44,23 +44,23 @@ msgstr "Fakso serveris"
 
 #: ../nethserver-groups.xml.in.h:7
 msgid "Configure HylaFax+ and manage IAX modems"
-msgstr ""
+msgstr "Konfigūruoti HylaFax+ ir tvarkyti IAX modemus"
 
 #: ../nethserver-groups.xml.in.h:8
 msgid "Basic firewall"
-msgstr ""
+msgstr "Pagrindinė užkarda"
 
 #: ../nethserver-groups.xml.in.h:9
 msgid "Configure network adapters and basic firewall"
-msgstr ""
+msgstr "Konfigūruoti tinklo adapterius ir pagrindinę užkardą"
 
 #: ../nethserver-groups.xml.in.h:10
 msgid "File server"
-msgstr ""
+msgstr "Failų serveris"
 
 #: ../nethserver-groups.xml.in.h:11
 msgid "Daemons and tools for network file sharing"
-msgstr ""
+msgstr "Tarnybos ir įrankiai, skirti tinklo failų bendrinimui"
 
 #: ../nethserver-groups.xml.in.h:12
 msgid "FTP server"
@@ -68,304 +68,332 @@ msgstr "FTP serveris"
 
 #: ../nethserver-groups.xml.in.h:13
 msgid "Configure the FTP server (vsftpd)"
-msgstr ""
+msgstr "Konfigūruoti FTP serverį (vsftpd)"
 
 #: ../nethserver-groups.xml.in.h:14
 msgid "Account provider: OpenLDAP"
-msgstr ""
+msgstr "Paskyros tiekėjas: OpenLDAP"
 
 #: ../nethserver-groups.xml.in.h:15
 msgid "Configure users and groups on OpenLDAP"
-msgstr ""
+msgstr "Konfigūruoti naudotojus ir grupes ties OpenLDAP"
 
 #: ../nethserver-groups.xml.in.h:16
 msgid "Account provider: Samba Active Directory"
-msgstr ""
+msgstr "Paskyros tiekėjas: Samba aktyvus katalogas"
 
 #: ../nethserver-groups.xml.in.h:17
 msgid "Configure users and groups on Samba Active Directory"
-msgstr ""
+msgstr "Konfigūruoti naudotojus ir grupes Samba aktyviame kataloge"
 
 #: ../nethserver-groups.xml.in.h:18
-msgid "WebTop groupware"
+msgid "WebTop 4 groupware"
 msgstr ""
 
 #: ../nethserver-groups.xml.in.h:19
-msgid "Email"
+msgid "WebTop 5 groupware"
 msgstr ""
 
 #: ../nethserver-groups.xml.in.h:20
-msgid "Email server and filter"
-msgstr ""
+msgid "Email"
+msgstr "El. paštas"
 
 #: ../nethserver-groups.xml.in.h:21
-msgid "Roundcube web mail"
-msgstr ""
+msgid "Email server and filter"
+msgstr "El. pašto serveris ir filtras"
 
 #: ../nethserver-groups.xml.in.h:22
+msgid "Roundcube web mail"
+msgstr "Roundcube saityno paštas"
+
+#: ../nethserver-groups.xml.in.h:23
 msgid "SMTP proxy"
 msgstr "SMTP įgaliotasis serveris"
 
-#: ../nethserver-groups.xml.in.h:23
-msgid "Instant messaging"
-msgstr ""
-
 #: ../nethserver-groups.xml.in.h:24
-msgid "XMPP/Jabber chat server"
-msgstr ""
+msgid "Instant messaging"
+msgstr "Tikralaikiai pokalbiai"
 
 #: ../nethserver-groups.xml.in.h:25
-msgid "Print server"
-msgstr ""
+msgid "XMPP/Jabber chat server"
+msgstr "XMPP/Jabber pokalbių serveris"
 
 #: ../nethserver-groups.xml.in.h:26
-msgid "Print management server (CUPS)"
-msgstr ""
+msgid "Print server"
+msgstr "Spausdinimo serveris"
 
 #: ../nethserver-groups.xml.in.h:27
-msgid "Web server"
-msgstr ""
+msgid "Print management server (CUPS)"
+msgstr "Spausdinimo tvarkymo serveris (CUPS)"
 
 #: ../nethserver-groups.xml.in.h:28
-msgid "Configuration tools for Apache web server"
-msgstr ""
+msgid "Web server"
+msgstr "Saityno serveris"
 
 #: ../nethserver-groups.xml.in.h:29
-msgid "Reverse proxy"
-msgstr ""
+msgid "Configuration tools for Apache web server"
+msgstr "Konfigūravimo įrankiai, skirti Apache saityno serveriui"
 
 #: ../nethserver-groups.xml.in.h:30
-msgid "Configure Apache ProxyPass functionality"
-msgstr ""
+msgid "Reverse proxy"
+msgstr "Atvirkštinis įgaliotasis serveris"
 
 #: ../nethserver-groups.xml.in.h:31
-msgid "Bandwidth monitor"
-msgstr ""
+msgid "Configure Apache ProxyPass functionality"
+msgstr "Konfigūruoti Apache ProxyPass funkcionalumą"
 
 #: ../nethserver-groups.xml.in.h:32
-msgid "Configure and manage Ntopng"
-msgstr ""
+msgid "Bandwidth monitor"
+msgstr "Siuntimo spartos prižiūryklė"
 
 #: ../nethserver-groups.xml.in.h:33
-msgid "Simple bandwidth monitor"
-msgstr ""
+msgid "Configure and manage Ntopng"
+msgstr "Konfigūruoti ir tvarkyti Ntopng"
 
 #: ../nethserver-groups.xml.in.h:34
-msgid "Configure and manage Bandwidthd"
-msgstr ""
+msgid "Simple bandwidth monitor"
+msgstr "Paprasta siuntimo spartos prižiūryklė"
 
 #: ../nethserver-groups.xml.in.h:35
-msgid "UPS support"
-msgstr ""
+msgid "Configure and manage Bandwidthd"
+msgstr "Konfigūruoti ir tvarkyti Bandwidthd"
 
 #: ../nethserver-groups.xml.in.h:36
+msgid "UPS support"
+msgstr "Nenutrūkstamo maitinimo šaltinio (UPS) palaikymas"
+
+#: ../nethserver-groups.xml.in.h:37
 msgid "UPS management and monitoring configuration"
 msgstr ""
 
-#: ../nethserver-groups.xml.in.h:37
+#: ../nethserver-groups.xml.in.h:38
 msgid "Statistics"
 msgstr "Statistika"
 
-#: ../nethserver-groups.xml.in.h:38
-msgid "Collect and analyse system statistics"
-msgstr ""
-
 #: ../nethserver-groups.xml.in.h:39
-msgid "Web proxy"
-msgstr ""
+msgid "Collect and analyse system statistics"
+msgstr "Rinkti ir analizuoti sistemos statistiką"
 
 #: ../nethserver-groups.xml.in.h:40
+msgid "Web proxy"
+msgstr "Saityno įgaliotasis serveris"
+
+#: ../nethserver-groups.xml.in.h:41
 msgid "Squid web caching proxy configuration"
 msgstr ""
 
-#: ../nethserver-groups.xml.in.h:41
-msgid "Web filter"
-msgstr ""
-
 #: ../nethserver-groups.xml.in.h:42
+msgid "Web filter"
+msgstr "Saityno filtras"
+
+#: ../nethserver-groups.xml.in.h:43
 msgid "Squid web content and virus filter"
 msgstr ""
 
-#: ../nethserver-groups.xml.in.h:43
+#: ../nethserver-groups.xml.in.h:44
 msgid ""
 "Configure remote-access and site-to-site Virtual Private Networks (VPN) "
 "using OpenVPN"
-msgstr ""
-
-#: ../nethserver-groups.xml.in.h:44
-msgid "IPsec tunnels"
-msgstr ""
+msgstr "Konfigūruoti nuotolinę prieigą ir virtualiuosius privačiuosius tinklus (VPN) nuo svetainės iki svetainės, naudojant OpenVPN"
 
 #: ../nethserver-groups.xml.in.h:45
-msgid "Site-to-site Virtual Private Networks (VPN) using IPsec"
-msgstr ""
+msgid "IPsec tunnels"
+msgstr "IPsec tuneliai"
 
 #: ../nethserver-groups.xml.in.h:46
-msgid "MariaDB (MySQL) server"
-msgstr ""
+msgid "Site-to-site Virtual Private Networks (VPN) using IPsec"
+msgstr "Virtualieji privatieji tinklai (VPN) nuo svetainės iki svetainės, naudojant IPsec"
 
 #: ../nethserver-groups.xml.in.h:47
-msgid "Configuration tools for MariaDB (MySQL)"
-msgstr ""
+msgid "MariaDB (MySQL) server"
+msgstr "MariaDB (MySQL) serveris"
 
 #: ../nethserver-groups.xml.in.h:48
-msgid "Intrusion Prevention System"
-msgstr ""
+msgid "Configuration tools for MariaDB (MySQL)"
+msgstr "Konfigūravimo įrankiai, skirti MariaDB (MySQL)"
 
 #: ../nethserver-groups.xml.in.h:49
-msgid "Monitor and block network traffic for malicious activity"
-msgstr ""
+msgid "Intrusion Prevention System"
+msgstr "Įsibrovimų prevencijos sistema"
 
 #: ../nethserver-groups.xml.in.h:50
-msgid "Deep packet inspection (DPI)"
-msgstr ""
+msgid "Monitor and block network traffic for malicious activity"
+msgstr "Stebėti ir blokuoti tinklo sraute kenkėjišką veiklą"
 
 #: ../nethserver-groups.xml.in.h:51
-msgid "Filter network traffic by analyzing the packets payload"
-msgstr ""
+msgid "Deep packet inspection (DPI)"
+msgstr "Giluminis paketų tikrinimas (GPT)"
 
 #: ../nethserver-groups.xml.in.h:52
+msgid "Filter network traffic by analyzing the packets payload"
+msgstr "Filtruoti tinklo srautą, analizuojant paketų naudingąją apkrovą"
+
+#: ../nethserver-groups.xml.in.h:53
 msgid "POP3 proxy"
 msgstr "POP3 įgaliotasis serveris"
 
-#: ../nethserver-groups.xml.in.h:53
+#: ../nethserver-groups.xml.in.h:54
 msgid "Intercept POP3 connections and scan messages for virus and spam"
 msgstr ""
 
-#: ../nethserver-groups.xml.in.h:54
+#: ../nethserver-groups.xml.in.h:55
 msgid "SNMP server"
 msgstr "SNMP serveris"
 
-#: ../nethserver-groups.xml.in.h:55
-msgid "Configure the SNMP server"
-msgstr ""
-
 #: ../nethserver-groups.xml.in.h:56
-msgid "Nextcloud"
-msgstr ""
+msgid "Configure the SNMP server"
+msgstr "Konfigūruoti SNMP serverį"
 
 #: ../nethserver-groups.xml.in.h:57
+msgid "Nextcloud"
+msgstr "Nextcloud"
+
+#: ../nethserver-groups.xml.in.h:58
 msgid ""
 "Configure Nextcloud, universal access to your files via the web, your "
 "computer or your mobile devices - wherever you are"
 msgstr ""
 
-#: ../nethserver-groups.xml.in.h:58
-msgid "POP3 connector"
-msgstr ""
-
 #: ../nethserver-groups.xml.in.h:59
+msgid "POP3 connector"
+msgstr "POP3 jungtis"
+
+#: ../nethserver-groups.xml.in.h:60
 msgid "Fetch messages from external email accounts with POP3 or IMAP access"
 msgstr "Gauti laiškus iš išorinių el. pašto paskyrų per POP3 ar IMAP prieigą"
 
-#: ../nethserver-groups.xml.in.h:60
+#: ../nethserver-groups.xml.in.h:61
 msgid "German language"
 msgstr "Vokiečių kalba"
 
-#: ../nethserver-groups.xml.in.h:61
-msgid "Server Manager German localization"
-msgstr ""
-
 #: ../nethserver-groups.xml.in.h:62
+msgid "Server Manager German localization"
+msgstr "Serverio tvarkytuvės vokiečių kalbos lokalizavimas"
+
+#: ../nethserver-groups.xml.in.h:63
 msgid "Greek language"
 msgstr "Graikų kalba"
 
-#: ../nethserver-groups.xml.in.h:63
-msgid "Server Manager Greek localization"
-msgstr ""
-
 #: ../nethserver-groups.xml.in.h:64
+msgid "Server Manager Greek localization"
+msgstr "Serverio tvarkytuvės graikų kalbos lokalizavimas"
+
+#: ../nethserver-groups.xml.in.h:65
 msgid "Spanish language"
 msgstr "Ispanų kalba"
 
-#: ../nethserver-groups.xml.in.h:65
-msgid "Server Manager Spanish localization"
-msgstr ""
-
 #: ../nethserver-groups.xml.in.h:66
+msgid "Server Manager Spanish localization"
+msgstr "Serverio tvarkytuvės ispanų kalbos lokalizavimas"
+
+#: ../nethserver-groups.xml.in.h:67
 msgid "French language"
 msgstr "Prancūzų kalba"
 
-#: ../nethserver-groups.xml.in.h:67
-msgid "Server Manager French localization"
-msgstr ""
-
 #: ../nethserver-groups.xml.in.h:68
+msgid "Server Manager French localization"
+msgstr "Serverio tvarkytuvės prancūzų kalbos lokalizavimas"
+
+#: ../nethserver-groups.xml.in.h:69
 msgid "Hungarian language"
 msgstr "Vengrų kalba"
 
-#: ../nethserver-groups.xml.in.h:69
-msgid "Server Manager Hungarian localization"
-msgstr ""
-
 #: ../nethserver-groups.xml.in.h:70
+msgid "Server Manager Hungarian localization"
+msgstr "Serverio tvarkytuvės vengrų kalbos lokalizavimas"
+
+#: ../nethserver-groups.xml.in.h:71
 msgid "Italian language"
 msgstr "Italų kalba"
 
-#: ../nethserver-groups.xml.in.h:71
-msgid "Server Manager Italian localization"
-msgstr ""
-
 #: ../nethserver-groups.xml.in.h:72
+msgid "Server Manager Italian localization"
+msgstr "Serverio tvarkytuvės italų kalbos lokalizavimas"
+
+#: ../nethserver-groups.xml.in.h:73
 msgid "Dutch language"
 msgstr "Olandų kalba"
 
-#: ../nethserver-groups.xml.in.h:73
-msgid "Server Manager Dutch localization"
-msgstr ""
-
 #: ../nethserver-groups.xml.in.h:74
+msgid "Server Manager Dutch localization"
+msgstr "Serverio tvarkytuvės olandų kalbos lokalizavimas"
+
+#: ../nethserver-groups.xml.in.h:75
 msgid "Portuguese language"
 msgstr "Portugalų kalba"
 
-#: ../nethserver-groups.xml.in.h:75
-msgid "Server Manager Portuguese localization"
-msgstr ""
-
 #: ../nethserver-groups.xml.in.h:76
+msgid "Server Manager Portuguese localization"
+msgstr "Serverio tvarkytuvės portugalų kalbos lokalizavimas"
+
+#: ../nethserver-groups.xml.in.h:77
 msgid "Russian language"
 msgstr "Rusų kalba"
 
-#: ../nethserver-groups.xml.in.h:77
-msgid "Server Manager Russian localization"
-msgstr ""
-
 #: ../nethserver-groups.xml.in.h:78
+msgid "Server Manager Russian localization"
+msgstr "Serverio tvarkytuvės rusų kalbos lokalizavimas"
+
+#: ../nethserver-groups.xml.in.h:79
 msgid "Turkish language"
 msgstr "Turkų kalba"
 
-#: ../nethserver-groups.xml.in.h:79
-msgid "Server Manager Turkish localization"
-msgstr ""
-
 #: ../nethserver-groups.xml.in.h:80
-msgid "Serbian language"
-msgstr ""
+msgid "Server Manager Turkish localization"
+msgstr "Serverio tvarkytuvės turkų kalbos lokalizavimas"
 
 #: ../nethserver-groups.xml.in.h:81
-msgid "Server Manager Serbian localization"
-msgstr ""
+msgid "Serbian language"
+msgstr "Serbų kalba"
 
 #: ../nethserver-groups.xml.in.h:82
-msgid "Base system"
-msgstr ""
+msgid "Server Manager Serbian localization"
+msgstr "Serverio tvarkytuvės serbų kalbos lokalizavimas"
 
 #: ../nethserver-groups.xml.in.h:83
-msgid "Infrastructure and groupware services"
-msgstr ""
+msgid "Base system"
+msgstr "Bazinė sistema"
 
 #: ../nethserver-groups.xml.in.h:84
+msgid "Infrastructure and groupware services"
+msgstr "Infrastruktūros ir grupinės įrangos tarnybos"
+
+#: ../nethserver-groups.xml.in.h:85
 msgid "Firewall"
 msgstr "Užkarda"
 
-#: ../nethserver-groups.xml.in.h:85
+#: ../nethserver-groups.xml.in.h:86
 msgid "UTM Firewall"
 msgstr "UTM užkarda"
 
-#: ../nethserver-groups.xml.in.h:86
+#: ../nethserver-groups.xml.in.h:87
 msgid "Languages"
 msgstr "Kalbos"
 
-#: ../nethserver-groups.xml.in.h:87
+#: ../nethserver-groups.xml.in.h:88
 msgid "Localization of the Server Manager web interface"
-msgstr ""
+msgstr "Serverio tvarkytuvės saityno sąsajos lokalizavimas"
+
+#: ../nethforge-groups.xml.in.h:1
+msgid "SOGo groupware"
+msgstr "SOGo grupinė įranga"
+
+#: ../nethforge-groups.xml.in.h:2
+msgid "SOGo server and Thundebird extensions"
+msgstr "SOGo serveris ir Thundebird plėtiniai"
+
+#: ../nethforge-groups.xml.in.h:3
+msgid "Virtual machines manager"
+msgstr "Virtualiųjų mašinų tvarkytuvė"
+
+#: ../nethforge-groups.xml.in.h:4
+msgid "Web interface for KVM virtual machines"
+msgstr "Saityno sąsaja, skirta KVM virtualiosioms mašinoms"
+
+#: ../nethforge-groups.xml.in.h:5
+msgid "NethForge"
+msgstr "NethForge"
+
+#: ../nethforge-groups.xml.in.h:6
+msgid "Modules from the NethServer Community"
+msgstr "Moduliai iš NethServer bendruomenės"
