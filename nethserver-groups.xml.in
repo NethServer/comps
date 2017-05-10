@@ -459,6 +459,29 @@
   </group>
 
   <group>
+    <id>nethserver-directory</id>
+    <name>Account provider: OpenLDAP</name>
+    <description>Configure users and groups on OpenLDAP</description>
+    <default>false</default>
+    <uservisible>false</uservisible>
+    <packagelist>
+      <packagereq type="mandatory">nethserver-directory</packagereq>
+    </packagelist>
+  </group>
+
+  <group>
+    <id>nethserver-dc</id>
+    <name>Account provider: Samba Active Directory</name>
+    <description>Configure users and groups on Samba Active Directory</description>
+    <default>false</default>
+    <uservisible>false</uservisible>
+    <packagelist>
+      <packagereq type="mandatory">nethserver-dc</packagereq>
+    </packagelist>
+  </group>
+
+
+  <group>
     <id>nethserver-webtop4-groupware</id>
     <_name>WebTop 4 groupware</_name>
     <_description>WebTop 4 groupware</_description>
