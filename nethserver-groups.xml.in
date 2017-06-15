@@ -893,6 +893,16 @@
     </packagelist>
   </group>
 
+  <group>
+    <id>nethserver-l10n-ro</id>
+    <_name>Romanian language</_name>
+    <_description>Server Manager Romanian localization</_description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type='mandatory'>nethserver-lang-ro</packagereq>
+    </packagelist>
+  </group>
 
 <!-- NETHSERVER GROUPS END -->
 

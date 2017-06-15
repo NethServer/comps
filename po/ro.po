@@ -3,12 +3,8 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Bernhard Weber <bernhard.weber@datenheld.at>, 2015
-# Gerald Musch, 2015
-# Kri Reu <kreukauff@gmx.de>, 2017
-# Michael Träumner <m.traeumner@googlemail.com>, 2016-2017
-# Mika Beckerich <beckerichmika@gmail.com>, 2015,2017
-# Rolf Heinze <rowihei@web.de>, 2016
+# rox roxor <ceardaaa@gmail.com>, 2017
+# Sebastian, 2017
 msgid ""
 msgstr ""
 "Project-Id-Version: nethserver\n"
@@ -16,328 +12,328 @@ msgstr ""
 "POT-Creation-Date: 2017-06-15 10:55+0200\n"
 "PO-Revision-Date: 2017-06-15 08:56+0000\n"
 "Last-Translator: Davide Principi <davide.principi@nethesis.it>\n"
-"Language-Team: German (http://www.transifex.com/nethserver/nethserver/language/de/)\n"
+"Language-Team: Romanian (http://www.transifex.com/nethserver/nethserver/language/ro/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: de\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: ro\n"
+"Plural-Forms: nplurals=3; plural=(n==1?0:(((n%100>19)||((n%100==0)&&(n!=0)))?2:1));\n"
 
 #: ../nethserver-groups.xml.in.h:1
 msgid "Build system"
-msgstr "Erstelle System"
+msgstr "Construiți sistemul"
 
 #: ../nethserver-groups.xml.in.h:2
 msgid "Tools for building RPMs"
-msgstr "Tools für RPMs Erstellung"
+msgstr "Unelte pentru construcția RPM-urilor"
 
 #: ../nethserver-groups.xml.in.h:3
 msgid "Additional ISO packages"
-msgstr "Weitere ISO-Pakete"
+msgstr "Alte pachete ISO "
 
 #: ../nethserver-groups.xml.in.h:4
 msgid "Backup"
-msgstr "Sicherung"
+msgstr "Copie de rezerva"
 
 #: ../nethserver-groups.xml.in.h:5
 msgid "Backup of configuration and data"
-msgstr "Sicherung der Konfiguration und Daten"
+msgstr "Copie de rezervă a configurației și a datelor"
 
 #: ../nethserver-groups.xml.in.h:6
 msgid "Fax server"
-msgstr "Fax Server"
+msgstr "Server fax"
 
 #: ../nethserver-groups.xml.in.h:7
 msgid "Configure HylaFax+ and manage IAX modems"
-msgstr "Konfiguriere HylaFax+ und verwalte IAX Modems"
+msgstr "Configurați HylaFax + și gestionați modemurile IAX"
 
 #: ../nethserver-groups.xml.in.h:8
 msgid "Basic firewall"
-msgstr "Standard Firewall"
+msgstr "Firewall de bază"
 
 #: ../nethserver-groups.xml.in.h:9
 msgid "Configure network adapters and basic firewall"
-msgstr "Netzwerkadapter und Firewall konfigurieren"
+msgstr "Configurați adaptoarele de rețea și firewall-ul de bază"
 
 #: ../nethserver-groups.xml.in.h:10
 msgid "File server"
-msgstr "Fileserver"
+msgstr "Server de fișiere"
 
 #: ../nethserver-groups.xml.in.h:11
 msgid "Daemons and tools for network file sharing"
-msgstr "Daemons und Tools für Netzwerk Freigaben"
+msgstr "Daune și instrumente pentru partajarea de fișiere în rețea"
 
 #: ../nethserver-groups.xml.in.h:12
 msgid "FTP server"
-msgstr "FTP server"
+msgstr "Server FTP"
 
 #: ../nethserver-groups.xml.in.h:13
 msgid "Configure the FTP server (vsftpd)"
-msgstr "Konfiguriere den FTP Server (vsftpd)"
+msgstr "Configurați serverul FTP (vsftpd)"
 
 #: ../nethserver-groups.xml.in.h:14
 msgid "WebTop 4 groupware"
-msgstr "WebTop 4 Groupware"
+msgstr "WebTop 4 groupware"
 
 #: ../nethserver-groups.xml.in.h:15
 msgid "WebTop 5 groupware"
-msgstr "WebTop 5 Groupware"
+msgstr "WebTop 5 groupware"
 
 #: ../nethserver-groups.xml.in.h:16
 msgid "Email"
-msgstr "eMail"
+msgstr "Email"
 
 #: ../nethserver-groups.xml.in.h:17
 msgid "Email server and filter"
-msgstr "eMail-Server und Filter"
+msgstr "Server email si filtre"
 
 #: ../nethserver-groups.xml.in.h:18
 msgid "Roundcube web mail"
-msgstr "Roundcube Webmail"
+msgstr "Roundcube web email"
 
 #: ../nethserver-groups.xml.in.h:19
 msgid "SMTP proxy"
-msgstr "SMTP Proxy"
+msgstr "proxy SMTP"
 
 #: ../nethserver-groups.xml.in.h:20
 msgid "Instant messaging"
-msgstr "Instant Messaging"
+msgstr "Mesagerie instanta"
 
 #: ../nethserver-groups.xml.in.h:21
 msgid "XMPP/Jabber chat server"
-msgstr "XMPP/Jabber Chatserver"
+msgstr "Server de chat XMPP / Jabber"
 
 #: ../nethserver-groups.xml.in.h:22
 msgid "Print server"
-msgstr "Druckserver"
+msgstr "Server de imprimare"
 
 #: ../nethserver-groups.xml.in.h:23
 msgid "Print management server (CUPS)"
-msgstr "Druckverwaltungsserver (CUPS)"
+msgstr "Server de gestionare a tipăririi (CUPS)"
 
 #: ../nethserver-groups.xml.in.h:24
 msgid "Web server"
-msgstr "Webserver"
+msgstr "Server web"
 
 #: ../nethserver-groups.xml.in.h:25
 msgid "Configuration tools for Apache web server"
-msgstr "Konfigurationstool für Apache Web server"
+msgstr "Instrumente de configurare pentru serverul web Apache"
 
 #: ../nethserver-groups.xml.in.h:26
 msgid "Reverse proxy"
-msgstr "Reverse Proxy"
+msgstr "Proxy invers"
 
 #: ../nethserver-groups.xml.in.h:27
 msgid "Configure Apache ProxyPass functionality"
-msgstr "Konfiguriere Apache ProxyPass Funktionalität"
+msgstr "Configurați funcționalitatea Apache ProxyPass"
 
 #: ../nethserver-groups.xml.in.h:28
 msgid "Bandwidth monitor"
-msgstr "Bandbreitenmonitor"
+msgstr "Monitor banda"
 
 #: ../nethserver-groups.xml.in.h:29
 msgid "Configure and manage Ntopng"
-msgstr "Konfiguriere und verwalte Ntopng"
+msgstr "Configurați și gestionați Ntopng"
 
 #: ../nethserver-groups.xml.in.h:30
 msgid "Simple bandwidth monitor"
-msgstr "einfacher Bandbreitenmonitor"
+msgstr "Monitor banda simplu"
 
 #: ../nethserver-groups.xml.in.h:31
 msgid "Configure and manage Bandwidthd"
-msgstr "Konfiguriere und verwalte Bandbreiten"
+msgstr "Configurați și gestionați Banda"
 
 #: ../nethserver-groups.xml.in.h:32
 msgid "UPS support"
-msgstr "UPS Unterstützung"
+msgstr "Suport UPS"
 
 #: ../nethserver-groups.xml.in.h:33
 msgid "UPS management and monitoring configuration"
-msgstr "UPS Verwaltungs- und Überwachungskonfiguration"
+msgstr "Gestionarea și monitorizarea UPS"
 
 #: ../nethserver-groups.xml.in.h:34
 msgid "Statistics"
-msgstr "Statistik"
+msgstr "Statistica"
 
 #: ../nethserver-groups.xml.in.h:35
 msgid "Collect and analyse system statistics"
-msgstr "Sammle und verwalte Systemstatistiken"
+msgstr "Colectați și analizați statisticile de sistem"
 
 #: ../nethserver-groups.xml.in.h:36
 msgid "Web proxy"
-msgstr "Web proxy"
+msgstr "Proxy web"
 
 #: ../nethserver-groups.xml.in.h:37
 msgid "Squid web caching proxy configuration"
-msgstr "Squid Webcaching Proxy Konfiguration"
+msgstr "Squid configurare proxy caching web"
 
 #: ../nethserver-groups.xml.in.h:38
 msgid "Web filter"
-msgstr "Webfilter"
+msgstr "Filtru web"
 
 #: ../nethserver-groups.xml.in.h:39
 msgid "Squid web content and virus filter"
-msgstr "Squid Webcontent und Virusfilter"
+msgstr "Squid conținut web și filtru de virus"
 
 #: ../nethserver-groups.xml.in.h:40
 msgid ""
 "Configure remote-access and site-to-site Virtual Private Networks (VPN) "
 "using OpenVPN"
-msgstr "Konfiguriere Remotezugriff und Site-to-Site Virtuelles privates Netzwerk (VPN) über OpenVPN"
+msgstr "Configurați rețelele virtuale private (VPN) de acces la distanță și de la distanță folosind OpenVPN"
 
 #: ../nethserver-groups.xml.in.h:41
 msgid "IPsec tunnels"
-msgstr "IPsec Tunnel"
+msgstr "Tuneluri IPsec"
 
 #: ../nethserver-groups.xml.in.h:42
 msgid "Site-to-site Virtual Private Networks (VPN) using IPsec"
-msgstr "Site-to-Site Virtuelles privates Netzwerk (VPN) über IPsec"
+msgstr "Rețele virtuale private (VPN) la nivel de site utilizând IPsec"
 
 #: ../nethserver-groups.xml.in.h:43
 msgid "MariaDB (MySQL) server"
-msgstr "MariaDB (MySQL) Server"
+msgstr "Serverul MariaDB (MySQL)"
 
 #: ../nethserver-groups.xml.in.h:44
 msgid "Configuration tools for MariaDB (MySQL)"
-msgstr "Konfigurationstools für MariaDB (MySQL)"
+msgstr "Instrumente de configurare pentru MariaDB (MySQL)"
 
 #: ../nethserver-groups.xml.in.h:45
 msgid "Intrusion Prevention System"
-msgstr "Intrusion Prevention System"
+msgstr "Sistem de prevenire a intruziunilor"
 
 #: ../nethserver-groups.xml.in.h:46
 msgid "Monitor and block network traffic for malicious activity"
-msgstr "Überwache und blockiere Netzwerkverkehr mit böswilliger Aktivität"
+msgstr "Monitorizați și blocați traficul de rețea pentru activități dăunătoare"
 
 #: ../nethserver-groups.xml.in.h:47
 msgid "Deep packet inspection (DPI)"
-msgstr "Deep packet inspection (DPI)"
+msgstr "Inspecția detaliată a pachetelor (DPI)"
 
 #: ../nethserver-groups.xml.in.h:48
 msgid "Filter network traffic by analyzing the packets payload"
-msgstr "Netzwerk-Traffic mit Hilfe der analyse des Paketgewichts filtern"
+msgstr "Filtrați traficul de rețea analizând încărcătura utilă a pachetelor"
 
 #: ../nethserver-groups.xml.in.h:49
 msgid "POP3 proxy"
-msgstr "POP3 proxy"
+msgstr "Proxy POP3"
 
 #: ../nethserver-groups.xml.in.h:50
 msgid "Intercept POP3 connections and scan messages for virus and spam"
-msgstr "Abfangen von POP3 Verbindungen und scanne Nachrichten auf Virus und Spam"
+msgstr "Interceptați conexiunile POP3 și scanați mesajele pentru virus și spam"
 
 #: ../nethserver-groups.xml.in.h:51
 msgid "SNMP server"
-msgstr "SNMP server"
+msgstr "Server SNMP"
 
 #: ../nethserver-groups.xml.in.h:52
 msgid "Configure the SNMP server"
-msgstr "Konfiguriere SNMP Server"
+msgstr "Configurați serverul SNMP"
 
 #: ../nethserver-groups.xml.in.h:53
 msgid "Nextcloud"
-msgstr "Nextcloud"
+msgstr "Nextcloud "
 
 #: ../nethserver-groups.xml.in.h:54
 msgid ""
 "Configure Nextcloud, universal access to your files via the web, your "
 "computer or your mobile devices - wherever you are"
-msgstr "Konfiguriere Nextcloud, universeller Zugriff auf deine Dateien via Web, deinen Computer oder mobilen Endgeräten - Wo auch immer du bist"
+msgstr "Configurați Nextcloud, acces universal la fișiere prin intermediul webului, al computerului sau al dispozitivelor dvs. mobile - oriunde v-ați afla"
 
 #: ../nethserver-groups.xml.in.h:55
 msgid "POP3 connector"
-msgstr "Pop3 Connector"
+msgstr "Conector POP3"
 
 #: ../nethserver-groups.xml.in.h:56
 msgid "Fetch messages from external email accounts with POP3 or IMAP access"
-msgstr "Nachrichten abholen von externen Mailaccounts mit Pop3 oder Imap"
+msgstr "Preluați mesajele din conturile externe de e-mail cu acces POP3 sau IMAP"
 
 #: ../nethserver-groups.xml.in.h:57
 msgid "German language"
-msgstr "Sprache Deutsch"
+msgstr "Limba Germana"
 
 #: ../nethserver-groups.xml.in.h:58
 msgid "Server Manager German localization"
-msgstr "Server Manager Deutsche Lokalisierung"
+msgstr "Manager de locație în Germania"
 
 #: ../nethserver-groups.xml.in.h:59
 msgid "Greek language"
-msgstr "Sprache Griechisch"
+msgstr "Limba Greaca"
 
 #: ../nethserver-groups.xml.in.h:60
 msgid "Server Manager Greek localization"
-msgstr "Server Manager Griechische Lokalisierung"
+msgstr "Manager de locație în Grecia"
 
 #: ../nethserver-groups.xml.in.h:61
 msgid "Spanish language"
-msgstr "Sprache Spanisch"
+msgstr "Limba Spaniola"
 
 #: ../nethserver-groups.xml.in.h:62
 msgid "Server Manager Spanish localization"
-msgstr "Server Manager Spanische Lokalisierung"
+msgstr "Manager de locație in Spaniolă"
 
 #: ../nethserver-groups.xml.in.h:63
 msgid "French language"
-msgstr "Sprache Französisch"
+msgstr "Limba Franceza"
 
 #: ../nethserver-groups.xml.in.h:64
 msgid "Server Manager French localization"
-msgstr "Server Manager Französische Lokalisierung"
+msgstr "Manager de locație in Franceză"
 
 #: ../nethserver-groups.xml.in.h:65
 msgid "Hungarian language"
-msgstr "Sprache Ungarisch"
+msgstr "Limba Maghiara"
 
 #: ../nethserver-groups.xml.in.h:66
 msgid "Server Manager Hungarian localization"
-msgstr "Server Manager Ungarische Lokalisierung"
+msgstr "Manager de locație in Maghiară"
 
 #: ../nethserver-groups.xml.in.h:67
 msgid "Italian language"
-msgstr "Sprache Italienisch"
+msgstr "Limba Italiana"
 
 #: ../nethserver-groups.xml.in.h:68
 msgid "Server Manager Italian localization"
-msgstr "Server Manager Italienische Lokalisierung"
+msgstr "Manager de locație in Italiană"
 
 #: ../nethserver-groups.xml.in.h:69
 msgid "Dutch language"
-msgstr "Sprache Holländisch"
+msgstr "Limba Olandeza"
 
 #: ../nethserver-groups.xml.in.h:70
 msgid "Server Manager Dutch localization"
-msgstr "Server Manager Holländische Lokalisierung"
+msgstr "Manager de locație în Olandeză"
 
 #: ../nethserver-groups.xml.in.h:71
 msgid "Portuguese language"
-msgstr "Sprache Portugiesisch"
+msgstr "Limba Portugheză"
 
 #: ../nethserver-groups.xml.in.h:72
 msgid "Server Manager Portuguese localization"
-msgstr "Server Manager Portugiesische Lokalisierung"
+msgstr "Manager de locație în Portugheză"
 
 #: ../nethserver-groups.xml.in.h:73
 msgid "Russian language"
-msgstr "Sprache Russisch"
+msgstr "Limba Rusă"
 
 #: ../nethserver-groups.xml.in.h:74
 msgid "Server Manager Russian localization"
-msgstr "Server Manager Russische Lokalisierung"
+msgstr "Manager de locație în Rusă"
 
 #: ../nethserver-groups.xml.in.h:75
 msgid "Turkish language"
-msgstr "Sprache Türkisch"
+msgstr "Limba Turca"
 
 #: ../nethserver-groups.xml.in.h:76
 msgid "Server Manager Turkish localization"
-msgstr "Server Manager Türkische Lokalisierung"
+msgstr "Manager de locație în Turcă"
 
 #: ../nethserver-groups.xml.in.h:77
 msgid "Serbian language"
-msgstr "Sprache Serbisch"
+msgstr "Limba Sârbă"
 
 #: ../nethserver-groups.xml.in.h:78
 msgid "Server Manager Serbian localization"
-msgstr "Server Manager Serbische Lokalisierung"
+msgstr "Manager de locație în Sârbă"
 
 #: ../nethserver-groups.xml.in.h:79
 msgid "Romanian language"
@@ -349,11 +345,11 @@ msgstr ""
 
 #: ../nethserver-groups.xml.in.h:81
 msgid "Base system"
-msgstr "Basissystem"
+msgstr "Sistem de bază"
 
 #: ../nethserver-groups.xml.in.h:82
 msgid "Infrastructure and groupware services"
-msgstr "Infrastruktur und Groupware Dienste"
+msgstr "Servicii de infrastructură și grupuri de lucru"
 
 #: ../nethserver-groups.xml.in.h:83
 msgid "Firewall"
@@ -365,27 +361,27 @@ msgstr "UTM Firewall"
 
 #: ../nethserver-groups.xml.in.h:85
 msgid "Languages"
-msgstr "Sprachen"
+msgstr "Limbile"
 
 #: ../nethserver-groups.xml.in.h:86
 msgid "Localization of the Server Manager web interface"
-msgstr "Lokalisierung Webinterface des Servermanagers"
+msgstr "Localizarea interfeței web a Managerului de Server"
 
 #: ../nethforge-groups.xml.in.h:1
 msgid "SOGo groupware"
-msgstr "SOGo Groupware"
+msgstr "SOGo groupware"
 
 #: ../nethforge-groups.xml.in.h:2
 msgid "SOGo server and Thundebird extensions"
-msgstr "SOGo Server und Thunderbird Erweiterungen"
+msgstr "Sogo server și extensii Thunderbird"
 
 #: ../nethforge-groups.xml.in.h:3
 msgid "Virtual machines manager"
-msgstr "Manager für virtuelle Maschinen"
+msgstr "Manager de mașini virtuale"
 
 #: ../nethforge-groups.xml.in.h:4
 msgid "Web interface for KVM virtual machines"
-msgstr "Webinterface für KVM virtuelle Maschinen"
+msgstr "Interfață Web pentru mașinile virtuale KVM"
 
 #: ../nethforge-groups.xml.in.h:5
 msgid "NethForge"
@@ -393,4 +389,4 @@ msgstr "NethForge"
 
 #: ../nethforge-groups.xml.in.h:6
 msgid "Modules from the NethServer Community"
-msgstr "Module der NethServer Community"
+msgstr "Module din comunitatea NethServer"
