@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nethserver\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-05-10 12:08+0200\n"
-"PO-Revision-Date: 2017-05-10 10:08+0000\n"
+"POT-Creation-Date: 2017-06-15 10:55+0200\n"
+"PO-Revision-Date: 2017-06-15 08:56+0000\n"
 "Last-Translator: Davide Principi <davide.principi@nethesis.it>\n"
 "Language-Team: Serbian (http://www.transifex.com/nethserver/nethserver/language/sr/)\n"
 "MIME-Version: 1.0\n"
@@ -335,26 +335,34 @@ msgid "Server Manager Serbian localization"
 msgstr "Српска локализација Управљача сервера"
 
 #: ../nethserver-groups.xml.in.h:79
+msgid "Romanian language"
+msgstr ""
+
+#: ../nethserver-groups.xml.in.h:80
+msgid "Server Manager Romanian localization"
+msgstr ""
+
+#: ../nethserver-groups.xml.in.h:81
 msgid "Base system"
 msgstr "Основни систем"
 
-#: ../nethserver-groups.xml.in.h:80
+#: ../nethserver-groups.xml.in.h:82
 msgid "Infrastructure and groupware services"
 msgstr "Сервиси инфраструктуре и групвера"
 
-#: ../nethserver-groups.xml.in.h:81
+#: ../nethserver-groups.xml.in.h:83
 msgid "Firewall"
 msgstr "Заштитни зид"
 
-#: ../nethserver-groups.xml.in.h:82
+#: ../nethserver-groups.xml.in.h:84
 msgid "UTM Firewall"
 msgstr "УТМ Заштитни зид"
 
-#: ../nethserver-groups.xml.in.h:83
+#: ../nethserver-groups.xml.in.h:85
 msgid "Languages"
 msgstr "Језици"
 
-#: ../nethserver-groups.xml.in.h:84
+#: ../nethserver-groups.xml.in.h:86
 msgid "Localization of the Server Manager web interface"
 msgstr "Локализација веб интерфејса Управљача сервера"
 
