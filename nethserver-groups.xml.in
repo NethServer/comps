@@ -379,6 +379,7 @@
       <packagereq type="mandatory">nethserver-letsencrypt</packagereq>
       <packagereq type="mandatory">nethserver-mail-smarthost</packagereq>
       <packagereq type="mandatory">nethserver-diagtools</packagereq>
+      <packagereq type="mandatory">nethserver-backup-config</packagereq>
 
       <packagereq type="mandatory">lsof</packagereq>
       <packagereq type="mandatory">patch</packagereq>
