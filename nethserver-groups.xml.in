@@ -763,6 +763,18 @@
   </group>
 
   <group>
+    <id>nethserver-pbx</id>
+    <_name>VoIP PBX</_name>
+    <_description>FreePBX user interface to controls and manages Asterisk (PBX)</_description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type="mandatory">nethserver-freepbx</packagereq>
+      <packagereq type="optional">nethserver-janus</packagereq>
+    </packagelist>
+  </group>
+
+  <group>
      <id>nethserver-pop3connector</id>
      <_name>POP3 connector</_name>
      <_description>Fetch messages from external email accounts with POP3 or IMAP access</_description>
@@ -940,6 +952,7 @@
       <groupid>nethserver-roundcubemail</groupid>
       <groupid>nethserver-nextcloud</groupid>
       <groupid>nethserver-pop3connector</groupid>
+      <groupid>nethserver-pbx</groupid>
     </grouplist>
   </category>
 
