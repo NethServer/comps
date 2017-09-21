@@ -598,7 +598,7 @@
   </group>
 
   <group>
-    <id>nethserver-bandwidth-monitor</id>
+    <id>nethserver-bandwidth</id>
     <_name>Bandwidth monitor</_name>
     <_description>Configure and manage Ntopng</_description>
     <default>false</default>
@@ -607,18 +607,6 @@
       <packagereq type="mandatory">nethserver-ntopng</packagereq>
     </packagelist>
   </group>
-
-  <group>
-    <id>nethserver-bandwidthd</id>
-    <_name>Simple bandwidth monitor</_name>
-    <_description>Configure and manage Bandwidthd</_description>
-    <default>false</default>
-    <uservisible>true</uservisible>
-    <packagelist>
-      <packagereq type="mandatory">nethserver-bandwidthd</packagereq>
-    </packagelist>
-  </group>
-
 
   <group>
     <id>nethserver-nut</id>
@@ -712,6 +700,7 @@
     <uservisible>true</uservisible>
     <packagelist>
       <packagereq type="mandatory">nethserver-suricata</packagereq>
+      <packagereq type="mandatory">nethserver-evebox</packagereq>
     </packagelist>
   </group>
 
@@ -969,7 +958,6 @@
       <groupid>nethserver-openvpn</groupid>
       <groupid>nethserver-ipsec-tunnels</groupid>
       <groupid>nethserver-ips</groupid>
-      <groupid>nethserver-bandwidth-monitor</groupid>
       <groupid>nethserver-bandwidthd</groupid>
       <groupid>nethserver-p3scan</groupid>
       <groupid>nethserver-reverse-proxy</groupid>
