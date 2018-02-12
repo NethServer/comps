@@ -507,7 +507,21 @@
       <packagereq type="optional">nethserver-roundcubemail</packagereq>
     </packagelist>
   </group>
-  
+
+  <group>
+    <id>nethserver-mail2</id>
+    <_name>Email 2 (beta)</_name>
+    <_description>Alternative email server and filter based on Rspamd</_description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type="mandatory">nethserver-mail2-filter</packagereq>
+      <packagereq type="mandatory">nethserver-mail2-server</packagereq>
+      <packagereq type="optional">nethserver-getmail</packagereq>
+      <packagereq type="optional">nethserver-roundcubemail</packagereq>
+    </packagelist>
+  </group>
+
   <group>
     <id>nethserver-roundcubemail</id>
     <_name>Roundcube web mail</_name>
@@ -527,6 +541,18 @@
     <uservisible>true</uservisible>
     <packagelist>
       <packagereq type="mandatory">nethserver-mail-filter</packagereq>
+      <packagereq type="mandatory">nethserver-firewall-base-ui</packagereq>
+    </packagelist>
+  </group>
+
+  <group>
+    <id>nethserver-smtp-proxy2</id>
+    <_name>SMTP proxy 2 (beta)</_name>
+    <_description>Alternative SMTP proxy based on Rspamd</_description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type="mandatory">nethserver-mail2-filter</packagereq>
       <packagereq type="mandatory">nethserver-firewall-base-ui</packagereq>
     </packagelist>
   </group>
@@ -915,6 +941,7 @@
       <groupid>nethserver-statistics</groupid>
       <groupid>nethserver-dns-dhcp</groupid>
       <groupid>nethserver-mail</groupid>
+      <groupid>nethserver-mail2</groupid>
       <groupid>nethserver-webtop5-groupware</groupid>
       <groupid>nethserver-messaging</groupid>
       <groupid>nethserver-file-server</groupid>
@@ -943,6 +970,7 @@
       <groupid>nethserver-web-proxy</groupid>
       <groupid>nethserver-web-filter</groupid>
       <groupid>nethserver-smtp-proxy</groupid>
+      <groupid>nethserver-smtp-proxy2</groupid>
       <groupid>nethserver-openvpn</groupid>
       <groupid>nethserver-ipsec-tunnels</groupid>
       <groupid>nethserver-ips</groupid>
