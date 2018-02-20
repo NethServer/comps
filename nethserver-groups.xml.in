@@ -743,6 +743,18 @@
   </group>
 
   <group>
+    <id>nethserver-p3scan2</id>
+    <_name>POP3 proxy 2 (Beta)</_name>
+    <_description>Alternative rspamd based implementation to intercept POP3 connections and scan messages for virus and spam</_description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type="mandatory">nethserver-mail2-p3scan</packagereq>
+      <packagereq type="mandatory">nethserver-mail2-filter</packagereq>
+    </packagelist>
+  </group>
+
+  <group>
     <id>nethserver-net-snmp</id>
     <_name>SNMP server</_name>
     <_description>Configure the SNMP server</_description>
@@ -786,6 +798,21 @@
      <uservisible>true</uservisible>
      <packagelist>
         <packagereq type="mandatory">nethserver-getmail</packagereq>
+        <packagereq type="mandatory">nethserver-mail-server</packagereq>
+        <packagereq type="mandatory">nethserver-mail-filter</packagereq>
+     </packagelist>
+  </group>
+
+  <group>
+     <id>nethserver-pop3connector2</id>
+     <_name>POP3 connector 2 (Beta)</_name>
+     <_description>Alternative rspamd based implementation to fetch messages from external email accounts with POP3 or IMAP access</_description>
+     <default>false</default>
+     <uservisible>true</uservisible>
+     <packagelist>
+        <packagereq type="mandatory">nethserver-mail2-getmail</packagereq>
+        <packagereq type="mandatory">nethserver-mail2-server</packagereq>
+        <packagereq type="mandatory">nethserver-mail2-filter</packagereq>
      </packagelist>
   </group>
 
@@ -956,6 +983,7 @@
       <groupid>nethserver-roundcubemail</groupid>
       <groupid>nethserver-nextcloud</groupid>
       <groupid>nethserver-pop3connector</groupid>
+      <groupid>nethserver-pop3connector2</groupid>
       <groupid>nethserver-pbx</groupid>
     </grouplist>
   </category>
@@ -976,6 +1004,7 @@
       <groupid>nethserver-ips</groupid>
       <groupid>nethserver-bandwidthd</groupid>
       <groupid>nethserver-p3scan</groupid>
+      <groupid>nethserver-p3scan2</groupid>
       <groupid>nethserver-reverse-proxy</groupid>
       <groupid>nethserver-dpi</groupid>
     </grouplist>
