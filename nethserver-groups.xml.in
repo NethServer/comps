@@ -380,6 +380,9 @@
       <packagereq type="mandatory">nethserver-mail-smarthost</packagereq>
       <packagereq type="mandatory">nethserver-diagtools</packagereq>
       <packagereq type="mandatory">nethserver-backup-config</packagereq>
+      <packagereq type="mandatory">nethserver-subscription-ui</packagereq>
+      <packagereq type="mandatory">nethserver-inventory</packagereq>
+      <packagereq type="mandatory">nethserver-alerts</packagereq>
 
       <packagereq type="mandatory">lsof</packagereq>
       <packagereq type="mandatory">patch</packagereq>
@@ -764,6 +767,19 @@
   </group>
 
   <group>
+     <id>nethserver-subscription</id>
+     <_name>NethServer subscription</_name>
+     <_description>Manage NethServer subscription</_description>
+     <default>false</default>
+     <uservisible>false</uservisible>
+     <packagelist>
+        <packagereq type="mandatory">nethserver-subscription-ui</packagereq>
+        <packagereq type="mandatory">nethserver-inventory</packagereq>
+        <packagereq type="mandatory">nethserver-alerts</packagereq>
+     </packagelist>
+  </group>
+
+  <group>
     <id>nethserver-l10n-de</id>
     <_name>German language</_name>
     <_description>Server Manager German localization</_description>
@@ -930,6 +946,7 @@
       <groupid>nethserver-nextcloud</groupid>
       <groupid>nethserver-pop3connector</groupid>
       <groupid>nethserver-pbx</groupid>
+      <groupid>nethserver-subscription</groupid>
     </grouplist>
   </category>
 
