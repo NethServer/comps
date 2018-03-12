@@ -506,8 +506,6 @@
     <packagelist>
       <packagereq type="mandatory">nethserver-mail-filter</packagereq>
       <packagereq type="mandatory">nethserver-mail-server</packagereq>
-      <packagereq type="optional">nethserver-getmail</packagereq>
-      <packagereq type="optional">nethserver-roundcubemail</packagereq>
     </packagelist>
   </group>
 
@@ -520,8 +518,6 @@
     <packagelist>
       <packagereq type="mandatory">nethserver-mail2-filter</packagereq>
       <packagereq type="mandatory">nethserver-mail2-server</packagereq>
-      <packagereq type="optional">nethserver-getmail</packagereq>
-      <packagereq type="optional">nethserver-roundcubemail</packagereq>
     </packagelist>
   </group>
 
