@@ -840,6 +840,17 @@
   </group>
 
   <group>
+     <id>nethserver-mattermost</id>
+     <_name>Mattermost</_name>
+     <_description>Mattermost Team Edition</_description>
+     <default>false</default>
+     <uservisible>true</uservisible>
+     <packagelist>
+        <packagereq type="mandatory">nethserver-mattermost</packagereq>
+     </packagelist>
+  </group>
+
+  <group>
     <id>nethserver-l10n-de</id>
     <_name>German language</_name>
     <_description>Server Manager German localization</_description>
@@ -1009,6 +1020,7 @@
       <groupid>nethserver-pop3connector2</groupid>
       <groupid>nethserver-pbx</groupid>
       <groupid>nethserver-subscription</groupid>
+      <groupid>nethserver-mattermost</groupid>
     </grouplist>
   </category>
 
