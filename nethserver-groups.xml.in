@@ -823,8 +823,6 @@
      <uservisible>true</uservisible>
      <packagelist>
         <packagereq type="mandatory">nethserver-subscription-ui</packagereq>
-        <packagereq type="mandatory">nethserver-inventory</packagereq>
-        <packagereq type="mandatory">nethserver-alerts</packagereq>
      </packagelist>
   </group>
 
