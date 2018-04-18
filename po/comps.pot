@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-30 09:22+0200\n"
+"POT-Creation-Date: 2018-04-18 09:31+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -294,122 +294,130 @@ msgid "Dedalo hotspot for Icaro instances"
 msgstr ""
 
 #: ../nethserver-groups.xml.in.h:68
-msgid "German language"
+msgid "Mattermost"
 msgstr ""
 
 #: ../nethserver-groups.xml.in.h:69
-msgid "Server Manager German localization"
+msgid "Mattermost Team Edition"
 msgstr ""
 
 #: ../nethserver-groups.xml.in.h:70
-msgid "Greek language"
+msgid "German language"
 msgstr ""
 
 #: ../nethserver-groups.xml.in.h:71
-msgid "Server Manager Greek localization"
+msgid "Server Manager German localization"
 msgstr ""
 
 #: ../nethserver-groups.xml.in.h:72
-msgid "Spanish language"
+msgid "Greek language"
 msgstr ""
 
 #: ../nethserver-groups.xml.in.h:73
-msgid "Server Manager Spanish localization"
+msgid "Server Manager Greek localization"
 msgstr ""
 
 #: ../nethserver-groups.xml.in.h:74
-msgid "French language"
+msgid "Spanish language"
 msgstr ""
 
 #: ../nethserver-groups.xml.in.h:75
-msgid "Server Manager French localization"
+msgid "Server Manager Spanish localization"
 msgstr ""
 
 #: ../nethserver-groups.xml.in.h:76
-msgid "Hungarian language"
+msgid "French language"
 msgstr ""
 
 #: ../nethserver-groups.xml.in.h:77
-msgid "Server Manager Hungarian localization"
+msgid "Server Manager French localization"
 msgstr ""
 
 #: ../nethserver-groups.xml.in.h:78
-msgid "Italian language"
+msgid "Hungarian language"
 msgstr ""
 
 #: ../nethserver-groups.xml.in.h:79
-msgid "Server Manager Italian localization"
+msgid "Server Manager Hungarian localization"
 msgstr ""
 
 #: ../nethserver-groups.xml.in.h:80
-msgid "Dutch language"
+msgid "Italian language"
 msgstr ""
 
 #: ../nethserver-groups.xml.in.h:81
-msgid "Server Manager Dutch localization"
+msgid "Server Manager Italian localization"
 msgstr ""
 
 #: ../nethserver-groups.xml.in.h:82
-msgid "Portuguese language"
+msgid "Dutch language"
 msgstr ""
 
 #: ../nethserver-groups.xml.in.h:83
-msgid "Server Manager Portuguese localization"
+msgid "Server Manager Dutch localization"
 msgstr ""
 
 #: ../nethserver-groups.xml.in.h:84
-msgid "Russian language"
+msgid "Portuguese language"
 msgstr ""
 
 #: ../nethserver-groups.xml.in.h:85
-msgid "Server Manager Russian localization"
+msgid "Server Manager Portuguese localization"
 msgstr ""
 
 #: ../nethserver-groups.xml.in.h:86
-msgid "Turkish language"
+msgid "Russian language"
 msgstr ""
 
 #: ../nethserver-groups.xml.in.h:87
-msgid "Server Manager Turkish localization"
+msgid "Server Manager Russian localization"
 msgstr ""
 
 #: ../nethserver-groups.xml.in.h:88
-msgid "Serbian language"
+msgid "Turkish language"
 msgstr ""
 
 #: ../nethserver-groups.xml.in.h:89
-msgid "Server Manager Serbian localization"
+msgid "Server Manager Turkish localization"
 msgstr ""
 
 #: ../nethserver-groups.xml.in.h:90
-msgid "Romanian language"
+msgid "Serbian language"
 msgstr ""
 
 #: ../nethserver-groups.xml.in.h:91
-msgid "Server Manager Romanian localization"
+msgid "Server Manager Serbian localization"
 msgstr ""
 
 #: ../nethserver-groups.xml.in.h:92
-msgid "Base system"
+msgid "Romanian language"
 msgstr ""
 
 #: ../nethserver-groups.xml.in.h:93
-msgid "Infrastructure and groupware services"
+msgid "Server Manager Romanian localization"
 msgstr ""
 
 #: ../nethserver-groups.xml.in.h:94
-msgid "Firewall"
+msgid "Base system"
 msgstr ""
 
 #: ../nethserver-groups.xml.in.h:95
-msgid "UTM Firewall"
+msgid "Infrastructure and groupware services"
 msgstr ""
 
 #: ../nethserver-groups.xml.in.h:96
-msgid "Languages"
+msgid "Firewall"
 msgstr ""
 
 #: ../nethserver-groups.xml.in.h:97
+msgid "UTM Firewall"
+msgstr ""
+
+#: ../nethserver-groups.xml.in.h:98
+msgid "Languages"
+msgstr ""
+
+#: ../nethserver-groups.xml.in.h:99
 msgid "Localization of the Server Manager web interface"
 msgstr ""
 

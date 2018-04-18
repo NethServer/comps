@@ -3,15 +3,15 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Kaya Zeren <kayazeren@gmail.com>, 2015-2017
+# Kaya Zeren <kayazeren@gmail.com>, 2015-2018
 # Ozancan Karataş <inactive+OzancanKaratas96@transifex.com>, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: nethserver\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-08 18:05+0100\n"
-"PO-Revision-Date: 2018-03-08 17:05+0000\n"
-"Last-Translator: Davide Principi <davide.principi@nethesis.it>\n"
+"PO-Revision-Date: 2018-03-14 17:18+0000\n"
+"Last-Translator: Kaya Zeren <kayazeren@gmail.com>\n"
 "Language-Team: Turkish (http://www.transifex.com/nethserver/nethserver/language/tr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -85,11 +85,11 @@ msgstr "E-posta sunucusu ve süzgeci"
 
 #: ../nethserver-groups.xml.in.h:17
 msgid "Email 2 (beta)"
-msgstr ""
+msgstr "E-posta 2 (beta)"
 
 #: ../nethserver-groups.xml.in.h:18
 msgid "Alternative email server and filter based on Rspamd"
-msgstr ""
+msgstr "Rspamd temelli alternatif e-posta sunucusu ve süzgeç"
 
 #: ../nethserver-groups.xml.in.h:19
 msgid "Roundcube web mail"
@@ -101,11 +101,11 @@ msgstr "SMTP vekil sunucusu"
 
 #: ../nethserver-groups.xml.in.h:21
 msgid "SMTP proxy 2 (beta)"
-msgstr ""
+msgstr "SMTP vekil sunucusu 2 (beta)"
 
 #: ../nethserver-groups.xml.in.h:22
 msgid "Alternative SMTP proxy based on Rspamd"
-msgstr ""
+msgstr "Rspamd temelli alternatif SMTP vekil sunucusu"
 
 #: ../nethserver-groups.xml.in.h:23
 msgid "Instant messaging"
@@ -227,13 +227,13 @@ msgstr "POP3 bağlantılarının önü kesilerek iletiler virus ve spam için ta
 
 #: ../nethserver-groups.xml.in.h:52
 msgid "POP3 proxy 2 (Beta)"
-msgstr ""
+msgstr "POP3 vekil sunucusu 2 (beta)"
 
 #: ../nethserver-groups.xml.in.h:53
 msgid ""
 "Alternative rspamd based implementation to intercept POP3 connections and "
 "scan messages for virus and spam"
-msgstr ""
+msgstr "Rspamd temelli alternatif uygulama ile POP3 bağlantılarının önü kesilerek iletiler virus ve spam için taransın"
 
 #: ../nethserver-groups.xml.in.h:54
 msgid "SNMP server"
@@ -271,21 +271,21 @@ msgstr "Dış e-posta hesaplarındaki iletileri POP3 ya da IMAP erişimi ile alm
 
 #: ../nethserver-groups.xml.in.h:62
 msgid "POP3 connector 2 (Beta)"
-msgstr ""
+msgstr "POP3 bağlantısı 2 (Beta)"
 
 #: ../nethserver-groups.xml.in.h:63
 msgid ""
 "Alternative rspamd based implementation to fetch messages from external "
 "email accounts with POP3 or IMAP access"
-msgstr ""
+msgstr "Rspamd temelli alternatif uygulama ile dış e-posta hesaplarındaki iletileri POP3 ya da IMAP erişimi ile alma"
 
 #: ../nethserver-groups.xml.in.h:64
 msgid "NethServer subscription"
-msgstr ""
+msgstr "NethServer aboneliği"
 
 #: ../nethserver-groups.xml.in.h:65
 msgid "Manage NethServer subscription"
-msgstr ""
+msgstr "NethServer aboneliği yönetimi"
 
 #: ../nethserver-groups.xml.in.h:66
 msgid "German language"

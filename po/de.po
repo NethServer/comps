@@ -9,13 +9,13 @@
 # Markus Neuberger <mrmarkuz666@gmail.com>, 2017
 # Michael Träumner <m.traeumner@googlemail.com>, 2016-2017
 # Mika Beckerich <beckerichmika@gmail.com>, 2015,2017
-# Rolf Heinze <rowihei@web.de>, 2016-2017
+# Rolf Heinze <rowihei@web.de>, 2016-2018
 msgid ""
 msgstr ""
 "Project-Id-Version: nethserver\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-08 18:05+0100\n"
-"PO-Revision-Date: 2018-03-08 17:05+0000\n"
+"PO-Revision-Date: 2018-03-15 10:16+0000\n"
 "Last-Translator: Rolf Heinze <rowihei@web.de>\n"
 "Language-Team: German (http://www.transifex.com/nethserver/nethserver/language/de/)\n"
 "MIME-Version: 1.0\n"
@@ -90,11 +90,11 @@ msgstr "eMail-Server und Filter"
 
 #: ../nethserver-groups.xml.in.h:17
 msgid "Email 2 (beta)"
-msgstr ""
+msgstr "Email 2 (beta)"
 
 #: ../nethserver-groups.xml.in.h:18
 msgid "Alternative email server and filter based on Rspamd"
-msgstr ""
+msgstr "Alternativer E-Mailserver und Filter Rspamd-basiert"
 
 #: ../nethserver-groups.xml.in.h:19
 msgid "Roundcube web mail"
@@ -106,11 +106,11 @@ msgstr "SMTP Proxy"
 
 #: ../nethserver-groups.xml.in.h:21
 msgid "SMTP proxy 2 (beta)"
-msgstr ""
+msgstr "SMTP-Proxy 2 (beta)"
 
 #: ../nethserver-groups.xml.in.h:22
 msgid "Alternative SMTP proxy based on Rspamd"
-msgstr ""
+msgstr "Alternativer SMTP-Proxy Rspamd-basiert"
 
 #: ../nethserver-groups.xml.in.h:23
 msgid "Instant messaging"
@@ -232,13 +232,13 @@ msgstr "Abfangen von POP3 Verbindungen und scanne Nachrichten auf Virus und Spam
 
 #: ../nethserver-groups.xml.in.h:52
 msgid "POP3 proxy 2 (Beta)"
-msgstr ""
+msgstr "POP3-Proxy 2 (Beta)"
 
 #: ../nethserver-groups.xml.in.h:53
 msgid ""
 "Alternative rspamd based implementation to intercept POP3 connections and "
 "scan messages for virus and spam"
-msgstr ""
+msgstr "Alternative Rspamd-basierte Implementierung, um POP3-Verbindungen abzufangen und Nachrichten auf Viren und Spam zu scannen"
 
 #: ../nethserver-groups.xml.in.h:54
 msgid "SNMP server"
@@ -276,13 +276,13 @@ msgstr "Nachrichten abholen von externen Mailaccounts mit Pop3 oder Imap"
 
 #: ../nethserver-groups.xml.in.h:62
 msgid "POP3 connector 2 (Beta)"
-msgstr ""
+msgstr "POP3-Connector 2 (Beta)"
 
 #: ../nethserver-groups.xml.in.h:63
 msgid ""
 "Alternative rspamd based implementation to fetch messages from external "
 "email accounts with POP3 or IMAP access"
-msgstr ""
+msgstr "Alternative Rspamd-basierte Implementierung zum Abrufen von Nachrichten von externen E-Mail-Konten mit POP3- oder IMAP-Zugriff"
 
 #: ../nethserver-groups.xml.in.h:64
 msgid "NethServer subscription"
