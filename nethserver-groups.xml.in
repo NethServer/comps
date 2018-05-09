@@ -849,6 +849,18 @@
   </group>
 
   <group>
+    <id>nethserver-fail2ban</id>
+    <_name>Fail2ban</_name>
+    <_description>Fail2ban scans log files and bans IPs with failed login</_description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type="mandatory">nethserver-fail2ban</packagereq>
+      <packagereq type="optional">whois</packagereq>
+    </packagelist>
+  </group>
+
+  <group>
     <id>nethserver-l10n-de</id>
     <_name>German language</_name>
     <_description>Server Manager German localization</_description>
@@ -1019,6 +1031,7 @@
       <groupid>nethserver-pbx</groupid>
       <groupid>nethserver-subscription</groupid>
       <groupid>nethserver-mattermost</groupid>
+      <groupid>nethserver-fail2ban</groupid>
     </grouplist>
   </category>
 
