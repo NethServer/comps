@@ -13,18 +13,6 @@
     </packagelist>
   </group>
 
-  <group>
-    <id>nethserver-webvirtmgr</id>
-    <_name>Virtual machines manager</_name>
-    <_description>Web interface for KVM virtual machines</_description>
-    <default>false</default>
-    <uservisible>true</uservisible>
-    <packagelist>
-      <packagereq type="mandatory">nethserver-webvirtmgr</packagereq>
-    </packagelist>
-  </group>
-
-
   <category>
     <id>nethforge</id>
     <_name>NethForge</_name>
@@ -32,7 +20,6 @@
     <display_order>1</display_order>
     <grouplist>
       <groupid>nethserver-sogo</groupid>
-      <groupid>nethserver-webvirtmgr</groupid>
     </grouplist>
   </category>
 
