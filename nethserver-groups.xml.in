@@ -496,19 +496,6 @@
     </packagelist>
   </group>
 
-
-  <group>
-    <id>nethserver-mail</id>
-    <_name>Email (obsolete)</_name>
-    <_description>Email server and filter based on amavisd</_description>
-    <default>false</default>
-    <uservisible>false</uservisible>
-    <packagelist>
-      <packagereq type="mandatory">nethserver-mail-filter</packagereq>
-      <packagereq type="mandatory">nethserver-mail-server</packagereq>
-    </packagelist>
-  </group>
-
   <group>
     <id>nethserver-mail</id>
     <_name>Email</_name>
