@@ -1,349 +1,375 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
-# Translators:
-# Kaya Zeren <kayazeren@gmail.com>, 2015
-# Ozancan Karataş <inactive+OzancanKaratas96@transifex.com>, 2015
+#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: nethserver\n"
+"Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-09-24 15:59+0200\n"
-"PO-Revision-Date: 2015-11-28 06:25+0000\n"
-"Last-Translator: Kaya Zeren <kayazeren@gmail.com>\n"
-"Language-Team: Turkish (http://www.transifex.com/nethserver/nethserver/language/tr/)\n"
+"POT-Creation-Date: 2018-10-31 09:58+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Language-Team: Turkish (https://www.transifex.com/nethserver/teams/35834/tr/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: tr\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: ../nethserver-groups.xml.in.h:1
 msgid "Build system"
-msgstr "Sistem derleme"
+msgstr ""
 
 #: ../nethserver-groups.xml.in.h:2
 msgid "Tools for building RPMs"
-msgstr "RPM paketlerini derleme araçları"
+msgstr ""
 
 #: ../nethserver-groups.xml.in.h:3
 msgid "Additional ISO packages"
-msgstr "Ek ISO paketleri"
+msgstr ""
 
 #: ../nethserver-groups.xml.in.h:4
-msgid "Backup"
-msgstr "Yedekleme"
+msgid "NethForge repository"
+msgstr ""
 
 #: ../nethserver-groups.xml.in.h:5
-msgid "Backup of configuration and data"
-msgstr "Veri ve yapılandırma yedeği"
+msgid "Additional packages from NethForge community repository"
+msgstr ""
 
 #: ../nethserver-groups.xml.in.h:6
-msgid "DNS and DHCP server"
-msgstr "DNS ve DHCP sunucusu"
+msgid "Backup"
+msgstr ""
 
 #: ../nethserver-groups.xml.in.h:7
-msgid "Daemons and tools for DHCP and DNS server"
-msgstr "DHCP ve DNS sunucu işlem ve araçları"
+msgid "Backup of configuration and data"
+msgstr ""
 
 #: ../nethserver-groups.xml.in.h:8
-msgid "Fax server"
-msgstr "Faks sunucusu"
+msgid "DNS and DHCP server"
+msgstr ""
 
 #: ../nethserver-groups.xml.in.h:9
-msgid "Configure HylaFax+ and manage IAX modems"
-msgstr "HylaFax+ ve IAX modem ayarları"
+msgid "Daemons and tools for DHCP and DNS server"
+msgstr ""
 
 #: ../nethserver-groups.xml.in.h:10
-msgid "Web-based fax client"
-msgstr "Web temelli faks istemcisi"
+msgid "Fax server"
+msgstr ""
 
 #: ../nethserver-groups.xml.in.h:11
-msgid "Manage faxes from a simple web interface"
-msgstr "Faksların basit bir web arayüzünden yönetilmesini sağlar"
+msgid "Configure HylaFax+ and manage IAX modems"
+msgstr ""
 
 #: ../nethserver-groups.xml.in.h:12
-msgid "Basic firewall"
-msgstr "Temel güvenlik duvarı"
+msgid "Web-based fax client"
+msgstr ""
 
 #: ../nethserver-groups.xml.in.h:13
-msgid "Configure network adapters and basic firewall"
-msgstr "Ap bağldaştırıcıları ve temel güvenlik duvarı ayarları"
+msgid "Manage faxes from a simple web interface"
+msgstr ""
 
 #: ../nethserver-groups.xml.in.h:14
-msgid "File server"
-msgstr "Dosya sunucusu"
+msgid "Basic firewall"
+msgstr ""
 
 #: ../nethserver-groups.xml.in.h:15
-msgid "Daemons and tools for network file sharing"
-msgstr "Ağ üzerinden dosya paylaşım işlem ve araçları"
+msgid "Configure network adapters and basic firewall"
+msgstr ""
 
 #: ../nethserver-groups.xml.in.h:16
-msgid "FTP server"
-msgstr "FTP sunucusu"
+msgid "File server"
+msgstr ""
 
 #: ../nethserver-groups.xml.in.h:17
-msgid "Configure the FTP server (vsftpd)"
-msgstr "FTP sunucusu ayarları (vsftpd)"
+msgid "Daemons and tools for network file sharing"
+msgstr ""
 
 #: ../nethserver-groups.xml.in.h:18
-msgid "Groupware"
-msgstr "Groupware"
+msgid "FTP server"
+msgstr ""
 
 #: ../nethserver-groups.xml.in.h:19
-msgid "SOGo server and Thundebird extensions"
-msgstr "SOGo sunucusu ve Thundebird eklentileri"
+msgid "Configure the FTP server (vsftpd)"
+msgstr ""
 
 #: ../nethserver-groups.xml.in.h:20
-msgid "Email"
-msgstr "E-posta"
+msgid "SOGo groupware"
+msgstr ""
 
 #: ../nethserver-groups.xml.in.h:21
-msgid "Email server and filter"
-msgstr "E-posta sunucusu ve süzgeci"
+msgid "SOGo server and Thundebird extensions"
+msgstr ""
 
 #: ../nethserver-groups.xml.in.h:22
-msgid "SMTP proxy"
-msgstr "SMTP vekil sunucusu"
+msgid "WebTop groupware"
+msgstr ""
 
 #: ../nethserver-groups.xml.in.h:23
-msgid "POP3 connector"
-msgstr "POP3 bağlantısı"
+msgid "Email"
+msgstr ""
 
 #: ../nethserver-groups.xml.in.h:24
-msgid "Fetch messages from external email accounts with POP3 or IMAP access"
-msgstr "Dış e-posta hesaplarındaki iletiler POP3 ya da IMAP erişimi ile alınabilir"
+msgid "Email server and filter"
+msgstr ""
 
 #: ../nethserver-groups.xml.in.h:25
-msgid "Instant messaging"
-msgstr "Anında iletişim"
+msgid "SMTP proxy"
+msgstr ""
 
 #: ../nethserver-groups.xml.in.h:26
-msgid "XMPP/Jabber chat server"
-msgstr "XMPP/Jabber sohbet sunucusu"
+msgid "POP3 connector"
+msgstr ""
 
 #: ../nethserver-groups.xml.in.h:27
-msgid "Print server"
-msgstr "Yazdırma sunucusu"
+msgid "Fetch messages from external email accounts with POP3 or IMAP access"
+msgstr ""
 
 #: ../nethserver-groups.xml.in.h:28
-msgid "Print management server (CUPS)"
-msgstr "Yazdırma yönetimi sunucusu (CUPS)"
+msgid "Instant messaging"
+msgstr ""
 
 #: ../nethserver-groups.xml.in.h:29
-msgid "Web server"
-msgstr "Web sunucu"
+msgid "XMPP/Jabber chat server"
+msgstr ""
 
 #: ../nethserver-groups.xml.in.h:30
-msgid "Configuration tools for Apache web server"
-msgstr "Apache web sunucusu ayarlama araçları"
+msgid "Print server"
+msgstr ""
 
 #: ../nethserver-groups.xml.in.h:31
-msgid "Bandwidth monitor"
-msgstr "Bantgenişliği izleme"
+msgid "Print management server (CUPS)"
+msgstr ""
 
 #: ../nethserver-groups.xml.in.h:32
-msgid "Configure and manage Ntopng"
-msgstr "Ntopng ayarları ve yönetimi"
+msgid "Web server"
+msgstr ""
 
 #: ../nethserver-groups.xml.in.h:33
-msgid "UPS support"
-msgstr "KGK desteği"
+msgid "Configuration tools for Apache web server"
+msgstr ""
 
 #: ../nethserver-groups.xml.in.h:34
-msgid "UPS management and monitoring configuration"
-msgstr "Kesintisiz güç kaynağı yönetim ve izleme ayarları"
+msgid "Bandwidth monitor"
+msgstr ""
 
 #: ../nethserver-groups.xml.in.h:35
-msgid "Statistics"
-msgstr "İstatistikler"
+msgid "Configure and manage Ntopng"
+msgstr ""
 
 #: ../nethserver-groups.xml.in.h:36
-msgid "Collect and analyse system statistics"
-msgstr "Sistem istatistiklerini derleme ve inceleme"
+msgid "UPS support"
+msgstr ""
 
 #: ../nethserver-groups.xml.in.h:37
-msgid "Web proxy"
-msgstr "Web vekil sunucusu"
+msgid "UPS management and monitoring configuration"
+msgstr ""
 
 #: ../nethserver-groups.xml.in.h:38
-msgid "Squid web caching proxy configuration"
-msgstr "Squid web önbellek vekil sunucusu ayarları"
+msgid "Statistics"
+msgstr ""
 
 #: ../nethserver-groups.xml.in.h:39
-msgid "Web filter"
-msgstr "Web süzgeci"
+msgid "Collect and analyse system statistics"
+msgstr ""
 
 #: ../nethserver-groups.xml.in.h:40
-msgid "Squid web content and virus filter"
-msgstr "Squid web içerik ve virus koruması"
+msgid "Web proxy"
+msgstr ""
 
 #: ../nethserver-groups.xml.in.h:41
-msgid ""
-"Configure remote-access and site-to-site Virtual Private Networks (VPN)"
-msgstr "Uzak erişim ve siteden siteye sanal özel ağ (VPN) erişimi ayarları"
+msgid "Squid web caching proxy configuration"
+msgstr ""
 
 #: ../nethserver-groups.xml.in.h:42
-msgid "ownCloud"
-msgstr "ownCloud"
+msgid "Web filter"
+msgstr ""
 
 #: ../nethserver-groups.xml.in.h:43
+msgid "Squid web content and virus filter"
+msgstr ""
+
+#: ../nethserver-groups.xml.in.h:44
+msgid ""
+"Configure remote-access and site-to-site Virtual Private Networks (VPN)"
+msgstr ""
+
+#: ../nethserver-groups.xml.in.h:45
+msgid "ownCloud"
+msgstr ""
+
+#: ../nethserver-groups.xml.in.h:46
 msgid ""
 "Configure ownCloud, universal access to your files via the web, your "
 "computer or your mobile devices - wherever you are"
-msgstr "Wbilgisayar ya da mobil aygıtlar üzerinden dosya erişimi sağlayan ownCloud sunucusu ayarları"
-
-#: ../nethserver-groups.xml.in.h:44
-msgid "MySQL server"
-msgstr "MySQL sunucusu"
-
-#: ../nethserver-groups.xml.in.h:45
-msgid "Configuration tools for MySQL"
-msgstr "MySQL ayar araçları"
-
-#: ../nethserver-groups.xml.in.h:46
-msgid "Intrusion Prevention System"
-msgstr "Saldırı Önleme Sistemi"
+msgstr ""
 
 #: ../nethserver-groups.xml.in.h:47
-msgid "Monitor and block network traffic for malicious activity"
-msgstr "Ağ trafiğindeki kötü niyetli davranışları izleme ve engellene sistemi"
+msgid "MySQL server"
+msgstr ""
 
 #: ../nethserver-groups.xml.in.h:48
-msgid "POP3 proxy"
-msgstr "POP3 vekil sunucusu"
+msgid "Configuration tools for MySQL"
+msgstr ""
 
 #: ../nethserver-groups.xml.in.h:49
-msgid "Intercept POP3 connections and scan messages for virus and spam"
-msgstr "POP3 bağlantıları ve iletiler için virus koruması ve önemsiz posta engellemesi"
+msgid "Intrusion Prevention System"
+msgstr ""
 
 #: ../nethserver-groups.xml.in.h:50
-msgid "Virtual machines manager"
-msgstr "Sanal makina yönetimi"
+msgid "Monitor and block network traffic for malicious activity"
+msgstr ""
 
 #: ../nethserver-groups.xml.in.h:51
-msgid "Web interface for KVM virtual machines"
-msgstr "KVM sanal makina yönetimi web arayüzü"
+msgid "POP3 proxy"
+msgstr ""
 
 #: ../nethserver-groups.xml.in.h:52
-msgid "SNMP server"
-msgstr "SNMP sunucusu"
+msgid "Intercept POP3 connections and scan messages for virus and spam"
+msgstr ""
 
 #: ../nethserver-groups.xml.in.h:53
-msgid "Configure the SNMP server"
-msgstr "SNMP sunucusu ayarları"
+msgid "Virtual machines manager"
+msgstr ""
 
 #: ../nethserver-groups.xml.in.h:54
-msgid "German language"
-msgstr "Almanca"
+msgid "Web interface for KVM virtual machines"
+msgstr ""
 
 #: ../nethserver-groups.xml.in.h:55
-msgid "Server Manager German localization"
-msgstr "Sunucu Yöneticisi Almanca yerelleştirmesi"
+msgid "SNMP server"
+msgstr ""
 
 #: ../nethserver-groups.xml.in.h:56
-msgid "Greek language"
-msgstr "Yunanca"
+msgid "Configure the SNMP server"
+msgstr ""
 
 #: ../nethserver-groups.xml.in.h:57
-msgid "Server Manager Greek localization"
-msgstr "Sunucu Yöneticisi Yunanca yerelleştirmesi"
+msgid "German language"
+msgstr ""
 
 #: ../nethserver-groups.xml.in.h:58
-msgid "Spanish language"
-msgstr "İspanyolca"
+msgid "Server Manager German localization"
+msgstr ""
 
 #: ../nethserver-groups.xml.in.h:59
-msgid "Server Manager Spanish localization"
-msgstr "Sunucu Yöneticisi İspanyolca yerelleştirmesi"
+msgid "Greek language"
+msgstr ""
 
 #: ../nethserver-groups.xml.in.h:60
-msgid "French language"
-msgstr "Fransızca"
+msgid "Server Manager Greek localization"
+msgstr ""
 
 #: ../nethserver-groups.xml.in.h:61
-msgid "Server Manager French localization"
-msgstr "Sunucu Yöneticisi Fransızca yerelleştirmesi"
+msgid "Spanish language"
+msgstr ""
 
 #: ../nethserver-groups.xml.in.h:62
-msgid "Hungarian language"
-msgstr "Macarca"
+msgid "Server Manager Spanish localization"
+msgstr ""
 
 #: ../nethserver-groups.xml.in.h:63
-msgid "Server Manager Hungarian localization"
-msgstr "Sunucu Yöneticisi Macarca yerelleştirmesi"
+msgid "French language"
+msgstr ""
 
 #: ../nethserver-groups.xml.in.h:64
-msgid "Italian language"
-msgstr "İtalyanca"
+msgid "Server Manager French localization"
+msgstr ""
 
 #: ../nethserver-groups.xml.in.h:65
-msgid "Server Manager Italian localization"
-msgstr "Sunucu Yöneticisi İtalyanca yerelleştirmesi"
+msgid "Hungarian language"
+msgstr ""
 
 #: ../nethserver-groups.xml.in.h:66
-msgid "Dutch language"
-msgstr "Hollanda dili"
+msgid "Server Manager Hungarian localization"
+msgstr ""
 
 #: ../nethserver-groups.xml.in.h:67
-msgid "Server Manager Dutch localization"
-msgstr "Sunucu Yöneticisi Hollanda dili yerelleştirmesi"
+msgid "Italian language"
+msgstr ""
 
 #: ../nethserver-groups.xml.in.h:68
-msgid "Portuguese language"
-msgstr "Portekizce"
+msgid "Server Manager Italian localization"
+msgstr ""
 
 #: ../nethserver-groups.xml.in.h:69
-msgid "Server Manager Portuguese localization"
-msgstr "Sunucu Yöneticisi Portekizce yerelleştirmesi"
+msgid "Dutch language"
+msgstr ""
 
 #: ../nethserver-groups.xml.in.h:70
-msgid "Russian language"
-msgstr "Rusça"
+msgid "Server Manager Dutch localization"
+msgstr ""
 
 #: ../nethserver-groups.xml.in.h:71
-msgid "Server Manager Russian localization"
-msgstr "Sunucu Yöneticisi Rusça yerelleştirmesi"
+msgid "Portuguese language"
+msgstr ""
 
 #: ../nethserver-groups.xml.in.h:72
-msgid "Turkish language"
-msgstr "Türkçe"
+msgid "Server Manager Portuguese localization"
+msgstr ""
 
 #: ../nethserver-groups.xml.in.h:73
-msgid "Server Manager Turkish localization"
-msgstr "Sunucu Yöneticisi Türkçe yerelleştirmesi"
+msgid "Russian language"
+msgstr ""
 
 #: ../nethserver-groups.xml.in.h:74
-msgid "Monitoring and inventorying"
-msgstr "İşlem ve varlık izleme"
+msgid "Server Manager Russian localization"
+msgstr ""
 
 #: ../nethserver-groups.xml.in.h:75
+msgid "Turkish language"
+msgstr ""
+
+#: ../nethserver-groups.xml.in.h:76
+msgid "Server Manager Turkish localization"
+msgstr ""
+
+#: ../nethserver-groups.xml.in.h:77
+msgid "Serbian language"
+msgstr ""
+
+#: ../nethserver-groups.xml.in.h:78
+msgid "Server Manager Serbian localization"
+msgstr ""
+
+#: ../nethserver-groups.xml.in.h:79
+msgid "Monitoring and inventorying"
+msgstr ""
+
+#: ../nethserver-groups.xml.in.h:80
 msgid ""
 "Automated monitoring and inventorying of network devices (servers, PCs, "
 "printers, routers...)"
-msgstr "Ağ aygıtlarının otomatik olarak işlem ve varlık izlemesi (sunucu, bilgisayar, yazıcı, ağ aygıtı...)"
-
-#: ../nethserver-groups.xml.in.h:76
-msgid "Base system"
-msgstr "Temel sistem"
-
-#: ../nethserver-groups.xml.in.h:77
-msgid "Infrastructure and groupware services"
-msgstr "Altyapı ve groupware hizmetleri"
-
-#: ../nethserver-groups.xml.in.h:78
-msgid "Firewall"
-msgstr "Güvenlik duvarı"
-
-#: ../nethserver-groups.xml.in.h:79
-msgid "UTM Firewall"
-msgstr "Birleşik tehdit önleme (UTM) güvenlik duvarı"
-
-#: ../nethserver-groups.xml.in.h:80
-msgid "Languages"
-msgstr "Diller"
+msgstr ""
 
 #: ../nethserver-groups.xml.in.h:81
+msgid "Upgrade tool (beta)"
+msgstr ""
+
+#: ../nethserver-groups.xml.in.h:82
+msgid "Upgrades the system to the next major distribution release"
+msgstr ""
+
+#: ../nethserver-groups.xml.in.h:83
+msgid "Base system"
+msgstr ""
+
+#: ../nethserver-groups.xml.in.h:84
+msgid "Infrastructure and groupware services"
+msgstr ""
+
+#: ../nethserver-groups.xml.in.h:85
+msgid "Firewall"
+msgstr ""
+
+#: ../nethserver-groups.xml.in.h:86
+msgid "UTM Firewall"
+msgstr ""
+
+#: ../nethserver-groups.xml.in.h:87
+msgid "Languages"
+msgstr ""
+
+#: ../nethserver-groups.xml.in.h:88
 msgid "Localization of the Server Manager web interface"
-msgstr "Sunucu Yöneticisi web arayüzünün yerelleştirmesi"
+msgstr ""

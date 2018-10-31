@@ -768,6 +768,16 @@
     </packagelist>
   </group>
 
+  <group>
+      <id>nethserver-upgrade-tool</id>
+      <_name>Upgrade tool (beta)</_name>
+      <_description>Upgrades the system to the next major distribution release</_description>
+      <uservisible>true</uservisible>
+      <packagelist>
+          <packagereq type='mandatory'>nethserver-upgrade-tool</packagereq>
+      </packagelist>
+  </group>
+
 <!-- NETHSERVER GROUPS END -->
 
 <!-- NETHSERVER CATEGORIES START -->
@@ -802,6 +812,7 @@
       <groupid>nethserver-webvirtmgr</groupid>
       <groupid>nethserver-net-snmp</groupid>
       <groupid>nethserver-monitoring</groupid>
+      <groupid>nethserver-upgrade-tool</groupid>
     </grouplist>
   </category>
 
