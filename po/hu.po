@@ -1,19 +1,18 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
-# Translators:
-# Fajka József <senki75@gmail.com>, 2015
+#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: nethserver\n"
+"Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-09-24 15:59+0200\n"
-"PO-Revision-Date: 2015-11-09 13:10+0000\n"
-"Last-Translator: Fajka József <senki75@gmail.com>\n"
-"Language-Team: Hungarian (http://www.transifex.com/nethserver/nethserver/language/hu/)\n"
+"POT-Creation-Date: 2018-10-31 09:58+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Language-Team: Hungarian (https://www.transifex.com/nethserver/teams/35834/hu/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: hu\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
@@ -31,318 +30,346 @@ msgid "Additional ISO packages"
 msgstr ""
 
 #: ../nethserver-groups.xml.in.h:4
-msgid "Backup"
-msgstr "Biztonsági mentés"
+msgid "NethForge repository"
+msgstr ""
 
 #: ../nethserver-groups.xml.in.h:5
-msgid "Backup of configuration and data"
+msgid "Additional packages from NethForge community repository"
 msgstr ""
 
 #: ../nethserver-groups.xml.in.h:6
-msgid "DNS and DHCP server"
+msgid "Backup"
 msgstr ""
 
 #: ../nethserver-groups.xml.in.h:7
-msgid "Daemons and tools for DHCP and DNS server"
+msgid "Backup of configuration and data"
 msgstr ""
 
 #: ../nethserver-groups.xml.in.h:8
-msgid "Fax server"
-msgstr "Fax szerver"
+msgid "DNS and DHCP server"
+msgstr ""
 
 #: ../nethserver-groups.xml.in.h:9
-msgid "Configure HylaFax+ and manage IAX modems"
+msgid "Daemons and tools for DHCP and DNS server"
 msgstr ""
 
 #: ../nethserver-groups.xml.in.h:10
-msgid "Web-based fax client"
+msgid "Fax server"
 msgstr ""
 
 #: ../nethserver-groups.xml.in.h:11
-msgid "Manage faxes from a simple web interface"
+msgid "Configure HylaFax+ and manage IAX modems"
 msgstr ""
 
 #: ../nethserver-groups.xml.in.h:12
-msgid "Basic firewall"
+msgid "Web-based fax client"
 msgstr ""
 
 #: ../nethserver-groups.xml.in.h:13
-msgid "Configure network adapters and basic firewall"
+msgid "Manage faxes from a simple web interface"
 msgstr ""
 
 #: ../nethserver-groups.xml.in.h:14
-msgid "File server"
-msgstr "Fájl szerver"
+msgid "Basic firewall"
+msgstr ""
 
 #: ../nethserver-groups.xml.in.h:15
-msgid "Daemons and tools for network file sharing"
+msgid "Configure network adapters and basic firewall"
 msgstr ""
 
 #: ../nethserver-groups.xml.in.h:16
-msgid "FTP server"
-msgstr "FTP szerver"
+msgid "File server"
+msgstr ""
 
 #: ../nethserver-groups.xml.in.h:17
-msgid "Configure the FTP server (vsftpd)"
+msgid "Daemons and tools for network file sharing"
 msgstr ""
 
 #: ../nethserver-groups.xml.in.h:18
-msgid "Groupware"
-msgstr "Csoportmunka"
+msgid "FTP server"
+msgstr ""
 
 #: ../nethserver-groups.xml.in.h:19
-msgid "SOGo server and Thundebird extensions"
+msgid "Configure the FTP server (vsftpd)"
 msgstr ""
 
 #: ../nethserver-groups.xml.in.h:20
-msgid "Email"
-msgstr "Email"
+msgid "SOGo groupware"
+msgstr ""
 
 #: ../nethserver-groups.xml.in.h:21
-msgid "Email server and filter"
+msgid "SOGo server and Thundebird extensions"
 msgstr ""
 
 #: ../nethserver-groups.xml.in.h:22
-msgid "SMTP proxy"
+msgid "WebTop groupware"
 msgstr ""
 
 #: ../nethserver-groups.xml.in.h:23
-msgid "POP3 connector"
+msgid "Email"
 msgstr ""
 
 #: ../nethserver-groups.xml.in.h:24
-msgid "Fetch messages from external email accounts with POP3 or IMAP access"
+msgid "Email server and filter"
 msgstr ""
 
 #: ../nethserver-groups.xml.in.h:25
-msgid "Instant messaging"
+msgid "SMTP proxy"
 msgstr ""
 
 #: ../nethserver-groups.xml.in.h:26
-msgid "XMPP/Jabber chat server"
+msgid "POP3 connector"
 msgstr ""
 
 #: ../nethserver-groups.xml.in.h:27
-msgid "Print server"
+msgid "Fetch messages from external email accounts with POP3 or IMAP access"
 msgstr ""
 
 #: ../nethserver-groups.xml.in.h:28
-msgid "Print management server (CUPS)"
+msgid "Instant messaging"
 msgstr ""
 
 #: ../nethserver-groups.xml.in.h:29
-msgid "Web server"
+msgid "XMPP/Jabber chat server"
 msgstr ""
 
 #: ../nethserver-groups.xml.in.h:30
-msgid "Configuration tools for Apache web server"
+msgid "Print server"
 msgstr ""
 
 #: ../nethserver-groups.xml.in.h:31
-msgid "Bandwidth monitor"
-msgstr "Sávszélesség monitor"
+msgid "Print management server (CUPS)"
+msgstr ""
 
 #: ../nethserver-groups.xml.in.h:32
-msgid "Configure and manage Ntopng"
+msgid "Web server"
 msgstr ""
 
 #: ../nethserver-groups.xml.in.h:33
-msgid "UPS support"
+msgid "Configuration tools for Apache web server"
 msgstr ""
 
 #: ../nethserver-groups.xml.in.h:34
-msgid "UPS management and monitoring configuration"
+msgid "Bandwidth monitor"
 msgstr ""
 
 #: ../nethserver-groups.xml.in.h:35
-msgid "Statistics"
+msgid "Configure and manage Ntopng"
 msgstr ""
 
 #: ../nethserver-groups.xml.in.h:36
-msgid "Collect and analyse system statistics"
+msgid "UPS support"
 msgstr ""
 
 #: ../nethserver-groups.xml.in.h:37
-msgid "Web proxy"
-msgstr "Web proxy"
+msgid "UPS management and monitoring configuration"
+msgstr ""
 
 #: ../nethserver-groups.xml.in.h:38
-msgid "Squid web caching proxy configuration"
+msgid "Statistics"
 msgstr ""
 
 #: ../nethserver-groups.xml.in.h:39
-msgid "Web filter"
+msgid "Collect and analyse system statistics"
 msgstr ""
 
 #: ../nethserver-groups.xml.in.h:40
-msgid "Squid web content and virus filter"
+msgid "Web proxy"
 msgstr ""
 
 #: ../nethserver-groups.xml.in.h:41
+msgid "Squid web caching proxy configuration"
+msgstr ""
+
+#: ../nethserver-groups.xml.in.h:42
+msgid "Web filter"
+msgstr ""
+
+#: ../nethserver-groups.xml.in.h:43
+msgid "Squid web content and virus filter"
+msgstr ""
+
+#: ../nethserver-groups.xml.in.h:44
 msgid ""
 "Configure remote-access and site-to-site Virtual Private Networks (VPN)"
 msgstr ""
 
-#: ../nethserver-groups.xml.in.h:42
+#: ../nethserver-groups.xml.in.h:45
 msgid "ownCloud"
 msgstr ""
 
-#: ../nethserver-groups.xml.in.h:43
+#: ../nethserver-groups.xml.in.h:46
 msgid ""
 "Configure ownCloud, universal access to your files via the web, your "
 "computer or your mobile devices - wherever you are"
 msgstr ""
 
-#: ../nethserver-groups.xml.in.h:44
+#: ../nethserver-groups.xml.in.h:47
 msgid "MySQL server"
 msgstr ""
 
-#: ../nethserver-groups.xml.in.h:45
+#: ../nethserver-groups.xml.in.h:48
 msgid "Configuration tools for MySQL"
 msgstr ""
 
-#: ../nethserver-groups.xml.in.h:46
+#: ../nethserver-groups.xml.in.h:49
 msgid "Intrusion Prevention System"
 msgstr ""
 
-#: ../nethserver-groups.xml.in.h:47
+#: ../nethserver-groups.xml.in.h:50
 msgid "Monitor and block network traffic for malicious activity"
 msgstr ""
 
-#: ../nethserver-groups.xml.in.h:48
-msgid "POP3 proxy"
-msgstr "POP3 proxy"
-
-#: ../nethserver-groups.xml.in.h:49
-msgid "Intercept POP3 connections and scan messages for virus and spam"
-msgstr ""
-
-#: ../nethserver-groups.xml.in.h:50
-msgid "Virtual machines manager"
-msgstr ""
-
 #: ../nethserver-groups.xml.in.h:51
-msgid "Web interface for KVM virtual machines"
+msgid "POP3 proxy"
 msgstr ""
 
 #: ../nethserver-groups.xml.in.h:52
-msgid "SNMP server"
-msgstr "SNMP szerver"
+msgid "Intercept POP3 connections and scan messages for virus and spam"
+msgstr ""
 
 #: ../nethserver-groups.xml.in.h:53
-msgid "Configure the SNMP server"
+msgid "Virtual machines manager"
 msgstr ""
 
 #: ../nethserver-groups.xml.in.h:54
-msgid "German language"
+msgid "Web interface for KVM virtual machines"
 msgstr ""
 
 #: ../nethserver-groups.xml.in.h:55
-msgid "Server Manager German localization"
-msgstr "Kiszolgálókezelő német honosítás"
+msgid "SNMP server"
+msgstr ""
 
 #: ../nethserver-groups.xml.in.h:56
-msgid "Greek language"
+msgid "Configure the SNMP server"
 msgstr ""
 
 #: ../nethserver-groups.xml.in.h:57
-msgid "Server Manager Greek localization"
-msgstr "Kiszolgálókezelő görög honosítás"
+msgid "German language"
+msgstr ""
 
 #: ../nethserver-groups.xml.in.h:58
-msgid "Spanish language"
+msgid "Server Manager German localization"
 msgstr ""
 
 #: ../nethserver-groups.xml.in.h:59
-msgid "Server Manager Spanish localization"
-msgstr "Kiszolgálókezelő spanyol honosítás"
+msgid "Greek language"
+msgstr ""
 
 #: ../nethserver-groups.xml.in.h:60
-msgid "French language"
+msgid "Server Manager Greek localization"
 msgstr ""
 
 #: ../nethserver-groups.xml.in.h:61
-msgid "Server Manager French localization"
-msgstr "Kiszolgálókezelő francia honosítás"
+msgid "Spanish language"
+msgstr ""
 
 #: ../nethserver-groups.xml.in.h:62
-msgid "Hungarian language"
-msgstr "Magyar nyelv"
+msgid "Server Manager Spanish localization"
+msgstr ""
 
 #: ../nethserver-groups.xml.in.h:63
-msgid "Server Manager Hungarian localization"
-msgstr "Kiszolgálókezelő magyar honosítás"
+msgid "French language"
+msgstr ""
 
 #: ../nethserver-groups.xml.in.h:64
-msgid "Italian language"
+msgid "Server Manager French localization"
 msgstr ""
 
 #: ../nethserver-groups.xml.in.h:65
-msgid "Server Manager Italian localization"
-msgstr "Kiszolgálókezelő olasz honosítás"
+msgid "Hungarian language"
+msgstr ""
 
 #: ../nethserver-groups.xml.in.h:66
-msgid "Dutch language"
-msgstr "Holland nyelv"
+msgid "Server Manager Hungarian localization"
+msgstr ""
 
 #: ../nethserver-groups.xml.in.h:67
-msgid "Server Manager Dutch localization"
-msgstr "Kiszolgálókezelő holland honosítás"
+msgid "Italian language"
+msgstr ""
 
 #: ../nethserver-groups.xml.in.h:68
-msgid "Portuguese language"
+msgid "Server Manager Italian localization"
 msgstr ""
 
 #: ../nethserver-groups.xml.in.h:69
-msgid "Server Manager Portuguese localization"
-msgstr "Kiszolgálókezelő portugál honosítás"
+msgid "Dutch language"
+msgstr ""
 
 #: ../nethserver-groups.xml.in.h:70
-msgid "Russian language"
-msgstr "Orosz nyelv"
+msgid "Server Manager Dutch localization"
+msgstr ""
 
 #: ../nethserver-groups.xml.in.h:71
-msgid "Server Manager Russian localization"
-msgstr "Kiszolgálókezelő orosz honosítás"
+msgid "Portuguese language"
+msgstr ""
 
 #: ../nethserver-groups.xml.in.h:72
-msgid "Turkish language"
-msgstr "Török nyelv"
+msgid "Server Manager Portuguese localization"
+msgstr ""
 
 #: ../nethserver-groups.xml.in.h:73
-msgid "Server Manager Turkish localization"
-msgstr "Kiszolgálókezelő török honosítás"
+msgid "Russian language"
+msgstr ""
 
 #: ../nethserver-groups.xml.in.h:74
-msgid "Monitoring and inventorying"
+msgid "Server Manager Russian localization"
 msgstr ""
 
 #: ../nethserver-groups.xml.in.h:75
+msgid "Turkish language"
+msgstr ""
+
+#: ../nethserver-groups.xml.in.h:76
+msgid "Server Manager Turkish localization"
+msgstr ""
+
+#: ../nethserver-groups.xml.in.h:77
+msgid "Serbian language"
+msgstr ""
+
+#: ../nethserver-groups.xml.in.h:78
+msgid "Server Manager Serbian localization"
+msgstr ""
+
+#: ../nethserver-groups.xml.in.h:79
+msgid "Monitoring and inventorying"
+msgstr ""
+
+#: ../nethserver-groups.xml.in.h:80
 msgid ""
 "Automated monitoring and inventorying of network devices (servers, PCs, "
 "printers, routers...)"
 msgstr ""
 
-#: ../nethserver-groups.xml.in.h:76
+#: ../nethserver-groups.xml.in.h:81
+msgid "Upgrade tool (beta)"
+msgstr ""
+
+#: ../nethserver-groups.xml.in.h:82
+msgid "Upgrades the system to the next major distribution release"
+msgstr ""
+
+#: ../nethserver-groups.xml.in.h:83
 msgid "Base system"
 msgstr ""
 
-#: ../nethserver-groups.xml.in.h:77
+#: ../nethserver-groups.xml.in.h:84
 msgid "Infrastructure and groupware services"
 msgstr ""
 
-#: ../nethserver-groups.xml.in.h:78
+#: ../nethserver-groups.xml.in.h:85
 msgid "Firewall"
-msgstr "Tűzfal"
+msgstr ""
 
-#: ../nethserver-groups.xml.in.h:79
+#: ../nethserver-groups.xml.in.h:86
 msgid "UTM Firewall"
-msgstr "UTM Tűzfal"
+msgstr ""
 
-#: ../nethserver-groups.xml.in.h:80
+#: ../nethserver-groups.xml.in.h:87
 msgid "Languages"
-msgstr "Nyelvek"
+msgstr ""
 
-#: ../nethserver-groups.xml.in.h:81
+#: ../nethserver-groups.xml.in.h:88
 msgid "Localization of the Server Manager web interface"
-msgstr "A kiszolgálókezelő webfelületének honosítása"
+msgstr ""

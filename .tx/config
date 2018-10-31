@@ -2,7 +2,7 @@
 host = https://www.transifex.com
 lang_map = fr_FR: fr, ru_RU: ru, sv_SE: sv, cs_CZ: cs
 
-[nethserver.yum_groups_definitions]
+[nethserver-v6.yum_groups_definitions]
 file_filter = po/<lang>.po
 source_file = po/comps.pot
 source_lang = en

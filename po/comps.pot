@@ -8,13 +8,13 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-06-15 12:10+0200\n"
+"POT-Creation-Date: 2018-10-31 10:25+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../nethserver-groups.xml.in.h:1
@@ -324,35 +324,51 @@ msgid "Server Manager Turkish localization"
 msgstr ""
 
 #: ../nethserver-groups.xml.in.h:77
-msgid "Monitoring and inventorying"
+msgid "Serbian language"
 msgstr ""
 
 #: ../nethserver-groups.xml.in.h:78
+msgid "Server Manager Serbian localization"
+msgstr ""
+
+#: ../nethserver-groups.xml.in.h:79
+msgid "Monitoring and inventorying"
+msgstr ""
+
+#: ../nethserver-groups.xml.in.h:80
 msgid ""
 "Automated monitoring and inventorying of network devices (servers, PCs, "
 "printers, routers...)"
 msgstr ""
 
-#: ../nethserver-groups.xml.in.h:79
-msgid "Base system"
-msgstr ""
-
-#: ../nethserver-groups.xml.in.h:80
-msgid "Infrastructure and groupware services"
-msgstr ""
-
 #: ../nethserver-groups.xml.in.h:81
-msgid "Firewall"
+msgid "Upgrade tool (beta)"
 msgstr ""
 
 #: ../nethserver-groups.xml.in.h:82
-msgid "UTM Firewall"
+msgid "Upgrades the system to the next major distribution release"
 msgstr ""
 
 #: ../nethserver-groups.xml.in.h:83
-msgid "Languages"
+msgid "Base system"
 msgstr ""
 
 #: ../nethserver-groups.xml.in.h:84
+msgid "Infrastructure and groupware services"
+msgstr ""
+
+#: ../nethserver-groups.xml.in.h:85
+msgid "Firewall"
+msgstr ""
+
+#: ../nethserver-groups.xml.in.h:86
+msgid "UTM Firewall"
+msgstr ""
+
+#: ../nethserver-groups.xml.in.h:87
+msgid "Languages"
+msgstr ""
+
+#: ../nethserver-groups.xml.in.h:88
 msgid "Localization of the Server Manager web interface"
 msgstr ""
