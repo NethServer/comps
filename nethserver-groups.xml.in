@@ -506,6 +506,7 @@
       <packagereq type="mandatory">nethserver-mail-filter</packagereq>
       <packagereq type="mandatory">nethserver-mail-server</packagereq>
       <packagereq type="optional">nethserver-mail-disclaimer</packagereq>
+      <packagereq type="optional">nethserver-mail-quarantine</packagereq>
     </packagelist>
   </group>
 
