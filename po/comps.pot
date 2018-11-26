@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-05 14:14+0100\n"
+"POT-Creation-Date: 2018-11-26 15:22+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -374,26 +374,34 @@ msgid "Server Manager Romanian localization"
 msgstr ""
 
 #: ../nethserver-groups.xml.in.h:89
-msgid "Base system"
+msgid "New Server Manager (Alpha)"
 msgstr ""
 
 #: ../nethserver-groups.xml.in.h:90
-msgid "Infrastructure and groupware services"
+msgid "New Server Manager based on Cockpit"
 msgstr ""
 
 #: ../nethserver-groups.xml.in.h:91
-msgid "Firewall"
+msgid "Base system"
 msgstr ""
 
 #: ../nethserver-groups.xml.in.h:92
-msgid "UTM Firewall"
+msgid "Infrastructure and groupware services"
 msgstr ""
 
 #: ../nethserver-groups.xml.in.h:93
-msgid "Languages"
+msgid "Firewall"
 msgstr ""
 
 #: ../nethserver-groups.xml.in.h:94
+msgid "UTM Firewall"
+msgstr ""
+
+#: ../nethserver-groups.xml.in.h:95
+msgid "Languages"
+msgstr ""
+
+#: ../nethserver-groups.xml.in.h:96
 msgid "Localization of the Server Manager web interface"
 msgstr ""
 
