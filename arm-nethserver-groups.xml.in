@@ -143,9 +143,9 @@
 <!-- NETHESERVER GROUPS START -->
 
   <group>
-    <id>nethserver-arm</id>
-    <name>ARM</name>
-    <_description>Core ARM packages</_description>
+    <id>nethserver-iso</id>
+    <name>ISO</name>
+    <_description>Additional ISO packages</_description>
     <default>true</default>
     <uservisible>false</uservisible>
     <packagelist>
@@ -239,6 +239,17 @@
     <uservisible>false</uservisible>
     <packagelist>
       <packagereq type="mandatory">nethserver-directory</packagereq>
+    </packagelist>
+  </group>
+
+  <group>
+    <id>nethserver-dc</id>
+    <name>Account provider: Samba Active Directory</name>
+    <description>Configure users and groups on Samba Active Directory</description>
+    <default>false</default>
+    <uservisible>false</uservisible>
+    <packagelist>
+      <packagereq type="mandatory">nethserver-dc</packagereq>
     </packagelist>
   </group>
 
@@ -603,7 +614,7 @@
       <_name>New Server Manager (Alpha)</_name>
       <_description>New Server Manager based on Cockpit</_description>
       <default>false</default>
-      <uservisible>true</uservisible>
+      <uservisible>false</uservisible>
       <packagelist>
         <packagereq type="mandatory">nethserver-cockpit</packagereq>
       </packagelist>
@@ -622,13 +633,20 @@
     <grouplist>
       <groupid>centos-minimal</groupid>    
       <groupid>buildsys-build</groupid>
-      <groupid>nethserver-arm</groupid>
+      <groupid>nethserver-iso</groupid>
+      <groupid>nethserver-backup</groupid>
       <groupid>nethserver-statistics</groupid>
+      <groupid>nethserver-mail</groupid>
       <groupid>nethserver-file-server</groupid>
       <groupid>nethserver-web</groupid>
       <groupid>nethserver-mysql</groupid>
+      <groupid>nethserver-net-snmp</groupid>
       <groupid>nethserver-directory</groupid>
       <groupid>nethserver-dc</groupid>
+      <groupid>nethserver-roundcubemail</groupid>
+      <groupid>nethserver-nextcloud</groupid>
+      <groupid>nethserver-pop3connector</groupid>
+      <groupid>nethserver-cockpit</groupid>   
     </grouplist>
   </category>
 
@@ -639,6 +657,15 @@
     <display_order>3</display_order>
     <grouplist>
       <groupid>nethserver-firewall-base</groupid>
+      <groupid>nethserver-web-proxy</groupid>
+      <groupid>nethserver-web-filter</groupid>
+      <groupid>nethserver-smtp-proxy</groupid>
+      <groupid>nethserver-openvpn</groupid>
+      <groupid>nethserver-ipsec-tunnels</groupid>
+      <groupid>nethserver-ips</groupid>
+      <groupid>nethserver-p3scan</groupid>
+      <groupid>nethserver-reverse-proxy</groupid>
+      <groupid>nethserver-hotspot</groupid>
     </grouplist>
   </category>
 
@@ -659,42 +686,6 @@
       <groupid>nethserver-l10n-ru</groupid>
       <groupid>nethserver-l10n-tr</groupid>
       <groupid>nethserver-l10n-sr</groupid>
-    </grouplist>
-  </category>
-
-  <category>
-    <id>base-devel</id>
-    <_name>Base in Development</_name>
-    <_description>Infrastructure to be Tested</_description>
-    <display_order>5</display_order>
-    <grouplist>
-      <groupid>nethserver-backup</groupid>
-      <groupid>nethserver-net-snmp</groupid>
-      <groupid>nethserver-fail2ban</groupid>
-      <groupid>nethserver-mail</groupid>
-      <groupid>nethserver-pop3connector</groupid>
-      <groupid>nethserver-p3scan2</groupid>
-      <groupid>nethserver-smtp-proxy2</groupid>
-      <groupid>nethserver-roundcubemail</groupid>
-      <groupid>nethserver-nextcloud</groupid>    
-    </grouplist>
-  </category>
-
-  <category>
-    <id>_firewall-devel_</id>
-    <_name>Firewall in Development</_name>
-    <_description>UTM Firewall to be Tested</_description>
-    <display_order>6</display_order>
-    <grouplist>
-      <groupid>nethserver-web-proxy</groupid>
-      <groupid>nethserver-smtp-proxy</groupid>
-      <groupid>nethserver-ipsec-tunnels</groupid>
-      <groupid>nethserver-ips</groupid>
-      <groupid>nethserver-p3scan</groupid>
-      <groupid>nethserver-reverse-proxy</groupid>
-      <groupid>nethserver-hotspot</groupid>
-      <groupid>nethserver-web-filter</groupid>
-      <groupid>nethserver-openvpn</groupid>
     </grouplist>
   </category>
 
