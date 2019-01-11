@@ -13,13 +13,25 @@
     </packagelist>
   </group>
 
+  <group>
+    <id>nethserver-virtualbox-5.2-phpvirtualbox</id>
+    <_name>phpVirtualBox-5.2</_name>
+    <_description>Web user interface for VirtualBox 5.2</_description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type="mandatory">nethserver-virtualbox-5.2-phpvirtualbox</packagereq>
+    </packagelist>
+  </group>
+
   <category>
     <id>nethforge</id>
     <_name>NethForge</_name>
     <_description>Modules from the NethServer Community</_description>
     <display_order>1</display_order>
     <grouplist>
-      <groupid>nethserver-sogo</groupid>
+        <groupid>nethserver-sogo</groupid>
+        <groupid>nethserver-virtualbox-5.2-phpvirtualbox</groupid>
     </grouplist>
   </category>
 
