@@ -1,2 +1,4 @@
-nethserver-groups.xml.in
+updates-groups.xml.in
 nethforge-groups.xml.in
+arm-updates-groups.xml.in
+arm-nethforge-groups.xml.in
