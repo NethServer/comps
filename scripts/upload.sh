@@ -28,4 +28,6 @@ unset SECRET SECRET_URL
 sftp ${sftp_opts} -b - $(dirname ${endpoints[core_${NSVER}_updates]:?invalid ENDPOINT}) <<EOF
 put nethforge-groups.xml nethforge-groups.xml
 put nethserver-groups.xml updates-groups.xml
+put arm-nethforge-groups.xml
+put arm-nethserver-groups.xml
 EOF
