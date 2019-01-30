@@ -24,6 +24,17 @@
     </packagelist>
   </group>
 
+  <group>
+    <id>nethserver-collabora</id>
+    <_name>Collabora Online (CODE)</_name>
+    <_description>Collabora Online (CODE) integrated with Nextcloud</_description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type="mandatory">nethserver-collabora</packagereq>
+    </packagelist>
+  </group>
+
   <category>
     <id>nethforge</id>
     <_name>NethForge</_name>
