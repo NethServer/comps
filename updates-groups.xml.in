@@ -1008,6 +1008,7 @@
       <groupid>nethserver-fail2ban</groupid>
       <groupid>nethserver-cockpit</groupid>
       <groupid>nethserver-netdata</groupid>
+      <groupid>nethserver-ftp</groupid>
     </grouplist>
   </category>
 
@@ -1024,7 +1025,7 @@
       <groupid>nethserver-openvpn</groupid>
       <groupid>nethserver-ipsec-tunnels</groupid>
       <groupid>nethserver-ips</groupid>
-      <groupid>nethserver-bandwidthd</groupid>
+      <groupid>nethserver-bandwidth</groupid>
       <groupid>nethserver-p3scan</groupid>
       <groupid>nethserver-reverse-proxy</groupid>
       <groupid>nethserver-dpi</groupid>
