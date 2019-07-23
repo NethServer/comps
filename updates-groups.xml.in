@@ -967,6 +967,17 @@
       </packagelist>
   </group>
 
+  <group>
+      <id>nethserver-dante</id>
+      <_name>Report (Beta)</_name>
+      <_description>Reports on system usage</_description>
+      <default>false</default>
+      <uservisible>true</uservisible>
+      <packagelist>
+        <packagereq type="mandatory">nethserver-dante</packagereq>
+      </packagelist>
+  </group>
+
 <!-- NETHSERVER GROUPS END -->
 
 <!-- NETHSERVER CATEGORIES START -->
@@ -1009,6 +1020,7 @@
       <groupid>nethserver-cockpit</groupid>
       <groupid>nethserver-netdata</groupid>
       <groupid>nethserver-ftp</groupid>
+      <groupid>nethserver-dante</groupid>
     </grouplist>
   </category>
 
