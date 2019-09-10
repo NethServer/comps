@@ -374,7 +374,7 @@ msgid "Server Manager Romanian localization"
 msgstr ""
 
 #: ../updates-groups.xml.in.h:89 ../arm-updates-groups.xml.in.h:70
-msgid "New Server Manager (Alpha)"
+msgid "New Server Manager (Beta)"
 msgstr ""
 
 #: ../updates-groups.xml.in.h:90 ../arm-updates-groups.xml.in.h:71
