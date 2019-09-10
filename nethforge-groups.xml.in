@@ -43,6 +43,7 @@
     <grouplist>
         <groupid>nethserver-sogo</groupid>
         <groupid>nethserver-virtualbox-5.2-phpvirtualbox</groupid>
+        <groupid>nethserver-collabora</groupid>
     </grouplist>
   </category>
 
