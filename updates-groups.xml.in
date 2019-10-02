@@ -570,8 +570,8 @@
 
   <group>
     <id>nethserver-web</id>
-    <_name>Web server</_name>
-    <_description>Configuration tools for Apache web server</_description>
+    <_name>Web hosting</_name>
+    <_description>Configuration tools for hosting sites on Apache web server</_description>
     <default>false</default>
     <uservisible>true</uservisible>
     <packagelist>

@@ -117,12 +117,12 @@ msgstr ""
 msgid "Print management server (CUPS)"
 msgstr ""
 
-#: ../updates-groups.xml.in.h:26 ../arm-updates-groups.xml.in.h:17
-msgid "Web server"
+#: ../updates-groups.xml.in.h:24 ../arm-updates-groups.xml.in.h:17
+msgid "Web hosting"
 msgstr ""
 
-#: ../updates-groups.xml.in.h:27 ../arm-updates-groups.xml.in.h:18
-msgid "Configuration tools for Apache web server"
+#: ../updates-groups.xml.in.h:25 ../arm-updates-groups.xml.in.h:18
+msgid "Configuration tools for hosting sites on Apache web server"
 msgstr ""
 
 #: ../updates-groups.xml.in.h:28 ../arm-updates-groups.xml.in.h:19
