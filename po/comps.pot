@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-07-03 15:51+0200\n"
+"POT-Creation-Date: 2019-10-02 15:02+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -38,74 +38,82 @@ msgid "Backup of configuration and data"
 msgstr ""
 
 #: ../updates-groups.xml.in.h:6
-msgid "Fax server"
+msgid "Backup restore"
 msgstr ""
 
 #: ../updates-groups.xml.in.h:7
+msgid "Module to restore backup of data"
+msgstr ""
+
+#: ../updates-groups.xml.in.h:8
+msgid "Fax server"
+msgstr ""
+
+#: ../updates-groups.xml.in.h:9
 msgid "Configure HylaFax+ and manage IAX modems"
 msgstr ""
 
-#: ../updates-groups.xml.in.h:8 ../arm-updates-groups.xml.in.h:6
+#: ../updates-groups.xml.in.h:10 ../arm-updates-groups.xml.in.h:6
 msgid "Basic firewall"
 msgstr ""
 
-#: ../updates-groups.xml.in.h:9 ../arm-updates-groups.xml.in.h:7
+#: ../updates-groups.xml.in.h:11 ../arm-updates-groups.xml.in.h:7
 msgid "Configure network adapters and basic firewall"
 msgstr ""
 
-#: ../updates-groups.xml.in.h:10 ../arm-updates-groups.xml.in.h:8
+#: ../updates-groups.xml.in.h:12 ../arm-updates-groups.xml.in.h:8
 msgid "File server"
 msgstr ""
 
-#: ../updates-groups.xml.in.h:11 ../arm-updates-groups.xml.in.h:9
+#: ../updates-groups.xml.in.h:13 ../arm-updates-groups.xml.in.h:9
 msgid "Daemons and tools for network file sharing"
 msgstr ""
 
-#: ../updates-groups.xml.in.h:12 ../arm-updates-groups.xml.in.h:10
+#: ../updates-groups.xml.in.h:14 ../arm-updates-groups.xml.in.h:10
 msgid "FTP server"
 msgstr ""
 
-#: ../updates-groups.xml.in.h:13 ../arm-updates-groups.xml.in.h:11
+#: ../updates-groups.xml.in.h:15 ../arm-updates-groups.xml.in.h:11
 msgid "Configure the FTP server (vsftpd)"
 msgstr ""
 
-#: ../updates-groups.xml.in.h:14
+#: ../updates-groups.xml.in.h:16
 msgid "WebTop 5 groupware"
 msgstr ""
 
-#: ../updates-groups.xml.in.h:15 ../arm-updates-groups.xml.in.h:12
+#: ../updates-groups.xml.in.h:17 ../arm-updates-groups.xml.in.h:12
 msgid "Email"
 msgstr ""
 
-#: ../updates-groups.xml.in.h:16 ../arm-updates-groups.xml.in.h:13
+#: ../updates-groups.xml.in.h:18 ../arm-updates-groups.xml.in.h:13
 msgid "Email server and filter"
 msgstr ""
 
-#: ../updates-groups.xml.in.h:17 ../arm-updates-groups.xml.in.h:14
+#: ../updates-groups.xml.in.h:19 ../arm-updates-groups.xml.in.h:14
 msgid "Roundcube web mail"
 msgstr ""
 
-#: ../updates-groups.xml.in.h:18 ../arm-updates-groups.xml.in.h:15
+#: ../updates-groups.xml.in.h:20 ../arm-updates-groups.xml.in.h:15
 msgid "SMTP proxy"
 msgstr ""
 
-#: ../updates-groups.xml.in.h:19 ../arm-updates-groups.xml.in.h:16
+#: ../updates-groups.xml.in.h:21 ../arm-updates-groups.xml.in.h:16
 msgid "Filter SMTP traffic with ClamAV and Rspamd"
 msgstr ""
 
-#: ../updates-groups.xml.in.h:20
+#: ../updates-groups.xml.in.h:22
 msgid "Instant messaging"
 msgstr ""
 
-#: ../updates-groups.xml.in.h:21
+#: ../updates-groups.xml.in.h:23
 msgid "XMPP/Jabber chat server"
 msgstr ""
 
-#: ../updates-groups.xml.in.h:22
+#: ../updates-groups.xml.in.h:24
 msgid "Print server"
 msgstr ""
 
-#: ../updates-groups.xml.in.h:23
+#: ../updates-groups.xml.in.h:25
 msgid "Print management server (CUPS)"
 msgstr ""
 
@@ -117,307 +125,307 @@ msgstr ""
 msgid "Configuration tools for hosting sites on Apache web server"
 msgstr ""
 
-#: ../updates-groups.xml.in.h:26 ../arm-updates-groups.xml.in.h:19
+#: ../updates-groups.xml.in.h:28 ../arm-updates-groups.xml.in.h:19
 msgid "Reverse proxy"
 msgstr ""
 
-#: ../updates-groups.xml.in.h:27 ../arm-updates-groups.xml.in.h:20
+#: ../updates-groups.xml.in.h:29 ../arm-updates-groups.xml.in.h:20
 msgid "Configure Apache ProxyPass functionality"
 msgstr ""
 
-#: ../updates-groups.xml.in.h:28
+#: ../updates-groups.xml.in.h:30
 msgid "Bandwidth monitor"
 msgstr ""
 
-#: ../updates-groups.xml.in.h:29
+#: ../updates-groups.xml.in.h:31
 msgid "Configure and manage Ntopng"
 msgstr ""
 
-#: ../updates-groups.xml.in.h:30
+#: ../updates-groups.xml.in.h:32
 msgid "UPS support"
 msgstr ""
 
-#: ../updates-groups.xml.in.h:31
+#: ../updates-groups.xml.in.h:33
 msgid "UPS management and monitoring configuration"
 msgstr ""
 
-#: ../updates-groups.xml.in.h:32 ../arm-updates-groups.xml.in.h:21
+#: ../updates-groups.xml.in.h:34 ../arm-updates-groups.xml.in.h:21
 msgid "Statistics"
 msgstr ""
 
-#: ../updates-groups.xml.in.h:33 ../arm-updates-groups.xml.in.h:22
+#: ../updates-groups.xml.in.h:35 ../arm-updates-groups.xml.in.h:22
 msgid "Collect and analyse system statistics"
 msgstr ""
 
-#: ../updates-groups.xml.in.h:34 ../arm-updates-groups.xml.in.h:23
+#: ../updates-groups.xml.in.h:36 ../arm-updates-groups.xml.in.h:23
 msgid "Web proxy"
 msgstr ""
 
-#: ../updates-groups.xml.in.h:35 ../arm-updates-groups.xml.in.h:24
+#: ../updates-groups.xml.in.h:37 ../arm-updates-groups.xml.in.h:24
 msgid "Squid web caching proxy configuration"
 msgstr ""
 
-#: ../updates-groups.xml.in.h:36 ../arm-updates-groups.xml.in.h:25
+#: ../updates-groups.xml.in.h:38 ../arm-updates-groups.xml.in.h:25
 msgid "Web filter"
 msgstr ""
 
-#: ../updates-groups.xml.in.h:37 ../arm-updates-groups.xml.in.h:26
+#: ../updates-groups.xml.in.h:39 ../arm-updates-groups.xml.in.h:26
 msgid "Squid web content and virus filter"
 msgstr ""
 
-#: ../updates-groups.xml.in.h:38 ../arm-updates-groups.xml.in.h:27
+#: ../updates-groups.xml.in.h:40 ../arm-updates-groups.xml.in.h:27
 msgid ""
 "Configure remote-access and site-to-site Virtual Private Networks (VPN) "
 "using OpenVPN"
 msgstr ""
 
-#: ../updates-groups.xml.in.h:39 ../arm-updates-groups.xml.in.h:28
+#: ../updates-groups.xml.in.h:41 ../arm-updates-groups.xml.in.h:28
 msgid "IPsec tunnels"
 msgstr ""
 
-#: ../updates-groups.xml.in.h:40 ../arm-updates-groups.xml.in.h:29
+#: ../updates-groups.xml.in.h:42 ../arm-updates-groups.xml.in.h:29
 msgid "Site-to-site Virtual Private Networks (VPN) using IPsec"
 msgstr ""
 
-#: ../updates-groups.xml.in.h:41 ../arm-updates-groups.xml.in.h:30
+#: ../updates-groups.xml.in.h:43 ../arm-updates-groups.xml.in.h:30
 msgid "MariaDB (MySQL) server"
 msgstr ""
 
-#: ../updates-groups.xml.in.h:42 ../arm-updates-groups.xml.in.h:31
+#: ../updates-groups.xml.in.h:44 ../arm-updates-groups.xml.in.h:31
 msgid "Configuration tools for MariaDB (MySQL)"
 msgstr ""
 
-#: ../updates-groups.xml.in.h:43 ../arm-updates-groups.xml.in.h:32
+#: ../updates-groups.xml.in.h:45 ../arm-updates-groups.xml.in.h:32
 msgid "Intrusion Prevention System"
 msgstr ""
 
-#: ../updates-groups.xml.in.h:44 ../arm-updates-groups.xml.in.h:33
+#: ../updates-groups.xml.in.h:46 ../arm-updates-groups.xml.in.h:33
 msgid "Monitor and block network traffic for malicious activity"
 msgstr ""
 
-#: ../updates-groups.xml.in.h:45
+#: ../updates-groups.xml.in.h:47
 msgid "Deep packet inspection (DPI)"
 msgstr ""
 
-#: ../updates-groups.xml.in.h:46
+#: ../updates-groups.xml.in.h:48
 msgid "Filter network traffic by analyzing the packets payload"
 msgstr ""
 
-#: ../updates-groups.xml.in.h:47 ../arm-updates-groups.xml.in.h:34
+#: ../updates-groups.xml.in.h:49 ../arm-updates-groups.xml.in.h:34
 msgid "POP3 proxy"
 msgstr ""
 
-#: ../updates-groups.xml.in.h:48 ../arm-updates-groups.xml.in.h:35
+#: ../updates-groups.xml.in.h:50 ../arm-updates-groups.xml.in.h:35
 msgid "Intercept POP3 connections and scan messages for virus and spam"
 msgstr ""
 
-#: ../updates-groups.xml.in.h:49 ../arm-updates-groups.xml.in.h:36
+#: ../updates-groups.xml.in.h:51 ../arm-updates-groups.xml.in.h:36
 msgid "SNMP server"
 msgstr ""
 
-#: ../updates-groups.xml.in.h:50 ../arm-updates-groups.xml.in.h:37
+#: ../updates-groups.xml.in.h:52 ../arm-updates-groups.xml.in.h:37
 msgid "Configure the SNMP server"
 msgstr ""
 
-#: ../updates-groups.xml.in.h:51 ../arm-updates-groups.xml.in.h:38
+#: ../updates-groups.xml.in.h:53 ../arm-updates-groups.xml.in.h:38
 msgid "Nextcloud"
 msgstr ""
 
-#: ../updates-groups.xml.in.h:52 ../arm-updates-groups.xml.in.h:39
+#: ../updates-groups.xml.in.h:54 ../arm-updates-groups.xml.in.h:39
 msgid ""
 "Configure Nextcloud, universal access to your files via the web, your "
 "computer or your mobile devices - wherever you are"
 msgstr ""
 
-#: ../updates-groups.xml.in.h:53
+#: ../updates-groups.xml.in.h:55
 msgid "VoIP PBX"
 msgstr ""
 
-#: ../updates-groups.xml.in.h:54
+#: ../updates-groups.xml.in.h:56
 msgid "FreePBX user interface to controls and manages Asterisk (PBX)"
 msgstr ""
 
-#: ../updates-groups.xml.in.h:55 ../arm-updates-groups.xml.in.h:40
+#: ../updates-groups.xml.in.h:57 ../arm-updates-groups.xml.in.h:40
 msgid "POP3 connector"
 msgstr ""
 
-#: ../updates-groups.xml.in.h:56 ../arm-updates-groups.xml.in.h:41
+#: ../updates-groups.xml.in.h:58 ../arm-updates-groups.xml.in.h:41
 msgid "Fetch messages from external email accounts with POP3 or IMAP access"
 msgstr ""
 
-#: ../updates-groups.xml.in.h:57
+#: ../updates-groups.xml.in.h:59
 msgid "NethServer subscription"
 msgstr ""
 
-#: ../updates-groups.xml.in.h:58
+#: ../updates-groups.xml.in.h:60
 msgid "Manage NethServer subscription"
 msgstr ""
 
-#: ../updates-groups.xml.in.h:59 ../arm-updates-groups.xml.in.h:42
+#: ../updates-groups.xml.in.h:61 ../arm-updates-groups.xml.in.h:42
 msgid "Dedalo Hotspot"
 msgstr ""
 
-#: ../updates-groups.xml.in.h:60 ../arm-updates-groups.xml.in.h:43
+#: ../updates-groups.xml.in.h:62 ../arm-updates-groups.xml.in.h:43
 msgid "Dedalo hotspot for Icaro instances"
 msgstr ""
 
-#: ../updates-groups.xml.in.h:61
+#: ../updates-groups.xml.in.h:63
 msgid "Mattermost"
 msgstr ""
 
-#: ../updates-groups.xml.in.h:62
+#: ../updates-groups.xml.in.h:64
 msgid "Mattermost Team Edition"
 msgstr ""
 
-#: ../updates-groups.xml.in.h:63 ../arm-updates-groups.xml.in.h:44
+#: ../updates-groups.xml.in.h:65 ../arm-updates-groups.xml.in.h:44
 msgid "Fail2ban"
 msgstr ""
 
-#: ../updates-groups.xml.in.h:64 ../arm-updates-groups.xml.in.h:45
+#: ../updates-groups.xml.in.h:66 ../arm-updates-groups.xml.in.h:45
 msgid "Fail2ban scans log files and bans IPs with failed login"
 msgstr ""
 
-#: ../updates-groups.xml.in.h:65 ../arm-updates-groups.xml.in.h:46
+#: ../updates-groups.xml.in.h:67 ../arm-updates-groups.xml.in.h:46
 msgid "German language"
 msgstr ""
 
-#: ../updates-groups.xml.in.h:66 ../arm-updates-groups.xml.in.h:47
+#: ../updates-groups.xml.in.h:68 ../arm-updates-groups.xml.in.h:47
 msgid "Server Manager German localization"
 msgstr ""
 
-#: ../updates-groups.xml.in.h:67 ../arm-updates-groups.xml.in.h:48
+#: ../updates-groups.xml.in.h:69 ../arm-updates-groups.xml.in.h:48
 msgid "Greek language"
 msgstr ""
 
-#: ../updates-groups.xml.in.h:68 ../arm-updates-groups.xml.in.h:49
+#: ../updates-groups.xml.in.h:70 ../arm-updates-groups.xml.in.h:49
 msgid "Server Manager Greek localization"
 msgstr ""
 
-#: ../updates-groups.xml.in.h:69 ../arm-updates-groups.xml.in.h:50
+#: ../updates-groups.xml.in.h:71 ../arm-updates-groups.xml.in.h:50
 msgid "Spanish language"
 msgstr ""
 
-#: ../updates-groups.xml.in.h:70 ../arm-updates-groups.xml.in.h:51
+#: ../updates-groups.xml.in.h:72 ../arm-updates-groups.xml.in.h:51
 msgid "Server Manager Spanish localization"
 msgstr ""
 
-#: ../updates-groups.xml.in.h:71 ../arm-updates-groups.xml.in.h:52
+#: ../updates-groups.xml.in.h:73 ../arm-updates-groups.xml.in.h:52
 msgid "French language"
 msgstr ""
 
-#: ../updates-groups.xml.in.h:72 ../arm-updates-groups.xml.in.h:53
+#: ../updates-groups.xml.in.h:74 ../arm-updates-groups.xml.in.h:53
 msgid "Server Manager French localization"
 msgstr ""
 
-#: ../updates-groups.xml.in.h:73 ../arm-updates-groups.xml.in.h:54
+#: ../updates-groups.xml.in.h:75 ../arm-updates-groups.xml.in.h:54
 msgid "Hungarian language"
 msgstr ""
 
-#: ../updates-groups.xml.in.h:74 ../arm-updates-groups.xml.in.h:55
+#: ../updates-groups.xml.in.h:76 ../arm-updates-groups.xml.in.h:55
 msgid "Server Manager Hungarian localization"
 msgstr ""
 
-#: ../updates-groups.xml.in.h:75 ../arm-updates-groups.xml.in.h:56
+#: ../updates-groups.xml.in.h:77 ../arm-updates-groups.xml.in.h:56
 msgid "Italian language"
 msgstr ""
 
-#: ../updates-groups.xml.in.h:76 ../arm-updates-groups.xml.in.h:57
+#: ../updates-groups.xml.in.h:78 ../arm-updates-groups.xml.in.h:57
 msgid "Server Manager Italian localization"
 msgstr ""
 
-#: ../updates-groups.xml.in.h:77 ../arm-updates-groups.xml.in.h:58
+#: ../updates-groups.xml.in.h:79 ../arm-updates-groups.xml.in.h:58
 msgid "Dutch language"
 msgstr ""
 
-#: ../updates-groups.xml.in.h:78 ../arm-updates-groups.xml.in.h:59
+#: ../updates-groups.xml.in.h:80 ../arm-updates-groups.xml.in.h:59
 msgid "Server Manager Dutch localization"
 msgstr ""
 
-#: ../updates-groups.xml.in.h:79 ../arm-updates-groups.xml.in.h:60
+#: ../updates-groups.xml.in.h:81 ../arm-updates-groups.xml.in.h:60
 msgid "Portuguese language"
 msgstr ""
 
-#: ../updates-groups.xml.in.h:80 ../arm-updates-groups.xml.in.h:61
+#: ../updates-groups.xml.in.h:82 ../arm-updates-groups.xml.in.h:61
 msgid "Server Manager Portuguese localization"
 msgstr ""
 
-#: ../updates-groups.xml.in.h:81 ../arm-updates-groups.xml.in.h:62
+#: ../updates-groups.xml.in.h:83 ../arm-updates-groups.xml.in.h:62
 msgid "Russian language"
 msgstr ""
 
-#: ../updates-groups.xml.in.h:82 ../arm-updates-groups.xml.in.h:63
+#: ../updates-groups.xml.in.h:84 ../arm-updates-groups.xml.in.h:63
 msgid "Server Manager Russian localization"
 msgstr ""
 
-#: ../updates-groups.xml.in.h:83 ../arm-updates-groups.xml.in.h:64
+#: ../updates-groups.xml.in.h:85 ../arm-updates-groups.xml.in.h:64
 msgid "Turkish language"
 msgstr ""
 
-#: ../updates-groups.xml.in.h:84 ../arm-updates-groups.xml.in.h:65
+#: ../updates-groups.xml.in.h:86 ../arm-updates-groups.xml.in.h:65
 msgid "Server Manager Turkish localization"
 msgstr ""
 
-#: ../updates-groups.xml.in.h:85 ../arm-updates-groups.xml.in.h:66
+#: ../updates-groups.xml.in.h:87 ../arm-updates-groups.xml.in.h:66
 msgid "Serbian language"
 msgstr ""
 
-#: ../updates-groups.xml.in.h:86 ../arm-updates-groups.xml.in.h:67
+#: ../updates-groups.xml.in.h:88 ../arm-updates-groups.xml.in.h:67
 msgid "Server Manager Serbian localization"
 msgstr ""
 
-#: ../updates-groups.xml.in.h:87 ../arm-updates-groups.xml.in.h:68
+#: ../updates-groups.xml.in.h:89 ../arm-updates-groups.xml.in.h:68
 msgid "Romanian language"
 msgstr ""
 
-#: ../updates-groups.xml.in.h:88 ../arm-updates-groups.xml.in.h:69
+#: ../updates-groups.xml.in.h:90 ../arm-updates-groups.xml.in.h:69
 msgid "Server Manager Romanian localization"
 msgstr ""
 
-#: ../updates-groups.xml.in.h:89 ../arm-updates-groups.xml.in.h:70
+#: ../updates-groups.xml.in.h:91
 msgid "New Server Manager (Beta)"
 msgstr ""
 
-#: ../updates-groups.xml.in.h:90 ../arm-updates-groups.xml.in.h:71
+#: ../updates-groups.xml.in.h:92 ../arm-updates-groups.xml.in.h:71
 msgid "New Server Manager based on Cockpit"
 msgstr ""
 
-#: ../updates-groups.xml.in.h:91
+#: ../updates-groups.xml.in.h:93
 msgid "Netdata"
 msgstr ""
 
-#: ../updates-groups.xml.in.h:92
+#: ../updates-groups.xml.in.h:94
 msgid "Real-time performance monitoring"
 msgstr ""
 
-#: ../updates-groups.xml.in.h:93
+#: ../updates-groups.xml.in.h:95
 msgid "Report (Beta)"
 msgstr ""
 
-#: ../updates-groups.xml.in.h:94
+#: ../updates-groups.xml.in.h:96
 msgid "Reports on system usage"
 msgstr ""
 
-#: ../updates-groups.xml.in.h:95 ../arm-updates-groups.xml.in.h:72
+#: ../updates-groups.xml.in.h:97 ../arm-updates-groups.xml.in.h:72
 msgid "Base system"
 msgstr ""
 
-#: ../updates-groups.xml.in.h:96 ../arm-updates-groups.xml.in.h:73
+#: ../updates-groups.xml.in.h:98 ../arm-updates-groups.xml.in.h:73
 msgid "Infrastructure and groupware services"
 msgstr ""
 
-#: ../updates-groups.xml.in.h:97 ../arm-updates-groups.xml.in.h:74
+#: ../updates-groups.xml.in.h:99 ../arm-updates-groups.xml.in.h:74
 msgid "Firewall"
 msgstr ""
 
-#: ../updates-groups.xml.in.h:98 ../arm-updates-groups.xml.in.h:75
+#: ../updates-groups.xml.in.h:100 ../arm-updates-groups.xml.in.h:75
 msgid "UTM Firewall"
 msgstr ""
 
-#: ../updates-groups.xml.in.h:99 ../arm-updates-groups.xml.in.h:76
+#: ../updates-groups.xml.in.h:101 ../arm-updates-groups.xml.in.h:76
 msgid "Languages"
 msgstr ""
 
-#: ../updates-groups.xml.in.h:100 ../arm-updates-groups.xml.in.h:77
+#: ../updates-groups.xml.in.h:102 ../arm-updates-groups.xml.in.h:77
 msgid "Localization of the Server Manager web interface"
 msgstr ""
 
@@ -451,4 +459,8 @@ msgstr ""
 
 #: ../nethforge-groups.xml.in.h:8 ../arm-nethforge-groups.xml.in.h:4
 msgid "Modules from the NethServer Community"
+msgstr ""
+
+#: ../arm-updates-groups.xml.in.h:70
+msgid "New Server Manager (Alpha)"
 msgstr ""
