@@ -2,7 +2,7 @@
 Workflow
 ========
 
-1. Edit nethserver-groups.xml.in
+1. Edit `updates-groups.xml.in`
 
 2. Upload i18n strings to Transifex: ``tx push -s``
 
