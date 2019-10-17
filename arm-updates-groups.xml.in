@@ -164,6 +164,10 @@
       <packagereq type="mandatory">nethserver-mail-smarthost</packagereq>
       <packagereq type="mandatory">nethserver-diagtools</packagereq>
       <packagereq type="mandatory">nethserver-backup-config</packagereq>
+      <packagereq type="mandatory">nethserver-subscription-ui</packagereq>
+      <packagereq type="mandatory">nethserver-inventory</packagereq>
+      <packagereq type="mandatory">nethserver-alerts</packagereq>
+      <packagereq type="mandatory">nethserver-cockpit</packagereq>
       <packagereq type="mandatory">lsof</packagereq>
       <packagereq type="mandatory">patch</packagereq>
       <packagereq type="mandatory">rsync</packagereq>
@@ -611,10 +615,10 @@
 
   <group>
       <id>nethserver-cockpit</id>
-      <_name>New Server Manager (Alpha)</_name>
+      <_name>New Server Manager (Beta)</_name>
       <_description>New Server Manager based on Cockpit</_description>
       <default>false</default>
-      <uservisible>false</uservisible>
+      <uservisible>true</uservisible>
       <packagelist>
         <packagereq type="mandatory">nethserver-cockpit</packagereq>
       </packagelist>
