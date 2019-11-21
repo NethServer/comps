@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-10-02 15:02+0200\n"
+"POT-Creation-Date: 2019-11-21 15:51+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -117,11 +117,11 @@ msgstr ""
 msgid "Print management server (CUPS)"
 msgstr ""
 
-#: ../updates-groups.xml.in.h:24 ../arm-updates-groups.xml.in.h:17
+#: ../updates-groups.xml.in.h:26
 msgid "Web hosting"
 msgstr ""
 
-#: ../updates-groups.xml.in.h:25 ../arm-updates-groups.xml.in.h:18
+#: ../updates-groups.xml.in.h:27
 msgid "Configuration tools for hosting sites on Apache web server"
 msgstr ""
 
@@ -381,7 +381,7 @@ msgstr ""
 msgid "Server Manager Romanian localization"
 msgstr ""
 
-#: ../updates-groups.xml.in.h:91
+#: ../updates-groups.xml.in.h:91 ../arm-updates-groups.xml.in.h:70
 msgid "New Server Manager (Beta)"
 msgstr ""
 
@@ -405,27 +405,43 @@ msgstr ""
 msgid "Reports on system usage"
 msgstr ""
 
-#: ../updates-groups.xml.in.h:97 ../arm-updates-groups.xml.in.h:72
+#: ../updates-groups.xml.in.h:97
+msgid "PHP 7.1 by Software Collections"
+msgstr ""
+
+#: ../updates-groups.xml.in.h:98
+msgid "PHP needed dependencies for rh-php71-php"
+msgstr ""
+
+#: ../updates-groups.xml.in.h:99
+msgid "PHP 7.2 by Software Collections"
+msgstr ""
+
+#: ../updates-groups.xml.in.h:100
+msgid "PHP needed dependencies for rh-php72-php"
+msgstr ""
+
+#: ../updates-groups.xml.in.h:101 ../arm-updates-groups.xml.in.h:72
 msgid "Base system"
 msgstr ""
 
-#: ../updates-groups.xml.in.h:98 ../arm-updates-groups.xml.in.h:73
+#: ../updates-groups.xml.in.h:102 ../arm-updates-groups.xml.in.h:73
 msgid "Infrastructure and groupware services"
 msgstr ""
 
-#: ../updates-groups.xml.in.h:99 ../arm-updates-groups.xml.in.h:74
+#: ../updates-groups.xml.in.h:103 ../arm-updates-groups.xml.in.h:74
 msgid "Firewall"
 msgstr ""
 
-#: ../updates-groups.xml.in.h:100 ../arm-updates-groups.xml.in.h:75
+#: ../updates-groups.xml.in.h:104 ../arm-updates-groups.xml.in.h:75
 msgid "UTM Firewall"
 msgstr ""
 
-#: ../updates-groups.xml.in.h:101 ../arm-updates-groups.xml.in.h:76
+#: ../updates-groups.xml.in.h:105 ../arm-updates-groups.xml.in.h:76
 msgid "Languages"
 msgstr ""
 
-#: ../updates-groups.xml.in.h:102 ../arm-updates-groups.xml.in.h:77
+#: ../updates-groups.xml.in.h:106 ../arm-updates-groups.xml.in.h:77
 msgid "Localization of the Server Manager web interface"
 msgstr ""
 
@@ -461,6 +477,10 @@ msgstr ""
 msgid "Modules from the NethServer Community"
 msgstr ""
 
-#: ../arm-updates-groups.xml.in.h:70
-msgid "New Server Manager (Alpha)"
+#: ../arm-updates-groups.xml.in.h:17
+msgid "Web server"
+msgstr ""
+
+#: ../arm-updates-groups.xml.in.h:18
+msgid "Configuration tools for Apache web server"
 msgstr ""
