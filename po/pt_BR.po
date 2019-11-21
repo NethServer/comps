@@ -6,15 +6,15 @@
 # Cristiano Barros, 2016
 # cristiano barros <fcristianobarros@gmail.com>, 2016-2017
 # Flávio Veras <flaviove@gmail.com>, 2017
-# Rafael Tavares <rafael@ibinetwork.com.br>, 2017
+# Rafael Tavares <rafael@ibinetwork.com.br>, 2017,2019
 # Rodrigo de Almeida Sottomaior Macedo <rmsolucoeseminformatic4@gmail.com>, 2016
 msgid ""
 msgstr ""
 "Project-Id-Version: nethserver\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-10-02 11:41+0200\n"
-"PO-Revision-Date: 2018-10-02 09:42+0000\n"
-"Last-Translator: Rafael Tavares <rafael@ibinetwork.com.br>\n"
+"POT-Creation-Date: 2019-10-02 15:02+0200\n"
+"PO-Revision-Date: 2019-11-21 11:53+0000\n"
+"Last-Translator: stephane de Labrusse <stephdl@de-labrusse.fr>\n"
 "Language-Team: Portuguese (Brazil) (http://www.transifex.com/nethserver/nethserver/language/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -22,398 +22,450 @@ msgstr ""
 "Language: pt_BR\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#: ../nethserver-groups.xml.in.h:1
+#: ../updates-groups.xml.in.h:1 ../arm-updates-groups.xml.in.h:1
 msgid "Build system"
-msgstr "Construir o sistema"
+msgstr "Construir o Sistema"
 
-#: ../nethserver-groups.xml.in.h:2
+#: ../updates-groups.xml.in.h:2 ../arm-updates-groups.xml.in.h:2
 msgid "Tools for building RPMs"
 msgstr "Ferramentas para compilar RPM's"
 
-#: ../nethserver-groups.xml.in.h:3
+#: ../updates-groups.xml.in.h:3 ../arm-updates-groups.xml.in.h:3
 msgid "Additional ISO packages"
 msgstr "Pacotes adicionais ISO"
 
-#: ../nethserver-groups.xml.in.h:4
+#: ../updates-groups.xml.in.h:4 ../arm-updates-groups.xml.in.h:4
 msgid "Backup"
 msgstr "Backup"
 
-#: ../nethserver-groups.xml.in.h:5
+#: ../updates-groups.xml.in.h:5 ../arm-updates-groups.xml.in.h:5
 msgid "Backup of configuration and data"
 msgstr "Backup da configuração e dados"
 
-#: ../nethserver-groups.xml.in.h:6
+#: ../updates-groups.xml.in.h:6
+msgid "Backup restore"
+msgstr "Restauração de Backup "
+
+#: ../updates-groups.xml.in.h:7
+msgid "Module to restore backup of data"
+msgstr "Módulo para restauração de backup de dados"
+
+#: ../updates-groups.xml.in.h:8
 msgid "Fax server"
 msgstr "Servidor de Fax"
 
-#: ../nethserver-groups.xml.in.h:7
+#: ../updates-groups.xml.in.h:9
 msgid "Configure HylaFax+ and manage IAX modems"
 msgstr "Configurar o HylaFax + e gerenciar modens IAX"
 
-#: ../nethserver-groups.xml.in.h:8
+#: ../updates-groups.xml.in.h:10 ../arm-updates-groups.xml.in.h:6
 msgid "Basic firewall"
-msgstr "Firewall básico"
+msgstr "Firewall Básico"
 
-#: ../nethserver-groups.xml.in.h:9
+#: ../updates-groups.xml.in.h:11 ../arm-updates-groups.xml.in.h:7
 msgid "Configure network adapters and basic firewall"
 msgstr "Configurar adaptadores de rede e firewall básico"
 
-#: ../nethserver-groups.xml.in.h:10
+#: ../updates-groups.xml.in.h:12 ../arm-updates-groups.xml.in.h:8
 msgid "File server"
-msgstr "Servidor de arquivos"
+msgstr "Servidor de Arquivos"
 
-#: ../nethserver-groups.xml.in.h:11
+#: ../updates-groups.xml.in.h:13 ../arm-updates-groups.xml.in.h:9
 msgid "Daemons and tools for network file sharing"
 msgstr "Rotinas e ferramentas para partilha de ficheiros em rede"
 
-#: ../nethserver-groups.xml.in.h:12
+#: ../updates-groups.xml.in.h:14 ../arm-updates-groups.xml.in.h:10
 msgid "FTP server"
 msgstr "Servidor FTP"
 
-#: ../nethserver-groups.xml.in.h:13
+#: ../updates-groups.xml.in.h:15 ../arm-updates-groups.xml.in.h:11
 msgid "Configure the FTP server (vsftpd)"
 msgstr "Configurar o servidor FTP (vsftpd)"
 
-#: ../nethserver-groups.xml.in.h:14
+#: ../updates-groups.xml.in.h:16
 msgid "WebTop 5 groupware"
 msgstr "Groupware WebTop 5"
 
-#: ../nethserver-groups.xml.in.h:15
+#: ../updates-groups.xml.in.h:17 ../arm-updates-groups.xml.in.h:12
 msgid "Email"
-msgstr "Correio eletrônico"
+msgstr "Correio Eletrônico"
 
-#: ../nethserver-groups.xml.in.h:16
+#: ../updates-groups.xml.in.h:18 ../arm-updates-groups.xml.in.h:13
 msgid "Email server and filter"
 msgstr "Servidor de correio eletrônico e filtro"
 
-#: ../nethserver-groups.xml.in.h:17
+#: ../updates-groups.xml.in.h:19 ../arm-updates-groups.xml.in.h:14
 msgid "Roundcube web mail"
-msgstr "Roundcube web mail"
+msgstr "Roundcube Webmail"
 
-#: ../nethserver-groups.xml.in.h:18
+#: ../updates-groups.xml.in.h:20 ../arm-updates-groups.xml.in.h:15
 msgid "SMTP proxy"
 msgstr "Proxy SMTP"
 
-#: ../nethserver-groups.xml.in.h:19
+#: ../updates-groups.xml.in.h:21 ../arm-updates-groups.xml.in.h:16
 msgid "Filter SMTP traffic with ClamAV and Rspamd"
-msgstr ""
+msgstr "Filtra trafego SMTP com ClamAV e Rspamd"
 
-#: ../nethserver-groups.xml.in.h:20
+#: ../updates-groups.xml.in.h:22
 msgid "Instant messaging"
-msgstr "Mensageiro instantâneo"
+msgstr "Mensageiro Instantâneo"
 
-#: ../nethserver-groups.xml.in.h:21
+#: ../updates-groups.xml.in.h:23
 msgid "XMPP/Jabber chat server"
 msgstr "Servidor de mensagens instantâneas XMPP/Jabber"
 
-#: ../nethserver-groups.xml.in.h:22
+#: ../updates-groups.xml.in.h:24
 msgid "Print server"
-msgstr "Servidor de impressão"
+msgstr "Servidor de Impressão"
 
-#: ../nethserver-groups.xml.in.h:23
+#: ../updates-groups.xml.in.h:25
 msgid "Print management server (CUPS)"
 msgstr "Servidor de gestão de impressão (CUPS)"
 
-#: ../nethserver-groups.xml.in.h:24
-msgid "Web server"
-msgstr "Servidor web"
+#: ../updates-groups.xml.in.h:24 ../arm-updates-groups.xml.in.h:17
+msgid "Web hosting"
+msgstr ""
 
-#: ../nethserver-groups.xml.in.h:25
-msgid "Configuration tools for Apache web server"
-msgstr "Ferramentas de configuração do servidor web Apache"
+#: ../updates-groups.xml.in.h:25 ../arm-updates-groups.xml.in.h:18
+msgid "Configuration tools for hosting sites on Apache web server"
+msgstr ""
 
-#: ../nethserver-groups.xml.in.h:26
+#: ../updates-groups.xml.in.h:28 ../arm-updates-groups.xml.in.h:19
 msgid "Reverse proxy"
-msgstr "Proxy reverso"
+msgstr "Proxy Reverso"
 
-#: ../nethserver-groups.xml.in.h:27
+#: ../updates-groups.xml.in.h:29 ../arm-updates-groups.xml.in.h:20
 msgid "Configure Apache ProxyPass functionality"
 msgstr "Configurar funcionalidade Apache ProxyPass "
 
-#: ../nethserver-groups.xml.in.h:28
+#: ../updates-groups.xml.in.h:30
 msgid "Bandwidth monitor"
-msgstr "Monitor de largura de banda"
+msgstr "Monitor de Largura de Banda"
 
-#: ../nethserver-groups.xml.in.h:29
+#: ../updates-groups.xml.in.h:31
 msgid "Configure and manage Ntopng"
 msgstr "Configurar e gererenciar Ntopng"
 
-#: ../nethserver-groups.xml.in.h:30
+#: ../updates-groups.xml.in.h:32
 msgid "UPS support"
 msgstr "Suporte UPS"
 
-#: ../nethserver-groups.xml.in.h:31
+#: ../updates-groups.xml.in.h:33
 msgid "UPS management and monitoring configuration"
 msgstr "Gestão de UPS e configuração da monitorização"
 
-#: ../nethserver-groups.xml.in.h:32
+#: ../updates-groups.xml.in.h:34 ../arm-updates-groups.xml.in.h:21
 msgid "Statistics"
 msgstr "Estatísticas"
 
-#: ../nethserver-groups.xml.in.h:33
+#: ../updates-groups.xml.in.h:35 ../arm-updates-groups.xml.in.h:22
 msgid "Collect and analyse system statistics"
 msgstr "Recolhe e analisa estatísticas do sistema"
 
-#: ../nethserver-groups.xml.in.h:34
+#: ../updates-groups.xml.in.h:36 ../arm-updates-groups.xml.in.h:23
 msgid "Web proxy"
-msgstr "Proxy web"
+msgstr "Proxy WEB"
 
-#: ../nethserver-groups.xml.in.h:35
+#: ../updates-groups.xml.in.h:37 ../arm-updates-groups.xml.in.h:24
 msgid "Squid web caching proxy configuration"
 msgstr "Squid web caching proxy configuração"
 
-#: ../nethserver-groups.xml.in.h:36
+#: ../updates-groups.xml.in.h:38 ../arm-updates-groups.xml.in.h:25
 msgid "Web filter"
-msgstr "Filtro web"
+msgstr "Filtro WEB"
 
-#: ../nethserver-groups.xml.in.h:37
+#: ../updates-groups.xml.in.h:39 ../arm-updates-groups.xml.in.h:26
 msgid "Squid web content and virus filter"
 msgstr "Conteúdos web squid e filtro de vírus"
 
-#: ../nethserver-groups.xml.in.h:38
+#: ../updates-groups.xml.in.h:40 ../arm-updates-groups.xml.in.h:27
 msgid ""
 "Configure remote-access and site-to-site Virtual Private Networks (VPN) "
 "using OpenVPN"
 msgstr "Configurar acesso remoto e redes virtuais privadas site-a-site (VPN) usando OpenVPN "
 
-#: ../nethserver-groups.xml.in.h:39
+#: ../updates-groups.xml.in.h:41 ../arm-updates-groups.xml.in.h:28
 msgid "IPsec tunnels"
-msgstr "túneis IPsec"
+msgstr "Túneis IPsec"
 
-#: ../nethserver-groups.xml.in.h:40
+#: ../updates-groups.xml.in.h:42 ../arm-updates-groups.xml.in.h:29
 msgid "Site-to-site Virtual Private Networks (VPN) using IPsec"
 msgstr "Redes Virtuais Privadas Site-a-Site (VPN) usando IPsec"
 
-#: ../nethserver-groups.xml.in.h:41
+#: ../updates-groups.xml.in.h:43 ../arm-updates-groups.xml.in.h:30
 msgid "MariaDB (MySQL) server"
-msgstr "servidor MariaDB (MySQL)"
+msgstr "Servidor MariaDB (MySQL)"
 
-#: ../nethserver-groups.xml.in.h:42
+#: ../updates-groups.xml.in.h:44 ../arm-updates-groups.xml.in.h:31
 msgid "Configuration tools for MariaDB (MySQL)"
 msgstr "Ferramentas de configuração para o MariaDB (MySQL)"
 
-#: ../nethserver-groups.xml.in.h:43
+#: ../updates-groups.xml.in.h:45 ../arm-updates-groups.xml.in.h:32
 msgid "Intrusion Prevention System"
-msgstr "Sistema de prevenção de intrusão"
+msgstr "Sistema de Prevenção de Intrusão"
 
-#: ../nethserver-groups.xml.in.h:44
+#: ../updates-groups.xml.in.h:46 ../arm-updates-groups.xml.in.h:33
 msgid "Monitor and block network traffic for malicious activity"
 msgstr "Monitoriza e bloqueia tráfego de rede com atividades maliciosas"
 
-#: ../nethserver-groups.xml.in.h:45
+#: ../updates-groups.xml.in.h:47
 msgid "Deep packet inspection (DPI)"
-msgstr "Deep packet inspection (DPI)"
+msgstr "Deep Packet Inspection (DPI)"
 
-#: ../nethserver-groups.xml.in.h:46
+#: ../updates-groups.xml.in.h:48
 msgid "Filter network traffic by analyzing the packets payload"
 msgstr "Filtrar o tráfego da rede analisando a carga útil dos pacotes"
 
-#: ../nethserver-groups.xml.in.h:47
+#: ../updates-groups.xml.in.h:49 ../arm-updates-groups.xml.in.h:34
 msgid "POP3 proxy"
 msgstr "Proxy POP3"
 
-#: ../nethserver-groups.xml.in.h:48
+#: ../updates-groups.xml.in.h:50 ../arm-updates-groups.xml.in.h:35
 msgid "Intercept POP3 connections and scan messages for virus and spam"
 msgstr "Interceptar conexões POP3 e verificar as mensagens por vírus e spam"
 
-#: ../nethserver-groups.xml.in.h:49
+#: ../updates-groups.xml.in.h:51 ../arm-updates-groups.xml.in.h:36
 msgid "SNMP server"
 msgstr "Servidor SNMP"
 
-#: ../nethserver-groups.xml.in.h:50
+#: ../updates-groups.xml.in.h:52 ../arm-updates-groups.xml.in.h:37
 msgid "Configure the SNMP server"
-msgstr "Configurar o servidor SNMP"
+msgstr "Configurar o Servidor SNMP"
 
-#: ../nethserver-groups.xml.in.h:51
+#: ../updates-groups.xml.in.h:53 ../arm-updates-groups.xml.in.h:38
 msgid "Nextcloud"
 msgstr "Nextcloud"
 
-#: ../nethserver-groups.xml.in.h:52
+#: ../updates-groups.xml.in.h:54 ../arm-updates-groups.xml.in.h:39
 msgid ""
 "Configure Nextcloud, universal access to your files via the web, your "
 "computer or your mobile devices - wherever you are"
 msgstr "Configurar NextCloud, acesso universal aos seus arquivos via web, do seu computador ou dispositivo móvel - Esteja onde estiver"
 
-#: ../nethserver-groups.xml.in.h:53
+#: ../updates-groups.xml.in.h:55
 msgid "VoIP PBX"
-msgstr "Central telefônica VoIP"
+msgstr "Central Telefônica VoIP / FreePBX"
 
-#: ../nethserver-groups.xml.in.h:54
+#: ../updates-groups.xml.in.h:56
 msgid "FreePBX user interface to controls and manages Asterisk (PBX)"
 msgstr "Interface para controlar e gerenciar central telefônica VoIP (FreePBX / Asterisk)"
 
-#: ../nethserver-groups.xml.in.h:55
+#: ../updates-groups.xml.in.h:57 ../arm-updates-groups.xml.in.h:40
 msgid "POP3 connector"
 msgstr "Conector POP3"
 
-#: ../nethserver-groups.xml.in.h:56
+#: ../updates-groups.xml.in.h:58 ../arm-updates-groups.xml.in.h:41
 msgid "Fetch messages from external email accounts with POP3 or IMAP access"
 msgstr "Descarregue mensagens de contas de correio eletrônico externas com acesso POP3 ou IMAP"
 
-#: ../nethserver-groups.xml.in.h:57
+#: ../updates-groups.xml.in.h:59
 msgid "NethServer subscription"
 msgstr "Assinatura do NethServer"
 
-#: ../nethserver-groups.xml.in.h:58
+#: ../updates-groups.xml.in.h:60
 msgid "Manage NethServer subscription"
-msgstr "Administrar assinatura do NethServer"
+msgstr "Administrar Assinatura do NethServer"
 
-#: ../nethserver-groups.xml.in.h:59
+#: ../updates-groups.xml.in.h:61 ../arm-updates-groups.xml.in.h:42
 msgid "Dedalo Hotspot"
-msgstr ""
+msgstr "Hotspot Dedalo"
 
-#: ../nethserver-groups.xml.in.h:60
+#: ../updates-groups.xml.in.h:62 ../arm-updates-groups.xml.in.h:43
 msgid "Dedalo hotspot for Icaro instances"
-msgstr ""
+msgstr "Hotspot Dedalo para instâncias Icaro"
 
-#: ../nethserver-groups.xml.in.h:61
+#: ../updates-groups.xml.in.h:63
 msgid "Mattermost"
-msgstr ""
+msgstr "Mattermost"
 
-#: ../nethserver-groups.xml.in.h:62
+#: ../updates-groups.xml.in.h:64
 msgid "Mattermost Team Edition"
-msgstr ""
+msgstr "Mattermost Team Edition"
 
-#: ../nethserver-groups.xml.in.h:63
+#: ../updates-groups.xml.in.h:65 ../arm-updates-groups.xml.in.h:44
 msgid "Fail2ban"
 msgstr "Fail2ban"
 
-#: ../nethserver-groups.xml.in.h:64
+#: ../updates-groups.xml.in.h:66 ../arm-updates-groups.xml.in.h:45
 msgid "Fail2ban scans log files and bans IPs with failed login"
-msgstr ""
+msgstr "Fail2ban verifica arquivos de log e bane IPs com falha no login"
 
-#: ../nethserver-groups.xml.in.h:65
+#: ../updates-groups.xml.in.h:67 ../arm-updates-groups.xml.in.h:46
 msgid "German language"
-msgstr "Alemão"
+msgstr "Idioma Alemão"
 
-#: ../nethserver-groups.xml.in.h:66
+#: ../updates-groups.xml.in.h:68 ../arm-updates-groups.xml.in.h:47
 msgid "Server Manager German localization"
-msgstr "Localização alemã do gestor do servidor"
+msgstr "Idioma Alemão do Gestor do Servidor"
 
-#: ../nethserver-groups.xml.in.h:67
+#: ../updates-groups.xml.in.h:69 ../arm-updates-groups.xml.in.h:48
 msgid "Greek language"
-msgstr "Grego"
+msgstr "Idioma Grego"
 
-#: ../nethserver-groups.xml.in.h:68
+#: ../updates-groups.xml.in.h:70 ../arm-updates-groups.xml.in.h:49
 msgid "Server Manager Greek localization"
-msgstr "Localização grega do gestor do servidor"
+msgstr "Idioma Grego do Gestor do Servidor"
 
-#: ../nethserver-groups.xml.in.h:69
+#: ../updates-groups.xml.in.h:71 ../arm-updates-groups.xml.in.h:50
 msgid "Spanish language"
-msgstr "Espanhol"
+msgstr "Idioma Espanhol"
 
-#: ../nethserver-groups.xml.in.h:70
+#: ../updates-groups.xml.in.h:72 ../arm-updates-groups.xml.in.h:51
 msgid "Server Manager Spanish localization"
-msgstr "Localização espanhola do gestor do servidor"
+msgstr "Idioma Espanhol do Gestor do Servidor"
 
-#: ../nethserver-groups.xml.in.h:71
+#: ../updates-groups.xml.in.h:73 ../arm-updates-groups.xml.in.h:52
 msgid "French language"
-msgstr "Francês"
+msgstr "Idioma Francês"
 
-#: ../nethserver-groups.xml.in.h:72
+#: ../updates-groups.xml.in.h:74 ../arm-updates-groups.xml.in.h:53
 msgid "Server Manager French localization"
-msgstr "Localização francesa do gestor do servidor"
+msgstr "Idioma Francês do Gestor do Servidor"
 
-#: ../nethserver-groups.xml.in.h:73
+#: ../updates-groups.xml.in.h:75 ../arm-updates-groups.xml.in.h:54
 msgid "Hungarian language"
-msgstr "Hungaro"
+msgstr "Idioma Húngaro"
 
-#: ../nethserver-groups.xml.in.h:74
+#: ../updates-groups.xml.in.h:76 ../arm-updates-groups.xml.in.h:55
 msgid "Server Manager Hungarian localization"
-msgstr "Localização húngara do gestor do servidor"
+msgstr "Idioma Húngaro do Gestor do Servidor"
 
-#: ../nethserver-groups.xml.in.h:75
+#: ../updates-groups.xml.in.h:77 ../arm-updates-groups.xml.in.h:56
 msgid "Italian language"
-msgstr "Italiano"
+msgstr "Idioma Italiano"
 
-#: ../nethserver-groups.xml.in.h:76
+#: ../updates-groups.xml.in.h:78 ../arm-updates-groups.xml.in.h:57
 msgid "Server Manager Italian localization"
-msgstr "Localização italiana do gestor do servidor"
+msgstr "Idioma Italiano do Gestor do servidor"
 
-#: ../nethserver-groups.xml.in.h:77
+#: ../updates-groups.xml.in.h:79 ../arm-updates-groups.xml.in.h:58
 msgid "Dutch language"
-msgstr "Holandês"
+msgstr "Idioma Holandês"
 
-#: ../nethserver-groups.xml.in.h:78
+#: ../updates-groups.xml.in.h:80 ../arm-updates-groups.xml.in.h:59
 msgid "Server Manager Dutch localization"
-msgstr "Localização holandesa do gestor do servidor"
+msgstr "Idioma Holandês do Gestor do Servidor"
 
-#: ../nethserver-groups.xml.in.h:79
+#: ../updates-groups.xml.in.h:81 ../arm-updates-groups.xml.in.h:60
 msgid "Portuguese language"
-msgstr "Linguagem portuguesa (Europeu)"
+msgstr "Idioma Português (Europeu)"
 
-#: ../nethserver-groups.xml.in.h:80
+#: ../updates-groups.xml.in.h:82 ../arm-updates-groups.xml.in.h:61
 msgid "Server Manager Portuguese localization"
-msgstr "Localização portuguesa do gestor do servidor"
+msgstr "Idioma Português (Europeu) do Gestor do Servidor"
 
-#: ../nethserver-groups.xml.in.h:81
+#: ../updates-groups.xml.in.h:83 ../arm-updates-groups.xml.in.h:62
 msgid "Russian language"
-msgstr "Russo"
+msgstr "Idioma Russo"
 
-#: ../nethserver-groups.xml.in.h:82
+#: ../updates-groups.xml.in.h:84 ../arm-updates-groups.xml.in.h:63
 msgid "Server Manager Russian localization"
-msgstr "Localização russa do gestor do servidor"
+msgstr "Idioma russa do gestor do servidor"
 
-#: ../nethserver-groups.xml.in.h:83
+#: ../updates-groups.xml.in.h:85 ../arm-updates-groups.xml.in.h:64
 msgid "Turkish language"
-msgstr "Turco"
+msgstr "Idioma Turco"
 
-#: ../nethserver-groups.xml.in.h:84
+#: ../updates-groups.xml.in.h:86 ../arm-updates-groups.xml.in.h:65
 msgid "Server Manager Turkish localization"
-msgstr "Localização turca do gestor do servidor"
+msgstr "Idioma turca do gestor do servidor"
 
-#: ../nethserver-groups.xml.in.h:85
+#: ../updates-groups.xml.in.h:87 ../arm-updates-groups.xml.in.h:66
 msgid "Serbian language"
-msgstr "Localização Sérvia"
+msgstr "Idioma Sérvia"
 
-#: ../nethserver-groups.xml.in.h:86
+#: ../updates-groups.xml.in.h:88 ../arm-updates-groups.xml.in.h:67
 msgid "Server Manager Serbian localization"
-msgstr "Localização Sérvia do gestor do servidor"
+msgstr "Idioma Sérvia do Gestor do Servidor"
 
-#: ../nethserver-groups.xml.in.h:87
+#: ../updates-groups.xml.in.h:89 ../arm-updates-groups.xml.in.h:68
 msgid "Romanian language"
-msgstr "Língua romena"
+msgstr "Idioma Romeno"
 
-#: ../nethserver-groups.xml.in.h:88
+#: ../updates-groups.xml.in.h:90 ../arm-updates-groups.xml.in.h:69
 msgid "Server Manager Romanian localization"
 msgstr "Gerenciador de Servidores Localização Romênia"
 
-#: ../nethserver-groups.xml.in.h:89
+#: ../updates-groups.xml.in.h:91
+msgid "New Server Manager (Beta)"
+msgstr "Novo Gerenciador do Servidor (Beta)"
+
+#: ../updates-groups.xml.in.h:92 ../arm-updates-groups.xml.in.h:71
+msgid "New Server Manager based on Cockpit"
+msgstr "Novo Gerenciador baseado no Cockpit"
+
+#: ../updates-groups.xml.in.h:93
+msgid "Netdata"
+msgstr "Netdata"
+
+#: ../updates-groups.xml.in.h:94
+msgid "Real-time performance monitoring"
+msgstr "Monitoramento de Performance em Tempo Real"
+
+#: ../updates-groups.xml.in.h:95
+msgid "Report (Beta)"
+msgstr "Relatório (Beta)"
+
+#: ../updates-groups.xml.in.h:96
+msgid "Reports on system usage"
+msgstr "Relatórios do Uso do Sistema"
+
+#: ../updates-groups.xml.in.h:97 ../arm-updates-groups.xml.in.h:72
 msgid "Base system"
-msgstr "Sistema base"
+msgstr "Sistema Base"
 
-#: ../nethserver-groups.xml.in.h:90
+#: ../updates-groups.xml.in.h:98 ../arm-updates-groups.xml.in.h:73
 msgid "Infrastructure and groupware services"
-msgstr "Serviços de infraestrutura e groupware"
+msgstr "Serviços de Infraestrutura e Groupware"
 
-#: ../nethserver-groups.xml.in.h:91
+#: ../updates-groups.xml.in.h:99 ../arm-updates-groups.xml.in.h:74
 msgid "Firewall"
 msgstr "Firewall"
 
-#: ../nethserver-groups.xml.in.h:92
+#: ../updates-groups.xml.in.h:100 ../arm-updates-groups.xml.in.h:75
 msgid "UTM Firewall"
 msgstr "Firewall UTM"
 
-#: ../nethserver-groups.xml.in.h:93
+#: ../updates-groups.xml.in.h:101 ../arm-updates-groups.xml.in.h:76
 msgid "Languages"
 msgstr "Idiomas"
 
-#: ../nethserver-groups.xml.in.h:94
+#: ../updates-groups.xml.in.h:102 ../arm-updates-groups.xml.in.h:77
 msgid "Localization of the Server Manager web interface"
-msgstr "Localização do interface web do Gestor do Servidor"
+msgstr "Idioma da Interface WEB do Gestor do Servidor"
 
-#: ../nethforge-groups.xml.in.h:1
+#: ../nethforge-groups.xml.in.h:1 ../arm-nethforge-groups.xml.in.h:1
 msgid "SOGo groupware"
 msgstr "Groupware SOGo"
 
-#: ../nethforge-groups.xml.in.h:2
+#: ../nethforge-groups.xml.in.h:2 ../arm-nethforge-groups.xml.in.h:2
 msgid "SOGo server and Thundebird extensions"
 msgstr "Servidor SOGo e extensões Thunderbird"
 
 #: ../nethforge-groups.xml.in.h:3
+msgid "phpVirtualBox-5.2"
+msgstr "phpVirtualBox-5.2"
+
+#: ../nethforge-groups.xml.in.h:4
+msgid "Web user interface for VirtualBox 5.2"
+msgstr "Interface WEB para Gerencia o VirtualBox 5.2"
+
+#: ../nethforge-groups.xml.in.h:5
+msgid "Collabora Online (CODE)"
+msgstr "Collabora Online (CODE)"
+
+#: ../nethforge-groups.xml.in.h:6
+msgid "Collabora Online (CODE) integrated with Nextcloud"
+msgstr "Collabora Online (CODE) integrado com Nextcloud"
+
+#: ../nethforge-groups.xml.in.h:7 ../arm-nethforge-groups.xml.in.h:3
 msgid "NethForge"
 msgstr "NethForge"
 
-#: ../nethforge-groups.xml.in.h:4
+#: ../nethforge-groups.xml.in.h:8 ../arm-nethforge-groups.xml.in.h:4
 msgid "Modules from the NethServer Community"
 msgstr "Módulos da Comunidade NethServer"
+
+#: ../arm-updates-groups.xml.in.h:70
+msgid "New Server Manager (Alpha)"
+msgstr "Novo Gerenciador do Servidor (Alpha)"
