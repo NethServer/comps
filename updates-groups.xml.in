@@ -548,7 +548,7 @@
   <group>
     <id>nethserver-messaging</id>
     <_name>Instant messaging</_name>
-    <_description>XMPP/Jabber chat server</_description>
+    <_description>ejabberd XMPP server</_description>
     <default>false</default>
     <uservisible>true</uservisible>
     <packagelist>

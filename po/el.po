@@ -99,8 +99,8 @@ msgid "Instant messaging"
 msgstr "Υπηρεσία άμεσων μηνυμάτων"
 
 #: ../nethserver-groups.xml.in.h:21
-msgid "XMPP/Jabber chat server"
-msgstr "Διακομιστής chat XMPP/Jabber"
+msgid "ejabberd XMPP server"
+msgstr ""
 
 #: ../nethserver-groups.xml.in.h:22
 msgid "Print server"

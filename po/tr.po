@@ -100,8 +100,8 @@ msgid "Instant messaging"
 msgstr "Anında iletişim"
 
 #: ../nethserver-groups.xml.in.h:21
-msgid "XMPP/Jabber chat server"
-msgstr "XMPP/Jabber sohbet sunucusu"
+msgid "ejabberd XMPP server"
+msgstr ""
 
 #: ../nethserver-groups.xml.in.h:22
 msgid "Print server"

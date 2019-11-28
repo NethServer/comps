@@ -103,8 +103,8 @@ msgid "Instant messaging"
 msgstr "Mensajería instantánea"
 
 #: ../nethserver-groups.xml.in.h:21
-msgid "XMPP/Jabber chat server"
-msgstr "Servidor chat XMPP/Jabber"
+msgid "ejabberd XMPP server"
+msgstr ""
 
 #: ../nethserver-groups.xml.in.h:22
 msgid "Print server"

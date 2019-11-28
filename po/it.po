@@ -111,8 +111,8 @@ msgid "Instant messaging"
 msgstr "Messaggistica istantanea"
 
 #: ../nethserver-groups.xml.in.h:21
-msgid "XMPP/Jabber chat server"
-msgstr "Server di chat XMPP/Jabber"
+msgid "ejabberd XMPP server"
+msgstr ""
 
 #: ../nethserver-groups.xml.in.h:22
 msgid "Print server"

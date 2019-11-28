@@ -98,7 +98,7 @@ msgid "Instant messaging"
 msgstr ""
 
 #: ../nethserver-groups.xml.in.h:21
-msgid "XMPP/Jabber chat server"
+msgid "ejabberd XMPP server"
 msgstr ""
 
 #: ../nethserver-groups.xml.in.h:22

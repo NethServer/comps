@@ -106,7 +106,7 @@ msgid "Instant messaging"
 msgstr ""
 
 #: ../updates-groups.xml.in.h:23
-msgid "XMPP/Jabber chat server"
+msgid "ejabberd XMPP server"
 msgstr ""
 
 #: ../updates-groups.xml.in.h:24

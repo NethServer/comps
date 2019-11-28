@@ -99,8 +99,8 @@ msgid "Instant messaging"
 msgstr "Tikralaikiai pokalbiai"
 
 #: ../nethserver-groups.xml.in.h:21
-msgid "XMPP/Jabber chat server"
-msgstr "XMPP/Jabber pokalbių serveris"
+msgid "ejabberd XMPP server"
+msgstr ""
 
 #: ../nethserver-groups.xml.in.h:22
 msgid "Print server"
