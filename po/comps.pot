@@ -8,13 +8,13 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-10-31 10:25+0100\n"
+"POT-Creation-Date: 2020-01-15 17:24+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../nethserver-groups.xml.in.h:1
@@ -342,7 +342,7 @@ msgid ""
 msgstr ""
 
 #: ../nethserver-groups.xml.in.h:81
-msgid "Upgrade tool (beta)"
+msgid "Upgrade tool"
 msgstr ""
 
 #: ../nethserver-groups.xml.in.h:82
