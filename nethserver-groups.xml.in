@@ -770,7 +770,7 @@
 
   <group>
       <id>nethserver-upgrade-tool</id>
-      <_name>Upgrade tool (beta)</_name>
+      <_name>Upgrade tool</_name>
       <_description>Upgrades the system to the next major distribution release</_description>
       <uservisible>true</uservisible>
       <packagelist>

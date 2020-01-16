@@ -358,8 +358,8 @@ msgstr ""
 "stampanti, router...)"
 
 #: ../nethserver-groups.xml.in.h:81
-msgid "Upgrade tool (beta)"
-msgstr "Upgrade tool (beta)"
+msgid "Upgrade tool"
+msgstr "Upgrade tool"
 
 #: ../nethserver-groups.xml.in.h:82
 msgid "Upgrades the system to the next major distribution release"
