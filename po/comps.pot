@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-12-19 10:45+0100\n"
+"POT-Creation-Date: 2020-01-30 10:57+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -461,11 +461,19 @@ msgstr ""
 msgid "Synchronize two NethServer machines using rsync"
 msgstr ""
 
-#: ../nethforge-groups.xml.in.h:9 ../arm-nethforge-groups.xml.in.h:3
+#: ../nethforge-groups.xml.in.h:9
+msgid "NethServer Enterprise registration"
+msgstr ""
+
+#: ../nethforge-groups.xml.in.h:10
+msgid "NethServer Enterprise by Nethesis"
+msgstr ""
+
+#: ../nethforge-groups.xml.in.h:11 ../arm-nethforge-groups.xml.in.h:3
 msgid "NethForge"
 msgstr ""
 
-#: ../nethforge-groups.xml.in.h:10 ../arm-nethforge-groups.xml.in.h:4
+#: ../nethforge-groups.xml.in.h:12 ../arm-nethforge-groups.xml.in.h:4
 msgid "Modules from the NethServer Community"
 msgstr ""
 

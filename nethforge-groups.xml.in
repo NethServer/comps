@@ -46,6 +46,17 @@
     </packagelist>
   </group>
 
+  <group>
+    <id>nethserver-register</id>
+    <_name>NethServer Enterprise registration</_name>
+    <_description>NethServer Enterprise by Nethesis</_description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type="mandatory">nethserver-hotsync</packagereq>
+    </packagelist>
+  </group>
+
   <category>
     <id>nethforge</id>
     <_name>NethForge</_name>
@@ -56,6 +67,7 @@
         <groupid>nethserver-virtualbox-5.2-phpvirtualbox</groupid>
         <groupid>nethserver-collabora</groupid>
         <groupid>nethserver-hotsync</groupid>
+        <groupid>nethserver-register</groupid>
     </grouplist>
   </category>
 
