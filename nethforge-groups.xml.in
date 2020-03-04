@@ -45,6 +45,17 @@
       <packagereq type="mandatory">nethserver-hotsync</packagereq>
     </packagelist>
   </group>
+  
+  <group>
+    <id>nethserver-mssql</id>
+    <_name>Microsoft SQL Server</_name>
+    <_description>Nethserver and MsSQL integration</_description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type="mandatory">nethserver-mssql</packagereq>
+    </packagelist>
+  </group>
 
   <category>
     <id>nethforge</id>
@@ -56,6 +67,7 @@
         <groupid>nethserver-virtualbox-5.2-phpvirtualbox</groupid>
         <groupid>nethserver-collabora</groupid>
         <groupid>nethserver-hotsync</groupid>
+        <groupid>nethserver-mssql</groupid>
     </grouplist>
   </category>
 
