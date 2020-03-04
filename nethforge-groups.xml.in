@@ -49,7 +49,7 @@
   <group>
     <id>nethserver-mssql</id>
     <_name>Microsoft SQL Server</_name>
-    <_description>Nethserver and MsSQL integration</_description>
+    <_description>MSSQL integration for NethServer</_description>
     <default>false</default>
     <uservisible>true</uservisible>
     <packagelist>
