@@ -980,7 +980,7 @@
 
   <group>
       <id>nethserver-dante</id>
-      <_name>Report (Beta)</_name>
+      <_name>Report</_name>
       <_description>Reports on system usage</_description>
       <default>false</default>
       <uservisible>true</uservisible>
