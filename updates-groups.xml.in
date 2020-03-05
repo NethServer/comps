@@ -989,6 +989,17 @@
       </packagelist>
   </group>
 
+  <group>
+      <id>nethserver-blacklist</id>
+      <_name>Threat shield</_name>
+      <_description>Block attacks using IP blacklists</_description>
+      <default>false</default>
+      <uservisible>true</uservisible>
+      <packagelist>
+        <packagereq type="mandatory">nethserver-blacklist</packagereq>
+      </packagelist>
+  </group>
+
 <!-- NETHSERVER GROUPS END -->
 
 <!-- NETHSERVER CATEGORIES START -->
@@ -1033,6 +1044,7 @@
       <groupid>nethserver-netdata</groupid>
       <groupid>nethserver-ftp</groupid>
       <groupid>nethserver-dante</groupid>
+      <groupid>nethserver-blacklist</groupid>
     </grouplist>
   </category>
 
