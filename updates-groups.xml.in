@@ -1035,7 +1035,6 @@
       <groupid>nethserver-roundcubemail</groupid>
       <groupid>nethserver-nextcloud</groupid>
       <groupid>nethserver-pop3connector</groupid>
-      <groupid>nethserver-pop3connector2</groupid>
       <groupid>nethserver-pbx</groupid>
       <groupid>nethserver-subscription</groupid>
       <groupid>nethserver-mattermost</groupid>
