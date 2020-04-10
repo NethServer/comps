@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-12-19 10:45+0100\n"
+"POT-Creation-Date: 2020-03-24 09:04+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -398,34 +398,42 @@ msgid "Real-time performance monitoring"
 msgstr ""
 
 #: ../updates-groups.xml.in.h:95
-msgid "Report (Beta)"
+msgid "Report"
 msgstr ""
 
 #: ../updates-groups.xml.in.h:96
 msgid "Reports on system usage"
 msgstr ""
 
-#: ../updates-groups.xml.in.h:97 ../arm-updates-groups.xml.in.h:72
+#: ../updates-groups.xml.in.h:97
+msgid "Threat shield"
+msgstr ""
+
+#: ../updates-groups.xml.in.h:98
+msgid "Block attacks using IP blacklists"
+msgstr ""
+
+#: ../updates-groups.xml.in.h:99 ../arm-updates-groups.xml.in.h:72
 msgid "Base system"
 msgstr ""
 
-#: ../updates-groups.xml.in.h:98 ../arm-updates-groups.xml.in.h:73
+#: ../updates-groups.xml.in.h:100 ../arm-updates-groups.xml.in.h:73
 msgid "Infrastructure and groupware services"
 msgstr ""
 
-#: ../updates-groups.xml.in.h:99 ../arm-updates-groups.xml.in.h:74
+#: ../updates-groups.xml.in.h:101 ../arm-updates-groups.xml.in.h:74
 msgid "Firewall"
 msgstr ""
 
-#: ../updates-groups.xml.in.h:100 ../arm-updates-groups.xml.in.h:75
+#: ../updates-groups.xml.in.h:102 ../arm-updates-groups.xml.in.h:75
 msgid "UTM Firewall"
 msgstr ""
 
-#: ../updates-groups.xml.in.h:101 ../arm-updates-groups.xml.in.h:76
+#: ../updates-groups.xml.in.h:103 ../arm-updates-groups.xml.in.h:76
 msgid "Languages"
 msgstr ""
 
-#: ../updates-groups.xml.in.h:102 ../arm-updates-groups.xml.in.h:77
+#: ../updates-groups.xml.in.h:104 ../arm-updates-groups.xml.in.h:77
 msgid "Localization of the Server Manager web interface"
 msgstr ""
 
@@ -461,11 +469,19 @@ msgstr ""
 msgid "Synchronize two NethServer machines using rsync"
 msgstr ""
 
-#: ../nethforge-groups.xml.in.h:9 ../arm-nethforge-groups.xml.in.h:3
+#: ../nethforge-groups.xml.in.h:9
+msgid "Microsoft SQL Server"
+msgstr ""
+
+#: ../nethforge-groups.xml.in.h:10
+msgid "MSSQL integration for NethServer"
+msgstr ""
+
+#: ../nethforge-groups.xml.in.h:11 ../arm-nethforge-groups.xml.in.h:3
 msgid "NethForge"
 msgstr ""
 
-#: ../nethforge-groups.xml.in.h:10 ../arm-nethforge-groups.xml.in.h:4
+#: ../nethforge-groups.xml.in.h:12 ../arm-nethforge-groups.xml.in.h:4
 msgid "Modules from the NethServer Community"
 msgstr ""
 
