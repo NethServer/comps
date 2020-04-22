@@ -723,7 +723,7 @@
     <_name>POP3 proxy</_name>
     <_description>Intercept POP3 connections and scan messages for virus and spam</_description>
     <default>false</default>
-    <uservisible>true</uservisible>
+    <uservisible>false</uservisible>
     <packagelist>
       <packagereq type="mandatory">nethserver-mail-p3scan</packagereq>
       <packagereq type="mandatory">nethserver-mail-filter</packagereq>
@@ -1035,7 +1035,6 @@
       <groupid>nethserver-roundcubemail</groupid>
       <groupid>nethserver-nextcloud</groupid>
       <groupid>nethserver-pop3connector</groupid>
-      <groupid>nethserver-pop3connector2</groupid>
       <groupid>nethserver-pbx</groupid>
       <groupid>nethserver-subscription</groupid>
       <groupid>nethserver-mattermost</groupid>
@@ -1062,7 +1061,6 @@
       <groupid>nethserver-ipsec-tunnels</groupid>
       <groupid>nethserver-ips</groupid>
       <groupid>nethserver-bandwidth</groupid>
-      <groupid>nethserver-p3scan</groupid>
       <groupid>nethserver-reverse-proxy</groupid>
       <groupid>nethserver-dpi</groupid>
       <groupid>nethserver-hotspot</groupid>
