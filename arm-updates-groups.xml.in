@@ -168,6 +168,7 @@
       <packagereq type="mandatory">nethserver-inventory</packagereq>
       <packagereq type="mandatory">nethserver-alerts</packagereq>
       <packagereq type="mandatory">nethserver-cockpit</packagereq>
+      <packagereq type="mandatory">nethserver-arm-extra-config</packagereq>     
       <packagereq type="mandatory">lsof</packagereq>
       <packagereq type="mandatory">patch</packagereq>
       <packagereq type="mandatory">rsync</packagereq>
