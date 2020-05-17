@@ -34,7 +34,18 @@
       <packagereq type="mandatory">nethserver-collabora</packagereq>
     </packagelist>
   </group>
-
+  
+  <group>
+    <id>nethserver-docker</id>
+    <_name>Docker community edition</_name>
+    <_description>Docker is an open platform for developing, shipping, and running applications.</_description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type="mandatory">nethserver-docker</packagereq>
+    </packagelist>
+  </group>
+  
   <group>
     <id>nethserver-hotsync</id>
     <_name>HotSync (beta)</_name>
