@@ -68,6 +68,17 @@
     </packagelist>
   </group>
 
+  <group>
+    <id>nethserver-business</id>
+    <_name>Business Cube by NTS</_name>
+    <_description>Business Cube integration for NethServer</_description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type="mandatory">nethserver-mssql</packagereq>
+    </packagelist>
+  </group>
+
   <category>
     <id>nethforge</id>
     <_name>NethForge</_name>
@@ -80,6 +91,7 @@
         <groupid>nethserver-collabora</groupid>
         <groupid>nethserver-hotsync</groupid>
         <groupid>nethserver-mssql</groupid>
+        <groupid>nethserver-business</groupid>
     </grouplist>
   </category>
 
