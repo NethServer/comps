@@ -75,7 +75,7 @@
     <default>false</default>
     <uservisible>true</uservisible>
     <packagelist>
-      <packagereq type="mandatory">nethserver-mssql</packagereq>
+      <packagereq type="mandatory">nethserver-business</packagereq>
     </packagelist>
   </group>
 
