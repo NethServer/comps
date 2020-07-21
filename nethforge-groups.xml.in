@@ -71,7 +71,7 @@
   <group>
     <id>nethserver-business</id>
     <_name>Business Cube</_name>
-    <_description>Closed Source ERP Server by NTS, Windows-client only.</_description>
+    <_description>Integration of Business Cube Server, a Closed Source ERP by NTS.</_description>
     <default>false</default>
     <uservisible>true</uservisible>
     <packagelist>
