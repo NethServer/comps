@@ -999,6 +999,17 @@
       </packagelist>
   </group>
 
+  <group>
+    <id>nethserver-httpd-admin</id>
+    <_name>Old Server Manager</_name>
+    <_description>Legacy Server Manager based on NethGUI</_description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type="mandatory">nethserver-httpd-admin</packagereq>
+    </packagelist>
+  </group>
+
 <!-- NETHSERVER GROUPS END -->
 
 <!-- NETHSERVER CATEGORIES START -->
@@ -1039,6 +1050,7 @@
       <groupid>nethserver-mattermost</groupid>
       <groupid>nethserver-fail2ban</groupid>
       <groupid>nethserver-cockpit</groupid>
+      <groupid>nethserver-httpd-admin</groupid>
       <groupid>nethserver-netdata</groupid>
       <groupid>nethserver-ftp</groupid>
       <groupid>nethserver-dante</groupid>
