@@ -384,6 +384,7 @@
       <packagereq type="mandatory">nethserver-inventory</packagereq>
       <packagereq type="mandatory">nethserver-alerts</packagereq>
       <packagereq type="mandatory">nethserver-cockpit</packagereq>
+      <packagereq type="mandatory">nethserver-netdata</packagereq>
 
       <packagereq type="mandatory">lsof</packagereq>
       <packagereq type="mandatory">patch</packagereq>
