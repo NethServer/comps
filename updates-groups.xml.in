@@ -1011,6 +1011,7 @@
         <packagereq type="mandatory">dahdi-linux</packagereq>
         <packagereq type="mandatory">dahdi-firmware</packagereq>
         <packagereq type="mandatory">dahdi-tools</packagereq>
+        <packagereq type="mandatory">libopenr2</packagereq>
       </packagelist>
   </group>
 
