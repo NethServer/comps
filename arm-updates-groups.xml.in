@@ -149,7 +149,6 @@
     <default>true</default>
     <uservisible>false</uservisible>
     <packagelist>
-      <packagereq type="mandatory">nethserver-httpd-admin</packagereq>
       <packagereq type="mandatory">nethserver-ntp</packagereq>
       <packagereq type="mandatory">nethserver-hosts</packagereq>
       <packagereq type="mandatory">nethserver-openssh</packagereq>
@@ -617,13 +616,24 @@
 
   <group>
       <id>nethserver-cockpit</id>
-      <_name>New Server Manager (Beta)</_name>
+      <_name>New Server Manager</_name>
       <_description>New Server Manager based on Cockpit</_description>
       <default>false</default>
       <uservisible>true</uservisible>
       <packagelist>
         <packagereq type="mandatory">nethserver-cockpit</packagereq>
       </packagelist>
+  </group>
+
+  <group>
+    <id>nethserver-httpd-admin</id>
+    <_name>Old Server Manager</_name>
+    <_description>Nethgui Server Manager web application available on HTTPS port 980</_description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type="mandatory">nethserver-httpd-admin</packagereq>
+    </packagelist>
   </group>
 
 
@@ -652,7 +662,8 @@
       <groupid>nethserver-roundcubemail</groupid>
       <groupid>nethserver-nextcloud</groupid>
       <groupid>nethserver-pop3connector</groupid>
-      <groupid>nethserver-cockpit</groupid>   
+      <groupid>nethserver-cockpit</groupid>
+      <groupid>nethserver-httpd-admin</groupid>   
     </grouplist>
   </category>
 
