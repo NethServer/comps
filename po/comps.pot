@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-11-17 12:40+0100\n"
+"POT-Creation-Date: 2021-01-14 10:50-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -381,7 +381,7 @@ msgstr ""
 msgid "Server Manager Romanian localization"
 msgstr ""
 
-#: ../updates-groups.xml.in.h:91
+#: ../updates-groups.xml.in.h:91 ../arm-updates-groups.xml.in.h:70
 msgid "New Server Manager"
 msgstr ""
 
@@ -414,34 +414,42 @@ msgid "Block attacks using IP blacklists"
 msgstr ""
 
 #: ../updates-groups.xml.in.h:99
-msgid "Old Server Manager"
+msgid "DAHDI drivers and tools"
 msgstr ""
 
 #: ../updates-groups.xml.in.h:100
-msgid "Nethgui Server Manager web application available on HTTPS port 980"
+msgid "Support Digium Asterisk Hardware Device Interface"
 msgstr ""
 
 #: ../updates-groups.xml.in.h:101 ../arm-updates-groups.xml.in.h:72
-msgid "Base system"
+msgid "Old Server Manager"
 msgstr ""
 
 #: ../updates-groups.xml.in.h:102 ../arm-updates-groups.xml.in.h:73
-msgid "Infrastructure and groupware services"
+msgid "Nethgui Server Manager web application available on HTTPS port 980"
 msgstr ""
 
 #: ../updates-groups.xml.in.h:103 ../arm-updates-groups.xml.in.h:74
-msgid "Firewall"
+msgid "Base system"
 msgstr ""
 
 #: ../updates-groups.xml.in.h:104 ../arm-updates-groups.xml.in.h:75
-msgid "UTM Firewall"
+msgid "Infrastructure and groupware services"
 msgstr ""
 
 #: ../updates-groups.xml.in.h:105 ../arm-updates-groups.xml.in.h:76
-msgid "Languages"
+msgid "Firewall"
 msgstr ""
 
 #: ../updates-groups.xml.in.h:106 ../arm-updates-groups.xml.in.h:77
+msgid "UTM Firewall"
+msgstr ""
+
+#: ../updates-groups.xml.in.h:107 ../arm-updates-groups.xml.in.h:78
+msgid "Languages"
+msgstr ""
+
+#: ../updates-groups.xml.in.h:108 ../arm-updates-groups.xml.in.h:79
 msgid "Localization of the Server Manager web interface"
 msgstr ""
 
@@ -517,8 +525,4 @@ msgstr ""
 
 #: ../arm-updates-groups.xml.in.h:18
 msgid "Configuration tools for Apache web server"
-msgstr ""
-
-#: ../arm-updates-groups.xml.in.h:70
-msgid "New Server Manager (Beta)"
 msgstr ""
