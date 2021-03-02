@@ -79,6 +79,17 @@
     </packagelist>
   </group>
 
+ <group>
+    <id>nethserver-savapage</id>
+    <_name>SavaPage Print Server</_name>
+    <_description>SavaPage is an open print portal</_description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type="mandatory">nethserver-savapage</packagereq>
+    </packagelist>
+  </group>
+
   <category>
     <id>nethforge</id>
     <_name>NethForge</_name>
@@ -92,6 +103,7 @@
         <groupid>nethserver-hotsync</groupid>
         <groupid>nethserver-mssql</groupid>
         <groupid>nethserver-business</groupid>
+        <groupid>nethserver-savapage</groupid>
     </grouplist>
   </category>
 
