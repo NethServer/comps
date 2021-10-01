@@ -5,7 +5,7 @@
 # Translators:
 # Adrián Prado Castro <adrian.prado@gmail.com>, 2017
 # Jon M., 2018-2019
-# Jose G. Jimenez S. <josegjimenez@gmail.com>, 2016
+# Jose G. Jimenez S. <josegjimenez@gmail.com>, 2016,2021
 # Jose G. Jimenez S. <josegjimenez@gmail.com>, 2015
 # Jon M., 2017
 # Martin Abeleira <mabeleira@gmail.com>, 2017-2018
@@ -13,9 +13,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nethserver\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-10-02 15:02+0200\n"
-"PO-Revision-Date: 2019-11-21 11:53+0000\n"
-"Last-Translator: stephane de Labrusse <stephdl@de-labrusse.fr>\n"
+"POT-Creation-Date: 2021-01-15 11:04+0100\n"
+"PO-Revision-Date: 2021-04-14 16:52+0000\n"
+"Last-Translator: Jose G. Jimenez S. <josegjimenez@gmail.com>\n"
 "Language-Team: Spanish (http://www.transifex.com/nethserver/nethserver/language/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -41,15 +41,15 @@ msgstr "Copia de seguridad"
 
 #: ../updates-groups.xml.in.h:5 ../arm-updates-groups.xml.in.h:5
 msgid "Backup of configuration and data"
-msgstr " Copia de seguridad de datos de configuración"
+msgstr "Copia de seguridad de datos de configuración"
 
 #: ../updates-groups.xml.in.h:6
 msgid "Backup restore"
-msgstr ""
+msgstr "Copia de seguridad de restauración"
 
 #: ../updates-groups.xml.in.h:7
 msgid "Module to restore backup of data"
-msgstr ""
+msgstr "Módulo para restaurar copia de seguridad de datos"
 
 #: ../updates-groups.xml.in.h:8
 msgid "Fax server"
@@ -123,13 +123,13 @@ msgstr "Servidor de impresión"
 msgid "Print management server (CUPS)"
 msgstr "Administrar servidor de impresión (CUPS)"
 
-#: ../updates-groups.xml.in.h:24 ../arm-updates-groups.xml.in.h:17
+#: ../updates-groups.xml.in.h:26
 msgid "Web hosting"
-msgstr ""
+msgstr "Alojamiento web"
 
-#: ../updates-groups.xml.in.h:25 ../arm-updates-groups.xml.in.h:18
+#: ../updates-groups.xml.in.h:27
 msgid "Configuration tools for hosting sites on Apache web server"
-msgstr ""
+msgstr "Herramientas de configuración para alojar sitios en el servidor web Apache "
 
 #: ../updates-groups.xml.in.h:28 ../arm-updates-groups.xml.in.h:19
 msgid "Reverse proxy"
@@ -241,7 +241,7 @@ msgstr "Nextcloud"
 msgid ""
 "Configure Nextcloud, universal access to your files via the web, your "
 "computer or your mobile devices - wherever you are"
-msgstr "Configurar Nextcloud, acceso universal a los archivos a través de la web, el ordenador o de sus dispositivos móviles - donde quiera que estés"
+msgstr "Configurar Nextcloud, acceso universal a los archivos a través de la web, el ordenador o de sus dispositivos móviles."
 
 #: ../updates-groups.xml.in.h:55
 msgid "VoIP PBX"
@@ -277,11 +277,11 @@ msgstr "Dedalo Hotspot para instancias Icaro"
 
 #: ../updates-groups.xml.in.h:63
 msgid "Mattermost"
-msgstr "Mattermos"
+msgstr "Mattermost"
 
 #: ../updates-groups.xml.in.h:64
 msgid "Mattermost Team Edition"
-msgstr "Versión de Grupo de Mattermost "
+msgstr "Edición Mattermost Team"
 
 #: ../updates-groups.xml.in.h:65 ../arm-updates-groups.xml.in.h:44
 msgid "Fail2ban"
@@ -387,9 +387,9 @@ msgstr "Lenguaje Rumano"
 msgid "Server Manager Romanian localization"
 msgstr "Localizacion Rumana del Adminsitrador de Servidor"
 
-#: ../updates-groups.xml.in.h:91
-msgid "New Server Manager (Beta)"
-msgstr ""
+#: ../updates-groups.xml.in.h:91 ../arm-updates-groups.xml.in.h:70
+msgid "New Server Manager"
+msgstr "Nuevo administrador de servidores"
 
 #: ../updates-groups.xml.in.h:92 ../arm-updates-groups.xml.in.h:71
 msgid "New Server Manager based on Cockpit"
@@ -404,34 +404,58 @@ msgid "Real-time performance monitoring"
 msgstr "Monitorización del rendimiento en tiempo real"
 
 #: ../updates-groups.xml.in.h:95
-msgid "Report (Beta)"
-msgstr ""
+msgid "Report"
+msgstr "Reporte"
 
 #: ../updates-groups.xml.in.h:96
 msgid "Reports on system usage"
-msgstr ""
+msgstr "Informes sobre el uso del sistema"
 
-#: ../updates-groups.xml.in.h:97 ../arm-updates-groups.xml.in.h:72
+#: ../updates-groups.xml.in.h:97
+msgid "Threat shield"
+msgstr "Escudo de amenazas"
+
+#: ../updates-groups.xml.in.h:98
+msgid "Block attacks using IP blacklists"
+msgstr "Bloquear ataques mediante listas negras de IP"
+
+#: ../updates-groups.xml.in.h:99
+msgid "DAHDI drivers and tools"
+msgstr "Controladores y herramientas DAHDI"
+
+#: ../updates-groups.xml.in.h:100
+msgid "Support Digium Asterisk Hardware Device Interface"
+msgstr "Compatible con la interfaz de dispositivo de hardware Digium Asterisk"
+
+#: ../updates-groups.xml.in.h:101 ../arm-updates-groups.xml.in.h:72
+msgid "Old Server Manager"
+msgstr "Viejo administrador de servidores"
+
+#: ../updates-groups.xml.in.h:102 ../arm-updates-groups.xml.in.h:73
+msgid "Nethgui Server Manager web application available on HTTPS port 980"
+msgstr "Aplicación web Nethgui Server Manager disponible en el puerto HTTPS 980 "
+
+#: ../updates-groups.xml.in.h:103 ../arm-updates-groups.xml.in.h:74
 msgid "Base system"
 msgstr "Sistema base"
 
-#: ../updates-groups.xml.in.h:98 ../arm-updates-groups.xml.in.h:73
+#: ../updates-groups.xml.in.h:104 ../arm-updates-groups.xml.in.h:75
 msgid "Infrastructure and groupware services"
 msgstr "Infraestructura y servicios de software colaborativo"
 
-#: ../updates-groups.xml.in.h:99 ../arm-updates-groups.xml.in.h:74
+#: ../updates-groups.xml.in.h:105 ../arm-updates-groups.xml.in.h:76
 msgid "Firewall"
 msgstr "Firewall"
 
-#: ../updates-groups.xml.in.h:100 ../arm-updates-groups.xml.in.h:75
+#: ../updates-groups.xml.in.h:106 ../arm-updates-groups.xml.in.h:77
 msgid "UTM Firewall"
 msgstr "UTM Firewall"
 
-#: ../updates-groups.xml.in.h:101 ../arm-updates-groups.xml.in.h:76
+#: ../updates-groups.xml.in.h:107 ../arm-updates-groups.xml.in.h:78
 msgid "Languages"
 msgstr "Idiomas"
 
-#: ../updates-groups.xml.in.h:102 ../arm-updates-groups.xml.in.h:77
+#: ../updates-groups.xml.in.h:108 ../arm-updates-groups.xml.in.h:79
 msgid "Localization of the Server Manager web interface"
 msgstr "Localización de la interfaz web del Administrador del Servidor"
 
@@ -459,14 +483,52 @@ msgstr "Collabora Online (CODE)"
 msgid "Collabora Online (CODE) integrated with Nextcloud"
 msgstr "Collabora Online (CODE) integrado en Nextcloud"
 
-#: ../nethforge-groups.xml.in.h:7 ../arm-nethforge-groups.xml.in.h:3
+#: ../nethforge-groups.xml.in.h:7
+msgid "Docker community edition"
+msgstr "Docker edición comunidad"
+
+#: ../nethforge-groups.xml.in.h:8
+msgid ""
+"Docker is an open platform for developing, shipping, and running "
+"applications."
+msgstr "Docker es una plataforma abierta para desarrollar, enviar y ejecutar aplicaciones."
+
+#: ../nethforge-groups.xml.in.h:9
+msgid "HotSync (beta)"
+msgstr "HotSync (beta)"
+
+#: ../nethforge-groups.xml.in.h:10
+msgid "Synchronize two NethServer machines using rsync"
+msgstr "Sincronice dos máquinas NethServer usando rsync"
+
+#: ../nethforge-groups.xml.in.h:11
+msgid "Microsoft SQL Server"
+msgstr "Microsoft SQL Server"
+
+#: ../nethforge-groups.xml.in.h:12
+msgid "MSSQL integration for NethServer"
+msgstr "Integración MSSQL para NethServer"
+
+#: ../nethforge-groups.xml.in.h:13
+msgid "Business Cube"
+msgstr "Business Cube"
+
+#: ../nethforge-groups.xml.in.h:14
+msgid "Integration of Business Cube Server, a Closed Source ERP by NTS."
+msgstr "Integración de Business Cube Server, un ERP de código cerrado de NTS."
+
+#: ../nethforge-groups.xml.in.h:15 ../arm-nethforge-groups.xml.in.h:3
 msgid "NethForge"
 msgstr "NethForge"
 
-#: ../nethforge-groups.xml.in.h:8 ../arm-nethforge-groups.xml.in.h:4
+#: ../nethforge-groups.xml.in.h:16 ../arm-nethforge-groups.xml.in.h:4
 msgid "Modules from the NethServer Community"
 msgstr "Módulos desde la Comunidad Nethserver"
 
-#: ../arm-updates-groups.xml.in.h:70
-msgid "New Server Manager (Alpha)"
-msgstr "Nueva interfaz de administración del Servidor (Alpha)"
+#: ../arm-updates-groups.xml.in.h:17
+msgid "Web server"
+msgstr "Servidor Web"
+
+#: ../arm-updates-groups.xml.in.h:18
+msgid "Configuration tools for Apache web server"
+msgstr "Herramientas de configuración para el servidor web Apache"
