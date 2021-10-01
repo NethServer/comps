@@ -5,6 +5,7 @@
 # Translators:
 # Ilyas B Arinov <arinov.ilyas@gmail.com>, 2016
 # Ilyas B Arinov <arinov.ilyas@gmail.com>, 2015
+# Jonas McKing <mcking230@gmail.com>, 2020
 # mishell baranov <baranov.mishell@gmail.com>, 2015
 # Sandman Sandman <root@yarcrb.ru>, 2018
 # Yan Sivitskiy <ysivitskiy@gmail.com>, 2015
@@ -13,9 +14,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nethserver\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-10-02 15:02+0200\n"
-"PO-Revision-Date: 2019-11-21 11:53+0000\n"
-"Last-Translator: stephane de Labrusse <stephdl@de-labrusse.fr>\n"
+"POT-Creation-Date: 2021-01-15 11:04+0100\n"
+"PO-Revision-Date: 2021-01-15 10:04+0000\n"
+"Last-Translator: Davide Principi <davide.principi@nethesis.it>\n"
 "Language-Team: Russian (Russia) (http://www.transifex.com/nethserver/nethserver/language/ru_RU/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -45,11 +46,11 @@ msgstr "Резервное копирование настроек и данны
 
 #: ../updates-groups.xml.in.h:6
 msgid "Backup restore"
-msgstr ""
+msgstr "Восстановление резервной копии"
 
 #: ../updates-groups.xml.in.h:7
 msgid "Module to restore backup of data"
-msgstr ""
+msgstr "Модуль для восстановления резервной копии данных"
 
 #: ../updates-groups.xml.in.h:8
 msgid "Fax server"
@@ -123,13 +124,13 @@ msgstr "Сервер печати"
 msgid "Print management server (CUPS)"
 msgstr "Сервер управления печатью (CUPS)"
 
-#: ../updates-groups.xml.in.h:24 ../arm-updates-groups.xml.in.h:17
+#: ../updates-groups.xml.in.h:26
 msgid "Web hosting"
-msgstr ""
+msgstr "Веб-хостинг"
 
-#: ../updates-groups.xml.in.h:25 ../arm-updates-groups.xml.in.h:18
+#: ../updates-groups.xml.in.h:27
 msgid "Configuration tools for hosting sites on Apache web server"
-msgstr ""
+msgstr "Инструменты настройки для сайтов на веб-сервере Apache"
 
 #: ../updates-groups.xml.in.h:28 ../arm-updates-groups.xml.in.h:19
 msgid "Reverse proxy"
@@ -387,8 +388,8 @@ msgstr "Румынский язык"
 msgid "Server Manager Romanian localization"
 msgstr "Румынская локализация диспетчера сервера"
 
-#: ../updates-groups.xml.in.h:91
-msgid "New Server Manager (Beta)"
+#: ../updates-groups.xml.in.h:91 ../arm-updates-groups.xml.in.h:70
+msgid "New Server Manager"
 msgstr ""
 
 #: ../updates-groups.xml.in.h:92 ../arm-updates-groups.xml.in.h:71
@@ -404,34 +405,58 @@ msgid "Real-time performance monitoring"
 msgstr "Мониторинг производительности в режиме реального времени"
 
 #: ../updates-groups.xml.in.h:95
-msgid "Report (Beta)"
-msgstr ""
+msgid "Report"
+msgstr "Отчет"
 
 #: ../updates-groups.xml.in.h:96
 msgid "Reports on system usage"
+msgstr "Отчеты об использовании системы"
+
+#: ../updates-groups.xml.in.h:97
+msgid "Threat shield"
+msgstr "Защита от угроз"
+
+#: ../updates-groups.xml.in.h:98
+msgid "Block attacks using IP blacklists"
+msgstr "Блокировать атаки используя черный список IP"
+
+#: ../updates-groups.xml.in.h:99
+msgid "DAHDI drivers and tools"
 msgstr ""
 
-#: ../updates-groups.xml.in.h:97 ../arm-updates-groups.xml.in.h:72
+#: ../updates-groups.xml.in.h:100
+msgid "Support Digium Asterisk Hardware Device Interface"
+msgstr ""
+
+#: ../updates-groups.xml.in.h:101 ../arm-updates-groups.xml.in.h:72
+msgid "Old Server Manager"
+msgstr ""
+
+#: ../updates-groups.xml.in.h:102 ../arm-updates-groups.xml.in.h:73
+msgid "Nethgui Server Manager web application available on HTTPS port 980"
+msgstr ""
+
+#: ../updates-groups.xml.in.h:103 ../arm-updates-groups.xml.in.h:74
 msgid "Base system"
 msgstr "Базовая система"
 
-#: ../updates-groups.xml.in.h:98 ../arm-updates-groups.xml.in.h:73
+#: ../updates-groups.xml.in.h:104 ../arm-updates-groups.xml.in.h:75
 msgid "Infrastructure and groupware services"
 msgstr "Службы инфраструктуры и совместной работы"
 
-#: ../updates-groups.xml.in.h:99 ../arm-updates-groups.xml.in.h:74
+#: ../updates-groups.xml.in.h:105 ../arm-updates-groups.xml.in.h:76
 msgid "Firewall"
 msgstr "Файрвол"
 
-#: ../updates-groups.xml.in.h:100 ../arm-updates-groups.xml.in.h:75
+#: ../updates-groups.xml.in.h:106 ../arm-updates-groups.xml.in.h:77
 msgid "UTM Firewall"
 msgstr "UTM-Файрвол"
 
-#: ../updates-groups.xml.in.h:101 ../arm-updates-groups.xml.in.h:76
+#: ../updates-groups.xml.in.h:107 ../arm-updates-groups.xml.in.h:78
 msgid "Languages"
 msgstr "Языки"
 
-#: ../updates-groups.xml.in.h:102 ../arm-updates-groups.xml.in.h:77
+#: ../updates-groups.xml.in.h:108 ../arm-updates-groups.xml.in.h:79
 msgid "Localization of the Server Manager web interface"
 msgstr "Локализация веб-интерфейса"
 
@@ -459,14 +484,52 @@ msgstr "Collabora Online (CODE)"
 msgid "Collabora Online (CODE) integrated with Nextcloud"
 msgstr "Collabora Online (CODE) интегрированный с Nextcloud"
 
-#: ../nethforge-groups.xml.in.h:7 ../arm-nethforge-groups.xml.in.h:3
+#: ../nethforge-groups.xml.in.h:7
+msgid "Docker community edition"
+msgstr ""
+
+#: ../nethforge-groups.xml.in.h:8
+msgid ""
+"Docker is an open platform for developing, shipping, and running "
+"applications."
+msgstr ""
+
+#: ../nethforge-groups.xml.in.h:9
+msgid "HotSync (beta)"
+msgstr "HotSync (Бэта)"
+
+#: ../nethforge-groups.xml.in.h:10
+msgid "Synchronize two NethServer machines using rsync"
+msgstr "Синхронизировать два NethServer'а используя rsync"
+
+#: ../nethforge-groups.xml.in.h:11
+msgid "Microsoft SQL Server"
+msgstr "Microsoft SQL сервер"
+
+#: ../nethforge-groups.xml.in.h:12
+msgid "MSSQL integration for NethServer"
+msgstr "MSSQL интеграция для NethServer"
+
+#: ../nethforge-groups.xml.in.h:13
+msgid "Business Cube"
+msgstr ""
+
+#: ../nethforge-groups.xml.in.h:14
+msgid "Integration of Business Cube Server, a Closed Source ERP by NTS."
+msgstr ""
+
+#: ../nethforge-groups.xml.in.h:15 ../arm-nethforge-groups.xml.in.h:3
 msgid "NethForge"
 msgstr "NethForge"
 
-#: ../nethforge-groups.xml.in.h:8 ../arm-nethforge-groups.xml.in.h:4
+#: ../nethforge-groups.xml.in.h:16 ../arm-nethforge-groups.xml.in.h:4
 msgid "Modules from the NethServer Community"
 msgstr "Модули от сообщества NethServer"
 
-#: ../arm-updates-groups.xml.in.h:70
-msgid "New Server Manager (Alpha)"
-msgstr "Новый диспетчер сервера (Альфа-версия)"
+#: ../arm-updates-groups.xml.in.h:17
+msgid "Web server"
+msgstr "Web-сервер"
+
+#: ../arm-updates-groups.xml.in.h:18
+msgid "Configuration tools for Apache web server"
+msgstr "Инструменты настройки web-сервера Apache"

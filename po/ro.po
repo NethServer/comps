@@ -3,7 +3,7 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# liviu iordache <liviu.marian.iordache@gmail.com>, 2018-2019
+# liviu iordache <liviu.marian.iordache@gmail.com>, 2018-2021
 # liviu iordache <liviu.marian.iordache@gmail.com>, 2017
 # rox roxor <ceardaaa@gmail.com>, 2017
 # Sebastian, 2017-2018
@@ -11,9 +11,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nethserver\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-10-02 15:02+0200\n"
-"PO-Revision-Date: 2019-11-21 11:53+0000\n"
-"Last-Translator: stephane de Labrusse <stephdl@de-labrusse.fr>\n"
+"POT-Creation-Date: 2021-01-15 11:04+0100\n"
+"PO-Revision-Date: 2021-01-16 18:16+0000\n"
+"Last-Translator: liviu iordache <liviu.marian.iordache@gmail.com>\n"
 "Language-Team: Romanian (http://www.transifex.com/nethserver/nethserver/language/ro/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -43,11 +43,11 @@ msgstr "Copie de siguranță a configurației și a datelor"
 
 #: ../updates-groups.xml.in.h:6
 msgid "Backup restore"
-msgstr ""
+msgstr "Restaurare copie de siguranță"
 
 #: ../updates-groups.xml.in.h:7
 msgid "Module to restore backup of data"
-msgstr ""
+msgstr "Modul pentru restaurare copie de siguranță date"
 
 #: ../updates-groups.xml.in.h:8
 msgid "Fax server"
@@ -121,13 +121,13 @@ msgstr "Server de imprimare"
 msgid "Print management server (CUPS)"
 msgstr "Server de gestionare a tipăririi (CUPS)"
 
-#: ../updates-groups.xml.in.h:24 ../arm-updates-groups.xml.in.h:17
+#: ../updates-groups.xml.in.h:26
 msgid "Web hosting"
-msgstr ""
+msgstr "Găzduire web"
 
-#: ../updates-groups.xml.in.h:25 ../arm-updates-groups.xml.in.h:18
+#: ../updates-groups.xml.in.h:27
 msgid "Configuration tools for hosting sites on Apache web server"
-msgstr ""
+msgstr "Unelte de configurare pentru găzduire site-uri pe server web Apache"
 
 #: ../updates-groups.xml.in.h:28 ../arm-updates-groups.xml.in.h:19
 msgid "Reverse proxy"
@@ -385,9 +385,9 @@ msgstr "Limba Română"
 msgid "Server Manager Romanian localization"
 msgstr "Manager server în limba română"
 
-#: ../updates-groups.xml.in.h:91
-msgid "New Server Manager (Beta)"
-msgstr ""
+#: ../updates-groups.xml.in.h:91 ../arm-updates-groups.xml.in.h:70
+msgid "New Server Manager"
+msgstr "Noul Manager Server"
 
 #: ../updates-groups.xml.in.h:92 ../arm-updates-groups.xml.in.h:71
 msgid "New Server Manager based on Cockpit"
@@ -402,34 +402,58 @@ msgid "Real-time performance monitoring"
 msgstr "Monitorizare în timp real a performanței"
 
 #: ../updates-groups.xml.in.h:95
-msgid "Report (Beta)"
-msgstr "Raport (Beta)"
+msgid "Report"
+msgstr "Raport"
 
 #: ../updates-groups.xml.in.h:96
 msgid "Reports on system usage"
 msgstr "Rapoarte despre utilizarea sistemului"
 
-#: ../updates-groups.xml.in.h:97 ../arm-updates-groups.xml.in.h:72
+#: ../updates-groups.xml.in.h:97
+msgid "Threat shield"
+msgstr "Scutul amenințărilor"
+
+#: ../updates-groups.xml.in.h:98
+msgid "Block attacks using IP blacklists"
+msgstr "Blochează atacurile utilizând liste-negre IP"
+
+#: ../updates-groups.xml.in.h:99
+msgid "DAHDI drivers and tools"
+msgstr "Drivere DAHDI și instrumente"
+
+#: ../updates-groups.xml.in.h:100
+msgid "Support Digium Asterisk Hardware Device Interface"
+msgstr "Suport Digium Asterisk Hardware Device Interface"
+
+#: ../updates-groups.xml.in.h:101 ../arm-updates-groups.xml.in.h:72
+msgid "Old Server Manager"
+msgstr "Vechiul Manager Server"
+
+#: ../updates-groups.xml.in.h:102 ../arm-updates-groups.xml.in.h:73
+msgid "Nethgui Server Manager web application available on HTTPS port 980"
+msgstr "Aplicația web Nethgui Server Manager disponibilă pe portul HTTPS 980"
+
+#: ../updates-groups.xml.in.h:103 ../arm-updates-groups.xml.in.h:74
 msgid "Base system"
 msgstr "Sistem de bază"
 
-#: ../updates-groups.xml.in.h:98 ../arm-updates-groups.xml.in.h:73
+#: ../updates-groups.xml.in.h:104 ../arm-updates-groups.xml.in.h:75
 msgid "Infrastructure and groupware services"
 msgstr "Servicii de infrastructură și grupuri de lucru"
 
-#: ../updates-groups.xml.in.h:99 ../arm-updates-groups.xml.in.h:74
+#: ../updates-groups.xml.in.h:105 ../arm-updates-groups.xml.in.h:76
 msgid "Firewall"
 msgstr "Firewall"
 
-#: ../updates-groups.xml.in.h:100 ../arm-updates-groups.xml.in.h:75
+#: ../updates-groups.xml.in.h:106 ../arm-updates-groups.xml.in.h:77
 msgid "UTM Firewall"
 msgstr "UTM Firewall"
 
-#: ../updates-groups.xml.in.h:101 ../arm-updates-groups.xml.in.h:76
+#: ../updates-groups.xml.in.h:107 ../arm-updates-groups.xml.in.h:78
 msgid "Languages"
 msgstr "Traduceri"
 
-#: ../updates-groups.xml.in.h:102 ../arm-updates-groups.xml.in.h:77
+#: ../updates-groups.xml.in.h:108 ../arm-updates-groups.xml.in.h:79
 msgid "Localization of the Server Manager web interface"
 msgstr "Localizarea interfeței web a Managerului de Server"
 
@@ -457,14 +481,52 @@ msgstr "Collabora Online (CODE)"
 msgid "Collabora Online (CODE) integrated with Nextcloud"
 msgstr "Collabora Online (CODE) integrată cu Nextcloud"
 
-#: ../nethforge-groups.xml.in.h:7 ../arm-nethforge-groups.xml.in.h:3
+#: ../nethforge-groups.xml.in.h:7
+msgid "Docker community edition"
+msgstr "Docker ediție comunitate"
+
+#: ../nethforge-groups.xml.in.h:8
+msgid ""
+"Docker is an open platform for developing, shipping, and running "
+"applications."
+msgstr "Docker este o platformă deschisă pentru dezvoltarea, livrarea și rularea aplicațiilor."
+
+#: ../nethforge-groups.xml.in.h:9
+msgid "HotSync (beta)"
+msgstr "HotSync (beta)"
+
+#: ../nethforge-groups.xml.in.h:10
+msgid "Synchronize two NethServer machines using rsync"
+msgstr "Sincronizează două instanțe Nethserver utilizând rsync"
+
+#: ../nethforge-groups.xml.in.h:11
+msgid "Microsoft SQL Server"
+msgstr "Server Microsoft SQL"
+
+#: ../nethforge-groups.xml.in.h:12
+msgid "MSSQL integration for NethServer"
+msgstr "Integrare MSSQL pentru NethServer"
+
+#: ../nethforge-groups.xml.in.h:13
+msgid "Business Cube"
+msgstr "Business Cube"
+
+#: ../nethforge-groups.xml.in.h:14
+msgid "Integration of Business Cube Server, a Closed Source ERP by NTS."
+msgstr "Integrarea Business Cube Server, un ERP cu sursă închisă de către NTS."
+
+#: ../nethforge-groups.xml.in.h:15 ../arm-nethforge-groups.xml.in.h:3
 msgid "NethForge"
 msgstr "NethForge"
 
-#: ../nethforge-groups.xml.in.h:8 ../arm-nethforge-groups.xml.in.h:4
+#: ../nethforge-groups.xml.in.h:16 ../arm-nethforge-groups.xml.in.h:4
 msgid "Modules from the NethServer Community"
 msgstr "Module din comunitatea NethServer"
 
-#: ../arm-updates-groups.xml.in.h:70
-msgid "New Server Manager (Alpha)"
-msgstr "Manager server nou (alfa)"
+#: ../arm-updates-groups.xml.in.h:17
+msgid "Web server"
+msgstr "Server web"
+
+#: ../arm-updates-groups.xml.in.h:18
+msgid "Configuration tools for Apache web server"
+msgstr "Instrumente de configurare pentru serverul web Apache"
