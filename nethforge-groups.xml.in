@@ -68,17 +68,30 @@
     </packagelist>
   </group>
 
+  <group>
+    <id>nethserver-business</id>
+    <_name>Business Cube</_name>
+    <_description>Integration of Business Cube Server, a Closed Source ERP by NTS.</_description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type="mandatory">nethserver-business</packagereq>
+    </packagelist>
+  </group>
+
   <category>
     <id>nethforge</id>
     <_name>NethForge</_name>
     <_description>Modules from the NethServer Community</_description>
     <display_order>1</display_order>
     <grouplist>
+        <groupid>nethserver-docker</groupid>
         <groupid>nethserver-sogo</groupid>
         <groupid>nethserver-virtualbox-5.2-phpvirtualbox</groupid>
         <groupid>nethserver-collabora</groupid>
         <groupid>nethserver-hotsync</groupid>
         <groupid>nethserver-mssql</groupid>
+        <groupid>nethserver-business</groupid>
     </grouplist>
   </category>
 

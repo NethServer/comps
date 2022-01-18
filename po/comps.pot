@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-24 09:04+0100\n"
+"POT-Creation-Date: 2021-01-14 10:50-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -382,7 +382,7 @@ msgid "Server Manager Romanian localization"
 msgstr ""
 
 #: ../updates-groups.xml.in.h:91 ../arm-updates-groups.xml.in.h:70
-msgid "New Server Manager (Beta)"
+msgid "New Server Manager"
 msgstr ""
 
 #: ../updates-groups.xml.in.h:92 ../arm-updates-groups.xml.in.h:71
@@ -413,27 +413,43 @@ msgstr ""
 msgid "Block attacks using IP blacklists"
 msgstr ""
 
-#: ../updates-groups.xml.in.h:99 ../arm-updates-groups.xml.in.h:72
+#: ../updates-groups.xml.in.h:99
+msgid "DAHDI drivers and tools"
+msgstr ""
+
+#: ../updates-groups.xml.in.h:100
+msgid "Support Digium Asterisk Hardware Device Interface"
+msgstr ""
+
+#: ../updates-groups.xml.in.h:101 ../arm-updates-groups.xml.in.h:72
+msgid "Old Server Manager"
+msgstr ""
+
+#: ../updates-groups.xml.in.h:102 ../arm-updates-groups.xml.in.h:73
+msgid "Nethgui Server Manager web application available on HTTPS port 980"
+msgstr ""
+
+#: ../updates-groups.xml.in.h:103 ../arm-updates-groups.xml.in.h:74
 msgid "Base system"
 msgstr ""
 
-#: ../updates-groups.xml.in.h:100 ../arm-updates-groups.xml.in.h:73
+#: ../updates-groups.xml.in.h:104 ../arm-updates-groups.xml.in.h:75
 msgid "Infrastructure and groupware services"
 msgstr ""
 
-#: ../updates-groups.xml.in.h:101 ../arm-updates-groups.xml.in.h:74
+#: ../updates-groups.xml.in.h:105 ../arm-updates-groups.xml.in.h:76
 msgid "Firewall"
 msgstr ""
 
-#: ../updates-groups.xml.in.h:102 ../arm-updates-groups.xml.in.h:75
+#: ../updates-groups.xml.in.h:106 ../arm-updates-groups.xml.in.h:77
 msgid "UTM Firewall"
 msgstr ""
 
-#: ../updates-groups.xml.in.h:103 ../arm-updates-groups.xml.in.h:76
+#: ../updates-groups.xml.in.h:107 ../arm-updates-groups.xml.in.h:78
 msgid "Languages"
 msgstr ""
 
-#: ../updates-groups.xml.in.h:104 ../arm-updates-groups.xml.in.h:77
+#: ../updates-groups.xml.in.h:108 ../arm-updates-groups.xml.in.h:79
 msgid "Localization of the Server Manager web interface"
 msgstr ""
 
@@ -462,26 +478,44 @@ msgid "Collabora Online (CODE) integrated with Nextcloud"
 msgstr ""
 
 #: ../nethforge-groups.xml.in.h:7
-msgid "HotSync (beta)"
+msgid "Docker community edition"
 msgstr ""
 
 #: ../nethforge-groups.xml.in.h:8
-msgid "Synchronize two NethServer machines using rsync"
+msgid ""
+"Docker is an open platform for developing, shipping, and running "
+"applications."
 msgstr ""
 
 #: ../nethforge-groups.xml.in.h:9
-msgid "Microsoft SQL Server"
+msgid "HotSync (beta)"
 msgstr ""
 
 #: ../nethforge-groups.xml.in.h:10
+msgid "Synchronize two NethServer machines using rsync"
+msgstr ""
+
+#: ../nethforge-groups.xml.in.h:11
+msgid "Microsoft SQL Server"
+msgstr ""
+
+#: ../nethforge-groups.xml.in.h:12
 msgid "MSSQL integration for NethServer"
 msgstr ""
 
-#: ../nethforge-groups.xml.in.h:11 ../arm-nethforge-groups.xml.in.h:3
+#: ../nethforge-groups.xml.in.h:13
+msgid "Business Cube"
+msgstr ""
+
+#: ../nethforge-groups.xml.in.h:14
+msgid "Integration of Business Cube Server, a Closed Source ERP by NTS."
+msgstr ""
+
+#: ../nethforge-groups.xml.in.h:15 ../arm-nethforge-groups.xml.in.h:3
 msgid "NethForge"
 msgstr ""
 
-#: ../nethforge-groups.xml.in.h:12 ../arm-nethforge-groups.xml.in.h:4
+#: ../nethforge-groups.xml.in.h:16 ../arm-nethforge-groups.xml.in.h:4
 msgid "Modules from the NethServer Community"
 msgstr ""
 

@@ -8,9 +8,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nethserver\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-10-02 15:02+0200\n"
-"PO-Revision-Date: 2019-11-21 11:53+0000\n"
-"Last-Translator: stephane de Labrusse <stephdl@de-labrusse.fr>\n"
+"POT-Creation-Date: 2021-01-15 11:04+0100\n"
+"PO-Revision-Date: 2021-01-15 10:04+0000\n"
+"Last-Translator: Davide Principi <davide.principi@nethesis.it>\n"
 "Language-Team: Slovenian (http://www.transifex.com/nethserver/nethserver/language/sl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -118,11 +118,11 @@ msgstr "Tiskalniški strežnik"
 msgid "Print management server (CUPS)"
 msgstr ""
 
-#: ../updates-groups.xml.in.h:24 ../arm-updates-groups.xml.in.h:17
+#: ../updates-groups.xml.in.h:26
 msgid "Web hosting"
 msgstr ""
 
-#: ../updates-groups.xml.in.h:25 ../arm-updates-groups.xml.in.h:18
+#: ../updates-groups.xml.in.h:27
 msgid "Configuration tools for hosting sites on Apache web server"
 msgstr ""
 
@@ -382,8 +382,8 @@ msgstr ""
 msgid "Server Manager Romanian localization"
 msgstr ""
 
-#: ../updates-groups.xml.in.h:91
-msgid "New Server Manager (Beta)"
+#: ../updates-groups.xml.in.h:91 ../arm-updates-groups.xml.in.h:70
+msgid "New Server Manager"
 msgstr ""
 
 #: ../updates-groups.xml.in.h:92 ../arm-updates-groups.xml.in.h:71
@@ -399,34 +399,58 @@ msgid "Real-time performance monitoring"
 msgstr ""
 
 #: ../updates-groups.xml.in.h:95
-msgid "Report (Beta)"
+msgid "Report"
 msgstr ""
 
 #: ../updates-groups.xml.in.h:96
 msgid "Reports on system usage"
 msgstr ""
 
-#: ../updates-groups.xml.in.h:97 ../arm-updates-groups.xml.in.h:72
+#: ../updates-groups.xml.in.h:97
+msgid "Threat shield"
+msgstr ""
+
+#: ../updates-groups.xml.in.h:98
+msgid "Block attacks using IP blacklists"
+msgstr ""
+
+#: ../updates-groups.xml.in.h:99
+msgid "DAHDI drivers and tools"
+msgstr ""
+
+#: ../updates-groups.xml.in.h:100
+msgid "Support Digium Asterisk Hardware Device Interface"
+msgstr ""
+
+#: ../updates-groups.xml.in.h:101 ../arm-updates-groups.xml.in.h:72
+msgid "Old Server Manager"
+msgstr ""
+
+#: ../updates-groups.xml.in.h:102 ../arm-updates-groups.xml.in.h:73
+msgid "Nethgui Server Manager web application available on HTTPS port 980"
+msgstr ""
+
+#: ../updates-groups.xml.in.h:103 ../arm-updates-groups.xml.in.h:74
 msgid "Base system"
 msgstr "Osnovni sistem"
 
-#: ../updates-groups.xml.in.h:98 ../arm-updates-groups.xml.in.h:73
+#: ../updates-groups.xml.in.h:104 ../arm-updates-groups.xml.in.h:75
 msgid "Infrastructure and groupware services"
 msgstr ""
 
-#: ../updates-groups.xml.in.h:99 ../arm-updates-groups.xml.in.h:74
+#: ../updates-groups.xml.in.h:105 ../arm-updates-groups.xml.in.h:76
 msgid "Firewall"
 msgstr "Požarni zid"
 
-#: ../updates-groups.xml.in.h:100 ../arm-updates-groups.xml.in.h:75
+#: ../updates-groups.xml.in.h:106 ../arm-updates-groups.xml.in.h:77
 msgid "UTM Firewall"
 msgstr "UTM Požarni zid"
 
-#: ../updates-groups.xml.in.h:101 ../arm-updates-groups.xml.in.h:76
+#: ../updates-groups.xml.in.h:107 ../arm-updates-groups.xml.in.h:78
 msgid "Languages"
 msgstr "Jeziki"
 
-#: ../updates-groups.xml.in.h:102 ../arm-updates-groups.xml.in.h:77
+#: ../updates-groups.xml.in.h:108 ../arm-updates-groups.xml.in.h:79
 msgid "Localization of the Server Manager web interface"
 msgstr ""
 
@@ -454,14 +478,52 @@ msgstr ""
 msgid "Collabora Online (CODE) integrated with Nextcloud"
 msgstr ""
 
-#: ../nethforge-groups.xml.in.h:7 ../arm-nethforge-groups.xml.in.h:3
+#: ../nethforge-groups.xml.in.h:7
+msgid "Docker community edition"
+msgstr ""
+
+#: ../nethforge-groups.xml.in.h:8
+msgid ""
+"Docker is an open platform for developing, shipping, and running "
+"applications."
+msgstr ""
+
+#: ../nethforge-groups.xml.in.h:9
+msgid "HotSync (beta)"
+msgstr ""
+
+#: ../nethforge-groups.xml.in.h:10
+msgid "Synchronize two NethServer machines using rsync"
+msgstr ""
+
+#: ../nethforge-groups.xml.in.h:11
+msgid "Microsoft SQL Server"
+msgstr ""
+
+#: ../nethforge-groups.xml.in.h:12
+msgid "MSSQL integration for NethServer"
+msgstr ""
+
+#: ../nethforge-groups.xml.in.h:13
+msgid "Business Cube"
+msgstr ""
+
+#: ../nethforge-groups.xml.in.h:14
+msgid "Integration of Business Cube Server, a Closed Source ERP by NTS."
+msgstr ""
+
+#: ../nethforge-groups.xml.in.h:15 ../arm-nethforge-groups.xml.in.h:3
 msgid "NethForge"
 msgstr ""
 
-#: ../nethforge-groups.xml.in.h:8 ../arm-nethforge-groups.xml.in.h:4
+#: ../nethforge-groups.xml.in.h:16 ../arm-nethforge-groups.xml.in.h:4
 msgid "Modules from the NethServer Community"
 msgstr ""
 
-#: ../arm-updates-groups.xml.in.h:70
-msgid "New Server Manager (Alpha)"
+#: ../arm-updates-groups.xml.in.h:17
+msgid "Web server"
+msgstr ""
+
+#: ../arm-updates-groups.xml.in.h:18
+msgid "Configuration tools for Apache web server"
 msgstr ""

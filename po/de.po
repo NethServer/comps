@@ -5,18 +5,20 @@
 # Translators:
 # Bernhard Weber <bernhard.weber@datenheld.at>, 2015
 # Gerald Musch, 2015
+# JS EHV, 2020
 # Kri Reu <kreukauff@gmx.de>, 2017
 # Markus Neuberger <mrmarkuz666@gmail.com>, 2017
 # Michael Träumner <m.traeumner@googlemail.com>, 2016-2017
 # Mika Beckerich <beckerichmika@gmail.com>, 2015,2017
-# Rolf Heinze <rowihei@web.de>, 2016-2019
+# Rolf Heinze <rowihei@web.de>, 2016-2021
+# Thomas K <thomas@komp-brady.at>, 2020
 msgid ""
 msgstr ""
 "Project-Id-Version: nethserver\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-10-02 15:02+0200\n"
-"PO-Revision-Date: 2019-11-21 11:53+0000\n"
-"Last-Translator: stephane de Labrusse <stephdl@de-labrusse.fr>\n"
+"POT-Creation-Date: 2021-01-15 11:04+0100\n"
+"PO-Revision-Date: 2021-01-21 10:57+0000\n"
+"Last-Translator: Rolf Heinze <rowihei@web.de>\n"
 "Language-Team: German (http://www.transifex.com/nethserver/nethserver/language/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -124,13 +126,13 @@ msgstr "Druckserver"
 msgid "Print management server (CUPS)"
 msgstr "Druckverwaltungsserver (CUPS)"
 
-#: ../updates-groups.xml.in.h:24 ../arm-updates-groups.xml.in.h:17
+#: ../updates-groups.xml.in.h:26
 msgid "Web hosting"
-msgstr ""
+msgstr "Web-Hosting"
 
-#: ../updates-groups.xml.in.h:25 ../arm-updates-groups.xml.in.h:18
+#: ../updates-groups.xml.in.h:27
 msgid "Configuration tools for hosting sites on Apache web server"
-msgstr ""
+msgstr "Konfigurationstools zum Hosten von Websites auf dem Apache-Webserver"
 
 #: ../updates-groups.xml.in.h:28 ../arm-updates-groups.xml.in.h:19
 msgid "Reverse proxy"
@@ -388,9 +390,9 @@ msgstr "rumänische Sprache"
 msgid "Server Manager Romanian localization"
 msgstr "Server Manager rumänische Lokalisierung"
 
-#: ../updates-groups.xml.in.h:91
-msgid "New Server Manager (Beta)"
-msgstr "Neuer Server-Manager (BETA)"
+#: ../updates-groups.xml.in.h:91 ../arm-updates-groups.xml.in.h:70
+msgid "New Server Manager"
+msgstr "Neuer Server Manager"
 
 #: ../updates-groups.xml.in.h:92 ../arm-updates-groups.xml.in.h:71
 msgid "New Server Manager based on Cockpit"
@@ -405,34 +407,58 @@ msgid "Real-time performance monitoring"
 msgstr "Echtzeit-Leistungsüberwachung"
 
 #: ../updates-groups.xml.in.h:95
-msgid "Report (Beta)"
-msgstr "Bericht (Beta)"
+msgid "Report"
+msgstr "Bericht"
 
 #: ../updates-groups.xml.in.h:96
 msgid "Reports on system usage"
 msgstr "Berichte zur Systemnutzung"
 
-#: ../updates-groups.xml.in.h:97 ../arm-updates-groups.xml.in.h:72
+#: ../updates-groups.xml.in.h:97
+msgid "Threat shield"
+msgstr "Bedrohungsschild"
+
+#: ../updates-groups.xml.in.h:98
+msgid "Block attacks using IP blacklists"
+msgstr "Angriffe mithilfe der IP-Blacklisten blockieren"
+
+#: ../updates-groups.xml.in.h:99
+msgid "DAHDI drivers and tools"
+msgstr "DAHDI-Treiber und Werkzeuge"
+
+#: ../updates-groups.xml.in.h:100
+msgid "Support Digium Asterisk Hardware Device Interface"
+msgstr "Support Digium Asterisk Hardware-Geräteschnittstelle"
+
+#: ../updates-groups.xml.in.h:101 ../arm-updates-groups.xml.in.h:72
+msgid "Old Server Manager"
+msgstr "Alter Server Manager"
+
+#: ../updates-groups.xml.in.h:102 ../arm-updates-groups.xml.in.h:73
+msgid "Nethgui Server Manager web application available on HTTPS port 980"
+msgstr "Nethgui Server Manager verfügbar über HTTPS port 980"
+
+#: ../updates-groups.xml.in.h:103 ../arm-updates-groups.xml.in.h:74
 msgid "Base system"
 msgstr "Basissystem"
 
-#: ../updates-groups.xml.in.h:98 ../arm-updates-groups.xml.in.h:73
+#: ../updates-groups.xml.in.h:104 ../arm-updates-groups.xml.in.h:75
 msgid "Infrastructure and groupware services"
 msgstr "Infrastruktur und Groupware Dienste"
 
-#: ../updates-groups.xml.in.h:99 ../arm-updates-groups.xml.in.h:74
+#: ../updates-groups.xml.in.h:105 ../arm-updates-groups.xml.in.h:76
 msgid "Firewall"
 msgstr "Firewall"
 
-#: ../updates-groups.xml.in.h:100 ../arm-updates-groups.xml.in.h:75
+#: ../updates-groups.xml.in.h:106 ../arm-updates-groups.xml.in.h:77
 msgid "UTM Firewall"
 msgstr "UTM Firewall"
 
-#: ../updates-groups.xml.in.h:101 ../arm-updates-groups.xml.in.h:76
+#: ../updates-groups.xml.in.h:107 ../arm-updates-groups.xml.in.h:78
 msgid "Languages"
 msgstr "Sprachen"
 
-#: ../updates-groups.xml.in.h:102 ../arm-updates-groups.xml.in.h:77
+#: ../updates-groups.xml.in.h:108 ../arm-updates-groups.xml.in.h:79
 msgid "Localization of the Server Manager web interface"
 msgstr "Lokalisierung Webinterface des Servermanagers"
 
@@ -460,14 +486,52 @@ msgstr "Collabora Online (CODE)"
 msgid "Collabora Online (CODE) integrated with Nextcloud"
 msgstr "Collabora Online (CODE) ist in Nextcloud integriert"
 
-#: ../nethforge-groups.xml.in.h:7 ../arm-nethforge-groups.xml.in.h:3
+#: ../nethforge-groups.xml.in.h:7
+msgid "Docker community edition"
+msgstr "Docker community edition"
+
+#: ../nethforge-groups.xml.in.h:8
+msgid ""
+"Docker is an open platform for developing, shipping, and running "
+"applications."
+msgstr "Docker ist eine Freie Software zur Isolierung von Anwendungen mit Hilfe von Containervirtualisierung."
+
+#: ../nethforge-groups.xml.in.h:9
+msgid "HotSync (beta)"
+msgstr "HotSync (Beta)"
+
+#: ../nethforge-groups.xml.in.h:10
+msgid "Synchronize two NethServer machines using rsync"
+msgstr "Synchronisieren Sie zwei NethServer-Computer mit rsync"
+
+#: ../nethforge-groups.xml.in.h:11
+msgid "Microsoft SQL Server"
+msgstr "Microsoft SQL Server"
+
+#: ../nethforge-groups.xml.in.h:12
+msgid "MSSQL integration for NethServer"
+msgstr "MSSQL-Integration für Nethserver"
+
+#: ../nethforge-groups.xml.in.h:13
+msgid "Business Cube"
+msgstr "Business Cube"
+
+#: ../nethforge-groups.xml.in.h:14
+msgid "Integration of Business Cube Server, a Closed Source ERP by NTS."
+msgstr "Einbindung von Business Cube Server - Closed Source ERP von NTS."
+
+#: ../nethforge-groups.xml.in.h:15 ../arm-nethforge-groups.xml.in.h:3
 msgid "NethForge"
 msgstr "NethForge"
 
-#: ../nethforge-groups.xml.in.h:8 ../arm-nethforge-groups.xml.in.h:4
+#: ../nethforge-groups.xml.in.h:16 ../arm-nethforge-groups.xml.in.h:4
 msgid "Modules from the NethServer Community"
 msgstr "Module der NethServer Community"
 
-#: ../arm-updates-groups.xml.in.h:70
-msgid "New Server Manager (Alpha)"
-msgstr "Neuer Server Manager (Alpha)"
+#: ../arm-updates-groups.xml.in.h:17
+msgid "Web server"
+msgstr "Webserver"
+
+#: ../arm-updates-groups.xml.in.h:18
+msgid "Configuration tools for Apache web server"
+msgstr "Konfigurationstool für Apache Web server"
