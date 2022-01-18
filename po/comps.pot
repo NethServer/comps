@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-01-14 10:50-0500\n"
+"POT-Creation-Date: 2022-01-18 16:31+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -478,44 +478,52 @@ msgid "Collabora Online (CODE) integrated with Nextcloud"
 msgstr ""
 
 #: ../nethforge-groups.xml.in.h:7
-msgid "Docker community edition"
+msgid "Roundcubemail Webmail"
 msgstr ""
 
 #: ../nethforge-groups.xml.in.h:8
+msgid "Version not LTS of Roundcubemail"
+msgstr ""
+
+#: ../nethforge-groups.xml.in.h:9
+msgid "Docker community edition"
+msgstr ""
+
+#: ../nethforge-groups.xml.in.h:10
 msgid ""
 "Docker is an open platform for developing, shipping, and running "
 "applications."
 msgstr ""
 
-#: ../nethforge-groups.xml.in.h:9
+#: ../nethforge-groups.xml.in.h:11
 msgid "HotSync (beta)"
 msgstr ""
 
-#: ../nethforge-groups.xml.in.h:10
+#: ../nethforge-groups.xml.in.h:12
 msgid "Synchronize two NethServer machines using rsync"
 msgstr ""
 
-#: ../nethforge-groups.xml.in.h:11
+#: ../nethforge-groups.xml.in.h:13
 msgid "Microsoft SQL Server"
 msgstr ""
 
-#: ../nethforge-groups.xml.in.h:12
+#: ../nethforge-groups.xml.in.h:14
 msgid "MSSQL integration for NethServer"
 msgstr ""
 
-#: ../nethforge-groups.xml.in.h:13
+#: ../nethforge-groups.xml.in.h:15
 msgid "Business Cube"
 msgstr ""
 
-#: ../nethforge-groups.xml.in.h:14
+#: ../nethforge-groups.xml.in.h:16
 msgid "Integration of Business Cube Server, a Closed Source ERP by NTS."
 msgstr ""
 
-#: ../nethforge-groups.xml.in.h:15 ../arm-nethforge-groups.xml.in.h:3
+#: ../nethforge-groups.xml.in.h:17 ../arm-nethforge-groups.xml.in.h:3
 msgid "NethForge"
 msgstr ""
 
-#: ../nethforge-groups.xml.in.h:16 ../arm-nethforge-groups.xml.in.h:4
+#: ../nethforge-groups.xml.in.h:18 ../arm-nethforge-groups.xml.in.h:4
 msgid "Modules from the NethServer Community"
 msgstr ""
 

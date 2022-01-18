@@ -34,6 +34,17 @@
       <packagereq type="mandatory">nethserver-collabora</packagereq>
     </packagelist>
   </group>
+
+  <group>
+    <id>nethserver-roundcubemail-next</id>
+    <_name>Roundcubemail Webmail</_name>
+    <_description>Version not LTS of Roundcubemail</_description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type="mandatory">nethserver-roundcubemail-next</packagereq>
+    </packagelist>
+  </group>
   
   <group>
     <id>nethserver-docker</id>
@@ -92,6 +103,7 @@
         <groupid>nethserver-hotsync</groupid>
         <groupid>nethserver-mssql</groupid>
         <groupid>nethserver-business</groupid>
+        <groupid>nethserver-roundcubemail-next</groupid>
     </grouplist>
   </category>
 
