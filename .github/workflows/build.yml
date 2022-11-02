@@ -17,7 +17,7 @@ jobs:
       - name: Install dependencies
         run: |
           sudo apt-get update
-          sudo apt-get install -y libxml2-utils xsltproc python-libxml2 intltool expect
+          sudo apt-get install -y libxml2-utils xsltproc python3-libxml2 intltool expect
       - name: Make package
         run: make
       - name: Publish
