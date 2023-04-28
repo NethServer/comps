@@ -1026,6 +1026,17 @@
     </packagelist>
   </group>
 
+  <group>
+    <id>nethserver-ns8-migration</id>
+    <_name>Migration tool from NS7 to NS8</_name>
+    <_description>Migrate NethServer 7 applications to NethServer 8</_description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type="mandatory">nethserver-ns8-migration</packagereq>
+    </packagelist>
+  </group>
+
 <!-- NETHSERVER GROUPS END -->
 
 <!-- NETHSERVER CATEGORIES START -->
@@ -1072,6 +1083,7 @@
       <groupid>nethserver-ftp</groupid>
       <groupid>nethserver-dante</groupid>
       <groupid>nethserver-blacklist</groupid>
+      <groupid>nethserver-ns8-migration</groupid>
     </grouplist>
   </category>
 
