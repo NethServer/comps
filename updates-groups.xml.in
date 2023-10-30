@@ -1039,7 +1039,7 @@
 
   <group>
     <id>nethserver-firewall-migration</id>
-    <_name>Firewall migration tool (beta)</_name>
+    <_name>Firewall migration tool Alpha</_name>
     <_description>Migrate NS7 firewall to NethSecurity</_description>
     <default>false</default>
     <uservisible>true</uservisible>
