@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-01-18 16:49+0100\n"
+"POT-Creation-Date: 2024-03-25 14:18+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -429,27 +429,43 @@ msgstr ""
 msgid "Nethgui Server Manager web application available on HTTPS port 980"
 msgstr ""
 
-#: ../updates-groups.xml.in.h:103 ../arm-updates-groups.xml.in.h:74
+#: ../updates-groups.xml.in.h:103
+msgid "Migration to NS8 Beta"
+msgstr ""
+
+#: ../updates-groups.xml.in.h:104
+msgid "Migrate NethServer 7 applications to NethServer 8"
+msgstr ""
+
+#: ../updates-groups.xml.in.h:105
+msgid "Firewall migration tool"
+msgstr ""
+
+#: ../updates-groups.xml.in.h:106
+msgid "Migrate NS7 firewall to NethSecurity 8"
+msgstr ""
+
+#: ../updates-groups.xml.in.h:107 ../arm-updates-groups.xml.in.h:74
 msgid "Base system"
 msgstr ""
 
-#: ../updates-groups.xml.in.h:104 ../arm-updates-groups.xml.in.h:75
+#: ../updates-groups.xml.in.h:108 ../arm-updates-groups.xml.in.h:75
 msgid "Infrastructure and groupware services"
 msgstr ""
 
-#: ../updates-groups.xml.in.h:105 ../arm-updates-groups.xml.in.h:76
+#: ../updates-groups.xml.in.h:109 ../arm-updates-groups.xml.in.h:76
 msgid "Firewall"
 msgstr ""
 
-#: ../updates-groups.xml.in.h:106 ../arm-updates-groups.xml.in.h:77
+#: ../updates-groups.xml.in.h:110 ../arm-updates-groups.xml.in.h:77
 msgid "UTM Firewall"
 msgstr ""
 
-#: ../updates-groups.xml.in.h:107 ../arm-updates-groups.xml.in.h:78
+#: ../updates-groups.xml.in.h:111 ../arm-updates-groups.xml.in.h:78
 msgid "Languages"
 msgstr ""
 
-#: ../updates-groups.xml.in.h:108 ../arm-updates-groups.xml.in.h:79
+#: ../updates-groups.xml.in.h:112 ../arm-updates-groups.xml.in.h:79
 msgid "Localization of the Server Manager web interface"
 msgstr ""
 
