@@ -1,9 +1,12 @@
 [main]
-host = https://www.transifex.com
+host     = https://www.transifex.com
 lang_map = fr_FR: fr, ru_RU: ru, sv_SE: sv
 
-[nethserver.yum_groups_definitions]
-file_filter = po/<lang>.po
-source_file = po/comps.pot
-source_lang = en
-type = PO
+[o:nethserver:p:nethserver:r:yum_groups_definitions]
+file_filter            = po/<lang>.po
+source_file            = po/comps.pot
+source_lang            = en
+type                   = PO
+replace_edited_strings = false
+keep_translations      = false
+
